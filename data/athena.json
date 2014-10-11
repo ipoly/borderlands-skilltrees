@@ -9,18 +9,18 @@
         "class" :
             {
                 "name" : "Kinetic Aspis",
-                "description" : "<span class=\"highlight\">Action Skill</span>.  Press [LB/L1/F] to raise your <span class=\"highlight\">Aspis</span> and absorb all frontal damage. The <span class=\"highlight\">Aspis</span> can store a finite amount of absorbed damage as energy, based on your level. The <span class=\"highlight\">Aspis</span> is thrown at the end of the active duration, or if you press [LB/L1/F] again. The <span class=\"highlight\">Aspis</span> creates an explosion upon impact, dealing base damage plus <span class=\"highlight\">double the stored energy</span>, before returning to you.",
+                "description" : "<span class=\"highlight\">主动技</span>.  按 [LB/L1/F] to raise your <span class=\"highlight\">Aspis</span> and absorb all frontal 伤害. The <span class=\"highlight\">Aspis</span> can store a finite amount of absorbed 伤害 as energy, based on your level. The <span class=\"highlight\">Aspis</span> is thrown at the end of the active 持续时间, or if you 按 [LB/L1/F] again. The <span class=\"highlight\">Aspis</span> creates an explosion upon impact, dealing base 伤害 plus <span class=\"highlight\">double the stored energy</span>, before returning to you.",
                 "stats" :
                     [{
                                     "name" : "Defensive Arc: 90 degrees",
                                     "base" : "25",
                                     "multiply" : 1
                       },{
-                                    "name" : "Active Duration: 11 seconds",
+                                    "name" : "Active 持续时间: 11 秒",
                                     "base" : "25",
                                     "multiply" : 1
                       },{
-                                    "name" : "Cooldown: 16 seconds",
+                                    "name" : "冷却时间: 16 秒",
                                     "base" : "25",
                                     "multiply" : 1
                       }
@@ -37,23 +37,23 @@
                 [
                     {
                         "name" : "Storm Weaving",
-                        "description" : "When you <span class=\"highlight\">swap weapons</span>, you gain <span class=\"highlight\">Storm Weaving</span>, increasing your <span class=\"highlight\">Fire Rate</span>  and <span class=\"highlight\">Elemental Effect</span>  chance for a short duration.",
+                        "description" : "When you <span class=\"highlight\">swap weapons</span>, you gain <span class=\"highlight\">Storm Weaving</span>, increasing your <span class=\"highlight\">射速</span>  and <span class=\"highlight\">Elemental Effect</span>  chance for a short 持续时间.",
                         "levels" : 4,
                         "position" : 0,
                         "stats" :
                             [
                                 {
-                                    "name" : "Elemental Effect Chance: +[$]%",
+                                    "name" : "Elemental Effect 几率: +[$]%",
                                     "base" : "25",
                                     "multiply" : 1
                                 },
                                 {
-                                    "name" : "Fire Rate: +[$]%",
+                                    "name" : "射速: +[$]%",
                                     "base" : "7.5",
                                     "multiply" : 1
                                 },
 								{
-                                    "name" : "Duration: 9 seconds"
+                                    "name" : "持续时间: 9 秒"
                                 }
                             ],
                         "assets" :
@@ -65,13 +65,13 @@
                     },
                     {
                         "name" : "Maelstrom",
-                        "description" : "Dealing <span class=\"highlight\">Incendiary</span>  or <span class=\"highlight\">Shock</span>  damage causes you to gain stacks of <span class=\"highlight\">Maelstrom</span>. All <span class=\"highlight\">Elemental Damage</span>  dealt is increased for each stack of <span class=\"highlight\">Maelstrom</span>. Stacks will decay over time, and this rate of decay increases as you accumulate more stacks.",
+                        "description" : "Dealing <span class=\"highlight\">燃烧</span>  or <span class=\"highlight\">Shock</span>  伤害 causes you to gain stacks of <span class=\"highlight\">Maelstrom</span>. All <span class=\"highlight\">Elemental 伤害</span>  dealt is increased for each stack of <span class=\"highlight\">Maelstrom</span>. Stacks will decay over time, and this rate of decay 增加 as you accumulate more stacks.",
                         "levels" : 1,
                         "position" : 2,
                         "stats" :
                             [
                                 {
-                                    "name" : "Elemental Damage: +0.4% per stack"
+                                    "name" : "Elemental 伤害: +0.4%每层"
                                 }
                             ],
                         "assets" :
@@ -83,18 +83,18 @@
                     },
                     {
                         "name" : "Gathering Tempest",
-                        "description" : "Increases <span class=\"highlight\">Magazine Size</span>  and <span class=\"highlight\">Reload Speed</span>.",
+                        "description" : "增加 <span class=\"highlight\">弹夹容量</span>  and <span class=\"highlight\">装填速度</span>.",
                         "levels" : 5,
                         "position" : 3,
                         "stats" :
                             [
                                 {
-                                    "name" : "Magazine Size: +[$]%",
+                                    "name" : "弹夹容量: +[$]%",
                                     "base" : "8",
                                     "multiply" : 1
                                 },
 								{
-                                    "name" : "Reload Speed: +[$]%",
+                                    "name" : "装填速度: +[$]%",
                                     "base" : "5",
                                     "multiply" : 1
                                 }
@@ -114,7 +114,7 @@
                         "stats" :
                             [
                                 {
-                                    "name" : "Shield Regeneration per Second: +[$]% per stack",
+                                    "name" : "Shield Regeneration per Second: +[$]%每层",
                                     "base" : "0.02",
                                     "multiply" : 1
                                 }
@@ -128,13 +128,13 @@
                     },
                     {
                         "name" : "Smite",
-                        "description" : "When you are <span class=\"highlight\">airborne</span>, shooting an enemy will <span class=\"highlight\">Smite</span> them, causing <span class=\"highlight\">Incendiary</span> and <span class=\"highlight\">Shock Damage</span> in a small area. Smite damage increases as you accumulate more stacks of <span class=\"highlight\">Maelstrom</span>. This ability has a cooldown.",
+                        "description" : "When you are <span class=\"highlight\">airborne</span>, shooting an 敌人 will <span class=\"highlight\">Smite</span> them, causing <span class=\"highlight\">燃烧</span> and <span class=\"highlight\">Shock 伤害</span> in a small area. Smite 伤害 增加 as you accumulate more stacks of <span class=\"highlight\">Maelstrom</span>. This ability has a 冷却时间.",
                         "levels" : 1,
                         "position" : 7,
                         "stats" :
                             [
                                 {
-                                    "name" : "Cooldown: 12 seconds "
+                                    "name" : "冷却时间: 12 秒 "
                                 },
 								{
                                     "name" : "Minimum Maelstrom Stacks: 10"
@@ -149,19 +149,19 @@
                     },
                     {
                         "name" : "Unrelenting",
-                        "description" : "<span class=\"highlight\">Kill Skill</span>.  Killing an enemy increases your <span class=\"highlight\">Weapon Swap Speed</span>  and <span class=\"highlight\">Fire Rate</span> for each stack of <span class=\"highlight\">Maelstrom</span>.",
+                        "description" : "<span class=\"highlight\">击杀技</span>.  击杀敌人 增加 your <span class=\"highlight\">Weapon Swap Speed</span>  and <span class=\"highlight\">射速</span> for each stack of <span class=\"highlight\">Maelstrom</span>.",
                         "levels" : 5,
                         "position" : 8,
 
                         "stats" :
                             [
                                 {
-                                    "name" : "Weapon Swap Speed: +[$]% per stack",
+                                    "name" : "Weapon Swap Speed: +[$]%每层",
                                     "base" : "0.08",
                                     "multiply" : 1
                                 },
                                 {
-                                    "name" : "Fire Rate: +[$]% per stack",
+                                    "name" : "射速: +[$]%每层",
                                     "base" : "0.06",
                                     "multiply" : 1
                                 }
@@ -175,16 +175,16 @@
                     },
                     {
                         "name" : "Superconductor",
-                        "description" : "The <span class=\"highlight\">Aspis</span> has a chance to <span class=\"highlight\">shock</span> nearby enemies when struck. When this occurs, you gain bonus <span class=\"highlight\">Maelstrom</span> stacks.",
+                        "description" : "The <span class=\"highlight\">Aspis</span> has a chance to <span class=\"highlight\">shock</span> nearby 敌人 when struck. When this occurs, you gain 加成 <span class=\"highlight\">Maelstrom</span> stacks.",
                         "levels" : 5,
                         "position" : 9,
                         "stats" :
                             [
                                 {
-                                    "name" : "Bonus Stacks: 5"
+                                    "name" : "加成 Stacks: 5"
                                 },
 								{
-                                    "name" : "Shock Chance:  [$]%",
+                                    "name" : "Shock 几率:  [$]%",
                                     "base" : "10",
                                     "multiply" : 1
                                 }
@@ -198,7 +198,7 @@
                     },
                     {
                         "name" : "Zeus' Rage",
-                        "description" : "When you throw the <span class=\"highlight\">Aspis</span>, a devastating <span class=\"highlight\">Fire and Lightning Storm</span>  will spawn at the target location, doing area damage for several seconds. The damage of the storm increases based on the amount of damage absorbed by the <span class=\"highlight\">Aspis</span>.",
+                        "description" : "When you throw the <span class=\"highlight\">Aspis</span>, a devastating <span class=\"highlight\">Fire and Lightning Storm</span>  will spawn at the target location, doing area 伤害 for several 秒. The 伤害 of the storm 增加 based on the amount of 伤害 absorbed by the <span class=\"highlight\">Aspis</span>.",
                         "levels" : 1,
                         "position" : 10,
                         "stats" :
@@ -222,12 +222,12 @@
                         "stats" :
                             [
                                 {
-                                    "name" : "Free Shot Chance:  +[$]%",
+                                    "name" : "Free Shot 几率:  +[$]%",
                                     "base" : "6",
                                     "multiply" : 1
                                 },
                                 {
-                                    "name" : "Additional Chance:  +[$]% per stack",
+                                    "name" : "Additional 几率:  +[$]%每层",
                                     "base" : "0.02",
                                     "multiply" : 1
                                 }
@@ -241,16 +241,16 @@
                     },
 					{
                         "name" : "Overload",
-                        "description" : "Whenever you kill an enemy who is <span class=\"highlight\">electrocuted</span>  or <span class=\"highlight\">burning</span>, there is a chance for the status effect to <span class=\"highlight\">chain to a nearby enemy</span>. When this occurs, you gain bonus <span class=\"highlight\">Maelstrom</span>  stacks. This bonus is gained twice if the target is both <span class=\"highlight\">burning</span>  and <span class=\"highlight\">electrocuted</span>.",
+                        "description" : "Whenever you kill an 敌人 who is <span class=\"highlight\">electrocuted</span>  or <span class=\"highlight\">burning</span>, there is a chance for the status effect to <span class=\"highlight\">chain to a nearby 敌人</span>. When this occurs, you gain 加成 <span class=\"highlight\">Maelstrom</span>  stacks. This 加成 is gained twice if the target is both <span class=\"highlight\">burning</span>  and <span class=\"highlight\">electrocuted</span>.",
                         "levels" : 5,
                         "position" : 12,
                         "stats" :
                             [
                                 {
-                                    "name" : "Bonus Stacks: 20"
+                                    "name" : "加成 Stacks: 20"
                                 },
 								{
-                                    "name" : "Status Effect Spread Chance:   [$]%",
+                                    "name" : "Status Effect Spread 几率:   [$]%",
                                     "base" : "9",
                                     "multiply" : 1
                                 }
@@ -264,13 +264,13 @@
                     },
 					{
                         "name" : "Flash Freeze",
-                        "description" : "Whenever you <span class=\"highlight\">Freeze</span>  an enemy, you gain <span class=\"highlight\">Flash Freeze</span>  for a short duration. During this time, you cannot gain or lose <span class=\"highlight\">Maelstrom</span>  stacks.",
+                        "description" : "Whenever you <span class=\"highlight\">Freeze</span>  an 敌人, you gain <span class=\"highlight\">Flash Freeze</span>  for a short 持续时间. During this time, you cannot gain or lose <span class=\"highlight\">Maelstrom</span>  stacks.",
                         "levels" : 5,
                         "position" : 14,
                         "stats" :
                             [
 								{
-                                    "name" : "Flash Freeze Duration: [$] seconds",
+                                    "name" : "Flash Freeze 持续时间: [$] 秒",
                                     "base" : "1",
                                     "multiply" : 1
                                 }
@@ -284,7 +284,7 @@
                     },
                     {
                         "name" : "Hades' Shackles",
-                        "description" : "<span class=\"highlight\">Slamming</span>  links you to nearby enemies with a <span class=\"highlight\">Shock Tether</span>  for a short duration, electrocuting them. The tether is broken if you lose <span class=\"highlight\">line of sight</span>  to the target. Any enemies still tethered at the end of the duration, or who die while tethered, release an <span class=\"highlight\">Incendiary Nova</span>, and you gain bonus <span class=\"highlight\">Maelstrom</span>  stacks for each enemy affected. This ability has a cooldown.",
+                        "description" : "<span class=\"highlight\">Slamming</span>  links you to nearby 敌人 with a <span class=\"highlight\">Shock Tether</span>  for a short 持续时间, electrocuting them. The tether is broken if you lose <span class=\"highlight\">line of sight</span>  to the target. Any 敌人 still tethered at the end of the 持续时间, or who die while tethered, release an <span class=\"highlight\">燃烧 Nova</span>, and you gain 加成 <span class=\"highlight\">Maelstrom</span>  stacks for each 敌人 affected. This ability has a 冷却时间.",
                         "levels" : 1,
                         "position" : 16,
                         "stats" :
@@ -292,9 +292,9 @@
                                 {
                                     "name" : "Maelstrom Stacks: +20 per target"
                                 },{
-                                    "name" : "Tether Duration: 3 seconds"
+                                    "name" : "Tether 持续时间: 3 秒"
                                 },{
-                                    "name" : "Cooldown:  15 seconds"
+                                    "name" : "冷却时间:  15 秒"
                                 }
 
                             ],
@@ -316,18 +316,18 @@
                 [
                     {
                         "name" : "Gun Kata",
-                        "description" : "Increases <span class=\"highlight\">Gun Damage</span>. Additionally, your <span class=\"highlight\">Melee Damage</span>  is increased for a short duration after <span class=\"highlight\">shooting an enemy</span>.",
+                        "description" : "增加 <span class=\"highlight\">枪械伤害</span>. Additionally, your <span class=\"highlight\">Melee 伤害</span>  is increased for a short 持续时间 after <span class=\"highlight\">shooting an 敌人</span>.",
                         "levels" : 5,
                         "position" : 0,
                         "stats" :
                             [
                                 {
-                                    "name" : "Gun Damage: +[$]%",
+                                    "name" : "枪械伤害: +[$]%",
                                     "base" : "3",
                                     "multiply" : 1
                                 },
                                 {
-                                    "name" : "Melee Damage: +[$]%",
+                                    "name" : "Melee 伤害: +[$]%",
                                     "base" : "10",
                                     "multiply" : 1
                                 }
@@ -341,13 +341,13 @@
                     },
                     {
                         "name" : "Clarity of Purpose",
-                        "description" : "Increased <span class=\"highlight\">Melee Damage</span> and <span class=\"highlight\">Maximum Health</span>.",
+                        "description" : "Increased <span class=\"highlight\">Melee 伤害</span> and <span class=\"highlight\">Maximum Health</span>.",
                         "levels" : 5,
                         "position" : 2,
                         "stats" :
                             [
                                 {
-                                    "name" : "Melee Damage: +[$]%",
+                                    "name" : "Melee 伤害: +[$]%",
                                     "base" : "5",
                                     "multiply" : 1
                                 },
@@ -366,7 +366,7 @@
                     },
                     {
                         "name" : "Mercurial",
-                        "description" : "<span class=\"highlight\">Kill Skill</span>. Killing an enemy increases <span class=\"highlight\">Movement Speed</span> and <span class=\"highlight\">Damage Resistance</span> or a few seconds.",
+                        "description" : "<span class=\"highlight\">击杀技</span>. 击杀敌人 增加 <span class=\"highlight\">Movement Speed</span> and <span class=\"highlight\">伤害 Resistance</span> or a few 秒.",
                         "levels" : 5,
                         "position" : 3,
                         "stats" :
@@ -377,7 +377,7 @@
                                     "multiply" : 1
                                 },
                                 {
-                                    "name" : "Damage Resistance: +[$]%",
+                                    "name" : "伤害 Resistance: +[$]%",
                                     "base" : "5",
                                     "multiply" : 1,
 									"sequence" : ["5","9","13","17","20"]
@@ -392,13 +392,13 @@
                     },
                     {
                         "name" : "Omega-Senshu",
-                        "description" : "You deal increased <span class=\"highlight\">Damage</span> to any enemy who has less than 50% of their <span class=\"highlight\">Maximum Health</span> remaining.",
+                        "description" : "You deal increased <span class=\"highlight\">伤害</span> to any 敌人 who has less than 50% of their <span class=\"highlight\">Maximum Health</span> remaining.",
                         "levels" : 5,
                         "position" : 5,
                         "stats" :
                             [
                                 {
-                                    "name" : "Damage: +[$]%",
+                                    "name" : "伤害: +[$]%",
                                     "base" : "7",
                                     "multiply" : 1
                                 }
@@ -412,16 +412,16 @@
                     },
                     {
                         "name" : "Rend",
-                        "description" : "Your <span class=\"highlight\">melee attacks</span> cause enemies to <span class=\"highlight\">bleed</span>, inflicting damage over time. The damage is increased against <span class=\"highlight\">higher Health</span> targets, and the damage also benefits from your <span class=\"highlight\">Melee Damage</span> bonuses.",
+                        "description" : "Your <span class=\"highlight\">melee attacks</span> cause 敌人 to <span class=\"highlight\">bleed</span>, inflicting 伤害 over time. The 伤害 is increased against <span class=\"highlight\">higher Health</span> targets, and the 伤害 also benefits from your <span class=\"highlight\">Melee 伤害</span> 加成es.",
                         "levels" : 1,
                         "position" : 7,
                         "stats" :
                             [
                                 {
-                                    "name" : "Bleed Duration: 12 seconds"
+                                    "name" : "Bleed 持续时间: 12 秒"
                                 },
 								{
-                                    "name" : "Deals up to 100% bonus damage against targets with high Health"
+                                    "name" : "Deals up to 100% 加成 伤害 against targets with high Health"
                                 }
                             ],
                         "assets" :
@@ -433,13 +433,13 @@
                     },
                     {
                         "name" : "Bloodlust",
-                        "description" : "Gain <span class=\"highlight\">Health Regeneration</span>  whenever you make an enemy <span class=\"highlight\">Bleed</span>, for the duration of the <span class=\"highlight\">Bleed</span> effect. This effect stacks if you have multiple <span class=\"highlight\">Bleeding</span> enemies.",
+                        "description" : "Gain <span class=\"highlight\">生命恢复</span>  whenever you make an 敌人 <span class=\"highlight\">Bleed</span>, for the 持续时间 of the <span class=\"highlight\">Bleed</span> effect. This effect stacks if you have multiple <span class=\"highlight\">Bleeding</span> 敌人.",
                         "levels" : 5,
                         "position" : 9,
                         "stats" :
                             [
                                  {
-                                    "name" : "Regenerate [$]% of Max Health / sec per Bleeding Enemy",
+                                    "name" : "Regenerate [$]% of Max Health / sec per Bleeding 敌人",
                                     "base" : ".8",
                                     "multiply" : 1
                                 }
@@ -453,7 +453,7 @@
                     },
                     {
                         "name" : "Epicenter",
-                        "description" : "<span class=\"highlight\">Slam Alteration Skill</span>. When you <span class=\"highlight\">Slam</span> you now create a singularity, <span class=\"highlight\">pulling nearby enemies closer</span>  and dealing <span class=\"highlight\">damage</span>  to them.",
+                        "description" : "<span class=\"highlight\">Slam Alteration Skill</span>. When you <span class=\"highlight\">Slam</span> you now create a singularity, <span class=\"highlight\">pulling nearby 敌人 closer</span>  and dealing <span class=\"highlight\">伤害</span>  to them.",
                         "levels" : 1,
                         "position" : 10,
                         "stats" :
@@ -471,13 +471,13 @@
                     },
                     {
                         "name" : "Tear",
-                        "description" : "Increases <span class=\"highlight\">Gun Damage</span>  dealt to <span class=\"highlight\">Bleeding</span> targets.",
+                        "description" : "增加 <span class=\"highlight\">枪械伤害</span>  dealt to <span class=\"highlight\">Bleeding</span> targets.",
                         "levels" : 5,
                         "position" : 11,
                         "stats" :
                             [
                                 {
-                                    "name" : "Gun Damage:  +[$]%",
+                                    "name" : "枪械伤害:  +[$]%",
                                     "base" : "7",
                                     "multiply" : 1
                                 }
@@ -491,7 +491,7 @@
                     },
                     {
                         "name" : "You've Got Red on You",
-                        "description" : "When an enemy is killed by your <span class=\"highlight\">melee attacks</span>, or dies while <span class=\"highlight\">Bleeding</span>, they <span class=\"highlight\">explode</span>. Nearby enemies will take damage from the blast, and also be kind of grossed out.",
+                        "description" : "When an 敌人 is killed by your <span class=\"highlight\">melee attacks</span>, or dies while <span class=\"highlight\">Bleeding</span>, they <span class=\"highlight\">explode</span>. Nearby 敌人 will take 伤害 from the blast, and also be kind of grossed out.",
                         "levels" : 5,
                         "position" : 12,
                         "stats" :
@@ -511,18 +511,18 @@
                     },
                     {
                         "name" : "Fury of the Arena",
-                        "description" : "Gain increased <span class=\"highlight\">Fire Rate</span> and <span class=\"highlight\">Reload Speed</span> for each <span class=\"highlight\">Bleeding</span> target.",
+                        "description" : "Gain increased <span class=\"highlight\">射速</span> and <span class=\"highlight\">装填速度</span> for each <span class=\"highlight\">Bleeding</span> target.",
                         "levels" : 5,
                         "position" : 14,
                         "stats" :
                             [
                                 {
-                                    "name" : "Reload Speed: +[$]% per Bleeding Enemy",
+                                    "name" : "装填速度: +[$]% per Bleeding 敌人",
                                     "base" : "2",
                                     "multiply" : 1
                                 },
                                 {
-                                    "name" : "Fire Rate: +[$]% per Bleeding Enemy",
+                                    "name" : "射速: +[$]% per Bleeding 敌人",
                                     "base" : "2",
                                     "multiply" : 1
                                 }
@@ -536,16 +536,16 @@
                     },
                     {
                         "name" : "Blood Rush",
-                        "description" : "<span class=\"highlight\">Melee Override Skill</span>. Press (RS/V) to <span class=\"highlight\">dash</span> toward an enemy and <span class=\"highlight\">strike them with Xiphos</span> with increased <span class=\"highlight\">Melee Damage</span>. This ability has a cooldown. If this attack applies a <span class=\"highlight\">Bleed</span>  to a target that isn't <span class=\"highlight\">Bleeding</span>, or kills a target, the cooldown is immediately reset. Perform a regular melee attack when <span class=\"highlight\">Blood Rush</span>  is on cooldown.<br> ",
+                        "description" : "<span class=\"highlight\">Melee Override Skill</span>. 按 (RS/V) to <span class=\"highlight\">dash</span> toward an 敌人 and <span class=\"highlight\">strike them with Xiphos</span> with increased <span class=\"highlight\">Melee 伤害</span>. This ability has a 冷却时间. If this attack applies a <span class=\"highlight\">Bleed</span>  to a target that isn't <span class=\"highlight\">Bleeding</span>, or kills a target, the 冷却时间 is immediately reset. Perform a regular melee attack when <span class=\"highlight\">Blood Rush</span>  is on 冷却时间.<br> ",
                         "levels" : 1,
                         "position" : 16,
                         "stats" :
                             [
                               {
-                                    "name" : "Melee Damage: +40%"
+                                    "name" : "Melee 伤害: +40%"
                                 },
 								   {
-                                    "name" : "Cooldown 10 seconds"
+                                    "name" : "冷却时间 10 秒"
                                 }
                             ],
                         "assets" :
@@ -564,13 +564,13 @@
                 [
                      {
                         "name" : "Invictus",
-                        "description" : "Increases the <span class=\"highlight\">Damage</span> dealt by the <span class=\"highlight\">Aspis</span> when thrown.",
+                        "description" : "增加 the <span class=\"highlight\">伤害</span> dealt by the <span class=\"highlight\">Aspis</span> when thrown.",
                         "levels" : 5,
                         "position" : 0,
                         "stats" :
                             [
                                 {
-                                    "name" : "Aspis Damage: +[$]%",
+                                    "name" : "Aspis 伤害: +[$]%",
                                     "base" : "7",
                                     "multiply" : 1
                                 }
@@ -584,7 +584,7 @@
                     },
                     {
                         "name" : "Ephodos",
-                        "description" : "Increases <span class=\"highlight\">Movement Speed</span>  and <span class=\"highlight\">Gun Damage</span>  while holding the <span class=\"highlight\">Aspis</span>.",
+                        "description" : "增加 <span class=\"highlight\">Movement Speed</span>  and <span class=\"highlight\">枪械伤害</span>  while 按住 the <span class=\"highlight\">Aspis</span>.",
                         "levels" : 5,
                         "position" : 2,
                         "stats" :
@@ -595,7 +595,7 @@
                                     "multiply" : 1
                                 },
                                 {
-                                    "name" : "Gun Damage: +[$]%",
+                                    "name" : "枪械伤害: +[$]%",
                                     "base" : "4",
                                     "multiply" : 1
                                 }
@@ -609,7 +609,7 @@
                     },
                        {
                         "name" : "Vanguard",
-                        "description" : "While the <span class=\"highlight\">Aspis</span> is active, you and your nearby friends gain <span class=\"highlight\">Health Regeneration</span>.  The <span class=\"highlight\">Health Regeneration Rate</span> increases as the <span class=\"highlight\">Aspis</span> absorbs damage.",
+                        "description" : "While the <span class=\"highlight\">Aspis</span> is active, you and your nearby friends gain <span class=\"highlight\">生命恢复</span>.  The <span class=\"highlight\">生命恢复 Rate</span> 增加 as the <span class=\"highlight\">Aspis</span> absorbs 伤害.",
                         "levels" : 5,
                         "position" : 3,
                         "stats" :
@@ -629,13 +629,13 @@
                     },
                     {
                         "name" : "Hold the Line",
-                        "description" : "Lengthens the <span class=\"highlight\">duration</span> the <span class=\"highlight\">Aspis</span> can be active before it is automatically thrown.",
+                        "description" : "Lengthens the <span class=\"highlight\">持续时间</span> the <span class=\"highlight\">Aspis</span> can be active before it is automatically thrown.",
                         "levels" : 5,
                         "position" : 5,
                         "stats" :
                             [
                                 {
-                                    "name" : "Aspis Duration: +[$] seconds",
+                                    "name" : "Aspis 持续时间: +[$] 秒",
                                     "base" : "1.1",
                                     "multiply" : "1"
                                 }
@@ -649,7 +649,7 @@
                     },
                     {
                         "name" : "Prismatic Aegis",
-                        "description" : "The <span class=\"highlight\">Aspis</span> now stores the <span class=\"highlight\">elemental damage type</span> of absorbed damage. Multiple <span class=\"highlight\">elemental damage types</span>  can be stored and all stored damage types are dealt by the <span class=\"highlight\">Aspis</span> when thrown. ",
+                        "description" : "The <span class=\"highlight\">Aspis</span> now stores the <span class=\"highlight\">elemental 伤害 type</span> of absorbed 伤害. Multiple <span class=\"highlight\">elemental 伤害 types</span>  can be stored and all stored 伤害 types are dealt by the <span class=\"highlight\">Aspis</span> when thrown. ",
                         "levels" : 1,
                         "position" : 7,
                         "stats" :
@@ -667,7 +667,7 @@
                     },
                     {
                         "name" : "United Front",
-                        "description" : "<span class=\"highlight\">Damage Absorbed</span>  by the <span class=\"highlight\">Aspis</span> now provides power to the <span class=\"highlight\">Shields</span>  of you and your nearby friends. Also increases your <span class=\"highlight\">Maximum Shield Capacity</span>.",
+                        "description" : "<span class=\"highlight\">伤害 Absorbed</span>  by the <span class=\"highlight\">Aspis</span> now provides power to the <span class=\"highlight\">Shields</span>  of you and your nearby friends. Also 增加 your <span class=\"highlight\">Maximum Shield Capacity</span>.",
                         "levels" : 5,
                         "position" : 9,
                         "stats" :
@@ -678,7 +678,7 @@
                                     "multiply" : 1
                                 },
                                 {
-                                    "name" : "Converts [$]% of absorbed damage into shield power",
+                                    "name" : "Converts [$]% of absorbed 伤害 into shield power",
                                     "base" : 5,
                                     "multiply" : 1
                                 }
@@ -692,13 +692,13 @@
                     },
                     {
                         "name" : "Clear!",
-                        "description" : "When thrown, the <span class=\"highlight\">Aspis’</span> explosion grants <span class=\"highlight\">Second Wind</span>  to friends within range.  In addition, you gain a <span class=\"highlight\">Damage Bonus</span>  while in <span class=\"highlight\">Fight For Your Life</span>.",
+                        "description" : "When thrown, the <span class=\"highlight\">Aspis’</span> explosion grants <span class=\"highlight\">Second Wind</span>  to friends within range.  In addition, you gain a <span class=\"highlight\">伤害 加成</span>  while in <span class=\"highlight\">Fight For Your Life</span>.",
                         "levels" : 1,
                         "position" : 10,
                         "stats" :
                             [
                                 {
-                                    "name" : "Damage Bonus: +[$]%",
+                                    "name" : "伤害 加成: +[$]%",
                                     "base" : "40",
                                     "multiply" : 1
                                 }
@@ -712,7 +712,7 @@
                     },
                     {
                         "name" : "Stalwart",
-                        "description" : "Allows the <span class=\"highlight\">Aspis</span> to absorb a percentage of damage from your <span class=\"highlight\">friends' guns</span>. Also increases your <span class=\"highlight\">Maximum Health</span>.",
+                        "description" : "Allows the <span class=\"highlight\">Aspis</span> to absorb a percentage of 伤害 from your <span class=\"highlight\">friends' guns</span>. Also 增加 your <span class=\"highlight\">Maximum Health</span>.",
                         "levels" : 5,
                         "position" : 11,
                         "stats" :
@@ -743,7 +743,7 @@
                         "stats" :
                             [
                                 {
-                                    "name" : "Reflect Chance : +[$]%",
+                                    "name" : "Reflect 几率 : +[$]%",
                                     "base" : 10,
                                     "multiply" : 1
                                 }
@@ -757,13 +757,13 @@
                     },
                     {
                         "name" : "Prepare for Glory",
-                        "description" : "Activating the <span class=\"highlight\">Aspis</span> taunts nearby enemies, making them more likely to attack you. Additionally, for every <span class=\"highlight\">individual enemy</span>  who inflicts damage on your <span class=\"highlight\">Aspis</span>, you gain a stack of <span class=\"highlight\">Prepare for Glory</span>, increasing your <span class=\"highlight\">Gun Damage</span>. Stacks persist for a short duration after the <span class=\"highlight\">Aspis</span> has been thrown.",
+                        "description" : "Activating the <span class=\"highlight\">Aspis</span> taunts nearby 敌人, making them more likely to attack you. Additionally, for every <span class=\"highlight\">individual 敌人</span>  who inflicts 伤害 on your <span class=\"highlight\">Aspis</span>, you gain a stack of <span class=\"highlight\">Prepare for Glory</span>, increasing your <span class=\"highlight\">枪械伤害</span>. Stacks persist for a short 持续时间 after the <span class=\"highlight\">Aspis</span> has been thrown.",
                         "levels" : 5,
                         "position" : 14,
                         "stats" :
                             [
                                 {
-                                    "name" : "Gun Damage:  +[$]% per stack",
+                                    "name" : "枪械伤害:  +[$]%每层",
                                     "base" : "2",
                                     "multiply" : 1
                                 }
@@ -777,13 +777,13 @@
                     },
                     {
                         "name" : "Wrath of the Goddess",
-                        "description" : "The <span class=\"highlight\">Aspis</span> will <span class=\"highlight\">ricochet</span>  to up to 4 additional enemies, each taking less damage than the last. The <span class=\"highlight\">Aspis</span> will return to you after it hits the final enemy.",
+                        "description" : "The <span class=\"highlight\">Aspis</span> will <span class=\"highlight\">ricochet</span>  to up to 4 additional 敌人, each taking less 伤害 than the last. The <span class=\"highlight\">Aspis</span> will return to you after it hits the final 敌人.",
                         "levels" : 1,
                         "position" : 16,
                         "stats" :
                             [
                                 {
-                                    "name" : "Aspis Damage is reduced by 33% each time it ricochets "
+                                    "name" : "Aspis 伤害 is reduced by 33% each time it ricochets "
                                 }
                             ],
                         "assets" :

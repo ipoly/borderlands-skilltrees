@@ -9,16 +9,16 @@
         "class" :
             {
                 "name" : "VaultHunter.EXE",
-                "description" : "<span class=\"highlight\">Action Skill.</span> Press [LB/L1/F] to run your <span class=\"highlight\">VaultHunter.EXE</span> program.  It will analyze the situation, determine which Vault Hunter would do the best job, and then load an <font color=\"#ff6600\">ACTION PACKAGE</font> allowing Claptrap to fight in that manner for a short period of time.  It also gives you <span class=\"highlight\">Full Health</span> and <span class=\"highlight\">Health Regeneration</span>.  <span class=\"highlight\">VaultHunter.EXE</span> is still in beta and its definition of ''Vault Hunter'' is questionable at best.  <font color=\"#feba36\">Warning:</font>  <span class=\"highlight\">VaultHunter.EXE</span> is currently classified as malware. Your allies may be affected.",
+                "description" : "<span class=\"highlight\">主动技.</span> 按 [LB/L1/F] to run your <span class=\"highlight\">VaultHunter.EXE</span> program.  It will analyze the situation, determine which Vault Hunter would do the best job, and then load an <font color=\"#ff6600\">ACTION PACKAGE</font> allowing Claptrap to fight in that manner for a short period of time.  It also gives you <span class=\"highlight\">Full Health</span> and <span class=\"highlight\">生命恢复</span>.  <span class=\"highlight\">VaultHunter.EXE</span> is still in beta and its definition of ''Vault Hunter'' is questionable at best.  <font color=\"#feba36\">Warning:</font>  <span class=\"highlight\">VaultHunter.EXE</span> is currently classified as malware. Your allies may be affected.",
                 "stats" :
                     [
 						{
-                                    "name" : "Cooldown: 40 seconds",
+                                    "name" : "冷却时间: 40 秒",
                                     "base" : "25",
                                     "multiply" : 1
 						},
 						{
-                                    "name" : "Regenerates 2.5% of your Max Health / sec.",
+                                    "name" : "恢复 2.5% 最大生命值/秒.",
                                     "base" : "25",
                                     "multiply" : 1
 						}
@@ -43,22 +43,22 @@
                         "stats" :
                             [
                                 {
-                                    "name" : "Gun-Type Damage +25%",
+                                    "name" : "Gun-Type 伤害 +25%",
                                     "base" : "1",
                                     "multiply" : 1
                                 },
                                 {
-                                    "name" : "Gun-Type Fire Rate: +20%",
+                                    "name" : "Gun-Type 射速: +20%",
                                     "base" : "1",
                                     "multiply" : 1
                                 },
 								{
-                                    "name" : "Gun-Type Reload Speed: +20%",
+                                    "name" : "Gun-Type 装填速度: +20%",
                                     "base" : "1",
                                     "multiply" : 1
                                 },
 								{
-                                    "name" : "Wrong Gun-Type Damage: -15%",
+                                    "name" : "Wrong Gun-Type 伤害: -15%",
                                     "base" : "1",
                                     "multiply" : 1
                                 }
@@ -72,13 +72,13 @@
                     },
                     {
                         "name" : "Fuzzy Logic",
-                        "description" : "Taking damage from an enemy grants you increased <span class=\"highlight\">Critical Hit Damage</span> for a few seconds.",
+                        "description" : "Taking 伤害 from an 敌人 grants you increased <span class=\"highlight\">暴击伤害</span> for a few 秒.",
                         "levels" : 3,
                         "position" : 1,
                         "stats" :
                             [
                                 {
-                                    "name" : "Critical Hit Damage: +[$]%",
+                                    "name" : "暴击伤害: +[$]%",
                                     "base" : "10",
                                     "multiply" : 1
                                 }
@@ -92,7 +92,7 @@
                     },
                     {
                         "name" : "Safety First",
-                        "description" : "<span class=\"highlight\">Defensive Subroutines.</span>  You randomly pick a <span class=\"highlight\">Subroutine</span> focused on either <span class=\"highlight\">Health</span> or <span class=\"highlight\">Shields</span>, which grants <span class=\"highlight\">increased Capacity</span> and <span class=\"highlight\">Regeneration</span> for the chosen attribute. The catch? You deal <font color=\"#feba36\">reduced damage</font> with all gun types.  Upon selecting a <span class=\"highlight\">Subroutine</span> you gain 100 <span class=\"highlight\">Frag Stacks</span>, which decrease over time.  When you run out of <span class=\"highlight\">Frag Stacks</span>, your <span class=\"highlight\">Subroutine</span> will be replaced with a new one.",
+                        "description" : "<span class=\"highlight\">Defensive Subroutines.</span>  You randomly pick a <span class=\"highlight\">Subroutine</span> focused on either <span class=\"highlight\">Health</span> or <span class=\"highlight\">Shields</span>, which grants <span class=\"highlight\">increased Capacity</span> and <span class=\"highlight\">Regeneration</span> for the chosen attribute. The catch? You deal <font color=\"#feba36\">reduced 伤害</font> with 所有枪械类型.  Upon selecting a <span class=\"highlight\">Subroutine</span> you gain 100 <span class=\"highlight\">Frag Stacks</span>, which decrease over time.  When you run out of <span class=\"highlight\">Frag Stacks</span>, your <span class=\"highlight\">Subroutine</span> will be replaced with a new one.",
                         "levels" : 1,
                         "position" : 2,
                         "stats" :
@@ -103,12 +103,12 @@
                                     "multiply" : 1
                                 },
                                 {
-                                    "name" : "Regenerates 2.5% of Max Attribute / sec",
+                                    "name" : "恢复 2.5% of Max Attribute / sec",
                                     "base" : "1",
                                     "multiply" : 1
                                 },
 								{
-                                    "name" : "Gun Damage: -15%",
+                                    "name" : "枪械伤害: -15%",
                                     "base" : "1",
                                     "multiply" : 1
                                 }
@@ -122,18 +122,18 @@
                     },
                     {
                         "name" : "Surprised? Stabilize!",
-                        "description" : "Taking damage from an enemy increases your <span class=\"highlight\">Accuracy</span> and <span class=\"highlight\">Recoil Reduction</span> with all guns for a few seconds.",
+                        "description" : "Taking 伤害 from an 敌人 增加 your <span class=\"highlight\">精准度</span> and <span class=\"highlight\">减少后坐力</span> with all guns for a few 秒.",
                         "levels" : 5,
                         "position" : 3,
                         "stats" :
                             [
                                 {
-                                    "name" : "Accuracy: +[$]%",
+                                    "name" : "精准度: +[$]%",
                                     "base" : "10",
                                     "multiply" : 1
                                 },
 								{
-                                    "name" : "Recoil Reduction: +[$]%",
+                                    "name" : "减少后坐力: +[$]%",
                                     "base" : "10",
                                     "multiply" : 1
                                 }
@@ -147,18 +147,18 @@
                     },
                     {
                         "name" : "Rope-a-Derp",
-                        "description" : "<span class=\"highlight\">Melee Subroutine.</span>  You randomly pick a melee-focused <span class=\"highlight\">Subroutine</span>, which grants you a <span class=\"highlight\">massive melee damage bonus</span> but <font color=\"#feba36\">reduces</font> your damage with guns.",
+                        "description" : "<span class=\"highlight\">Melee Subroutine.</span>  You randomly pick a melee-focused <span class=\"highlight\">Subroutine</span>, which grants you a <span class=\"highlight\">massive melee 伤害 加成</span> but <font color=\"#feba36\">reduces</font> your 伤害 with guns.",
                         "levels" : 1,
                         "position" : 4,
                         "stats" :
                             [
                                 {
-                                    "name" : "Melee Damage: +150%",
+                                    "name" : "Melee 伤害: +150%",
                                     "base" : "1",
                                     "multiply" : 1
                                 },
 								{
-                                    "name" : "Gun Damage: -25%",
+                                    "name" : "枪械伤害: -25%",
                                     "base" : "1",
                                     "multiply" : 1
                                 }
@@ -172,23 +172,23 @@
                     },
                     {
                         "name" : "Blue Shell",
-                        "description" : "Increases <span class=\"highlight\">Gun Damage</span>, <span class=\"highlight\">Fire Rate</span>, and <span class=\"highlight\">Reload Speed</span> while in <span class=\"highlight\">Fight For Your Life</span>.  Also, increases the duration of <span class=\"highlight\">Fight For Your Life</span>.",
+                        "description" : "增加 <span class=\"highlight\">枪械伤害</span>, <span class=\"highlight\">射速</span>, and <span class=\"highlight\">装填速度</span> while in <span class=\"highlight\">Fight For Your Life</span>.  Also, 增加 the 持续时间 of <span class=\"highlight\">Fight For Your Life</span>.",
                         "levels" : 5,
                         "position" : 5,
                         "stats" :
                             [
                                 {
-                                    "name" : "Gun Damage: +[$]%",
+                                    "name" : "枪械伤害: +[$]%",
                                     "base" : "7",
                                     "multiply" : 1
                                 },
                                 {
-                                    "name" : "Fire Rate: +[$]%",
+                                    "name" : "射速: +[$]%",
                                     "base" : "7",
                                     "multiply" : 1
                                 },
 								{
-                                    "name" : "Reload Speed: +[$]%",
+                                    "name" : "装填速度: +[$]%",
                                     "base" : "7",
                                     "multiply" : 1
                                 },
@@ -207,7 +207,7 @@
                     },
                     {
                         "name" : "Tripleclocked",
-                        "description" : "Multiplies the <span class=\"highlight\">Bonuses</span> and <font color=\"#feba36\">Penalties</font> of the current <span class=\"highlight\">Subroutine</span> by up to <span class=\"highlight\">three</span>.  The fewer <span class=\"highlight\">Frag Stacks</span> you have, the greater the multiplier. <span class=\"highlight\">Defensive Subroutines</span> always receive <span class=\"highlight\">Triple Capacity</span> regardless of stacks.  Also, unlocks <font color=\"#ff6600\">ACTION PACKAGE</font> <span class=\"highlight\">One Shot Wonder</span>.",
+                        "description" : "Multiplies the <span class=\"highlight\">加成es</span> and <font color=\"#feba36\">Penalties</font> of the current <span class=\"highlight\">Subroutine</span> by up to <span class=\"highlight\">three</span>.  The fewer <span class=\"highlight\">Frag Stacks</span> you have, the greater the multiplier. <span class=\"highlight\">Defensive Subroutines</span> always receive <span class=\"highlight\">Triple Capacity</span> regardless of stacks.  Also, unlocks <font color=\"#ff6600\">ACTION PACKAGE</font> <span class=\"highlight\">One Shot Wonder</span>.",
                         "levels" : 1,
                         "position" : 7,
                         "stats" :
@@ -227,13 +227,13 @@
                     },
                     {
                         "name" : "Grenade Vent",
-                        "description" : "Increases <span class=\"highlight\">Grenade Damage</span>.  Also, throwing a grenade adds <span class=\"highlight\">Frag Stacks</span>.",
+                        "description" : "增加 <span class=\"highlight\">Grenade 伤害</span>.  Also, throwing a grenade adds <span class=\"highlight\">Frag Stacks</span>.",
                         "levels" : 5,
                         "position" : 9,
                         "stats" :
                             [
                                 {
-                                    "name" : "Grenade Damage: +[$]%",
+                                    "name" : "Grenade 伤害: +[$]%",
                                     "base" : "9",
                                     "multiply" : 1
                                 },
@@ -252,18 +252,18 @@
                     },
                     {
                         "name" : "Element of Surprise",
-                        "description" : "<span class=\"highlight\">Elemental Subroutines.</span>  You randomly pick a <span class=\"highlight\">Subroutine</span> that <span class=\"highlight\">Increases Damage</span> with a chosen <span class=\"highlight\">element</span>, but <font color=\"#feba36\">Decreases Damage</font> with all other elements.  Upon <span class=\"highlight\">depleting your shield</span>, <span class=\"highlight\">filling your shield</span>, or entering <span class=\"highlight\">Fight For Your Life</span>, you release a <span class=\"highlight\">Nova</span> of the chosen element.",
+                        "description" : "<span class=\"highlight\">Elemental Subroutines.</span>  You randomly pick a <span class=\"highlight\">Subroutine</span> that <span class=\"highlight\">增加 伤害</span> with a chosen <span class=\"highlight\">element</span>, but <font color=\"#feba36\">Decreases 伤害</font> with all other elements.  Upon <span class=\"highlight\">depleting your shield</span>, <span class=\"highlight\">filling your shield</span>, or entering <span class=\"highlight\">Fight For Your Life</span>, you release a <span class=\"highlight\">Nova</span> of the chosen element.",
                         "levels" : 1,
                         "position" : 10,
                         "stats" :
                             [
                                 {
-                                    "name" : "Chosen Element Damage: +32%",
+                                    "name" : "Chosen Element 伤害: +32%",
                                     "base" : "1",
                                     "multiply" : 1
                                 },
                                 {
-                                    "name" : "Other Element Damage: -16%",
+                                    "name" : "Other Element 伤害: -16%",
                                     "base" : "1",
                                     "multiply" : 1
                                 }
@@ -277,18 +277,18 @@
                     },
 					{
                         "name" : "Death Machine",
-                        "description" : "<span class=\"highlight\">Kill Skill.</span>  Killing an enemy increases your <span class=\"highlight\">Gun Damage</span>, <span class=\"highlight\">Reload Speed</span>, and <span class=\"highlight\">Movement Speed</span> for a few seconds.",
+                        "description" : "<span class=\"highlight\">击杀技.</span>  击杀敌人 增加 your <span class=\"highlight\">枪械伤害</span>, <span class=\"highlight\">装填速度</span>, and <span class=\"highlight\">Movement Speed</span> for a few 秒.",
                         "levels" : 5,
                         "position" : 11,
                         "stats" :
                             [
                                 {
-                                    "name" : "Gun Damage:  +[$]%",
+                                    "name" : "枪械伤害:  +[$]%",
                                     "base" : "6",
                                     "multiply" : 1
                                 },
 								{
-                                    "name" : "Reload Speed:  +[$]%",
+                                    "name" : "装填速度:  +[$]%",
                                     "base" : "6",
                                     "multiply" : 1
                                 },
@@ -313,7 +313,7 @@
                         "stats" :
                             [
 								{
-                                    "name" : "Rank [$] Damage",
+                                    "name" : "Rank [$] 伤害",
                                     "base" : "1",
                                     "multiply" : 1
                                 },
@@ -332,13 +332,13 @@
                     },
                     {
                         "name" : "Float like a Bee",
-                        "description" : "Increases <span class=\"highlight\">Melee Damage</span>.  Also, killing an enemy with a melee attack grants <span class=\"highlight\">Frag Stacks</span>, a small amount of <span class=\"highlight\">Health</span>, and increased <span class=\"highlight\">Movement Speed</span> for a few seconds.",
+                        "description" : "增加 <span class=\"highlight\">Melee 伤害</span>.  Also, 击杀敌人 with a melee attack grants <span class=\"highlight\">Frag Stacks</span>, a small amount of <span class=\"highlight\">Health</span>, and increased <span class=\"highlight\">Movement Speed</span> for a few 秒.",
                         "levels" : 5,
                         "position" : 14,
                         "stats" :
                             [
                                 {
-                                    "name" : "Melee Damage: +[$]%",
+                                    "name" : "Melee 伤害: +[$]%",
                                     "base" : "6",
                                     "multiply" : 1
                                 },
@@ -374,7 +374,7 @@
                         "stats" :
                             [
                                 {
-                                    "name" : "Laser Inferno: Shoot lasers in all directions at nearby enemies.",
+                                    "name" : "Laser Inferno: Shoot lasers in all directions at nearby 敌人.",
                                     "base" : "1",
                                     "multiply" : 1
                                 }
@@ -397,7 +397,7 @@
                 [
                     {
                         "name" : "Best Buds 4 Life",
-                        "description" : "Whenever you're revived or you revive someone, you and your buddy gain <span class=\"highlight\">Health Regeneration</span> and <span class=\"highlight\">Damage Reduction</span> for a short time.  Also, extends <span class=\"highlight\">Fight For Your Life</span> and increases <span class=\"highlight\">Weapon Damage</span> while downed.",
+                        "description" : "Whenever you're revived or you revive someone, you and your buddy gain <span class=\"highlight\">生命恢复</span> and <span class=\"highlight\">伤害 Reduction</span> for a short time.  Also, extends <span class=\"highlight\">Fight For Your Life</span> and 增加 <span class=\"highlight\">Weapon 伤害</span> while downed.",
                         "levels" : 5,
                         "position" : 0,
                         "stats" :
@@ -408,12 +408,12 @@
                                     "multiply" : 1
                                 },
                                 {
-                                    "name" : "Downed Gun Damage: +[$]%",
+                                    "name" : "Downed 枪械伤害: +[$]%",
                                     "base" : "5",
                                     "multiply" : 1
                                 },
 								{
-                                    "name" : "Damage Resistance: +[$]%",
+                                    "name" : "伤害 Resistance: +[$]%",
                                     "base" : "7",
                                     "multiply" : 1
                                 },
@@ -432,18 +432,18 @@
                     },
                     {
                         "name" : "Maniacal Laughter",
-                        "description" : "Increases <span class=\"highlight\">Status Effect Chance</span>.  Dealing <span class=\"highlight\">Status Effect Damage</span> to enemies grants stacks of <span class=\"highlight\">Maniacal Laughter</span>.  You and your pals gain <span class=\"highlight\">Health Regeneration</span> for each stack of <span class=\"highlight\">Maniacal Laughter</span>.  The lower your health, the greater the <span class=\"highlight\">Health Regeneration</span>.  Each stack lasts a few seconds.",
+                        "description" : "增加 <span class=\"highlight\">Status Effect 几率</span>.  Dealing <span class=\"highlight\">Status Effect 伤害</span> to 敌人 grants stacks of <span class=\"highlight\">Maniacal Laughter</span>.  You and your pals gain <span class=\"highlight\">生命恢复</span> for each stack of <span class=\"highlight\">Maniacal Laughter</span>.  The lower your health, the greater the <span class=\"highlight\">生命恢复</span>.  Each stack lasts a few 秒.",
                         "levels" : 5,
                         "position" : 2,
                         "stats" :
                             [
                                 {
-                                    "name" : "Status Effect Chance: +[$]%",
+                                    "name" : "Status Effect 几率: +[$]%",
                                     "base" : "4",
                                     "multiply" : 1
                                 },
                                 {
-                                    "name" : "Regenerates up to [$]% of your Max Health per stack per second.",
+                                    "name" : "恢复 up to [$]% of your Max Health每层 per second.",
                                     "base" : ".03",
                                     "multiply" : 1
                                 },
@@ -462,13 +462,13 @@
                     },
                     {
                         "name" : "Through Thick And Thin",
-                        "description" : "Increases <span class=\"highlight\">Action Skill Cooldown Rate</span>. While <span class=\"highlight\">VaultHunter.EXE</span> is running, this bonus is <span class=\"highlight\">transferred to your allies</span>.",
+                        "description" : "增加 <span class=\"highlight\">主动技 冷却时间 Rate</span>. While <span class=\"highlight\">VaultHunter.EXE</span> is running, this 加成 is <span class=\"highlight\">transferred to your allies</span>.",
                         "levels" : 5,
                         "position" : 3,
                         "stats" :
                             [
                                 {
-                                    "name" : "Action Skill Cooldown Rate: +[$]%",
+                                    "name" : "主动技 冷却时间 Rate: +[$]%",
                                     "base" : "5",
                                     "multiply" : 1
                                 }
@@ -482,7 +482,7 @@
                     },
                     {
                         "name" : "Kick Him While He's Down",
-                        "description" : "While in <span class=\"highlight\">Fight For Your Life</span>, you draw aggro from nearby enemies.  Also, unlocks <font color=\"#ff6600\">ACTION PACKAGE</font> <span class=\"highlight\">Clap-in-the-Box</span>.",
+                        "description" : "While in <span class=\"highlight\">Fight For Your Life</span>, you draw aggro from nearby 敌人.  Also, unlocks <font color=\"#ff6600\">ACTION PACKAGE</font> <span class=\"highlight\">Clap-in-the-Box</span>.",
                         "levels" : 1,
                         "position" : 4,
                         "stats" :
@@ -503,13 +503,13 @@
                     },
                     {
                         "name" : "All The Things Are Awesome!",
-                        "description" : "Increases <span class=\"highlight\">Fire Rate</span>, <span class=\"highlight\">Weapon Swap Speed</span>, and <span class=\"highlight\">Max Health</span>.  This bonus increases for <span class=\"highlight\">every teammate</span> in the game.  Being part of a team is great!",
+                        "description" : "增加 <span class=\"highlight\">射速</span>, <span class=\"highlight\">Weapon Swap Speed</span>, and <span class=\"highlight\">Max Health</span>.  This 加成 增加 for <span class=\"highlight\">every teammate</span> in the game.  Being part of a team is great!",
                         "levels" : 5,
                         "position" : 5,
                         "stats" :
                             [
                                 {
-                                    "name" : "Fire Rate: +[$]%",
+                                    "name" : "射速: +[$]%",
                                     "base" : "3",
                                     "multiply" : 1
                                 },
@@ -524,7 +524,7 @@
                                     "multiply" : 1
                                 },
 								{
-                                    "name" : "Fire Rate per Teammate: +[$]%",
+                                    "name" : "射速 per Teammate: +[$]%",
                                     "base" : "1",
                                     "multiply" : 1
                                 },
@@ -548,7 +548,7 @@
                     },
                     {
                         "name" : "You're... GOING TO LOVE ME!!",
-                        "description" : "Killing an enemy creates a <span class=\"highlight\">Friendship Nova</span> centered on the enemy, <span class=\"highlight\">Healing</span> you and your friends in the radius.  Allies who are low on health are healed for more.  Also, unlocks <font color=\"#ff6600\">ACTION PACKAGE</font> <span class=\"highlight\">Gun Wizard</span>.",
+                        "description" : "击杀敌人 creates a <span class=\"highlight\">Friendship Nova</span> centered on the 敌人, <span class=\"highlight\">Healing</span> you and your friends in the radius.  Allies who are low on health are healed for more.  Also, unlocks <font color=\"#ff6600\">ACTION PACKAGE</font> <span class=\"highlight\">Gun Wizard</span>.",
                         "levels" : 1,
                         "position" : 7,
                         "stats" :
@@ -559,7 +559,7 @@
                                     "multiply" : 1
                                 },
 								{
-                                    "name" : "Gun Wizard: You and all allies gain drastically increased fire rate and reload speed.",
+                                    "name" : "Gun Wizard: You and all allies gain drastically increased 射速 and 装填速度.",
                                     "base" : "1",
                                     "multiply" : 1
                                 }
@@ -604,7 +604,7 @@
                     },
                     {
                         "name" : "It's a Trap... Card",
-                        "description" : "When your <span class=\"highlight\">Shield</span> becomes depleted, you release a <span class=\"highlight\">Mega-Nova</span> centered on yourself that heals you and your friends, but hurts enemies. Targets low on health are healed for more.  Your <span class=\"highlight\">Shield</span> must fully recharge between <span class=\"highlight\">Mega-Novas</span>.",
+                        "description" : "When your <span class=\"highlight\">Shield</span> becomes depleted, you release a <span class=\"highlight\">Mega-Nova</span> centered on yourself that heals you and your friends, but hurts 敌人. Targets low on health are healed for more.  Your <span class=\"highlight\">Shield</span> must fully recharge between <span class=\"highlight\">Mega-Novas</span>.",
                         "levels" : 1,
                         "position" : 10,
                         "stats" :
@@ -624,7 +624,7 @@
                     },
                     {
                         "name" : "Pain Simulator is Painful",
-                        "description" : "Increases your <span class=\"highlight\">Max Health</span> and grants a small amount of <span class=\"highlight\">Damage Reduction</span>.",
+                        "description" : "增加 your <span class=\"highlight\">Max Health</span> and grants a small amount of <span class=\"highlight\">伤害 Reduction</span>.",
                         "levels" : 5,
                         "position" : 11,
                         "stats" :
@@ -635,7 +635,7 @@
                                     "multiply" : 1
                                 },
 								{
-                                    "name" : "Damage Reduction: +[$]%",
+                                    "name" : "伤害 Reduction: +[$]%",
                                     "base" : "4.8",
                                     "multiply" : 1,
 									"sequence" : ["4.8","9.1","13.0","16.7","20.0"]
@@ -650,23 +650,23 @@
                     },
                     {
                         "name" : "Kick Him While He's Up",
-                        "description" : "Whenever you gain <span class=\"highlight\">Second Wind</span>, your <span class=\"highlight\">Gun Damage</span>, <span class=\"highlight\">Melee Damage</span>, and <span class=\"highlight\">Critical Hit Damage</span> is increased for a few seconds!",
+                        "description" : "Whenever you gain <span class=\"highlight\">Second Wind</span>, your <span class=\"highlight\">枪械伤害</span>, <span class=\"highlight\">Melee 伤害</span>, and <span class=\"highlight\">暴击伤害</span> is increased for a few 秒!",
                         "levels" : 5,
                         "position" : 12,
                         "stats" :
                             [
                                 {
-                                    "name" : "Gun Damage:  +[$]%",
+                                    "name" : "枪械伤害:  +[$]%",
                                     "base" : "5",
                                     "multiply" : 1
                                 },
                                 {
-                                    "name" : "Melee Damage: +[$]%",
+                                    "name" : "Melee 伤害: +[$]%",
                                     "base" : "5",
                                     "multiply" : 1
                                 },
 								{
-                                    "name" : "Critical Hit Damage: +[$]%",
+                                    "name" : "暴击伤害: +[$]%",
                                     "base" : "5",
                                     "multiply" : 1
                                 }
@@ -680,18 +680,18 @@
                     },
                     {
                         "name" : "Organized Guns are Happy Guns",
-                        "description" : "<br>Increases <span class=\"highlight\">Magazine Size</span> with all <span class=\"highlight\">Weapon Types</span> for you and your buddies.",
+                        "description" : "<br>增加 <span class=\"highlight\">弹夹容量</span> with all <span class=\"highlight\">Weapon Types</span> for you and your buddies.",
                         "levels" : 5,
                         "position" : 14,
                         "stats" :
                             [
                                 {
-                                    "name" : "Magazine Size: +[$]%",
+                                    "name" : "弹夹容量: +[$]%",
                                     "base" : "5",
                                     "multiply" : 1
                                 },
 								{
-                                    "name" : "Teammate Magazine Size: +[$]%",
+                                    "name" : "Teammate 弹夹容量: +[$]%",
                                     "base" : "2",
                                     "multiply" : 1
                                 }
@@ -704,18 +704,18 @@
                             ]
                     },{
                         "name" : "HIGH FIVES GUYS",
-                        "description" : "Hold (RS/V) to request a <span class=\"highlight\">High Five</span> from your friends! A successful <span class=\"highlight\">High Five</span> increases your and your <font color=\"#feba36\">awesome</font> friend's <span class=\"highlight\">Gun Damage</span>, <span class=\"highlight\">Fire Rate</span>, and grants <span class=\"highlight\">Health Regeneration</span>. Woo! If you don't have any friends, or they leave you hangin', gain increased <span class=\"highlight\">Gun Damage</span> and <span class=\"highlight\">Health Regeneration</span> for a few seconds, because <font color=\"#feba36\">screw you guys!</font>",
+                        "description" : "Hold (RS/V) to request a <span class=\"highlight\">High Five</span> from your friends! A successful <span class=\"highlight\">High Five</span> 增加 your and your <font color=\"#feba36\">awesome</font> friend's <span class=\"highlight\">枪械伤害</span>, <span class=\"highlight\">射速</span>, and grants <span class=\"highlight\">生命恢复</span>. Woo! If you don't have any friends, or they leave you hangin', gain increased <span class=\"highlight\">枪械伤害</span> and <span class=\"highlight\">生命恢复</span> for a few 秒, because <font color=\"#feba36\">screw you guys!</font>",
                         "levels" : 1,
                         "position" : 16,
                         "stats" :
                             [
                                 {
-                                    "name" : "Gun Damage:  +15%",
+                                    "name" : "枪械伤害:  +15%",
                                     "base" : "1",
                                     "multiply" : 1
                                 },
 								{
-                                    "name" : "Fire Rate: +50%",
+                                    "name" : "射速: +50%",
                                     "base" : "1",
                                     "multiply" : 1
                                 },
@@ -725,7 +725,7 @@
                                     "multiply" : 1
                                 },
 								{
-                                    "name" : "Cooldown: 30 seconds",
+                                    "name" : "冷却时间: 30 秒",
                                     "base" : "1",
                                     "multiply" : 1
                                 }
@@ -746,23 +746,23 @@
                 [
                     {
                         "name" : "Drop the Hammer",
-                        "description" : "Reloading your weapon increases your <span class=\"highlight\">Fire Rate</span> and <span class=\"highlight\">Reload Speed</span> but makes your <span class=\"highlight\">Accuracy</span> worse for a few seconds.",
+                        "description" : "换弹夹 your weapon 增加 your <span class=\"highlight\">射速</span> and <span class=\"highlight\">装填速度</span> but makes your <span class=\"highlight\">精准度</span> worse for a few 秒.",
                         "levels" : 5,
                         "position" : 0,
                         "stats" :
                             [
                                 {
-                                    "name" : "Fire Rate: +[$]%",
+                                    "name" : "射速: +[$]%",
                                     "base" : "5",
                                     "multiply" : 1
                                 },
 								{
-                                    "name" : "Reload Speed: +[$]%",
+                                    "name" : "装填速度: +[$]%",
                                     "base" : "5",
                                     "multiply" : 1
                                 },
 								{
-                                    "name" : "Accuracy: -[$]%",
+                                    "name" : "精准度: -[$]%",
                                     "base" : "2",
                                     "multiply" : 1
                                 }
@@ -776,7 +776,7 @@
                     },
                     {
                         "name" : "Killbot",
-                        "description" : "Killing an enemy <span class=\"highlight\">Restores Health</span>, but <span class=\"highlight\">Costs Shields</span>.  If your shields are not currently up then... <font color=\"#feba36\">FREE HEALTH</font>! The lower your health, the greater the amount of health restored.",
+                        "description" : "击杀敌人 <span class=\"highlight\">Restores Health</span>, but <span class=\"highlight\">Costs Shields</span>.  If your shields are not currently up then... <font color=\"#feba36\">FREE HEALTH</font>! The lower your health, the greater the amount of health restored.",
                         "levels" : 5,
                         "position" : 2,
                         "stats" :
@@ -801,13 +801,13 @@
                     },
                     {
                         "name" : "Coincidental Combustion",
-                        "description" : "Whenever you shoot an enemy with a non-explosive weapon, you have a chance to deal <span class=\"highlight\">Bonus Explosive Damage</span> based on your weapon's damage.",
+                        "description" : "Whenever you shoot an 敌人 with a non-explosive weapon, you have a chance to deal <span class=\"highlight\">加成 Explosive 伤害</span> based on your weapon's 伤害.",
                         "levels" : 5,
                         "position" : 3,
                         "stats" :
                             [
                                 {
-                                    "name" : "Explosion Chance: [$]%",
+                                    "name" : "Explosion 几率: [$]%",
                                     "base" : "7",
                                     "multiply" : 1
                                 }
@@ -821,7 +821,7 @@
                     },
                     {
                         "name" : "Repulsive",
-                        "description" : "When struck by a <span class=\"highlight\">melee attack</span>, you emit a powerful <span class=\"highlight\">Blastwave</span> that pushes that enemy away and deals <span class=\"highlight\">Explosive Damage</span>.",
+                        "description" : "When struck by a <span class=\"highlight\">melee attack</span>, you emit a powerful <span class=\"highlight\">Blastwave</span> that pushes that 敌人 away and deals <span class=\"highlight\">Explosive 伤害</span>.",
                         "levels" : 5,
                         "position" : 5,
                         "stats" :
@@ -833,7 +833,7 @@
 									"sequence" : ["300","350","400","450","500"]
                                 },
 								{
-                                    "name" : "Repulsive Cooldown: 5 seconds",
+                                    "name" : "Repulsive 冷却时间: 5 秒",
                                     "base" : "1",
                                     "multiply" : 1
                                 }
@@ -865,13 +865,13 @@
                     },
                     {
                         "name" : "Load 'n' Splode",
-                        "description" : "Whenever you reload your gun, gain <span class=\"highlight\">Increased Explosive Damage</span>. This bonus can stack up to five times and each stack only lasts a few seconds.",
+                        "description" : "Whenever you reload your gun, gain <span class=\"highlight\">Increased Explosive 伤害</span>. This 加成 can stack up to five times and each stack only lasts a few 秒.",
                         "levels" : 5,
                         "position" : 9,
                         "stats" :
                             [
                                 {
-                                    "name" : "Explosive Damage: +[$]% per stack",
+                                    "name" : "Explosive 伤害: +[$]%每层",
                                     "base" : 4,
                                     "multiply" : 1
                                 }
@@ -885,7 +885,7 @@
                     },
                     {
                         "name" : "I Am Rubber, You Are Glue",
-                        "description" : "<span class=\"highlight\">Kill Skill</span>.  Whenever you kill an enemy, bullets have a chance to <span class=\"highlight\">reflect</span> off you and towards enemies for a short time.  Also, unlocks <font color=\"#ff6600\">ACTION PACKAGE</font> <span class=\"highlight\">Torgue Fiesta</span>.",
+                        "description" : "<span class=\"highlight\">击杀技</span>.  Whenever you kill an 敌人, bullets have a chance to <span class=\"highlight\">reflect</span> off you and towards 敌人 for a short time.  Also, unlocks <font color=\"#ff6600\">ACTION PACKAGE</font> <span class=\"highlight\">Torgue Fiesta</span>.",
                         "levels" : 1,
                         "position" : 10,
                         "stats" :
@@ -896,7 +896,7 @@
                                     "multiply" : 1
                                 },
 								{
-                                    "name" : "Torgue Fiesta: Whoops! Drop a large amount of grenades that damage enemies and friendlies.",
+                                    "name" : "Torgue Fiesta: Whoops! Drop a large amount of grenades that 伤害 敌人 and friendlies.",
                                     "base" : "1",
                                     "multiply" : 1
                                 }
@@ -910,18 +910,18 @@
                     },
                     {
                         "name" : "Start With a Bang",
-                        "description" : "When firing a fully loaded gun after reloading you generate an <span class=\"highlight\">Explosive Nova</span> centered on you, damaging all nearby enemies.  And <font color=\"#feba36\">hurts you</font>... but only a bit.",
+                        "description" : "When firing a fully loaded gun after 换弹夹 you generate an <span class=\"highlight\">Explosive Nova</span> centered on you, damaging all nearby 敌人.  And <font color=\"#feba36\">hurts you</font>... but only a bit.",
                         "levels" : 5,
                         "position" : 11,
                         "stats" :
                             [
                                 {
-                                    "name" : "Explosive Nova: Rank [$] Damage",
+                                    "name" : "Explosive Nova: Rank [$] 伤害",
                                     "base" : "1",
                                     "multiply" : 1
                                 },
                                 {
-                                    "name" : "Damage to Self: [$]% of current health",
+                                    "name" : "伤害 to Self: [$]% of current health",
                                     "base" : "1",
                                     "multiply" : 1
                                 }
@@ -935,7 +935,7 @@
                     },
                     {
                         "name" : "Hyperion Punch",
-                        "description" : "<span class=\"highlight\">Melee Override</span>.  Dealing <span class=\"highlight\">Explosive Damage</span> grants you stacks of <span class=\"highlight\">Hyperion Punch</span>.  When you have 5 stacks, press (RS/V) to throw a <span class=\"highlight\">super awesome punch</span> that deals bonus <span class=\"highlight\">Incendiary Damage</span>.  This consumes all stacks of <span class=\"highlight\">Hyperion Punch</span>.",
+                        "description" : "<span class=\"highlight\">Melee Override</span>.  Dealing <span class=\"highlight\">Explosive 伤害</span> grants you stacks of <span class=\"highlight\">Hyperion Punch</span>.  When you have 5 stacks, 按 (RS/V) to throw a <span class=\"highlight\">super awesome punch</span> that deals 加成 <span class=\"highlight\">燃烧 伤害</span>.  This consumes all stacks of <span class=\"highlight\">Hyperion Punch</span>.",
                         "levels" : 5,
                         "position" : 12,
                         "stats" :
@@ -946,7 +946,7 @@
                                     "multiply" : 1
                                 },
 								{
-                                    "name" : "Rank [$] Damage",
+                                    "name" : "Rank [$] 伤害",
                                     "base" : 1,
                                     "multiply" : 1
                                 }
@@ -960,18 +960,18 @@
                     },
                     {
                         "name" : "One Last Thing",
-                        "description" : "The last round fired from any weapon's clip gains significant <span class=\"highlight\">Bonus Damage</span>. Smaller clips reduce the bonus.",
+                        "description" : "The last round fired from any weapon's clip gains significant <span class=\"highlight\">加成 伤害</span>. Smaller clips reduce the 加成.",
                         "levels" : 5,
                         "position" : 14,
                         "stats" :
                             [
                                 {
-                                    "name" : "Last Shot Bonus:  +[$]%",
+                                    "name" : "Last Shot 加成:  +[$]%",
                                     "base" : "80",
                                     "multiply" : 1
                                 },
 								{
-                                    "name" : "Clip Size for Full Bonus: 8",
+                                    "name" : "Clip Size for Full 加成: 8",
                                     "base" : "1",
                                     "multiply" : 1
                                 }
@@ -985,18 +985,18 @@
                     },
                     {
                         "name" : "Livin' Near the Edge",
-                        "description" : "Increases <span class=\"highlight\">Fire Rate</span> and <span class=\"highlight\">Reload Speed</span>.  The lower your health and shields, the greater the bonus.  Also, unlocks <font color=\"#ff6600\">ACTION PACKAGE</font> <span class=\"highlight\">Pirate Ship Mode</span>.",
+                        "description" : "增加 <span class=\"highlight\">射速</span> and <span class=\"highlight\">装填速度</span>.  The lower your health and shields, the greater the 加成.  Also, unlocks <font color=\"#ff6600\">ACTION PACKAGE</font> <span class=\"highlight\">Pirate Ship Mode</span>.",
                         "levels" : 1,
                         "position" : 16,
                         "stats" :
                             [
                                 {
-                                    "name" : "Fire Rate: Up to 100%",
+                                    "name" : "射速: Up to 100%",
 									"base" : "1",
                                     "multiply" : 1
                                 },
 								{
-                                    "name" : "Reload Speed: Up to 100%",
+                                    "name" : "装填速度: Up to 100%",
 									"base" : "1",
                                     "multiply" : 1
                                 },

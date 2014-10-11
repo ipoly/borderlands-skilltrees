@@ -8,42 +8,42 @@
         "badge" :"borderlandsthegame/prsqlskilltree/images/chars/nisha/badge.png",
         "class" :
             {
-                "name" : "Showdown",
-                "description" : "<span class=\"highlight\">Action Skill</span>.  Press [LB/L1/F] to activate <span class=\"highlight\">Showdown</span>, causing you to <span class=\"highlight\">Automatically Aim</span> at enemies and gain increased <span class=\"highlight\">Gun Damage</span>, <span class=\"highlight\">Fire Rate</span>, <span class=\"highlight\">Reload Speed</span>, <span class=\"highlight\">Accuracy</span>, and <span class=\"highlight\">Bullet Speed</span> with all gun types.  Holding [LT/L2/Mouse-2] and flicking (RS/R3/Mouse) in a direction allows you to quickly cycle to another target.  <span class=\"highlight\">Snipers Rifles</span> and <span class=\"highlight\">Rocket Launchers</span> do not receive the damage bonus.",
+                "name" : "Showdown(决斗)",
+                "description" : "<span class=\"highlight\">主动技</span>.  按 [LB/L1/F] 启动<span class=\"highlight\">决斗</span>, 让你<span class=\"highlight\">自动瞄准</span>敌人并且增加所有枪械类型的<span class=\"highlight\">枪械伤害</span>,<span class=\"highlight\">射速</span>, <span class=\"highlight\">装填速度</span>, <span class=\"highlight\">精准度</span>, 和<span class=\"highlight\">子弹飞行速度</span>.  按住 [LT/L2/Mouse-2] 并且轻轻移动 (RS/R3/Mouse) 来快速切换到下一个目标.  <span class=\"highlight\">狙击枪</span>和<span class=\"highlight\">火箭炮</span>没有伤害加成.",
                 "stats" :
                     [
 						{
-                                    "name" : "Duration: 6 seconds",
+                                    "name" : "持续时间: 6 秒",
                                     "base" : "25",
                                     "multiply" : 1
 						},
 						{
-                                    "name" : "Cooldown: 16 seconds",
+                                    "name" : "冷却时间: 16 秒",
                                     "base" : "25",
                                     "multiply" : 1
 						},
 						{
-                                    "name" : "Gun Damage: +42%",
+                                    "name" : "枪械伤害: +42%",
                                     "base" : "25",
                                     "multiply" : 1
 						},
 						{
-                                    "name" : "Fire Rate: +25%",
+                                    "name" : "射速: +25%",
                                     "base" : "25",
                                     "multiply" : 1
 						},
 						{
-                                    "name" : "Reload Speed: +125%",
+                                    "name" : "装填速度: +125%",
                                     "base" : "25",
                                     "multiply" : 1
 						},
 						{
-                                    "name" : "Accuracy: +15%",
+                                    "name" : "精准度: +15%",
                                     "base" : "25",
                                     "multiply" : 1
 						},
 						{
-                                    "name" : "Bullet Speed: +50%",
+                                    "name" : "子弹飞行速度: +50%",
                                     "base" : "25",
                                     "multiply" : 1
 						}
@@ -61,19 +61,19 @@
                 "skills" :
                 [
                     {
-                        "name" : "Snap Shot",
-                        "description" : "When firing from the hip, you gain dramatically increased <span class=\"highlight\">Accuracy</span> and <span class=\"highlight\">Recoil Reduction</span>.",
+                        "name" : "Snap Shot(点射)",
+                        "description" : "极大地增加盲射的<span class=\"highlight\">精准度</span>并且<span class=\"highlight\">减少后坐力</span>.",
                         "levels" : 5,
                         "position" : 0,
                         "stats" :
                             [
                                 {
-                                    "name" : "Accuracy: +[$]%",
+                                    "name" : "精准度: +[$]%",
                                     "base" : "7",
                                     "multiply" : 1
                                 },
                                 {
-                                    "name" : "Recoil Reduction +[$]%",
+                                    "name" : "减少后坐力 +[$]%",
                                     "base" : "5",
                                     "multiply" : 1
                                 }
@@ -86,19 +86,19 @@
                             ]
                     },
                     {
-                        "name" : "Bona Fide Grit",
-                        "description" : "<span class=\"highlight\">Kill Skill</span>. Killing an enemy grants you bonus <span class=\"highlight\">Critical Hit Damage</span> and <span class=\"highlight\">Health Regeneration</span> for a short duration.",
+                        "name" : "Bona Fide Grit[真的勇气]",
+                        "description" : "<span class=\"highlight\">击杀技</span>. 击杀敌人给你<span class=\"highlight\">暴击伤害</span>和<span class=\"highlight\">生命恢复</span>加成,持续一小段时间.",
                         "levels" : 5,
                         "position" : 2,
                         "stats" :
                             [
                                 {
-                                    "name" : "Regenerates: +[$]% of your Max Health / sec.",
+                                    "name" : "恢复: +[$]% 最大生命值/秒.",
                                     "base" : "0.4",
                                     "multiply" : 1
                                 },
                                 {
-                                    "name" : "Critical Hit Damage +[$]%",
+                                    "name" : "暴击伤害 +[$]%",
                                     "base" : "7",
                                     "multiply" : 1
                                 }
@@ -111,19 +111,19 @@
                             ]
                     },
                     {
-                        "name" : "Quick Shot",
-                        "description" : "After <span class=\"highlight\">Reloading</span>, for a short duration, you gain increased <span class=\"highlight\">Gun Damage</span> and <span class=\"highlight\">Fire Rate</span> when shooting from the hip.",
+                        "name" : "Quick Shot(速射)",
+                        "description" : "<span class=\"highlight\">换弹夹</span>后, 在一小段时间内, 盲射获得<span class=\"highlight\">枪械伤害</span>和<span class=\"highlight\">射速</span>加成.",
                         "levels" : 5,
                         "position" : 3,
                         "stats" :
                             [
                                 {
-                                    "name" : "Gun Damage: +[$]%",
+                                    "name" : "枪械伤害: +[$]%",
                                     "base" : "6",
                                     "multiply" : 1
                                 },
                                 {
-                                    "name" : "Fire Rate +[$]%",
+                                    "name" : "射速 +[$]%",
                                     "base" : "7",
                                     "multiply" : 1
                                 }
@@ -136,14 +136,14 @@
                             ]
                     },
                     {
-                        "name" : "Unchained",
-                        "description" : "Shooting an enemy grants you increased <span class=\"highlight\">Fire Rate</span> with all gun types.  A stack of <span class=\"highlight\">Unchained</span> can only be gained once per second.  All stacks are lost if you don't shoot any enemies for 10 seconds.",
+                        "name" : "Unchained(奔放)",
+                        "description" : "击中敌人将增加你所有枪械类型的<span class=\"highlight\">射速</span>.  每秒只能获得一层<span class=\"highlight\">Unchained(奔放)</span>. 10 秒内未击中敌人则全部清空.",
                         "levels" : 5,
                         "position" : 5,
                         "stats" :
                             [
                                 {
-                                    "name" : "Fire Rate: +[$]% per stack",
+                                    "name" : "射速: +[$]%每层",
                                     "base" : "1",
                                     "multiply" : 1
                                 },
@@ -159,14 +159,14 @@
                             ]
                     },
                     {
-                        "name" : "Fistful of Bullets",
-                        "description" : "Increases your <span class=\"highlight\">Magazine Size</span> with all gun types by 3. ",
+                        "name" : "Fistful of Bullets(一把子弹)",
+                        "description" : "所有枪械类型<span class=\"highlight\">弹夹容量</span>增加3. ",
                         "levels" : 1,
                         "position" : 7,
                         "stats" :
                             [
                                 {
-                                    "name" : "\"You can never have too much of a good thing...\""
+                                    "name" : "\"好东西不能太多...\""
                                 }
                             ],
                         "assets" :
@@ -177,14 +177,14 @@
                             ]
                     },
                     {
-                        "name" : "Crack Shot",
-                        "description" : "The <span class=\"highlight\">first shot</span> fired from a <span class=\"highlight\">fully loaded magazine</span> causes <span class=\"highlight\">Bonus Damage</span>. If you kill an enemy with this shot they explode, dealing damage to all nearby enemies.",
+                        "name" : "Crack Shot(破碎射击)",
+                        "description" : "<span class=\"highlight\">满弹夹</span>的<span class=\"highlight\">第一发</span>造成<span class=\"highlight\">额外伤害</span>. 被这一击杀死的敌人会爆炸, 对周围的敌人造成伤害.",
                         "levels" : 5,
                         "position" : 9,
                         "stats" :
                             [
                                 {
-                                    "name" : "Gun Damage: +[$]%",
+                                    "name" : "枪械伤害: +[$]%",
                                     "base" : "10",
                                     "multiply" : 1
                                 }
@@ -197,14 +197,14 @@
                             ]
                     },
                     {
-                        "name" : "Impatience",
-                        "description" : "Killing an enemy grants you a stack of <span class=\"highlight\">Impatience</span>, increasing your <span class=\"highlight\">Reload Speed</span> by 20% for each stack.  All stacks are lost after reloading. Stacks up to 21 times.",
+                        "name" : "Impatience(急躁)",
+                        "description" : "击杀敌人将获得一层<span class=\"highlight\">Impatience(急躁)</span>, 每一层会增加20%的<span class=\"highlight\">装填速度</span>. 换弹夹则清空所有堆叠. 最多堆叠21次.",
                         "levels" : 1,
                         "position" : 10,
                         "stats" :
                             [
                                 {
-                                    "name" : "\"Ain’t nobody got time for that!\""
+                                    "name" : "\"谁有时间管那个啊!\""
                                 }
                             ],
                         "assets" :
@@ -215,19 +215,19 @@
                             ]
                     },
                     {
-                        "name" : "Hot Lead",
-                        "description" : "Your <span class=\"highlight\">Critical Hits</span> with <span class=\"highlight\">non-elemental</span> guns deal additional <span class=\"highlight\">incendiary damage</span> with a high chance of <span class=\"highlight\">igniting</span> enemies.  The <span class=\"highlight\">damage</span> of the <span class=\"highlight\">incendiary</span> and <span class=\"highlight\">ignite damage</span> is based on your gun's <span class=\"highlight\">damage</span>.",
+                        "name" : "Hot Lead(热线)",
+                        "description" : "<span class=\"highlight\">非元素</span>枪的<span class=\"highlight\">暴击</span>导致额外的<span class=\"highlight\">燃烧伤害</span>并且有很高几率<span class=\"highlight\">点燃</span>敌人. <span class=\"highlight\">燃烧伤害</span>和<span class=\"highlight\">点燃伤害</span>基于枪械<span class=\"highlight\">伤害</span>.",
                         "levels" : 5,
                         "position" : 11,
                         "stats" :
                             [
                                 {
-                                    "name" : "Adds [$]% of Gun Damage as Incendiary Damage",
+                                    "name" : "增加 [$]% of 枪械伤害 作为 燃烧伤害",
                                     "base" : "5",
                                     "multiply" : 1
                                 },
 								{
-                                    "name" : "Ignite Damage Level [$]",
+                                    "name" : "点燃伤害 等级 [$]",
                                     "base" : "1",
                                     "multiply" : 1
                                 }
@@ -240,19 +240,19 @@
                             ]
                     },
                     {
-                        "name" : "Trick Shot",
-                        "description" : "Your bullets that hit walls or other objects have a chance to <span class=\"highlight\">ricochet off toward a nearby enemy</span>.",
+                        "name" : "Trick Shot(花式射击)",
+                        "description" : "射向墙壁或障碍物的子弹<span class=\"highlight\">弹射向附近的敌人</span>.",
                         "levels" : 5,
                         "position" : 12,
                         "stats" :
                             [
                                 {
-                                    "name" : "Bullet Ricochet Chance:  +[$]%",
+                                    "name" : "子弹弹射概率:  +[$]%",
                                     "base" : "8",
                                     "multiply" : 1
                                 },
                                 {
-                                    "name" : "Ricocheted Bullet Damage: -20%"
+                                    "name" : "子弹弹射伤害: -20%"
                                 }
                             ],
                         "assets" :
@@ -263,14 +263,14 @@
                             ]
                     },
 					{
-                        "name" : "Tombstone",
-                        "description" : "<span class=\"highlight\">Kill Skill</span>.  After killing an enemy, all hits have a chance to count as <span class=\"highlight\">Critical Hits</span> for a short time. ",
+                        "name" : "Tombstone(墓碑)",
+                        "description" : "<span class=\"highlight\">击杀技</span>.  击杀敌人后, 短时间内所有的射击都有几率算作<span class=\"highlight\">暴击</span>. ",
                         "levels" : 5,
                         "position" : 14,
                         "stats" :
                             [
                                 {
-                                    "name" : "Critical Hit Chance:   +[$]%",
+                                    "name" : "暴击几率:   +[$]%",
                                     "base" : "6",
                                     "multiply" : 1
                                 }
@@ -283,14 +283,14 @@
                             ]
                     },
 					{
-                        "name" : "The Unforgiven",
-                        "description" : "During <span class=\"highlight\">Showdown</span> all shots that hit enemies <span class=\"highlight\">ricochet towards other nearby enemies</span>, dealing 10% weapon damage per hit.  Also, <span class=\"highlight\">Showdown</span> ending triggers an <span class=\"highlight\">Explosion</span> on all enemies who have been shot by you.",
+                        "name" : "The Unforgiven(不可原谅)",
+                        "description" : "<span class=\"highlight\">决斗</span>中所有击中敌人的子弹将<span class=\"highlight\">弹射向附近的敌人</span>, 每击造成 10% 武器伤害.  另外, <span class=\"highlight\">决斗</span>结束时每个被击中的敌人都将<span class=\"highlight\">Explosion</span>.",
                         "levels" : 1,
                         "position" : 16,
                         "stats" :
                             [
 								{
-                                    "name" : "\"I put a bomb inside every bad guy…\""
+                                    "name" : "\"我在每个坏蛋身上都放了炸弹…\""
                                 }
                             ],
                         "assets" :
@@ -311,7 +311,7 @@
                 [
                     {
                         "name" : "Saddle Up",
-                        "description" : "<span class=\"highlight\">Kill Skill</span>. Killing an enemy grants you increased <span class=\"highlight\">Movement Speed</span> and <span class=\"highlight\">Gun Damage</span> for a short time.",
+                        "description" : "<span class=\"highlight\">击杀技</span>. 击杀敌人 grants you increased <span class=\"highlight\">Movement Speed</span> and <span class=\"highlight\">枪械伤害</span> for a short time.",
                         "levels" : 5,
                         "position" : 0,
                         "stats" :
@@ -322,7 +322,7 @@
                                     "multiply" : 1
                                 },
                                 {
-                                    "name" : "Gun Damage: +[$]%",
+                                    "name" : "枪械伤害: +[$]%",
                                     "base" : "5",
                                     "multiply" : 1
                                 }
@@ -336,13 +336,13 @@
                     },
                     {
                         "name" : "Ruthless",
-                        "description" : "Kills made during <span class=\"highlight\">Showdown</span> extend its duration.",
+                        "description" : "Kills made during <span class=\"highlight\">决斗</span> extend its 持续时间.",
                         "levels" : 5,
                         "position" : 2,
                         "stats" :
                             [
                                 {
-                                    "name" : "Showdown Duration: +[$] second per kill",
+                                    "name" : "决斗 持续时间: +[$] second per kill",
                                     "base" : ".1",
                                     "multiply" : 1
                                 }
@@ -356,13 +356,13 @@
                     },
                     {
                         "name" : "Magnificent Six",
-                        "description" : "The <span class=\"highlight\">last 6 bullets</span> in <span class=\"highlight\">Non-Elemental Weapon</span> clips deal extra <span class=\"highlight\">Damage</span>.",
+                        "description" : "The <span class=\"highlight\">last 6 bullets</span> in <span class=\"highlight\">非元素 Weapon</span> clips deal extra <span class=\"highlight\">伤害</span>.",
                         "levels" : 5,
                         "position" : 3,
                         "stats" :
                             [
                                 {
-                                    "name" : "Gun Damage: +[$]%",
+                                    "name" : "枪械伤害: +[$]%",
                                     "base" : "6",
                                     "multiply" : 1
                                 }
@@ -376,13 +376,13 @@
                     },
                     {
                         "name" : "Bottled Courage",
-                        "description" : "When <span class=\"highlight\">Showdown</span> begins, a portion of your <span class=\"highlight\">Shield</span> is instantly restored.  Also, while <span class=\"highlight\">Showdown</span> is <span class=\"highlight\">Cooling Down</span>, you gain improved <span class=\"highlight\">Shield Recharge Rate</span> and <span class=\"highlight\">Shield Recharge Delay</span>. ",
+                        "description" : "When <span class=\"highlight\">决斗</span> begins, a portion of your <span class=\"highlight\">Shield</span> is instantly restored.  Also, while <span class=\"highlight\">决斗</span> is <span class=\"highlight\">Cooling Down</span>, you gain improved <span class=\"highlight\">Shield Recharge Rate</span> and <span class=\"highlight\">Shield Recharge Delay</span>. ",
                         "levels" : 5,
                         "position" : 5,
                         "stats" :
                             [
                                 {
-                                    "name" : "Showdown restores: [$]% of shields",
+                                    "name" : "决斗 restores: [$]% of shields",
                                     "base" : "10",
                                     "multiply" : 1
                                 },
@@ -406,13 +406,13 @@
                     },
                     {
                         "name" : "Short Fused",
-                        "description" : "<span class=\"highlight\">Kill Skill</span>.  After killing an enemy, all your shots deal bonus <span class=\"highlight\">Explosive Damage</span> for a short time.  The closer the enemy is to you, the higher the damage.",
+                        "description" : "<span class=\"highlight\">击杀技</span>.  After 击杀敌人, all your shots deal 加成 <span class=\"highlight\">Explosive 伤害</span> for a short time.  The closer the 敌人 is to you, the higher the 伤害.",
                         "levels" : 1,
                         "position" : 7,
                         "stats" :
                             [
                                 {
-                                    "name" : "Up to +35% Weapon Damage as Explosive Damage"
+                                    "name" : "Up to +35% Weapon 伤害 as Explosive 伤害"
                                 }
                             ],
                         "assets" :
@@ -424,13 +424,13 @@
                     },
                     {
                         "name" : "Faster 'n You",
-                        "description" : "<span class=\"highlight\">Kill Skill</span>. Killing an enemy greatly improves your <span class=\"highlight\">Reload Speed</span>, <span class=\"highlight\">Weapon Swap</span> speed, and <span class=\"highlight\">Fire Rate</span> for a short duration.",
+                        "description" : "<span class=\"highlight\">击杀技</span>. 击杀敌人 greatly improves your <span class=\"highlight\">装填速度</span>, <span class=\"highlight\">Weapon Swap</span> speed, and <span class=\"highlight\">射速</span> for a short 持续时间.",
                         "levels" : 5,
                         "position" : 9,
                         "stats" :
                             [
                                 {
-                                    "name" : "Reload Speed: +[$]%",
+                                    "name" : "装填速度: +[$]%",
                                     "base" : "7",
                                     "multiply" : 1
                                 },
@@ -439,7 +439,7 @@
                                     "base" : "7",
                                     "multiply" : 1
                                 },{
-                                    "name" : "Fire Rate: +[$]%",
+                                    "name" : "射速: +[$]%",
                                     "base" : "7",
                                     "multiply" : 1
                                 }
@@ -453,7 +453,7 @@
                     },
                     {
                         "name" : "Pickpocket",
-                        "description" : "Your <span class=\"highlight\">Melee Attack</span> steals up to 6 bullets from your enemy and <span class=\"highlight\">instantly loads them into your current gun's magazine</span>. There is a cooldown for this skill. Does not work with <span class=\"highlight\">Rocket Launcher</span> ammo.",
+                        "description" : "Your <span class=\"highlight\">Melee Attack</span> steals up to 6 bullets from your 敌人 and <span class=\"highlight\">instantly loads them into your current gun's magazine</span>. There is a 冷却时间 for this skill. Does not work with <span class=\"highlight\">Rocket Launcher</span> ammo.",
                         "levels" : 1,
                         "position" : 10,
                         "stats" :
@@ -471,7 +471,7 @@
                     },
                     {
                         "name" : "Gunslinger",
-                        "description" : "When <span class=\"highlight\">Showdown</span> begins and ends, a portion of your gun is <span class=\"highlight\">instantly reloaded</span>.",
+                        "description" : "When <span class=\"highlight\">决斗</span> begins and ends, a portion of your gun is <span class=\"highlight\">instantly reloaded</span>.",
                         "levels" : 5,
                         "position" : 11,
                         "stats" :
@@ -491,13 +491,13 @@
                     },
                     {
                         "name" : "Hell's Comin' With Me!",
-                        "description" : "After <span class=\"highlight\">reloading</span> or reaching your maximum clip via <span class=\"highlight\">Pickpocket</span>, for a short duration your gun has a chance to <span class=\"highlight\">fire twice</span>.",
+                        "description" : "After <span class=\"highlight\">换弹夹</span> or reaching your maximum clip via <span class=\"highlight\">Pickpocket</span>, for a short 持续时间 your gun has a chance to <span class=\"highlight\">fire twice</span>.",
                         "levels" : 5,
                         "position" : 12,
                         "stats" :
                             [
                                 {
-                                    "name" : "Extra Shot Chance: [$]%",
+                                    "name" : "Extra Shot 几率: [$]%",
                                     "base" : "9",
                                     "multiply" : 1
                                 }
@@ -511,13 +511,13 @@
                     },
                     {
                         "name" : "High Noon",
-                        "description" : "You gain a bonus to <span class=\"highlight\">Gun Damage</span> the longer you are in <span class=\"highlight\">Showdown</span>.",
+                        "description" : "You gain a 加成 to <span class=\"highlight\">枪械伤害</span> the longer you are in <span class=\"highlight\">决斗</span>.",
                         "levels" : 5,
                         "position" : 14,
                         "stats" :
                             [
                                 {
-                                    "name" : "Gun Damage:  +[$]% / sec",
+                                    "name" : "枪械伤害:  +[$]% / sec",
                                     "base" : "3",
                                     "multiply" : 1
                                 }
@@ -556,7 +556,7 @@
                 [
                     {
                         "name" : "Law",
-                        "description" : "Increases your <span class=\"highlight\">Shield Capacity</span> and <span class=\"highlight\">Melee Damage</span>.",
+                        "description" : "增加 your <span class=\"highlight\">Shield Capacity</span> and <span class=\"highlight\">Melee 伤害</span>.",
                         "levels" : 4,
                         "position" : 0,
                         "stats" :
@@ -567,7 +567,7 @@
                                     "multiply" : 1
                                 },
                                 {
-                                    "name" : "Melee Damage [$]%",
+                                    "name" : "Melee 伤害 [$]%",
                                     "base" : "5",
                                     "multiply" : 1
                                 }
@@ -581,13 +581,13 @@
                     },
                     {
                         "name" : "Order",
-                        "description" : "Every time you take 15% of your <span class=\"highlight\">maximum health</span> in damage you gain a stack of <span class=\"highlight\">Order</span>.  Based on your number of <span class=\"highlight\">Order</span> stacks, you have a <span class=\"highlight\">chance to instantly heal double the damage taken</span>. <span class=\"highlight\">Order</span> stacks are quickly lost when outside combat.",
+                        "description" : "Every time you take 15% of your <span class=\"highlight\">maximum health</span> in 伤害 you gain a stack of <span class=\"highlight\">Order</span>.  Based on your number of <span class=\"highlight\">Order</span> stacks, you have a <span class=\"highlight\">chance to instantly heal double the 伤害 taken</span>. <span class=\"highlight\">Order</span> stacks are quickly lost when outside combat.",
                         "levels" : 1,
                         "position" : 2,
                         "stats" :
                             [
                                 {
-                                    "name" : "Heal Chance: +1.2% per Order stack"
+                                    "name" : "Heal 几率: +1.2% per Order stack"
                                 },
 								{
                                     "name" : "Max Stacks: 10"
@@ -602,13 +602,13 @@
                     },
                     {
                         "name" : "The Third Degree",
-                        "description" : "When <span class=\"highlight\">Showdown</span> ends or upon killing an enemy, you gain increased <span class=\"highlight\">Damage</span> with your next <span class=\"highlight\">Melee Attack</span>.  This effect can stack up to 5 times.",
+                        "description" : "When <span class=\"highlight\">决斗</span> ends or upon 击杀敌人, you gain increased <span class=\"highlight\">伤害</span> with your next <span class=\"highlight\">Melee Attack</span>.  This effect can stack up to 5 times.",
                         "levels" : 5,
                         "position" : 3,
                         "stats" :
                             [
                                 {
-                                    "name" : "Melee Damage: +[$]% per stack",
+                                    "name" : "Melee 伤害: +[$]%每层",
                                     "base" : "20",
                                     "multiply" : 1
                                 }
@@ -622,7 +622,7 @@
                     },
                     {
                         "name" : "Rough Rider",
-                        "description" : "<span class=\"highlight\">Slam Augment</span>. Your <span class=\"highlight\">Slam</span> attack's damage is increased by 25%.  Dealing damage with <span class=\"highlight\">Slam</span> grants you 5 <span class=\"highlight\">Order</span> stacks <span class=\"highlight\">per enemy damaged</span>. This skill also raises your <span class=\"highlight\">Order Stack Cap</span> by 5.",
+                        "description" : "<span class=\"highlight\">Slam Augment</span>. Your <span class=\"highlight\">Slam</span> attack's 伤害 is increased by 25%.  Dealing 伤害 with <span class=\"highlight\">Slam</span> grants you 5 <span class=\"highlight\">Order</span> stacks <span class=\"highlight\">per 敌人 damaged</span>. This skill also raises your <span class=\"highlight\">Order Stack Cap</span> by 5.",
                         "levels" : 1,
                         "position" : 4,
                         "stats" :
@@ -640,13 +640,13 @@
                     },
                     {
                         "name" : "Wanted",
-                        "description" : "When an enemy would cause you to gain an <span class=\"highlight\">Order</span> stack, he gains a <span class=\"highlight\">Wanted</span> stack.  Damaging that target consumes all <span class=\"highlight\">Wanted</span> stacks and deals <span class=\"highlight\">Bonus Damage</span> based on the number of stacks consumed and your level. The maximum number of <span class=\"highlight\">Wanted</span> stacks is 5, and enemies still gain <span class=\"highlight\">Wanted</span> stacks even if you are at your maximum <span class=\"highlight\">Order</span> stacks.",
+                        "description" : "When an 敌人 would cause you to gain an <span class=\"highlight\">Order</span> stack, he gains a <span class=\"highlight\">Wanted</span> stack.  Damaging that target consumes all <span class=\"highlight\">Wanted</span> stacks and deals <span class=\"highlight\">加成 伤害</span> based on the number of stacks consumed and your level. The maximum number of <span class=\"highlight\">Wanted</span> stacks is 5, and 敌人 still gain <span class=\"highlight\">Wanted</span> stacks even if you are at your maximum <span class=\"highlight\">Order</span> stacks.",
                         "levels" : 5,
                         "position" : 5,
                         "stats" :
                             [
                                 {
-                                    "name" : "Damage Level: [$]",
+                                    "name" : "伤害 等级: [$]",
                                     "base" : "1",
                                     "multiply" : 1
                                 }
@@ -660,16 +660,16 @@
                     },
                     {
                         "name" : "Discipline",
-                        "description" : "Upon reaching 10 <span class=\"highlight\">Order</span> stacks, your <span class=\"highlight\">Shields</span> are restored to full.  Also, while at 10 or more <span class=\"highlight\">Order</span> stacks you gain improved <span class=\"highlight\">Melee Damage, Gun Damage, and Shield Recharge Delay</span> for each <span class=\"highlight\">Order</span> stack.  This skill also raises your <span class=\"highlight\">Order Stack Cap</span> by 5.",
+                        "description" : "Upon reaching 10 <span class=\"highlight\">Order</span> stacks, your <span class=\"highlight\">Shields</span> are restored to full.  Also, while at 10 or more <span class=\"highlight\">Order</span> stacks you gain improved <span class=\"highlight\">Melee 伤害, 枪械伤害, and Shield Recharge Delay</span> for each <span class=\"highlight\">Order</span> stack.  This skill also raises your <span class=\"highlight\">Order Stack Cap</span> by 5.",
                         "levels" : 1,
                         "position" : 7,
                         "stats" :
                             [
                                 {
-                                    "name" : "Melee Damage: +1.5% per Order stack"
+                                    "name" : "Melee 伤害: +1.5% per Order stack"
                                 },
                                 {
-                                    "name" : "Gun Damage: +1.0% per Order stack"
+                                    "name" : "枪械伤害: +1.0% per Order stack"
                                 },
 								{
                                     "name" : "Shield Recharge Delay: -1.5% per Order stack"
@@ -684,13 +684,13 @@
                     },
                     {
                         "name" : "Due Process",
-                        "description" : "After hitting an enemy with a <span class=\"highlight\">Melee Attack</span>, you deal increased <span class=\"highlight\">Gun Damage</span> with all gun types for a few seconds.",
+                        "description" : "After hitting an 敌人 with a <span class=\"highlight\">Melee Attack</span>, you deal increased <span class=\"highlight\">枪械伤害</span> with 所有枪械类型 for a few 秒.",
                         "levels" : 5,
                         "position" : 9,
                         "stats" :
                             [
                                 {
-                                    "name" : "Gun Damage: +[$]%",
+                                    "name" : "枪械伤害: +[$]%",
                                     "base" : "5",
                                     "multiply" : 1
                                 }
@@ -704,7 +704,7 @@
                     },
                     {
                         "name" : "Blood of the Guilty",
-                        "description" : "When you or an ally <span class=\"highlight\">kills an enemy</span>, you gain a stack of <span class=\"highlight\">Order</span> and have <span class=\"highlight\">5% of your health restored</span>.  This skill also raises your <span class=\"highlight\">Order Stack Cap</span> by 5.",
+                        "description" : "When you or an ally <span class=\"highlight\">kills an 敌人</span>, you gain a stack of <span class=\"highlight\">Order</span> and have <span class=\"highlight\">5% of your health restored</span>.  This skill also raises your <span class=\"highlight\">Order Stack Cap</span> by 5.",
                         "levels" : 1,
                         "position" : 10,
                         "stats" :
@@ -722,13 +722,13 @@
                     },
                     {
                         "name" : "Jurisdiction",
-                        "description" : "During <span class=\"highlight\">Showdown</span> you <span class=\"highlight\">Regenerate Health</span> and gain bonus <span class=\"highlight\">Movement Speed</span>.",
+                        "description" : "During <span class=\"highlight\">决斗</span> you <span class=\"highlight\">Regenerate Health</span> and gain 加成 <span class=\"highlight\">Movement Speed</span>.",
                         "levels" : 5,
                         "position" : 11,
                         "stats" :
                             [
                                 {
-                                    "name" : "Regenerates +[$]% of your Max Health / sec.",
+                                    "name" : "恢复 +[$]% 最大生命值/秒.",
                                     "base" : 0.8,
                                     "multiply" : 1
                                 },
@@ -747,13 +747,13 @@
                     },
                     {
                         "name" : "No Pain, No Gain",
-                        "description" : "Gain increased <span class=\"highlight\">Gun Damage</span> with all gun types based on how low your <span class=\"highlight\">Health</span> currently is.  The lower your Health the greater the <span class=\"highlight\">Gun Damage</span>.",
+                        "description" : "Gain increased <span class=\"highlight\">枪械伤害</span> with 所有枪械类型 based on how low your <span class=\"highlight\">Health</span> currently is.  The lower your Health the greater the <span class=\"highlight\">枪械伤害</span>.",
                         "levels" : 5,
                         "position" : 12,
                         "stats" :
                             [
                                 {
-                                    "name" : "Gun Damage:  Up to [$]%",
+                                    "name" : "枪械伤害:  Up to [$]%",
                                     "base" : "10",
                                     "multiply" : 1
                                 }
@@ -767,18 +767,18 @@
                     },
 					{
                         "name" : "Rarin' To Go",
-                        "description" : "<span class=\"highlight\">Kill Skill</span>.  Killing an enemy grants you bonus <span class=\"highlight\">Reload Speed</span> and <span class=\"highlight\">Gun Damage</span> based on the number of <span class=\"highlight\">Order</span> stacks you currently have.",
+                        "description" : "<span class=\"highlight\">击杀技</span>.  击杀敌人 grants you 加成 <span class=\"highlight\">装填速度</span> and <span class=\"highlight\">枪械伤害</span> based on the number of <span class=\"highlight\">Order</span> stacks you currently have.",
                         "levels" : 5,
                         "position" : 14,
                         "stats" :
                             [
                                 {
-                                    "name" : "Reload Speed:  +[$]% per Order stack",
+                                    "name" : "装填速度:  +[$]% per Order stack",
                                     "base" : "0.4",
                                     "multiply" : 1
                                 },
 								{
-                                    "name" : "Gun Damage:  +[$]% per Order stack",
+                                    "name" : "枪械伤害:  +[$]% per Order stack",
                                     "base" : "0.4",
                                     "multiply" : 1
                                 }
@@ -792,18 +792,18 @@
                     },
 					{
                         "name" : "Thunder Crackdown",
-                        "description" : "<span class=\"highlight\">Melee Override</span>. Your <span class=\"highlight\">Melee Attack</span> causes a large <span class=\"highlight\">cone-shaped Shock burst</span>, dealing increased damage for each <span class=\"highlight\">Order</span> stack.  This skill also raises your <span class=\"highlight\">Order Stack Cap</span> by 5.",
+                        "description" : "<span class=\"highlight\">Melee Override</span>. Your <span class=\"highlight\">Melee Attack</span> causes a large <span class=\"highlight\">cone-shaped Shock burst</span>, dealing increased 伤害 for each <span class=\"highlight\">Order</span> stack.  This skill also raises your <span class=\"highlight\">Order Stack Cap</span> by 5.",
                         "levels" : 1,
                         "position" : 16,
                         "stats" :
                             [
                                 {
-                                    "name" : "Cooldown: 15 seconds",
+                                    "name" : "冷却时间: 15 秒",
                                     "base" : "0.4",
                                     "multiply" : 1
                                 },
 								{
-                                    "name" : "Melee Damage: +25% per Order stack as Shock Damage",
+                                    "name" : "Melee 伤害: +25% per Order stack as Shock 伤害",
                                     "base" : "0.4",
                                     "multiply" : 1
                                 }
