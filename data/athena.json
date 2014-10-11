@@ -37,7 +37,7 @@
                 [
                     {
                         "name" : "Storm Weaving",
-                        "description" : "When you <span class=\"highlight\">swap weapons</span>, you gain <span class=\"highlight\">Storm Weaving</span>, increasing your <span class=\"highlight\">射速</span>  and <span class=\"highlight\">Elemental Effect</span>  chance for a short 持续时间.",
+                        "description" : "When you <span class=\"highlight\">切换 武器s</span>, you gain <span class=\"highlight\">Storm Weaving</span>, increasing your <span class=\"highlight\">射速</span>  and <span class=\"highlight\">Elemental Effect</span>  chance for a short 持续时间.",
                         "levels" : 4,
                         "position" : 0,
                         "stats" :
@@ -108,13 +108,13 @@
                     },
                     {
                         "name" : "Conduit",
-                        "description" : "While you have at least one <span class=\"highlight\">Electrocute Status Effect</span>  active, you regenerate a percentage of your <span class=\"highlight\">Shields</span>  every second for each stack of <span class=\"highlight\">Maelstrom</span>  you have.",
+                        "description" : "While you have at least one <span class=\"highlight\">Electrocute Status Effect</span>  active, you regenerate a percentage of your <span class=\"highlight\">护盾s</span>  every second for each stack of <span class=\"highlight\">Maelstrom</span>  you have.",
                         "levels" : 5,
                         "position" : 5,
                         "stats" :
                             [
                                 {
-                                    "name" : "Shield Regeneration per Second: +[$]%每层",
+                                    "name" : "护盾 Regeneration per Second: +[$]%每层",
                                     "base" : "0.02",
                                     "multiply" : 1
                                 }
@@ -149,14 +149,14 @@
                     },
                     {
                         "name" : "Unrelenting",
-                        "description" : "<span class=\"highlight\">击杀技</span>.  击杀敌人 增加 your <span class=\"highlight\">Weapon Swap Speed</span>  and <span class=\"highlight\">射速</span> for each stack of <span class=\"highlight\">Maelstrom</span>.",
+                        "description" : "<span class=\"highlight\">击杀技</span>.  击杀敌人 增加 your <span class=\"highlight\">武器 切换 Speed</span>  and <span class=\"highlight\">射速</span> for each stack of <span class=\"highlight\">Maelstrom</span>.",
                         "levels" : 5,
                         "position" : 8,
 
                         "stats" :
                             [
                                 {
-                                    "name" : "Weapon Swap Speed: +[$]%每层",
+                                    "name" : "武器 切换 Speed: +[$]%每层",
                                     "base" : "0.08",
                                     "multiply" : 1
                                 },
@@ -216,7 +216,7 @@
                     },
                     {
                         "name" : "Elemental Barrage",
-                        "description" : "While <span class=\"highlight\">Storm Weaving</span>  is active, your weapons have a chance to <span class=\"highlight\">not consume ammo</span>. This chance is increased for every <span class=\"highlight\">Maelstrom</span>  stack you have.",
+                        "description" : "While <span class=\"highlight\">Storm Weaving</span>  is active, your 武器s have a chance to <span class=\"highlight\">not consume ammo</span>. This chance is increased for every <span class=\"highlight\">Maelstrom</span>  stack you have.",
                         "levels" : 5,
                         "position" : 11,
                         "stats" :
@@ -366,13 +366,13 @@
                     },
                     {
                         "name" : "Mercurial",
-                        "description" : "<span class=\"highlight\">击杀技</span>. 击杀敌人 增加 <span class=\"highlight\">Movement Speed</span> and <span class=\"highlight\">伤害 Resistance</span> or a few 秒.",
+                        "description" : "<span class=\"highlight\">击杀技</span>. 击杀敌人 增加 <span class=\"highlight\">移动速度</span> and <span class=\"highlight\">伤害 Resistance</span> or a few 秒.",
                         "levels" : 5,
                         "position" : 3,
                         "stats" :
                             [
                                 {
-                                    "name" : "Movement Speed: +[$]%",
+                                    "name" : "移动速度: +[$]%",
                                     "base" : "4",
                                     "multiply" : 1
                                 },
@@ -421,7 +421,7 @@
                                     "name" : "Bleed 持续时间: 12 秒"
                                 },
 								{
-                                    "name" : "Deals up to 100% 加成 伤害 against targets with high Health"
+                                    "name" : "Deals 最多 100% 加成 伤害 against targets with high Health"
                                 }
                             ],
                         "assets" :
@@ -584,13 +584,13 @@
                     },
                     {
                         "name" : "Ephodos",
-                        "description" : "增加 <span class=\"highlight\">Movement Speed</span>  and <span class=\"highlight\">枪械伤害</span>  while 按住 the <span class=\"highlight\">Aspis</span>.",
+                        "description" : "增加 <span class=\"highlight\">移动速度</span>  and <span class=\"highlight\">枪械伤害</span>  while 按住 the <span class=\"highlight\">Aspis</span>.",
                         "levels" : 5,
                         "position" : 2,
                         "stats" :
                             [
                                 {
-                                    "name" : "Movement Speed: +[$]%",
+                                    "name" : "移动速度: +[$]%",
                                     "base" : "4",
                                     "multiply" : 1
                                 },
@@ -667,18 +667,18 @@
                     },
                     {
                         "name" : "United Front",
-                        "description" : "<span class=\"highlight\">伤害 Absorbed</span>  by the <span class=\"highlight\">Aspis</span> now provides power to the <span class=\"highlight\">Shields</span>  of you and your nearby friends. Also 增加 your <span class=\"highlight\">Maximum Shield Capacity</span>.",
+                        "description" : "<span class=\"highlight\">伤害 Absorbed</span>  by the <span class=\"highlight\">Aspis</span> now provides power to the <span class=\"highlight\">护盾s</span>  of you and your nearby friends. Also 增加 your <span class=\"highlight\">Maximum 护盾 Capacity</span>.",
                         "levels" : 5,
                         "position" : 9,
                         "stats" :
                             [
                                 {
-                                    "name" : "Shield Capacity: +[$]%",
+                                    "name" : "护盾 Capacity: +[$]%",
                                     "base" : 4,
                                     "multiply" : 1
                                 },
                                 {
-                                    "name" : "Converts [$]% of absorbed 伤害 into shield power",
+                                    "name" : "Converts [$]% of absorbed 伤害 into 护盾 power",
                                     "base" : 5,
                                     "multiply" : 1
                                 }
@@ -777,7 +777,7 @@
                     },
                     {
                         "name" : "Wrath of the Goddess",
-                        "description" : "The <span class=\"highlight\">Aspis</span> will <span class=\"highlight\">ricochet</span>  to up to 4 additional 敌人, each taking less 伤害 than the last. The <span class=\"highlight\">Aspis</span> will return to you after it hits the final 敌人.",
+                        "description" : "The <span class=\"highlight\">Aspis</span> will <span class=\"highlight\">ricochet</span>  to 最多 4 additional 敌人, each taking less 伤害 than the last. The <span class=\"highlight\">Aspis</span> will return to you after it hits the final 敌人.",
                         "levels" : 1,
                         "position" : 16,
                         "stats" :

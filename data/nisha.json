@@ -310,14 +310,14 @@
                 "skills" :
                 [
                     {
-                        "name" : "Saddle Up",
-                        "description" : "<span class=\"highlight\">击杀技</span>. 击杀敌人 grants you increased <span class=\"highlight\">Movement Speed</span> and <span class=\"highlight\">枪械伤害</span> for a short time.",
+                        "name" : "Saddle Up(上鞍)",
+                        "description" : "<span class=\"highlight\">击杀技</span>. 击杀敌人短时间增加<span class=\"highlight\">移动速度</span>和<span class=\"highlight\">枪械伤害</span>.",
                         "levels" : 5,
                         "position" : 0,
                         "stats" :
                             [
                                 {
-                                    "name" : "Movement Speed: +[$]%",
+                                    "name" : "移动速度: +[$]%",
                                     "base" : "4",
                                     "multiply" : 1
                                 },
@@ -335,14 +335,14 @@
                             ]
                     },
                     {
-                        "name" : "Ruthless",
-                        "description" : "Kills made during <span class=\"highlight\">决斗</span> extend its 持续时间.",
+                        "name" : "Ruthless(无情)",
+                        "description" : "<span class=\"highlight\">决斗</span>中的击杀延长其持续时间.",
                         "levels" : 5,
                         "position" : 2,
                         "stats" :
                             [
                                 {
-                                    "name" : "决斗 持续时间: +[$] second per kill",
+                                    "name" : "决斗 持续时间: +[$] 秒/击杀",
                                     "base" : ".1",
                                     "multiply" : 1
                                 }
@@ -355,8 +355,8 @@
                             ]
                     },
                     {
-                        "name" : "Magnificent Six",
-                        "description" : "The <span class=\"highlight\">last 6 bullets</span> in <span class=\"highlight\">非元素 Weapon</span> clips deal extra <span class=\"highlight\">伤害</span>.",
+                        "name" : "Magnificent Six(六宏伟)",
+                        "description" : "<span class=\"highlight\">非元素武器</span>的<span class=\"highlight\">最后6发</span>获得额外<span class=\"highlight\">伤害</span>.",
                         "levels" : 5,
                         "position" : 3,
                         "stats" :
@@ -375,24 +375,24 @@
                             ]
                     },
                     {
-                        "name" : "Bottled Courage",
-                        "description" : "When <span class=\"highlight\">决斗</span> begins, a portion of your <span class=\"highlight\">Shield</span> is instantly restored.  Also, while <span class=\"highlight\">决斗</span> is <span class=\"highlight\">Cooling Down</span>, you gain improved <span class=\"highlight\">Shield Recharge Rate</span> and <span class=\"highlight\">Shield Recharge Delay</span>. ",
+                        "name" : "Bottled Courage(瓶装勇气)",
+                        "description" : "<span class=\"highlight\">决斗</span>开始时, 立即恢复一部分<span class=\"highlight\">护盾</span>.  并且, 在<span class=\"highlight\">决斗冷却期间</span>, 提升<span class=\"highlight\">护盾充能速率</span>和<span class=\"highlight\">护盾充能延迟</span>. ",
                         "levels" : 5,
                         "position" : 5,
                         "stats" :
                             [
                                 {
-                                    "name" : "决斗 restores: [$]% of shields",
+                                    "name" : "决斗 恢复: [$]% of 护盾",
                                     "base" : "10",
                                     "multiply" : 1
                                 },
 								{
-                                    "name" : "Shield Recharge Rate: +[$]%",
+                                    "name" : "护盾充能速率: +[$]%",
                                     "base" : "7",
                                     "multiply" : 1
                                 },
 								{
-                                    "name" : "Shield Recharge Delay: -[$]%",
+                                    "name" : "护盾充能延迟: -[$]%",
                                     "base" : "7",
                                     "multiply" : 1
                                 }
@@ -405,14 +405,14 @@
                             ]
                     },
                     {
-                        "name" : "Short Fused",
-                        "description" : "<span class=\"highlight\">击杀技</span>.  After 击杀敌人, all your shots deal 加成 <span class=\"highlight\">Explosive 伤害</span> for a short time.  The closer the 敌人 is to you, the higher the 伤害.",
+                        "name" : "Short Fused(短保险)",
+                        "description" : "<span class=\"highlight\">击杀技</span>.  击杀敌人后, 短时间内所有攻击造成额外<span class=\"highlight\">爆炸伤害</span>.  敌人越近伤害越大.",
                         "levels" : 1,
                         "position" : 7,
                         "stats" :
                             [
                                 {
-                                    "name" : "Up to +35% Weapon 伤害 as Explosive 伤害"
+                                    "name" : "最多 +35% 武器伤害 作为 爆炸伤害"
                                 }
                             ],
                         "assets" :
@@ -423,8 +423,8 @@
                             ]
                     },
                     {
-                        "name" : "Faster 'n You",
-                        "description" : "<span class=\"highlight\">击杀技</span>. 击杀敌人 greatly improves your <span class=\"highlight\">装填速度</span>, <span class=\"highlight\">Weapon Swap</span> speed, and <span class=\"highlight\">射速</span> for a short 持续时间.",
+                        "name" : "Faster 'n You(比你快)",
+                        "description" : "<span class=\"highlight\">击杀技</span>. 击杀敌人短时间内极大提高<span class=\"highlight\">装填速度</span>, <span class=\"highlight\">武器切换</span>速度, 和<span class=\"highlight\">射速</span>.",
                         "levels" : 5,
                         "position" : 9,
                         "stats" :
@@ -435,7 +435,7 @@
                                     "multiply" : 1
                                 },
 								{
-                                    "name" : "Weapon Swap Speed: +[$]%",
+                                    "name" : "武器切换速度: +[$]%",
                                     "base" : "7",
                                     "multiply" : 1
                                 },{
@@ -452,14 +452,14 @@
                             ]
                     },
                     {
-                        "name" : "Pickpocket",
-                        "description" : "Your <span class=\"highlight\">Melee Attack</span> steals up to 6 bullets from your 敌人 and <span class=\"highlight\">instantly loads them into your current gun's magazine</span>. There is a 冷却时间 for this skill. Does not work with <span class=\"highlight\">Rocket Launcher</span> ammo.",
+                        "name" : "Pickpocket(扒窃)",
+                        "description" : "<span class=\"highlight\">近战</span>可从敌人身上窃取多达6发子弹, 并且<span class=\"highlight\">马上装填入当前武器弹夹</span>. 有冷却时间. 对<span class=\"highlight\">火箭炮</span>无效.",
                         "levels" : 1,
                         "position" : 10,
                         "stats" :
                             [
                                 {
-                                    "name" : "\"You won’t be needing this…\""
+                                    "name" : "\"你不需要这些…\""
                                 }
                             ],
                         "assets" :
@@ -470,14 +470,14 @@
                             ]
                     },
                     {
-                        "name" : "Gunslinger",
-                        "description" : "When <span class=\"highlight\">决斗</span> begins and ends, a portion of your gun is <span class=\"highlight\">instantly reloaded</span>.",
+                        "name" : "Gunslinger(快枪手)",
+                        "description" : "<span class=\"highlight\">决斗</span>开始和结束时, 部分枪支<span class=\"highlight\">立即填装</span>.",
                         "levels" : 5,
                         "position" : 11,
                         "stats" :
                             [
                                 {
-                                    "name" : "Up to [$] ammo added",
+                                    "name" : "最多 [$] 发子弹",
                                     "base" : "1",
                                     "multiply" : 1
                                 }
@@ -490,14 +490,14 @@
                             ]
                     },
                     {
-                        "name" : "Hell's Comin' With Me!",
-                        "description" : "After <span class=\"highlight\">换弹夹</span> or reaching your maximum clip via <span class=\"highlight\">Pickpocket</span>, for a short 持续时间 your gun has a chance to <span class=\"highlight\">fire twice</span>.",
+                        "name" : "Hell's Comin' With Me!(额外一击)",
+                        "description" : "<span class=\"highlight\">换弹夹</span>后, 或者通过<span class=\"highlight\">Pickpocket(扒窃)</span>填装满子弹, 短时间内枪械有几率<span class=\"highlight\">二连发</span>.",
                         "levels" : 5,
                         "position" : 12,
                         "stats" :
                             [
                                 {
-                                    "name" : "Extra Shot 几率: [$]%",
+                                    "name" : "额外一击几率: [$]%",
                                     "base" : "9",
                                     "multiply" : 1
                                 }
@@ -510,14 +510,14 @@
                             ]
                     },
                     {
-                        "name" : "High Noon",
-                        "description" : "You gain a 加成 to <span class=\"highlight\">枪械伤害</span> the longer you are in <span class=\"highlight\">决斗</span>.",
+                        "name" : "High Noon(正午)",
+                        "description" : "<span class=\"highlight\">决斗</span>越长, 获得越多的<span class=\"highlight\">枪械伤害</span>.",
                         "levels" : 5,
                         "position" : 14,
                         "stats" :
                             [
                                 {
-                                    "name" : "枪械伤害:  +[$]% / sec",
+                                    "name" : "枪械伤害:  +[$]% / 秒",
                                     "base" : "3",
                                     "multiply" : 1
                                 }
@@ -530,14 +530,14 @@
                             ]
                     },
                     {
-                        "name" : "One for Each of Ya",
-                        "description" : "When using a <span class=\"highlight\">Pistol</span>, you get an exact copy of that gun in your offhand.  While using <span class=\"highlight\">Ironsights</span>, you shoot with your main hand only.<br> ",
+                        "name" : "One for Each of Ya(人手一个)",
+                        "description" : "使用<span class=\"highlight\">手枪</span>时, 副手会获得一把复制品.  使用<span class=\"highlight\">机械瞄具</span>的话, 只能主手射击.<br> ",
                         "levels" : 1,
                         "position" : 16,
                         "stats" :
                             [
                                 {
-                                    "name" : "\"Fill yer hands, you son of a female skag!\""
+                                    "name" : "\"手别空着, 你个skag养的!\""
                                 }
                             ],
                         "assets" :
@@ -556,13 +556,13 @@
                 [
                     {
                         "name" : "Law",
-                        "description" : "增加 your <span class=\"highlight\">Shield Capacity</span> and <span class=\"highlight\">Melee 伤害</span>.",
+                        "description" : "增加 your <span class=\"highlight\">护盾 Capacity</span> and <span class=\"highlight\">Melee 伤害</span>.",
                         "levels" : 4,
                         "position" : 0,
                         "stats" :
                             [
                                 {
-                                    "name" : "Shield Capacity: +[$]%",
+                                    "name" : "护盾 Capacity: +[$]%",
                                     "base" : "5",
                                     "multiply" : 1
                                 },
@@ -602,7 +602,7 @@
                     },
                     {
                         "name" : "The Third Degree",
-                        "description" : "When <span class=\"highlight\">决斗</span> ends or upon 击杀敌人, you gain increased <span class=\"highlight\">伤害</span> with your next <span class=\"highlight\">Melee Attack</span>.  This effect can stack up to 5 times.",
+                        "description" : "When <span class=\"highlight\">决斗</span> ends or upon 击杀敌人, you gain increased <span class=\"highlight\">伤害</span> with your next <span class=\"highlight\">近战</span>.  This effect can stack 最多 5 times.",
                         "levels" : 5,
                         "position" : 3,
                         "stats" :
@@ -660,7 +660,7 @@
                     },
                     {
                         "name" : "Discipline",
-                        "description" : "Upon reaching 10 <span class=\"highlight\">Order</span> stacks, your <span class=\"highlight\">Shields</span> are restored to full.  Also, while at 10 or more <span class=\"highlight\">Order</span> stacks you gain improved <span class=\"highlight\">Melee 伤害, 枪械伤害, and Shield Recharge Delay</span> for each <span class=\"highlight\">Order</span> stack.  This skill also raises your <span class=\"highlight\">Order Stack Cap</span> by 5.",
+                        "description" : "Upon reaching 10 <span class=\"highlight\">Order</span> stacks, your <span class=\"highlight\">护盾s</span> are restored to full.  Also, while at 10 or more <span class=\"highlight\">Order</span> stacks you gain improved <span class=\"highlight\">Melee 伤害, 枪械伤害, and 护盾充能延迟</span> for each <span class=\"highlight\">Order</span> stack.  This skill also raises your <span class=\"highlight\">Order Stack Cap</span> by 5.",
                         "levels" : 1,
                         "position" : 7,
                         "stats" :
@@ -672,7 +672,7 @@
                                     "name" : "枪械伤害: +1.0% per Order stack"
                                 },
 								{
-                                    "name" : "Shield Recharge Delay: -1.5% per Order stack"
+                                    "name" : "护盾充能延迟: -1.5% per Order stack"
                                 }
                             ],
                         "assets" :
@@ -684,7 +684,7 @@
                     },
                     {
                         "name" : "Due Process",
-                        "description" : "After hitting an 敌人 with a <span class=\"highlight\">Melee Attack</span>, you deal increased <span class=\"highlight\">枪械伤害</span> with 所有枪械类型 for a few 秒.",
+                        "description" : "After hitting an 敌人 with a <span class=\"highlight\">近战</span>, you deal increased <span class=\"highlight\">枪械伤害</span> with 所有枪械类型 for a few 秒.",
                         "levels" : 5,
                         "position" : 9,
                         "stats" :
@@ -722,7 +722,7 @@
                     },
                     {
                         "name" : "Jurisdiction",
-                        "description" : "During <span class=\"highlight\">决斗</span> you <span class=\"highlight\">Regenerate Health</span> and gain 加成 <span class=\"highlight\">Movement Speed</span>.",
+                        "description" : "During <span class=\"highlight\">决斗</span> you <span class=\"highlight\">Regenerate Health</span> and gain 加成 <span class=\"highlight\">移动速度</span>.",
                         "levels" : 5,
                         "position" : 11,
                         "stats" :
@@ -733,7 +733,7 @@
                                     "multiply" : 1
                                 },
 								{
-                                    "name" : "Movement Speed +[$]%",
+                                    "name" : "移动速度 +[$]%",
                                     "base" : 4,
                                     "multiply" : 1
                                 }
@@ -753,7 +753,7 @@
                         "stats" :
                             [
                                 {
-                                    "name" : "枪械伤害:  Up to [$]%",
+                                    "name" : "枪械伤害:  最多 [$]%",
                                     "base" : "10",
                                     "multiply" : 1
                                 }
@@ -792,7 +792,7 @@
                     },
 					{
                         "name" : "Thunder Crackdown",
-                        "description" : "<span class=\"highlight\">Melee Override</span>. Your <span class=\"highlight\">Melee Attack</span> causes a large <span class=\"highlight\">cone-shaped Shock burst</span>, dealing increased 伤害 for each <span class=\"highlight\">Order</span> stack.  This skill also raises your <span class=\"highlight\">Order Stack Cap</span> by 5.",
+                        "description" : "<span class=\"highlight\">Melee Override</span>. Your <span class=\"highlight\">近战</span> causes a large <span class=\"highlight\">cone-shaped Shock burst</span>, dealing increased 伤害 for each <span class=\"highlight\">Order</span> stack.  This skill also raises your <span class=\"highlight\">Order Stack Cap</span> by 5.",
                         "levels" : 1,
                         "position" : 16,
                         "stats" :

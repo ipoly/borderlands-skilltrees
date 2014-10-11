@@ -9,7 +9,7 @@
         "class" :
             {
                 "name" : "Wolf and Saint",
-                "description" : "<span class=\"highlight\">主动技</span>.  按 [LB/L1/F] to summon <span class=\"highlight\">Wolf</span> and <span class=\"highlight\">Saint</span>, your trusty combat drones.  <span class=\"highlight\">Wolf</span> will roam and attack 敌人, while <span class=\"highlight\">Saint</span> will stay close to you and replenish your <span class=\"highlight\">Health</span>. <span class=\"highlight\">Saint</span> has a protective shield, but <span class=\"highlight\">Wolf</span> can be damaged by 敌人. 按 and hold [LB/L1/F] to recall <span class=\"highlight\">Wolf</span> and <span class=\"highlight\">Saint</span> and have some of your <span class=\"highlight\">冷却时间</span> refunded.",
+                "description" : "<span class=\"highlight\">主动技</span>.  按 [LB/L1/F] to summon <span class=\"highlight\">Wolf</span> and <span class=\"highlight\">Saint</span>, your trusty combat drones.  <span class=\"highlight\">Wolf</span> will roam and attack 敌人, while <span class=\"highlight\">Saint</span> will stay close to you and replenish your <span class=\"highlight\">Health</span>. <span class=\"highlight\">Saint</span> has a protective 护盾, but <span class=\"highlight\">Wolf</span> can be damaged by 敌人. 按 and hold [LB/L1/F] to recall <span class=\"highlight\">Wolf</span> and <span class=\"highlight\">Saint</span> and have some of your <span class=\"highlight\">冷却时间</span> refunded.",
                 "stats" :
                     [
 						{
@@ -97,13 +97,13 @@
                     },
                     {
                         "name" : "Energize",
-                        "description" : "<span class=\"highlight\">Saint Ability</span>. <span class=\"highlight\">Saint</span> will occasionally boost the <span class=\"highlight\">Shields</span> of you and your friends. Additionally, <span class=\"highlight\">Saint</span> gains an increase to the rate which he <span class=\"highlight\">恢复 your health</span>.",
+                        "description" : "<span class=\"highlight\">Saint Ability</span>. <span class=\"highlight\">Saint</span> will occasionally boost the <span class=\"highlight\">护盾s</span> of you and your friends. Additionally, <span class=\"highlight\">Saint</span> gains an increase to the rate which he <span class=\"highlight\">恢复 your health</span>.",
                         "levels" : 5,
                         "position" : 3,
                         "stats" :
                             [
                                 {
-                                    "name" : "Occasionally restores : +[$]% of shield capacity",
+                                    "name" : "Occasionally restores : +[$]% of 护盾 capacity",
                                     "base" : "8",
                                     "multiply" : 1
                                 },
@@ -122,18 +122,18 @@
                     },
                     {
                         "name" : "Heatsinks",
-                        "description" : "Improves <span class=\"highlight\">Shield Recharge Rate</span> and <span class=\"highlight\">Shield Recharge Delay</span>. This 加成 is doubled while <span class=\"highlight\">Wolf and Saint</span> are on 冷却时间.",
+                        "description" : "Improves <span class=\"highlight\">护盾充能速率</span> and <span class=\"highlight\">护盾充能延迟</span>. This 加成 is doubled while <span class=\"highlight\">Wolf and Saint</span> are on 冷却时间.",
                         "levels" : 5,
                         "position" : 5,
                         "stats" :
                             [
                                 {
-                                    "name" : "Shield Recharge Rate: +[$]%",
+                                    "name" : "护盾充能速率: +[$]%",
                                     "base" : "6",
                                     "multiply" : 1
                                 },
 								{
-                                    "name" : "Shield Recharge Delay: -[$]%",
+                                    "name" : "护盾充能延迟: -[$]%",
                                     "base" : "4",
                                     "multiply" : 1,
 									"sequence" : ["4","7","11","14","17"]
@@ -148,7 +148,7 @@
                     },
                     {
                         "name" : "Termination Protocols",
-                        "description" : "<span class=\"highlight\">Fight For Your Life</span> is replaced by <span class=\"highlight\">Termination Protocols</span>. During <span class=\"highlight\">Termination Protocols</span> you can walk at a reduced speed, fire your weapons, and you constantly <span class=\"highlight\">shock</span> nearby 敌人. If the timer runs out, your power core goes critical, releasing a <span class=\"highlight\">Nuclear Explosion</span>.",
+                        "description" : "<span class=\"highlight\">Fight For Your Life</span> is replaced by <span class=\"highlight\">Termination Protocols</span>. During <span class=\"highlight\">Termination Protocols</span> you can walk at a reduced speed, fire your 武器s, and you constantly <span class=\"highlight\">shock</span> nearby 敌人. If the timer runs out, your power core goes critical, releasing a <span class=\"highlight\">Nuclear Explosion</span>.",
                         "levels" : 1,
                         "position" : 7,
                         "stats" :
@@ -166,13 +166,13 @@
                     },
                     {
                         "name" : "Rapid Reinforcement",
-                        "description" : "<span class=\"highlight\">击杀技</span>. 击杀敌人 增加 your <span class=\"highlight\">冷却时间 Rate</span> for <span class=\"highlight\">Wolf and Saint</span> and 增加 your <span class=\"highlight\">Movement Speed</span> and <span class=\"highlight\">装填速度</span> for a short time.",
+                        "description" : "<span class=\"highlight\">击杀技</span>. 击杀敌人 增加 your <span class=\"highlight\">冷却时间 Rate</span> for <span class=\"highlight\">Wolf and Saint</span> and 增加 your <span class=\"highlight\">移动速度</span> and <span class=\"highlight\">装填速度</span> for a short time.",
                         "levels" : 5,
                         "position" : 9,
                         "stats" :
                             [
                                 {
-                                    "name" : "Movement Speed: +[$]%",
+                                    "name" : "移动速度: +[$]%",
                                     "base" : "3",
                                     "multiply" : 1
                                 },
@@ -242,7 +242,7 @@
                     },
                     {
                         "name" : "Kinetic Armor",
-                        "description" : "增加 your <span class=\"highlight\">Maximum Health</span>. Additionally, <span class=\"highlight\">close range</span> attackers have a chance to be struck by <span class=\"highlight\">Explosive Feedback</span>.  The closer the 敌人 is to you the more likely he is to be struck.",
+                        "description" : "增加 your <span class=\"highlight\">Maximum Health</span>. Additionally, <span class=\"highlight\">close range</span> attackers have a chance to be struck by <span class=\"highlight\">爆炸 Feedback</span>.  The closer the 敌人 is to you the more likely he is to be struck.",
                         "levels" : 5,
                         "position" : 12,
                         "stats" :
@@ -253,7 +253,7 @@
                                     "multiply" : 1
                                 },
                                 {
-                                    "name" : "Explosive Feedback: Up to [$]% chance",
+                                    "name" : "爆炸 Feedback: 最多 [$]% chance",
                                     "base" : "5",
                                     "multiply" : 1
                                 }
@@ -290,13 +290,13 @@
                     },
 					{
                         "name" : "Overcharge",
-                        "description" : "<span class=\"highlight\">Saint Ability</span>. Immediately after being summoned, <span class=\"highlight\">Saint</span> will release an <span class=\"highlight\">Energy Wave</span> that will <span class=\"highlight\">Overcharge</span> you and any nearby friends for a short 持续时间. <span class=\"highlight\">Overcharged</span> players gain increased <span class=\"highlight\">Movement Speed</span>, <span class=\"highlight\">射速</span>, <span class=\"highlight\">装填速度</span>, and <span class=\"highlight\">Ammo Regeneration</span>.",
+                        "description" : "<span class=\"highlight\">Saint Ability</span>. Immediately after being summoned, <span class=\"highlight\">Saint</span> will release an <span class=\"highlight\">Energy Wave</span> that will <span class=\"highlight\">Overcharge</span> you and any nearby friends for a short 持续时间. <span class=\"highlight\">Overcharged</span> players gain increased <span class=\"highlight\">移动速度</span>, <span class=\"highlight\">射速</span>, <span class=\"highlight\">装填速度</span>, and <span class=\"highlight\">Ammo Regeneration</span>.",
                         "levels" : 1,
                         "position" : 16,
                         "stats" :
                             [
 								{
-                                    "name" : "Movement Speed: +15%",
+                                    "name" : "移动速度: +15%",
                                     "base" : "1",
                                     "multiply" : 1
                                 },
@@ -339,7 +339,7 @@
                 [
                     {
                         "name" : "Laser Focus",
-                        "description" : "增加 <span class=\"highlight\">枪械伤害</span> and <span class=\"highlight\">弹夹容量</span> with all <span class=\"highlight\">Laser Weapons</span>.",
+                        "description" : "增加 <span class=\"highlight\">枪械伤害</span> and <span class=\"highlight\">弹夹容量</span> with all <span class=\"highlight\">Laser 武器s</span>.",
                         "levels" : 5,
                         "position" : 0,
                         "stats" :
@@ -365,13 +365,13 @@
                     },
                     {
                         "name" : "Man and Machine",
-                        "description" : "增加 <span class=\"highlight\">Shield Capacity</span> and <span class=\"highlight\">Maximum Health</span> for you and <span class=\"highlight\">Wolf</span>.",
+                        "description" : "增加 <span class=\"highlight\">护盾 Capacity</span> and <span class=\"highlight\">Maximum Health</span> for you and <span class=\"highlight\">Wolf</span>.",
                         "levels" : 5,
                         "position" : 2,
                         "stats" :
                             [
                                 {
-                                    "name" : "Shield Capacity: +[$]%",
+                                    "name" : "护盾 Capacity: +[$]%",
                                     "base" : "3",
                                     "multiply" : 1
                                 },
@@ -381,7 +381,7 @@
                                     "multiply" : 1
                                 },
 								{
-                                    "name" : "Wolf Shield Capacity: +[$]%",
+                                    "name" : "Wolf 护盾 Capacity: +[$]%",
                                     "base" : "5",
                                     "multiply" : 1
                                 },
@@ -445,7 +445,7 @@
                     },
                     {
                         "name" : "Power Fist",
-                        "description" : "<font color=\"#feba36\">Cyborg Augmentation: Arm. </font> <br><span class=\"highlight\">Melee Override</span>. 按 (RS/V) to perform an <span class=\"highlight\">explosive punch</span> with <span class=\"highlight\">extended range</span>. This ability has a 冷却时间.",
+                        "description" : "<font color=\"#feba36\">Cyborg Augmentation: Arm. </font> <br><span class=\"highlight\">Melee Override</span>. 按 (RS/V) to perform an <span class=\"highlight\">爆炸 punch</span> with <span class=\"highlight\">extended range</span>. This ability has a 冷却时间.",
                         "levels" : 1,
                         "position" : 7,
                         "stats" :
@@ -466,7 +466,7 @@
                     },
                     {
                         "name" : "Emergency Response",
-                        "description" : "<span class=\"highlight\">Emergency Response</span> is 启动d whenever your <span class=\"highlight\">Shield</span> becomes depleted, increasing your <span class=\"highlight\">射速</span> and <span class=\"highlight\">装填速度</span>, and <span class=\"highlight\">Wolf's 射速</span>, for a short 持续时间. Your <span class=\"highlight\">Shield</span> must fully recharge between activations.",
+                        "description" : "<span class=\"highlight\">Emergency Response</span> is 启动d whenever your <span class=\"highlight\">护盾</span> becomes depleted, increasing your <span class=\"highlight\">射速</span> and <span class=\"highlight\">装填速度</span>, and <span class=\"highlight\">Wolf's 射速</span>, for a short 持续时间. Your <span class=\"highlight\">护盾</span> must fully recharge between activations.",
                         "levels" : 5,
                         "position" : 9,
                         "stats" :
@@ -519,7 +519,7 @@
                     },
                     {
                         "name" : "Divert Power",
-                        "description" : "When your <span class=\"highlight\">Shields</span> are depleted and your <span class=\"highlight\">Health</span> is low, taking <span class=\"highlight\">伤害</span> causes you to gain massive <span class=\"highlight\">Shield Regeneration</span> and <span class=\"highlight\">伤害 Resistance</span> for a few 秒. This ability has a 冷却时间.",
+                        "description" : "When your <span class=\"highlight\">护盾s</span> are depleted and your <span class=\"highlight\">Health</span> is low, taking <span class=\"highlight\">伤害</span> causes you to gain massive <span class=\"highlight\">护盾 Regeneration</span> and <span class=\"highlight\">伤害 Resistance</span> for a few 秒. This ability has a 冷却时间.",
                         "levels" : 5,
                         "position" : 11,
                         "stats" :
@@ -547,7 +547,7 @@
 									"sequence":["50.0", "66.7", "75.0", "80.0", "83.3"]
                                 },
 								{
-                                    "name" : "Recharges [$]% of your shield",
+                                    "name" : "Recharges [$]% of your 护盾",
                                     "base" : "20",
                                     "multiply" : 1
                                 }
@@ -587,7 +587,7 @@
                         "stats" :
                             [
                                 {
-                                    "name" : "Weapon 伤害:  +[$]%",
+                                    "name" : "武器 伤害:  +[$]%",
                                     "base" : "3",
                                     "multiply" : 1
                                 },
@@ -624,7 +624,7 @@
                     },
                     {
                         "name" : "Vengeance Cannon",
-                        "description" : "<font color=\"#feba36\">Cyborg Augmentation: Weapon.</font><br>Whenever your <span class=\"highlight\">Shield</span> becomes depleted, you 启动 your shoulder-mounted <span class=\"highlight\">Vengeance Cannon</span>. The <span class=\"highlight\">Vengeance Cannon</span> fires <span class=\"highlight\">燃烧 Laser Blasts</span> in tandem with your equipped weapon and lasts for a short period of time. Your <span class=\"highlight\">Shield</span> must fully recharge between activations.",
+                        "description" : "<font color=\"#feba36\">Cyborg Augmentation: 武器.</font><br>Whenever your <span class=\"highlight\">护盾</span> becomes depleted, you 启动 your shoulder-mounted <span class=\"highlight\">Vengeance Cannon</span>. The <span class=\"highlight\">Vengeance Cannon</span> fires <span class=\"highlight\">燃烧 Laser Blasts</span> in tandem with your equipped 武器 and lasts for a short period of time. Your <span class=\"highlight\">护盾</span> must fully recharge between activations.",
                         "levels" : 1,
                         "position" : 16,
                         "stats" :
@@ -685,7 +685,7 @@
                         "stats" :
                             [
                                 {
-                                    "name" : "Weapon 伤害: +[$]%",
+                                    "name" : "武器 伤害: +[$]%",
                                     "base" : "3",
                                     "multiply" : 1
                                 },
@@ -805,7 +805,7 @@
                     },
                     {
                         "name" : "Kill Switch",
-                        "description" : "<span class=\"highlight\">Wolf Ability</span>. Whenever <span class=\"highlight\">Wolf</span> is <span class=\"highlight\">recalled</span>, runs out of <span class=\"highlight\">Health</span>, or <span class=\"highlight\">expires</span>, it will dive bomb 敌人 with <span class=\"highlight\">explosive</span> effect!",
+                        "description" : "<span class=\"highlight\">Wolf Ability</span>. Whenever <span class=\"highlight\">Wolf</span> is <span class=\"highlight\">recalled</span>, runs out of <span class=\"highlight\">Health</span>, or <span class=\"highlight\">expires</span>, it will dive bomb 敌人 with <span class=\"highlight\">爆炸</span> effect!",
                         "levels" : 1,
                         "position" : 10,
                         "stats" :
@@ -844,7 +844,7 @@
                     },
                     {
                         "name" : "Cold War",
-                        "description" : "When you apply a <span class=\"highlight\">Shock</span>, <span class=\"highlight\">燃烧</span>, or <span class=\"highlight\">Corrosive status effect</span> to an 敌人, there is a chance for the target to <span class=\"highlight\">freeze</span>. Additionally, you gain increased <span class=\"highlight\">status effect chance</span> when using <span class=\"highlight\">Cryo</span> weapons.",
+                        "description" : "When you apply a <span class=\"highlight\">Shock</span>, <span class=\"highlight\">燃烧</span>, or <span class=\"highlight\">Corrosive status effect</span> to an 敌人, there is a chance for the target to <span class=\"highlight\">freeze</span>. Additionally, you gain increased <span class=\"highlight\">status effect chance</span> when using <span class=\"highlight\">Cryo</span> 武器s.",
                         "levels" : 5,
                         "position" : 12,
                         "stats" :
@@ -855,7 +855,7 @@
                                     "multiply" : 1
                                 },
 								{
-                                    "name" : "Cryo Weapon Freeze Chance: +[$]%",
+                                    "name" : "Cryo 武器 Freeze Chance: +[$]%",
                                     "base" : 2,
                                     "multiply" : 1
                                 }
