@@ -1,0 +1,575 @@
+@font-face {
+  font-family: 'Willow Body';
+  src: url("http://borderlandsthegame.com/skilltrees/fonts/willowbody_0-webfont.eot");
+  src: url("../fonts/willowbody_0-webfont.eot") format('embedded-opentype'), url("../fonts/willowbody_0-webfont.woff") format('woff'), url("../fonts/willowbody_0-webfont.ttf") format('truetype'), url("../fonts/willowbody_0-webfont.svg") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Willow Head';
+  src: url("http://borderlandsthegame.com/skilltrees/fonts/willowhead_0-webfont.eot");
+  src: url("../fonts/willowhead_0-webfont.eot") format('embedded-opentype'), url("../fonts/willowhead_0-webfont.woff") format('woff'), url("../fonts/willowhead_0-webfont.ttf") format('truetype'), url("../fonts/willowhead_0-webfont.svg") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  background: #000 url("https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/page_bg.jpg") top center no-repeat;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  overflow-x: hidden;
+  background-attachment: fixed;
+}
+img[usemap], map area{
+    outline: none;
+}
+#techtree { 
+  width: 960px;
+  height: 750px;
+  margin: 0 auto;
+  position: relative;
+  overflow: visible;
+}
+#footer {
+  background: url("https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/footer_2.png") center bottom no-repeat;
+  width: 100%;
+  height: 325px;
+  margin: 50px auto;
+  
+}
+#footer_text {
+		width:700px;
+  		margin: 40px auto;
+		font-family:Arial, Helvetica, sans-serif; font-size:10px; color:#ffffff; text-align:center;
+  
+}
+#header {
+  width: 960px;
+  height: 160px;
+  margin: 0 auto;
+  position: relative;
+}
+#header .logo {
+  width: 573px;
+  height: 143px;
+  position: absolute;
+  background: url("https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/logo.png") center no-repeat;
+  left: 95px;
+  display: none;
+  margin-top:10px;
+}
+#content {
+  width: 960px;
+  height: 580px;
+  margin: 0 auto;
+  position: relative;
+}
+#content #preloader {
+  width: 468px;
+  height: 75px;
+  position: absolute;
+  top: 240px;
+  left: 247px;
+}
+#content #preloader .plate {
+  background: url("http://downloads.2kgames.com/borderlands2/skilltree/images/preloader_plate.png") center no-repeat;
+  width: 468px;
+  height: 75px;
+  position: absolute;
+}
+#content #preloader .bar {
+  background: url("http://downloads.2kgames.com/borderlands2/skilltree/images/preloader_bar.png") left no-repeat;
+  width: 0px;
+  height: 75px;
+  position: absolute;
+}
+#content #preloader .backplate {
+  background: url("http://downloads.2kgames.com/borderlands2/skilltree/images/preloader_back_plate.png") left no-repeat;
+  width: 468px;
+  height: 75px;
+  position: absolute;
+}
+#content #reset {
+  display: none;
+  width: 280px;
+  height: 90px;
+  top: 530px;
+  left: 105px;
+  position: absolute;
+}
+#content #reset .instructions {
+  font-family: "Willow Body";
+  font-size: 20px;
+  color: #fff;
+  width: 500px;
+  height: 30px;
+  text-align: left;
+  -webkit-text-shadow: 0px 0px 4px #000;
+  -moz-text-shadow: 0px 0px 4px #000;
+  text-shadow: 0px 0px 4px #000;
+}
+#content #reset .button {
+  background: url("http://downloads.2kgames.com/borderlands2/skilltree/images/reset.png") center top no-repeat;
+  width: 100px;
+  height: 33px;
+  cursor: pointer;
+  padding: 0 190px;
+}
+#content #share {
+  width: 350px;
+  height: 29px;
+  top: 630px;
+  left: 187px;
+  position: absolute;
+  display: none;
+  filter: inherit;
+}
+#content #share div {
+  font-family: "Willow Body";
+  font-size: 20px;
+  color: #fff;
+  height: 29px;
+  text-align: center;
+  -webkit-text-shadow: 0px 0px 4px #000;
+  -moz-text-shadow: 0px 0px 4px #000;
+  text-shadow: 0px 0px 4px #000;
+  float: left;
+}
+#content #share div a {
+  color: #fff;
+  text-decoration: none;
+}
+#content #share div a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+#content #share div.preorder {
+  width: 180px;
+  padding-left: 0px;
+}
+#content #share div.share {
+  width: 80px;
+}
+#content #share img {
+  float: left;
+  padding: 0px 3px;
+  border: none;
+}
+/* new addition */
+
+#content #share2 div {
+  font-family: "Willow Body";
+  font-size: 15px;
+  color: #fff;
+  height: 29px;
+  text-align: center;
+  -webkit-text-shadow: 0px 0px 4px #000;
+  -moz-text-shadow: 0px 0px 4px #000;
+  text-shadow: 0px 0px 4px #000;
+  float: left;
+}
+#content #share2 div a {
+  color: #fff;
+  text-decoration: none;
+}
+#content #share2 div a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+ #content #share2 div.choose {
+  width: 500px;
+padding-top: 30px;
+  position: absolute;
+  top: 30px;
+  left: -110px;
+ }
+ 
+/* new addition */
+#content .points-overlay {
+  width: 39px;
+  height: 21px;
+  font-family: "Willow Body";
+  font-size: 13px;
+  text-align: center;
+  cursor: pointer;
+  line-height: 23px;
+  pointer-events: none;
+}
+#content .points-overlay.gray {
+  background: url("http://downloads.2kgames.com/borderlands2/skilltree/images/points_overlay.png");
+  color: #fff;
+}
+#content .points-overlay.orange {
+  background: url("http://downloads.2kgames.com/borderlands2/skilltree/images/points_overlay_orange.png");
+  color: #d46a00;
+}
+#content .points-overlay.green {
+  background: url("http://downloads.2kgames.com/borderlands2/skilltree/images/points_overlay_green.png");
+  color: #04cc04;
+}
+#content #scoreboard {
+  width: 295px;
+  height: 100px;
+  position: absolute;
+  top: 475px;
+  left: 675px;
+  display: none;
+}
+#content #scoreboard .label {
+  width: 180px;
+  height: 50px;
+  font-family: "Willow Head";
+  font-size: 18px;
+  text-align: right;
+  color: #86cbcf;
+  padding: 0;
+  margin: 0;
+  line-height: 19px;
+  float: left;
+  -webkit-text-shadow: 0px 0px 5px #000;
+  -moz-text-shadow: 0px 0px 5px #000;
+  text-shadow: 0px 0px 5px #000;
+}
+#content #scoreboard .score {
+  width: 110px;
+  height: 45px;
+  font-family: "Willow Head";
+  font-size: 38px;
+  text-align: left;
+  color: #fff;
+  padding: 0;
+  margin: -8px 0 0 5px;
+  float: left;
+  -webkit-text-shadow: 0px 0px 5px #000;
+  -moz-text-shadow: 0px 0px 5px #000;
+  text-shadow: 0px 0px 5px #000;
+}
+
+/* Added By Al BEuscher March 2013 */
+#content #scoreboard #toggle-points.label, #content #scoreboard #learn-more.label {
+	width:270px;
+	margin-left:20px;
+	margin-top:16px;
+	text-align:left;
+	font-size:23px;
+	height:30px;
+	font-family:"Willow Body";
+	text-transform:uppercase;
+}
+
+#content #scoreboard #learn-more.label {
+	text-align:right;
+	text-transform:none;
+	padding-right:20px;
+	margin-top:0;
+	width:250px;
+	font-size:20px;	
+}
+#content #scoreboard #toggle-points.label a, #content #scoreboard #toggle-points.label a:visited, #content #scoreboard #toggle-points.label a:active, #content #scoreboard #toggle-points.label a:link, #content #scoreboard #learn-more.label a, #content #scoreboard #learn-more.label a:visited, #content #scoreboard #learn-more.label a:active, #content #scoreboard #learn-more.label a:link  {
+color:#fff;
+text-decoration:none;
+}
+#content #scoreboard #toggle-points.label a:hover, #content #scoreboard #learn-more.label a:hover {
+	text-decoration:underline;
+}
+/* End Addition */
+
+#content .skill-panel {
+  position: absolute;
+  width: 247px;
+  height: 396px;
+  top: 75px;
+  display: none;
+}
+#content .skill-panel .gray-panel {
+  position: absolute;
+  width: 247px;
+  height: 396px;
+  filter: inherit;
+  top: 0px;
+  left: 0px;
+}
+#content .skill-panel .color-panel {
+  position: absolute;
+  width: 247px;
+  height: 0px;
+  filter: inherit;
+  top: 0px;
+  left: 0px;
+}
+#content .skill-panel .panel-title {
+  width: 247px;
+  height: 27px;
+  float: left;
+  margin: -18px auto;
+  position: relative;
+  z-index: 5;
+  filter: inherit;
+}
+#content .skill-panel .panel-points {
+  filter: inherit;
+  width: 200px;
+  height: 30px;
+  font-family: "Willow Head";
+  font-size: 20px;
+  color: #fff;
+  margin: 5px 25px;
+  float: left;
+}
+#content .skill-panel.green {
+  left: 5px;
+}
+#content .skill-panel.green .color-panel {
+  background: url("http://downloads.2kgames.com/borderlands2/skilltree/images/skill_bg_green.png") center top no-repeat;
+}
+#content .skill-panel.green .gray-panel {
+  background: url("http://downloads.2kgames.com/borderlands2/skilltree/images/skill_bg_green_gray.png") center top no-repeat;
+}
+#content .skill-panel.blue {
+  left: 225px;
+}
+#content .skill-panel.blue .color-panel {
+  background: url("http://downloads.2kgames.com/borderlands2/skilltree/images/skill_bg_blue.png") center top no-repeat;
+}
+#content .skill-panel.blue .gray-panel {
+  background: url("http://downloads.2kgames.com/borderlands2/skilltree/images/skill_bg_blue_gray.png") center top no-repeat;
+}
+#content .skill-panel.red {
+  left: 445px;
+}
+#content .skill-panel.red .color-panel {
+  background: url("http://downloads.2kgames.com/borderlands2/skilltree/images/skill_bg_red.png") center top no-repeat;
+}
+#content .skill-panel.red .gray-panel {
+  background: url("http://downloads.2kgames.com/borderlands2/skilltree/images/skill_bg_red_gray.png") center top no-repeat;
+}
+#content .skill-panel .icon-container {
+  width: 188px;
+  height: 355px;
+  margin: 18px 36px;
+  float: left;
+  position: relative;
+  z-index: 10;
+  filter: inherit;
+}
+#content .skill-panel .icon-container .skill-icon {
+  width: 52px;
+  height: 53px;
+  float: left;
+  padding: 3.5px 3px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  position: relative;
+  filter: inherit;
+}
+#content .skill-panel .icon-container .skill-icon .hitspace {
+  width: 52px;
+  height: 53px;
+  position: absolute;
+  padding: 4px 3.5px;
+  top: 0;
+  left: 0;
+  background: #000;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  -moz-opacity: 0;
+  -khtml-opacity: 0;
+  opacity: 0;
+}
+#content .skill-panel .icon-container .skill-icon .points-overlay {
+  margin: 36px 17px;
+  position: relative;
+}
+#content .header-panel {
+  top: 0px;
+  left: 243px;
+  width: 217px;
+  height: 80px;
+  position: absolute;
+  cursor: pointer;
+  display: none;
+  z-index: 200;
+  margin-top:-9px;
+}
+#content .header-panel .points-overlay {
+  margin: 61px 179px;
+}
+#content .header-panel .hitspace {
+  width: 220px;
+  height: 74px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #000;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  -moz-opacity: 0;
+  -khtml-opacity: 0;
+  opacity: 0;
+}
+#character-panel {
+  width: 1365px;
+  height: 806px;
+  position: absolute;
+  left: -152px;
+  top: 80px;
+  display: none;
+}
+#character-badge {
+  position: absolute;
+  width: 377px;
+  height: 217px;
+  right: -90px;
+  top: 330px;
+  display: none;
+}
+.skill-icon .info-panel,
+.header-panel .info-panel {
+  width: 326px;
+  position: absolute;
+  display: none;
+  top: 0px;
+  left: 65px;
+}
+.skill-icon .info-panel .panel-top,
+.header-panel .info-panel .panel-top {
+  background: url("http://downloads.2kgames.com/borderlands2/skilltree/images/info/info_panel_top.png") center bottom no-repeat;
+  width: 326px;
+  height: 21px;
+  float: left;
+}
+.skill-icon .info-panel .panel-body,
+.header-panel .info-panel .panel-body {
+  background: url("http://downloads.2kgames.com/borderlands2/skilltree/images/info/info_panel_body.png") center repeat-y;
+  width: 326px;
+  min-height: 40px;
+  float: left;
+}
+.skill-icon .info-panel .panel-body .title,
+.header-panel .info-panel .panel-body .title {
+  width: 306px;
+  height: 22px;
+  padding: 0 0 5px 20px;
+}
+.skill-icon .info-panel .panel-body .title .tick,
+.header-panel .info-panel .panel-body .title .tick {
+  background: url("http://downloads.2kgames.com/borderlands2/skilltree/images/info/info_title_tick.png") center bottom no-repeat;
+  height: 22px;
+  width: 10px;
+  float: left;
+}
+.skill-icon .info-panel .panel-body .title .text,
+.header-panel .info-panel .panel-body .title .text {
+  height: 22px;
+  width: 296px;
+  float: left;
+  font-family: "Willow Body";
+  font-size: 18px;
+  color: #ade9ea;
+  line-height: 28px;
+  letter-spacing: 1px;
+  -webkit-text-shadow: 0px 0px 3px #000;
+  -moz-text-shadow: 0px 0px 3px #000;
+  text-shadow: 0px 0px 3px #000;
+}
+.skill-icon .info-panel .panel-body .title .text span.highlight,
+.header-panel .info-panel .panel-body .title .text span.highlight {
+  color: #ffdb73;
+}
+.skill-icon .info-panel .panel-body .description,
+.header-panel .info-panel .panel-body .description {
+  width: 306px;
+  min-height: 20px;
+  padding: 0 0 0 20px;
+  float: left;
+}
+.skill-icon .info-panel .panel-body .description p,
+.header-panel .info-panel .panel-body .description p {
+  width: 296px;
+  font-family: "Willow Body";
+  font-size: 14px;
+  color: #fff;
+  letter-spacing: 1px;
+  -webkit-text-shadow: 1px 1px 3px #000;
+  -moz-text-shadow: 1px 1px 3px #000;
+  text-shadow: 1px 1px 2px #000;
+  padding: 0;
+}
+.skill-icon .info-panel .panel-body .description p span.highlight,
+.header-panel .info-panel .panel-body .description p span.highlight {
+  color: #ffdb73;
+}
+.skill-icon .info-panel .panel-body .description p span.orange,
+.header-panel .info-panel .panel-body .description p span.orange {
+  color: #eb5d00;
+}
+.skill-icon .info-panel .panel-body .stats,
+.header-panel .info-panel .panel-body .stats {
+  width: 306px;
+  min-height: 20px;
+  padding: 0 0 0 20px;
+  float: left;
+}
+.skill-icon .info-panel .panel-body .stats .current li,
+.header-panel .info-panel .panel-body .stats .current li,
+.skill-icon .info-panel .panel-body .stats .next li,
+.header-panel .info-panel .panel-body .stats .next li {
+  list-style: none;
+}
+.skill-icon .info-panel .panel-body .stats .current ul,
+.header-panel .info-panel .panel-body .stats .current ul,
+.skill-icon .info-panel .panel-body .stats .next ul,
+.header-panel .info-panel .panel-body .stats .next ul {
+  padding: 0;
+  margin: 0;
+}
+.skill-icon .info-panel .panel-body .stats .current,
+.header-panel .info-panel .panel-body .stats .current {
+  padding-top: 10px;
+  width: 296px;
+  font-family: "Willow Body";
+  font-size: 14px;
+  color: #eb5d00;
+  letter-spacing: 1px;
+  -webkit-text-shadow: 1px 1px 3px #000;
+  -moz-text-shadow: 1px 1px 3px #000;
+  text-shadow: 1px 1px 3px #000;
+}
+.skill-icon .info-panel .panel-body .stats .current span.highlight,
+.header-panel .info-panel .panel-body .stats .current span.highlight {
+  color: #ffdb73;
+}
+.skill-icon .info-panel .panel-body .stats .current span.orange,
+.header-panel .info-panel .panel-body .stats .current span.orange {
+  color: #eb5d00;
+}
+.skill-icon .info-panel .panel-body .stats .next,
+.header-panel .info-panel .panel-body .stats .next {
+  padding-top: 10px;
+  width: 296px;
+  font-family: "Willow Body";
+  font-size: 14px;
+  color: #eb5d00;
+  letter-spacing: 1px;
+  -webkit-text-shadow: 1px 1px 3px #000;
+  -moz-text-shadow: 1px 1px 3px #000;
+  text-shadow: 1px 1px 3px #000;
+}
+.skill-icon .info-panel .panel-body .stats .next span.highlight,
+.header-panel .info-panel .panel-body .stats .next span.highlight {
+  color: #ffdb73;
+}
+.skill-icon .info-panel .panel-body .stats .next span.white,
+.header-panel .info-panel .panel-body .stats .next span.white {
+  color: #fff;
+}
+.skill-icon .info-panel .panel-bottom,
+.header-panel .info-panel .panel-bottom {
+  background: url("http://downloads.2kgames.com/borderlands2/skilltree/images/info/info_panel_bottom.png") center top no-repeat;
+  width: 326px;
+  height: 28px;
+  float: left;
+}
