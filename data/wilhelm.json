@@ -1,16 +1,16 @@
 ﻿{
     "url" : "http://borderlandsthegame.com/skilltrees/wilhelm.html",
-    "assets" : 
-    {          
-        "header" : "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/header.png",
-        "header-green" : "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/header_green.png",
-        "background" : "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/background.png",
-        "badge" :"https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/badge.png",
-        "class" : 
+    "assets" :
+    {
+        "header" : "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/header.png",
+        "header-green" : "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/header_green.png",
+        "background" : "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/background.png",
+        "badge" :"borderlandsthegame/prsqlskilltree/images/chars/wilhelm/badge.png",
+        "class" :
             {
                 "name" : "Wolf and Saint",
                 "description" : "<span class=\"highlight\">Action Skill</span>.  Press [LB/L1/F] to summon <span class=\"highlight\">Wolf</span> and <span class=\"highlight\">Saint</span>, your trusty combat drones.  <span class=\"highlight\">Wolf</span> will roam and attack enemies, while <span class=\"highlight\">Saint</span> will stay close to you and replenish your <span class=\"highlight\">Health</span>. <span class=\"highlight\">Saint</span> has a protective shield, but <span class=\"highlight\">Wolf</span> can be damaged by enemies. Press and hold [LB/L1/F] to recall <span class=\"highlight\">Wolf</span> and <span class=\"highlight\">Saint</span> and have some of your <span class=\"highlight\">Cooldown</span> refunded.",
-                "stats" : 
+                "stats" :
                     [
 						{
                                     "name" : "Cooldown: 42 seconds",
@@ -27,17 +27,17 @@
                                     "base" : "25",
                                     "multiply" : 1
 						}
-					
-					
+
+
 					],
                 "levels" : 1
-                
+
             },
-        "panel" : 
+        "panel" :
         [
             {
                 "color" : "red",
-                "title" : "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/dreadnought/title.png",
+                "title" : "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/dreadnought/title.png",
                 "skills" :
                 [
                     {
@@ -45,7 +45,7 @@
                         "description" : "Increases <span class=\"highlight\">Wolf and Saint's Duration</span> and <span class=\"highlight\">Cooldown Rate</span>.",
                         "levels" : 5,
                         "position" : 0,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Wolf and Saint Duration: +[$] seconds",
@@ -58,11 +58,11 @@
                                     "multiply" : 1
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/dreadnought/0.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/dreadnought/orange/0.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/dreadnought/green/0.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/dreadnought/0.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/dreadnought/orange/0.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/dreadnought/green/0.png"
                             ]
                     },
                     {
@@ -70,7 +70,7 @@
                         "description" : "Increases <span class=\"highlight\">Max Health</span> for you and <span class=\"highlight\">Wolf</span>.  Additionally, while <span class=\"highlight\">Saint</span> is active you deal increased <span class=\"highlight\">Damage</span> with all gun types.",
                         "levels" : 5,
                         "position" : 2,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Maximum Health: +[$]%",
@@ -88,11 +88,11 @@
                                     "multiply" : 1
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/dreadnought/1.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/dreadnought/orange/1.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/dreadnought/green/1.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/dreadnought/1.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/dreadnought/orange/1.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/dreadnought/green/1.png"
                             ]
                     },
                     {
@@ -100,7 +100,7 @@
                         "description" : "<span class=\"highlight\">Saint Ability</span>. <span class=\"highlight\">Saint</span> will occasionally boost the <span class=\"highlight\">Shields</span> of you and your friends. Additionally, <span class=\"highlight\">Saint</span> gains an increase to the rate which he <span class=\"highlight\">regenerates your health</span>.",
                         "levels" : 5,
                         "position" : 3,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Occasionally restores : +[$]% of shield capacity",
@@ -113,11 +113,11 @@
                                     "multiply" : 1
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/dreadnought/2.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/dreadnought/orange/2.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/dreadnought/green/2.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/dreadnought/2.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/dreadnought/orange/2.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/dreadnought/green/2.png"
                             ]
                     },
                     {
@@ -125,7 +125,7 @@
                         "description" : "Improves <span class=\"highlight\">Shield Recharge Rate</span> and <span class=\"highlight\">Shield Recharge Delay</span>. This bonus is doubled while <span class=\"highlight\">Wolf and Saint</span> are on cooldown.",
                         "levels" : 5,
                         "position" : 5,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Shield Recharge Rate: +[$]%",
@@ -139,11 +139,11 @@
 									"sequence" : ["4","7","11","14","17"]
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/dreadnought/3.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/dreadnought/orange/3.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/dreadnought/green/3.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/dreadnought/3.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/dreadnought/orange/3.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/dreadnought/green/3.png"
                             ]
                     },
                     {
@@ -151,17 +151,17 @@
                         "description" : "<span class=\"highlight\">Fight For Your Life</span> is replaced by <span class=\"highlight\">Termination Protocols</span>. During <span class=\"highlight\">Termination Protocols</span> you can walk at a reduced speed, fire your weapons, and you constantly <span class=\"highlight\">shock</span> nearby enemies. If the timer runs out, your power core goes critical, releasing a <span class=\"highlight\">Nuclear Explosion</span>.",
                         "levels" : 1,
                         "position" : 7,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "\"I absolutely will not stop, ever, until you are dead.\""
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/dreadnought/4.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/dreadnought/orange/4.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/dreadnought/green/4.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/dreadnought/4.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/dreadnought/orange/4.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/dreadnought/green/4.png"
                             ]
                     },
                     {
@@ -169,7 +169,7 @@
                         "description" : "<span class=\"highlight\">Kill Skill</span>. Killing an enemy increases your <span class=\"highlight\">Cooldown Rate</span> for <span class=\"highlight\">Wolf and Saint</span> and increases your <span class=\"highlight\">Movement Speed</span> and <span class=\"highlight\">Reload Speed</span> for a short time.",
                         "levels" : 5,
                         "position" : 9,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Movement Speed: +[$]%",
@@ -185,13 +185,13 @@
                                     "name" : "Action Skill Cooldown Rate: +[$]%",
                                     "base" : "4",
                                     "multiply" : 1
-                                }								
+                                }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/dreadnought/5.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/dreadnought/orange/5.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/dreadnought/green/5.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/dreadnought/5.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/dreadnought/orange/5.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/dreadnought/green/5.png"
                             ]
                     },
                     {
@@ -199,7 +199,7 @@
                         "description" : "<span class=\"highlight\">Saint Ability</span>. When <span class=\"highlight\">Saint</span> is recalled or expires, he explodes, deploying a <span class=\"highlight\">Healing Zone</span> underneath you. You and your friends <span class=\"highlight\">Regenerate Health</span> while standing in the zone.",
                         "levels" : 1,
                         "position" : 10,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Healing Zone Duration: 12.0 seconds",
@@ -212,11 +212,11 @@
                                     "multiply" : 1
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/dreadnought/6.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/dreadnought/orange/6.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/dreadnought/green/6.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/dreadnought/6.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/dreadnought/orange/6.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/dreadnought/green/6.png"
                             ]
                     },
                     {
@@ -224,7 +224,7 @@
                         "description" : "If you have a <span class=\"highlight\">Incendiary, Shock, or Corrosive Status Effect</span> on you, you and your friends gain increased <span class=\"highlight\">Resistance</span> to that element. Additionally, you will occasionally spread that <span class=\"highlight\">Status Effect</span> to nearby enemies while it's active.",
                         "levels" : 5,
                         "position" : 11,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Elemental Resistance: +[$]%",
@@ -233,11 +233,11 @@
 									"sequence" : ["17","29","38","44","50"]
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/dreadnought/7.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/dreadnought/orange/7.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/dreadnought/green/7.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/dreadnought/7.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/dreadnought/orange/7.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/dreadnought/green/7.png"
                             ]
                     },
                     {
@@ -245,7 +245,7 @@
                         "description" : "Increases your <span class=\"highlight\">Maximum Health</span>. Additionally, <span class=\"highlight\">close range</span> attackers have a chance to be struck by <span class=\"highlight\">Explosive Feedback</span>.  The closer the enemy is to you the more likely he is to be struck.",
                         "levels" : 5,
                         "position" : 12,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Maximum Health:  +[$]%",
@@ -256,13 +256,13 @@
                                     "name" : "Explosive Feedback: Up to [$]% chance",
                                     "base" : "5",
                                     "multiply" : 1
-                                }								
+                                }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/dreadnought/8.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/dreadnought/orange/8.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/dreadnought/green/9.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/dreadnought/8.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/dreadnought/orange/8.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/dreadnought/green/9.png"
                             ]
                     },
 					{
@@ -270,7 +270,7 @@
                         "description" : "Whenever you are <span class=\"highlight\">shot</span> or <span class=\"highlight\">struck</span> by an enemy, you gain a stack of <span class=\"highlight\">Hard To Kill</span>, reducing all <span class=\"highlight\">Damage</span> received. All stacks are removed after a few seconds of taking no damage.",
                         "levels" : 5,
                         "position" : 14,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Damage Reduction: [$]% per stack",
@@ -281,11 +281,11 @@
                                     "name" : "Max Stacks: 100"
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/dreadnought/9.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/dreadnought/orange/9.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/dreadnought/green/9.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/dreadnought/9.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/dreadnought/orange/9.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/dreadnought/green/9.png"
                             ]
                     },
 					{
@@ -293,7 +293,7 @@
                         "description" : "<span class=\"highlight\">Saint Ability</span>. Immediately after being summoned, <span class=\"highlight\">Saint</span> will release an <span class=\"highlight\">Energy Wave</span> that will <span class=\"highlight\">Overcharge</span> you and any nearby friends for a short duration. <span class=\"highlight\">Overcharged</span> players gain increased <span class=\"highlight\">Movement Speed</span>, <span class=\"highlight\">Fire Rate</span>, <span class=\"highlight\">Reload Speed</span>, and <span class=\"highlight\">Ammo Regeneration</span>.",
                         "levels" : 1,
                         "position" : 16,
-                        "stats" : 
+                        "stats" :
                             [
 								{
                                     "name" : "Movement Speed: +15%",
@@ -321,11 +321,11 @@
                                     "multiply" : 1
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/dreadnought/10.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/dreadnought/orange/10.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/dreadnought/green/10.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/dreadnought/10.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/dreadnought/orange/10.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/dreadnought/green/10.png"
                             ]
                     }
 
@@ -334,7 +334,7 @@
             },
             {
                 "color" : "blue",
-                "title" : "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/cybercommando/title.png",
+                "title" : "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/cybercommando/title.png",
                 "skills" :
                 [
                     {
@@ -342,7 +342,7 @@
                         "description" : "Increases <span class=\"highlight\">Gun Damage</span> and <span class=\"highlight\">Magazine Size</span> with all <span class=\"highlight\">Laser Weapons</span>.",
                         "levels" : 5,
                         "position" : 0,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Laser Damage: +[$]%",
@@ -354,13 +354,13 @@
                                     "base" : "4",
                                     "multiply" : 1,
 									"sequence" : ["4","6","8","10","12"]
-                                }								
+                                }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/cybercommando/0.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/cybercommando/orange/0.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/cybercommando/green/0.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/cybercommando/0.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/cybercommando/orange/0.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/cybercommando/green/0.png"
                             ]
                     },
                     {
@@ -368,7 +368,7 @@
                         "description" : "Increases <span class=\"highlight\">Shield Capacity</span> and <span class=\"highlight\">Maximum Health</span> for you and <span class=\"highlight\">Wolf</span>.",
                         "levels" : 5,
                         "position" : 2,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Shield Capacity: +[$]%",
@@ -391,11 +391,11 @@
                                     "multiply" : 1
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/cybercommando/1.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/cybercommando/orange/1.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/cybercommando/green/1.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/cybercommando/1.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/cybercommando/orange/1.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/cybercommando/green/1.png"
                             ]
                     },
                     {
@@ -403,7 +403,7 @@
                         "description" : "Increases your <span class=\"highlight\">Gun Damage</span>. This bonus is lost 5 seconds after you deal damage, and is regained after 5 seconds of you not dealing or taking damage.",
                         "levels" : 5,
                         "position" : 3,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Gun Damage: +[$]%",
@@ -411,11 +411,11 @@
                                     "multiply" : 1
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/cybercommando/2.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/cybercommando/orange/2.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/cybercommando/green/2.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/cybercommando/2.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/cybercommando/orange/2.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/cybercommando/green/2.png"
                             ]
                     },
                     {
@@ -423,7 +423,7 @@
                         "description" : "<span class=\"highlight\">Kill Skill</span>. Killing an enemy gives you increased <span class=\"highlight\">Accuracy</span> and <span class=\"highlight\">Critical Damage</span> for a few seconds.",
                         "levels" : 5,
                         "position" : 5,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Critical Damage: +[$]%",
@@ -436,11 +436,11 @@
                                     "multiply" : 1
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/cybercommando/3.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/cybercommando/orange/3.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/cybercommando/green/3.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/cybercommando/3.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/cybercommando/orange/3.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/cybercommando/green/3.png"
                             ]
                     },
                     {
@@ -448,7 +448,7 @@
                         "description" : "<font color=\"#feba36\">Cyborg Augmentation: Arm. </font> <br><span class=\"highlight\">Melee Override</span>. Press (RS/V) to perform an <span class=\"highlight\">explosive punch</span> with <span class=\"highlight\">extended range</span>. This ability has a cooldown.",
                         "levels" : 1,
                         "position" : 7,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Cooldown: 12 seconds"
@@ -457,11 +457,11 @@
                                     "name" : "\"I am now authorized to use physical force.\""
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/cybercommando/4.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/cybercommando/orange/4.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/cybercommando/green/4.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/cybercommando/4.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/cybercommando/orange/4.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/cybercommando/green/4.png"
                             ]
                     },
                     {
@@ -469,7 +469,7 @@
                         "description" : "<span class=\"highlight\">Emergency Response</span> is activated whenever your <span class=\"highlight\">Shield</span> becomes depleted, increasing your <span class=\"highlight\">Fire Rate</span> and <span class=\"highlight\">Reload Speed</span>, and <span class=\"highlight\">Wolf's Fire Rate</span>, for a short duration. Your <span class=\"highlight\">Shield</span> must fully recharge between activations.",
                         "levels" : 5,
                         "position" : 9,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Reload Speed: +[$]%",
@@ -492,11 +492,11 @@
                                     "multiply" : 1
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/cybercommando/5.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/cybercommando/orange/5.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/cybercommando/green/5.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/cybercommando/5.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/cybercommando/orange/5.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/cybercommando/green/5.png"
                             ]
                     },
                     {
@@ -504,17 +504,17 @@
                         "description" : "<font color=\"#feba36\">Cyborg Augmentation: Legs.</font><br>You can shoot while <span class=\"highlight\">Sprinting</span>. While doing so, you gain bonus <span class=\"highlight\">Gun Damage</span>, and suffer <span class=\"highlight\">no accuracy penalties</span>.",
                         "levels" : 1,
                         "position" : 10,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Gun Damage: +20%"
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/cybercommando/6.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/cybercommando/orange/6.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/cybercommando/green/6.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/cybercommando/6.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/cybercommando/orange/6.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/cybercommando/green/6.png"
                             ]
                     },
                     {
@@ -522,7 +522,7 @@
                         "description" : "When your <span class=\"highlight\">Shields</span> are depleted and your <span class=\"highlight\">Health</span> is low, taking <span class=\"highlight\">Damage</span> causes you to gain massive <span class=\"highlight\">Shield Regeneration</span> and <span class=\"highlight\">Damage Resistance</span> for a few seconds. This ability has a cooldown.",
                         "levels" : 5,
                         "position" : 11,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Health Threshold: 30%",
@@ -552,11 +552,11 @@
                                     "multiply" : 1
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/cybercommando/7.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/cybercommando/orange/7.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/cybercommando/green/7.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/cybercommando/7.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/cybercommando/orange/7.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/cybercommando/green/7.png"
                             ]
                     },
                     {
@@ -564,7 +564,7 @@
                         "description" : "Increases the <span class=\"highlight\">Damage Radius</span> of your <span class=\"highlight\">Slam</span> ability.",
                         "levels" : 5,
                         "position" : 12,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Slam Radius: Rank [$]",
@@ -572,11 +572,11 @@
                                     "multiply" : 1
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/cybercommando/8.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/cybercommando/orange/8.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/cybercommando/green/8.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/cybercommando/8.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/cybercommando/orange/8.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/cybercommando/green/8.png"
                             ]
                     },
                     {
@@ -584,7 +584,7 @@
                         "description" : "You are better with guns in nearly every regard. Increases <span class=\"highlight\">Gun Damage, Reload Speed, Magazine Size, Accuracy</span>, and reduces <span class=\"highlight\">Recoil</span>.",
                         "levels" : 5,
                         "position" : 14,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Weapon Damage:  +[$]%",
@@ -613,13 +613,13 @@
                                     "base" : "3",
                                     "multiply" : 1,
 									"sequence" : ["3","6","8","11","13"]
-                                }								
+                                }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/cybercommando/9.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/cybercommando/orange/9.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/cybercommando/green/9.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/cybercommando/9.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/cybercommando/orange/9.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/cybercommando/green/9.png"
                             ]
                     },
                     {
@@ -627,24 +627,24 @@
                         "description" : "<font color=\"#feba36\">Cyborg Augmentation: Weapon.</font><br>Whenever your <span class=\"highlight\">Shield</span> becomes depleted, you activate your shoulder-mounted <span class=\"highlight\">Vengeance Cannon</span>. The <span class=\"highlight\">Vengeance Cannon</span> fires <span class=\"highlight\">Incendiary Laser Blasts</span> in tandem with your equipped weapon and lasts for a short period of time. Your <span class=\"highlight\">Shield</span> must fully recharge between activations.",
                         "levels" : 1,
                         "position" : 16,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Active Duration: 12 seconds."
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/cybercommando/10.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/cybercommando/orange/10.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/cybercommando/green/10.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/cybercommando/10.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/cybercommando/orange/10.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/cybercommando/green/10.png"
                             ]
                     }
                 ]
             },
             {
                 "color" : "green",
-                "title" : "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/hunterkiller/title.png",
+                "title" : "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/hunterkiller/title.png",
                 "skills" :
                 [
                     {
@@ -652,7 +652,7 @@
                         "description" : "<span class=\"highlight\">Wolf's</span> <span class=\"highlight\">Air Speed</span> is increased. Additionally, your <span class=\"highlight\">Reload Speed</span> and <span class=\"highlight\">Projectile Speed</span> is increased.",
                         "levels" : 5,
                         "position" : 0,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Wolf Air Speed: +[$]%",
@@ -668,13 +668,13 @@
                                     "name" : "Projectile Speed: +[$]%",
                                     "base" : "5",
                                     "multiply" : 1
-                                }								
+                                }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/hunterkiller/0.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/hunterkiller/orange/0.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/hunterkiller/green/0.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/hunterkiller/0.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/hunterkiller/orange/0.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/hunterkiller/green/0.png"
                             ]
                     },
                     {
@@ -682,7 +682,7 @@
                         "description" : "Increases your <span class=\"highlight\">Damage</span> with all gun types and increases the <span class=\"highlight\">Damage</span> dealt by <span class=\"highlight\">Wolf</span>.",
                         "levels" : 5,
                         "position" : 2,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Weapon Damage: +[$]%",
@@ -695,11 +695,11 @@
                                     "multiply" : 1
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/hunterkiller/1.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/hunterkiller/orange/1.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/hunterkiller/green/1.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/hunterkiller/1.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/hunterkiller/orange/1.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/hunterkiller/green/1.png"
                             ]
                     },
                     {
@@ -707,7 +707,7 @@
                         "description" : "<span class=\"highlight\">Wolf Ability</span>. <span class=\"highlight\">Wolf's</span> shots have a chance to be <span class=\"highlight\">Venom Bolts</span>, which deal <span class=\"highlight\">Corrosive Damage</span>.  Additionally, you gain increased <span class=\"highlight\">Corrode Chance</span> and <span class=\"highlight\">Corrode Damage</span> with guns and grenades.",
                         "levels" : 5,
                         "position" : 3,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Venom Bolt Change: +[$]%",
@@ -725,11 +725,11 @@
                                     "multiply" : 1
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/hunterkiller/2.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/hunterkiller/orange/2.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/hunterkiller/green/2.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/hunterkiller/2.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/hunterkiller/orange/2.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/hunterkiller/green/2.png"
                             ]
                     },
                     {
@@ -737,7 +737,7 @@
                         "description" : "<span class=\"highlight\">Kill Skill</span>. Killing an enemy gives you and <span class=\"highlight\">Wolf</span> increased <span class=\"highlight\">Fire Rate</span> for a short time.",
                         "levels" : 5,
                         "position" : 5,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Fire Rate: +[$]%",
@@ -750,11 +750,11 @@
                                     "multiply" : 1
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/hunterkiller/3.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/hunterkiller/orange/3.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/hunterkiller/green/3.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/hunterkiller/3.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/hunterkiller/orange/3.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/hunterkiller/green/3.png"
                             ]
                     },
                     {
@@ -762,7 +762,7 @@
                         "description" : "When you activate <span class=\"highlight\">Wolf and Saint</span>, or press [LB/L1/F] while they are active, <span class=\"highlight\">Saint</span> will <span class=\"highlight\">Paint</span> the target under your reticle. <span class=\"highlight\">Wolf</span> will focus attacks on the currently <span class=\"highlight\">Painted</span> target, and the target will receive increased <span class=\"highlight\">Damage</span> from all sources. If a target is killed while <span class=\"highlight\">Painted</span>, time will be added to <span class=\"highlight\">Wolf and Saint's Duration</span>.",
                         "levels" : 1,
                         "position" : 7,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Target Damage Received: +25%"
@@ -771,11 +771,11 @@
                                     "name" : "Wolf and Saint Duration on Kill: +5 seconds"
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/hunterkiller/4.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/hunterkiller/orange/4.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/hunterkiller/green/4.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/hunterkiller/4.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/hunterkiller/orange/4.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/hunterkiller/green/4.png"
                             ]
                     },
                     {
@@ -783,7 +783,7 @@
                         "description" : "While <span class=\"highlight\">Wolf</span> is alive, you will periodically gain stacks of <span class=\"highlight\">Rolling Thunder</span>, increasing <span class=\"highlight\">Wolf's Damage</span>.",
                         "levels" : 5,
                         "position" : 9,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Wolf Damage: [$]% per stack",
@@ -794,13 +794,13 @@
                                     "name" : "Stack Interval: 5.0 seconds",
                                     "base" : 2,
                                     "multiply" : 1
-                                }								
+                                }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/hunterkiller/5.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/hunterkiller/orange/5.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/hunterkiller/green/5.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/hunterkiller/5.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/hunterkiller/orange/5.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/hunterkiller/green/5.png"
                             ]
                     },
                     {
@@ -808,17 +808,17 @@
                         "description" : "<span class=\"highlight\">Wolf Ability</span>. Whenever <span class=\"highlight\">Wolf</span> is <span class=\"highlight\">recalled</span>, runs out of <span class=\"highlight\">Health</span>, or <span class=\"highlight\">expires</span>, it will dive bomb enemies with <span class=\"highlight\">explosive</span> effect!",
                         "levels" : 1,
                         "position" : 10,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "\"The Divine Wind blows up.\""
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/hunterkiller/6.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/hunterkiller/orange/6.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/hunterkiller/green/6.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/hunterkiller/6.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/hunterkiller/orange/6.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/hunterkiller/green/6.png"
                             ]
                     },
                     {
@@ -826,7 +826,7 @@
                         "description" : "When <span class=\"highlight\">Wolf</span> is destroyed, it is replaced once for free, and time will be added to <span class=\"highlight\">Wolf and Saint's Duration</span>.",
                         "levels" : 5,
                         "position" : 11,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Deployment Time Added: [$]%",
@@ -835,11 +835,11 @@
 									"add" : "5"
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/hunterkiller/7.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/hunterkiller/orange/7.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/hunterkiller/green/7.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/hunterkiller/7.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/hunterkiller/orange/7.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/hunterkiller/green/7.png"
                             ]
                     },
                     {
@@ -847,7 +847,7 @@
                         "description" : "When you apply a <span class=\"highlight\">Shock</span>, <span class=\"highlight\">Incendiary</span>, or <span class=\"highlight\">Corrosive status effect</span> to an enemy, there is a chance for the target to <span class=\"highlight\">freeze</span>. Additionally, you gain increased <span class=\"highlight\">status effect chance</span> when using <span class=\"highlight\">Cryo</span> weapons.",
                         "levels" : 5,
                         "position" : 12,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Freeze Chance : +[$]%",
@@ -860,11 +860,11 @@
                                     "multiply" : 1
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/hunterkiller/8.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/hunterkiller/orange/8.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/hunterkiller/green/8.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/hunterkiller/8.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/hunterkiller/orange/8.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/hunterkiller/green/8.png"
                             ]
                     },
                     {
@@ -872,7 +872,7 @@
                         "description" : "Increases your <span class=\"highlight\">Critical Hit Damage</span>. Additionally, <span class=\"highlight\">Critical Hits</span> on enemies reduce the remaining <span class=\"highlight\">Cooldown</span> of <span class=\"highlight\">Wolf and Saint</span> by a small amount. This effect has a cooldown.",
                         "levels" : 5,
                         "position" : 14,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Critical Hit Damage:  +[$]%",
@@ -890,11 +890,11 @@
                                     "multiply" : 1
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/hunterkiller/9.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/hunterkiller/orange/9.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/hunterkiller/green/9.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/hunterkiller/9.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/hunterkiller/orange/9.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/hunterkiller/green/9.png"
                             ]
                     },
                     {
@@ -902,23 +902,23 @@
                         "description" : "<span class=\"highlight\">Wolf Ability</span>. <span class=\"highlight\">Wolf</span> periodically launches a deadly <span class=\"highlight\">missile strike</span> against its targets.",
                         "levels" : 1,
                         "position" : 16,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "\"Too close for guns, I’m switching to missiles.\""
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/hunterkiller/10.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/hunterkiller/orange/10.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/wilhelm/hunterkiller/green/10.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/hunterkiller/10.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/hunterkiller/orange/10.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/wilhelm/hunterkiller/green/10.png"
                             ]
                     }
                 ]
             }
 
-        ]    
+        ]
     }
-       
+
 }

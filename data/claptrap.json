@@ -1,16 +1,16 @@
 ﻿{
     "url" : "http://borderlandsthegame.com/skilltrees/claptrap.html",
-    "assets" : 
-    {          
-        "header" : "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/header.png",
-        "header-green" : "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/header_green.png",
-        "background" : "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/background.png",
-        "badge" :"https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/badge.png",
-        "class" : 
+    "assets" :
+    {
+        "header" : "borderlandsthegame/prsqlskilltree/images/chars/claptrap/header.png",
+        "header-green" : "borderlandsthegame/prsqlskilltree/images/chars/claptrap/header_green.png",
+        "background" : "borderlandsthegame/prsqlskilltree/images/chars/claptrap/background.png",
+        "badge" :"borderlandsthegame/prsqlskilltree/images/chars/claptrap/badge.png",
+        "class" :
             {
                 "name" : "VaultHunter.EXE",
                 "description" : "<span class=\"highlight\">Action Skill.</span> Press [LB/L1/F] to run your <span class=\"highlight\">VaultHunter.EXE</span> program.  It will analyze the situation, determine which Vault Hunter would do the best job, and then load an <font color=\"#ff6600\">ACTION PACKAGE</font> allowing Claptrap to fight in that manner for a short period of time.  It also gives you <span class=\"highlight\">Full Health</span> and <span class=\"highlight\">Health Regeneration</span>.  <span class=\"highlight\">VaultHunter.EXE</span> is still in beta and its definition of ''Vault Hunter'' is questionable at best.  <font color=\"#feba36\">Warning:</font>  <span class=\"highlight\">VaultHunter.EXE</span> is currently classified as malware. Your allies may be affected.",
-                "stats" : 
+                "stats" :
                     [
 						{
                                     "name" : "Cooldown: 40 seconds",
@@ -22,17 +22,17 @@
                                     "base" : "25",
                                     "multiply" : 1
 						}
-					
-					
+
+
 					],
                 "levels" : 1
-                
+
             },
-        "panel" : 
+        "panel" :
         [
             {
                 "color" : "red",
-                "title" : "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/fragmented/title.png",
+                "title" : "borderlandsthegame/prsqlskilltree/images/chars/claptrap/fragmented/title.png",
                 "skills" :
                 [
                     {
@@ -40,7 +40,7 @@
                         "description" : "<span class=\"highlight\">Gun Subroutines.</span>  You randomly pick a <span class=\"highlight\">Subroutine</span> focused on a gun type, making you <span class=\"highlight\">more effective</span> with that gun type, but <font color=\"#feba36\">less effective</font> with all others.<br>Upon selecting a <span class=\"highlight\">Subroutine</span> you gain 100 <span class=\"highlight\">Frag Stacks</span>, which decrease over time.  When you run out of <span class=\"highlight\">Frag Stacks</span>, your <span class=\"highlight\">Subroutine</span> will be replaced with a new one.",
                         "levels" : 1,
                         "position" : 0,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Gun-Type Damage +25%",
@@ -63,11 +63,11 @@
                                     "multiply" : 1
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/fragmented/0.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/fragmented/orange/0.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/fragmented/green/0.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/fragmented/0.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/fragmented/orange/0.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/fragmented/green/0.png"
                             ]
                     },
                     {
@@ -75,7 +75,7 @@
                         "description" : "Taking damage from an enemy grants you increased <span class=\"highlight\">Critical Hit Damage</span> for a few seconds.",
                         "levels" : 3,
                         "position" : 1,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Critical Hit Damage: +[$]%",
@@ -83,11 +83,11 @@
                                     "multiply" : 1
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/fragmented/1.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/fragmented/orange/1.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/fragmented/green/1.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/fragmented/1.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/fragmented/orange/1.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/fragmented/green/1.png"
                             ]
                     },
                     {
@@ -95,7 +95,7 @@
                         "description" : "<span class=\"highlight\">Defensive Subroutines.</span>  You randomly pick a <span class=\"highlight\">Subroutine</span> focused on either <span class=\"highlight\">Health</span> or <span class=\"highlight\">Shields</span>, which grants <span class=\"highlight\">increased Capacity</span> and <span class=\"highlight\">Regeneration</span> for the chosen attribute. The catch? You deal <font color=\"#feba36\">reduced damage</font> with all gun types.  Upon selecting a <span class=\"highlight\">Subroutine</span> you gain 100 <span class=\"highlight\">Frag Stacks</span>, which decrease over time.  When you run out of <span class=\"highlight\">Frag Stacks</span>, your <span class=\"highlight\">Subroutine</span> will be replaced with a new one.",
                         "levels" : 1,
                         "position" : 2,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Capacity: +35%",
@@ -113,11 +113,11 @@
                                     "multiply" : 1
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/fragmented/2.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/fragmented/orange/2.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/fragmented/green/2.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/fragmented/2.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/fragmented/orange/2.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/fragmented/green/2.png"
                             ]
                     },
                     {
@@ -125,7 +125,7 @@
                         "description" : "Taking damage from an enemy increases your <span class=\"highlight\">Accuracy</span> and <span class=\"highlight\">Recoil Reduction</span> with all guns for a few seconds.",
                         "levels" : 5,
                         "position" : 3,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Accuracy: +[$]%",
@@ -138,11 +138,11 @@
                                     "multiply" : 1
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/fragmented/3.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/fragmented/orange/3.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/fragmented/green/3.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/fragmented/3.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/fragmented/orange/3.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/fragmented/green/3.png"
                             ]
                     },
                     {
@@ -150,7 +150,7 @@
                         "description" : "<span class=\"highlight\">Melee Subroutine.</span>  You randomly pick a melee-focused <span class=\"highlight\">Subroutine</span>, which grants you a <span class=\"highlight\">massive melee damage bonus</span> but <font color=\"#feba36\">reduces</font> your damage with guns.",
                         "levels" : 1,
                         "position" : 4,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Melee Damage: +150%",
@@ -163,11 +163,11 @@
                                     "multiply" : 1
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/fragmented/4.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/fragmented/orange/4.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/fragmented/green/4.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/fragmented/4.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/fragmented/orange/4.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/fragmented/green/4.png"
                             ]
                     },
                     {
@@ -175,7 +175,7 @@
                         "description" : "Increases <span class=\"highlight\">Gun Damage</span>, <span class=\"highlight\">Fire Rate</span>, and <span class=\"highlight\">Reload Speed</span> while in <span class=\"highlight\">Fight For Your Life</span>.  Also, increases the duration of <span class=\"highlight\">Fight For Your Life</span>.",
                         "levels" : 5,
                         "position" : 5,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Gun Damage: +[$]%",
@@ -196,13 +196,13 @@
                                     "name" : "Fight For Your Life Time: +[$]%",
                                     "base" : "7",
                                     "multiply" : 1
-                                }								
+                                }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/fragmented/5.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/fragmented/orange/5.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/fragmented/green/5.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/fragmented/5.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/fragmented/orange/5.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/fragmented/green/5.png"
                             ]
                     },
                     {
@@ -210,7 +210,7 @@
                         "description" : "Multiplies the <span class=\"highlight\">Bonuses</span> and <font color=\"#feba36\">Penalties</font> of the current <span class=\"highlight\">Subroutine</span> by up to <span class=\"highlight\">three</span>.  The fewer <span class=\"highlight\">Frag Stacks</span> you have, the greater the multiplier. <span class=\"highlight\">Defensive Subroutines</span> always receive <span class=\"highlight\">Triple Capacity</span> regardless of stacks.  Also, unlocks <font color=\"#ff6600\">ACTION PACKAGE</font> <span class=\"highlight\">One Shot Wonder</span>.",
                         "levels" : 1,
                         "position" : 7,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "One Shot Wonder: Every shot empties all bullets from your clip.",
@@ -218,11 +218,11 @@
                                     "multiply" : 1
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/fragmented/6.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/fragmented/orange/6.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/fragmented/green/6.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/fragmented/6.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/fragmented/orange/6.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/fragmented/green/6.png"
                             ]
                     },
                     {
@@ -230,7 +230,7 @@
                         "description" : "Increases <span class=\"highlight\">Grenade Damage</span>.  Also, throwing a grenade adds <span class=\"highlight\">Frag Stacks</span>.",
                         "levels" : 5,
                         "position" : 9,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Grenade Damage: +[$]%",
@@ -243,11 +243,11 @@
                                     "multiply" : 1
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/fragmented/7.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/fragmented/orange/7.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/fragmented/green/7.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/fragmented/7.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/fragmented/orange/7.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/fragmented/green/7.png"
                             ]
                     },
                     {
@@ -255,7 +255,7 @@
                         "description" : "<span class=\"highlight\">Elemental Subroutines.</span>  You randomly pick a <span class=\"highlight\">Subroutine</span> that <span class=\"highlight\">Increases Damage</span> with a chosen <span class=\"highlight\">element</span>, but <font color=\"#feba36\">Decreases Damage</font> with all other elements.  Upon <span class=\"highlight\">depleting your shield</span>, <span class=\"highlight\">filling your shield</span>, or entering <span class=\"highlight\">Fight For Your Life</span>, you release a <span class=\"highlight\">Nova</span> of the chosen element.",
                         "levels" : 1,
                         "position" : 10,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Chosen Element Damage: +32%",
@@ -266,13 +266,13 @@
                                     "name" : "Other Element Damage: -16%",
                                     "base" : "1",
                                     "multiply" : 1
-                                }								
+                                }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/fragmented/8.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/fragmented/orange/8.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/fragmented/green/8.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/fragmented/8.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/fragmented/orange/8.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/fragmented/green/8.png"
                             ]
                     },
 					{
@@ -280,7 +280,7 @@
                         "description" : "<span class=\"highlight\">Kill Skill.</span>  Killing an enemy increases your <span class=\"highlight\">Gun Damage</span>, <span class=\"highlight\">Reload Speed</span>, and <span class=\"highlight\">Movement Speed</span> for a few seconds.",
                         "levels" : 5,
                         "position" : 11,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Gun Damage:  +[$]%",
@@ -298,11 +298,11 @@
                                     "multiply" : 1
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/fragmented/9.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/fragmented/orange/9.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/fragmented/green/9.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/fragmented/9.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/fragmented/orange/9.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/fragmented/green/9.png"
                             ]
                     },
 					{
@@ -310,7 +310,7 @@
                         "description" : "Whenever you <span class=\"highlight\">Slam</span>, you release a <span class=\"highlight\">Cryo Nova</span> and lose some <span class=\"highlight\">Frag Stacks</span>.",
                         "levels" : 5,
                         "position" : 12,
-                        "stats" : 
+                        "stats" :
                             [
 								{
                                     "name" : "Rank [$] Damage",
@@ -323,11 +323,11 @@
                                     "multiply" : 1
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/fragmented/10.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/fragmented/orange/10.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/fragmented/green/10.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/fragmented/10.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/fragmented/orange/10.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/fragmented/green/10.png"
                             ]
                     },
                     {
@@ -335,7 +335,7 @@
                         "description" : "Increases <span class=\"highlight\">Melee Damage</span>.  Also, killing an enemy with a melee attack grants <span class=\"highlight\">Frag Stacks</span>, a small amount of <span class=\"highlight\">Health</span>, and increased <span class=\"highlight\">Movement Speed</span> for a few seconds.",
                         "levels" : 5,
                         "position" : 14,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Melee Damage: +[$]%",
@@ -357,13 +357,13 @@
                                     "base" : "1",
                                     "multiply" : 1
                                 }
-								
+
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/fragmented/11.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/fragmented/orange/11.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/fragmented/green/11.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/fragmented/11.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/fragmented/orange/11.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/fragmented/green/11.png"
                             ]
                     },
                     {
@@ -371,7 +371,7 @@
                         "description" : "Whenever you initiate a new <span class=\"highlight\">Subroutine</span> you emit a <font color=\"#ff4040\">R</font><font color=\"#ff7f66\">a</font><font color=\"#ffee28\">i</font><font color=\"#00ffaa\">n</font><font color=\"#2185c5\">b</font><font color=\"#236688\">o</font><font color=\"#d5b8f2\">w</font> <span class=\"highlight\">Nova</span>.  The <span class=\"highlight\">Nova</span> consists of all elements, humongous in size, and makes your team super happy. Also, unlocks <font color=\"#ff6600\">ACTION PACKAGE</font> <span class=\"highlight\">Laser Inferno</span>.",
                         "levels" : 1,
                         "position" : 16,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Laser Inferno: Shoot lasers in all directions at nearby enemies.",
@@ -379,11 +379,11 @@
                                     "multiply" : 1
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/fragmented/12.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/fragmented/orange/12.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/fragmented/green/12.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/fragmented/12.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/fragmented/orange/12.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/fragmented/green/12.png"
                             ]
                     }
 
@@ -392,7 +392,7 @@
             },
             {
                 "color" : "blue",
-                "title" : "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/iloveyouguys/title.png",
+                "title" : "borderlandsthegame/prsqlskilltree/images/chars/claptrap/iloveyouguys/title.png",
                 "skills" :
                 [
                     {
@@ -400,7 +400,7 @@
                         "description" : "Whenever you're revived or you revive someone, you and your buddy gain <span class=\"highlight\">Health Regeneration</span> and <span class=\"highlight\">Damage Reduction</span> for a short time.  Also, extends <span class=\"highlight\">Fight For Your Life</span> and increases <span class=\"highlight\">Weapon Damage</span> while downed.",
                         "levels" : 5,
                         "position" : 0,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Downed Time: +[$]%",
@@ -421,13 +421,13 @@
                                     "name" : "Health Regen: +[$]% of Max Health / sec.",
                                     "base" : ".5",
                                     "multiply" : 1
-                                }								
+                                }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/iloveyouguys/0.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/iloveyouguys/orange/0.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/iloveyouguys/green/0.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/iloveyouguys/0.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/iloveyouguys/orange/0.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/iloveyouguys/green/0.png"
                             ]
                     },
                     {
@@ -435,7 +435,7 @@
                         "description" : "Increases <span class=\"highlight\">Status Effect Chance</span>.  Dealing <span class=\"highlight\">Status Effect Damage</span> to enemies grants stacks of <span class=\"highlight\">Maniacal Laughter</span>.  You and your pals gain <span class=\"highlight\">Health Regeneration</span> for each stack of <span class=\"highlight\">Maniacal Laughter</span>.  The lower your health, the greater the <span class=\"highlight\">Health Regeneration</span>.  Each stack lasts a few seconds.",
                         "levels" : 5,
                         "position" : 2,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Status Effect Chance: +[$]%",
@@ -453,11 +453,11 @@
                                     "multiply" : 1
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/iloveyouguys/1.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/iloveyouguys/orange/1.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/iloveyouguys/green/1.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/iloveyouguys/1.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/iloveyouguys/orange/1.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/iloveyouguys/green/1.png"
                             ]
                     },
                     {
@@ -465,7 +465,7 @@
                         "description" : "Increases <span class=\"highlight\">Action Skill Cooldown Rate</span>. While <span class=\"highlight\">VaultHunter.EXE</span> is running, this bonus is <span class=\"highlight\">transferred to your allies</span>.",
                         "levels" : 5,
                         "position" : 3,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Action Skill Cooldown Rate: +[$]%",
@@ -473,11 +473,11 @@
                                     "multiply" : 1
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/iloveyouguys/2.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/iloveyouguys/orange/2.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/iloveyouguys/green/2.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/iloveyouguys/2.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/iloveyouguys/orange/2.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/iloveyouguys/green/2.png"
                             ]
                     },
                     {
@@ -485,7 +485,7 @@
                         "description" : "While in <span class=\"highlight\">Fight For Your Life</span>, you draw aggro from nearby enemies.  Also, unlocks <font color=\"#ff6600\">ACTION PACKAGE</font> <span class=\"highlight\">Clap-in-the-Box</span>.",
                         "levels" : 1,
                         "position" : 4,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "\"Wanna hear the new dubstep song I wrote?\""
@@ -494,11 +494,11 @@
                                     "name" : "Clap-in-the-box: Digistruct a giant bomb that hurts everything around it when it explodes."
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/iloveyouguys/3.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/iloveyouguys/orange/3.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/iloveyouguys/green/3.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/iloveyouguys/3.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/iloveyouguys/orange/3.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/iloveyouguys/green/3.png"
                             ]
                     },
                     {
@@ -506,7 +506,7 @@
                         "description" : "Increases <span class=\"highlight\">Fire Rate</span>, <span class=\"highlight\">Weapon Swap Speed</span>, and <span class=\"highlight\">Max Health</span>.  This bonus increases for <span class=\"highlight\">every teammate</span> in the game.  Being part of a team is great!",
                         "levels" : 5,
                         "position" : 5,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Fire Rate: +[$]%",
@@ -539,11 +539,11 @@
                                     "multiply" : 1
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/iloveyouguys/4.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/iloveyouguys/orange/4.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/iloveyouguys/green/4.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/iloveyouguys/4.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/iloveyouguys/orange/4.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/iloveyouguys/green/4.png"
                             ]
                     },
                     {
@@ -551,7 +551,7 @@
                         "description" : "Killing an enemy creates a <span class=\"highlight\">Friendship Nova</span> centered on the enemy, <span class=\"highlight\">Healing</span> you and your friends in the radius.  Allies who are low on health are healed for more.  Also, unlocks <font color=\"#ff6600\">ACTION PACKAGE</font> <span class=\"highlight\">Gun Wizard</span>.",
                         "levels" : 1,
                         "position" : 7,
-                        "stats" : 
+                        "stats" :
                             [
 								{
                                     "name" : "Friendship Nova: Heals up to 15% of your Max Health.",
@@ -564,11 +564,11 @@
                                     "multiply" : 1
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/iloveyouguys/5.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/iloveyouguys/orange/5.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/iloveyouguys/green/5.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/iloveyouguys/5.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/iloveyouguys/orange/5.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/iloveyouguys/green/5.png"
                             ]
                     },
                     {
@@ -576,7 +576,7 @@
                         "description" : "Improves your <span class=\"highlight\">Shield Capacity</span>, <span class=\"highlight\">Shield Recharge Rate</span>, and <span class=\"highlight\">Shield Recharge Delay</span>.",
                         "levels" : 5,
                         "position" : 9,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Shield Capacity: +[$]%",
@@ -595,11 +595,11 @@
 									"sequence" : ["3","6","8","11","13"]
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/iloveyouguys/6.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/iloveyouguys/orange/6.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/iloveyouguys/green/6.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/iloveyouguys/6.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/iloveyouguys/orange/6.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/iloveyouguys/green/6.png"
                             ]
                     },
                     {
@@ -607,19 +607,19 @@
                         "description" : "When your <span class=\"highlight\">Shield</span> becomes depleted, you release a <span class=\"highlight\">Mega-Nova</span> centered on yourself that heals you and your friends, but hurts enemies. Targets low on health are healed for more.  Your <span class=\"highlight\">Shield</span> must fully recharge between <span class=\"highlight\">Mega-Novas</span>.",
                         "levels" : 1,
                         "position" : 10,
-                        "stats" : 
+                        "stats" :
                             [
                                {
                                     "name" : "Mega-Nova: Heals up to 15% of your Max Health.",
                                     "base" : "1",
                                     "multiply" : 1
-                                } 
+                                }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/iloveyouguys/7.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/iloveyouguys/orange/7.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/iloveyouguys/green/7.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/iloveyouguys/7.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/iloveyouguys/orange/7.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/iloveyouguys/green/7.png"
                             ]
                     },
                     {
@@ -627,7 +627,7 @@
                         "description" : "Increases your <span class=\"highlight\">Max Health</span> and grants a small amount of <span class=\"highlight\">Damage Reduction</span>.",
                         "levels" : 5,
                         "position" : 11,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Max Health: +[$]",
@@ -641,11 +641,11 @@
 									"sequence" : ["4.8","9.1","13.0","16.7","20.0"]
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/iloveyouguys/8.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/iloveyouguys/orange/8.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/iloveyouguys/green/8.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/iloveyouguys/8.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/iloveyouguys/orange/8.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/iloveyouguys/green/8.png"
                             ]
                     },
                     {
@@ -653,7 +653,7 @@
                         "description" : "Whenever you gain <span class=\"highlight\">Second Wind</span>, your <span class=\"highlight\">Gun Damage</span>, <span class=\"highlight\">Melee Damage</span>, and <span class=\"highlight\">Critical Hit Damage</span> is increased for a few seconds!",
                         "levels" : 5,
                         "position" : 12,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Gun Damage:  +[$]%",
@@ -669,13 +669,13 @@
                                     "name" : "Critical Hit Damage: +[$]%",
                                     "base" : "5",
                                     "multiply" : 1
-                                }								
+                                }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/iloveyouguys/9.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/iloveyouguys/orange/9.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/iloveyouguys/green/9.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/iloveyouguys/9.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/iloveyouguys/orange/9.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/iloveyouguys/green/9.png"
                             ]
                     },
                     {
@@ -683,7 +683,7 @@
                         "description" : "<br>Increases <span class=\"highlight\">Magazine Size</span> with all <span class=\"highlight\">Weapon Types</span> for you and your buddies.",
                         "levels" : 5,
                         "position" : 14,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Magazine Size: +[$]%",
@@ -696,18 +696,18 @@
                                     "multiply" : 1
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/iloveyouguys/10.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/iloveyouguys/orange/10.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/iloveyouguys/green/10.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/iloveyouguys/10.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/iloveyouguys/orange/10.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/iloveyouguys/green/10.png"
                             ]
                     },{
                         "name" : "HIGH FIVES GUYS",
                         "description" : "Hold (RS/V) to request a <span class=\"highlight\">High Five</span> from your friends! A successful <span class=\"highlight\">High Five</span> increases your and your <font color=\"#feba36\">awesome</font> friend's <span class=\"highlight\">Gun Damage</span>, <span class=\"highlight\">Fire Rate</span>, and grants <span class=\"highlight\">Health Regeneration</span>. Woo! If you don't have any friends, or they leave you hangin', gain increased <span class=\"highlight\">Gun Damage</span> and <span class=\"highlight\">Health Regeneration</span> for a few seconds, because <font color=\"#feba36\">screw you guys!</font>",
                         "levels" : 1,
                         "position" : 16,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Gun Damage:  +15%",
@@ -730,18 +730,18 @@
                                     "multiply" : 1
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/iloveyouguys/11.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/iloveyouguys/orange/11.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/iloveyouguys/green/11.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/iloveyouguys/11.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/iloveyouguys/orange/11.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/iloveyouguys/green/11.png"
                             ]
                     }
                 ]
             },
             {
                 "color" : "green",
-                "title" : "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/boomtrap/title.png",
+                "title" : "borderlandsthegame/prsqlskilltree/images/chars/claptrap/boomtrap/title.png",
                 "skills" :
                 [
                     {
@@ -749,7 +749,7 @@
                         "description" : "Reloading your weapon increases your <span class=\"highlight\">Fire Rate</span> and <span class=\"highlight\">Reload Speed</span> but makes your <span class=\"highlight\">Accuracy</span> worse for a few seconds.",
                         "levels" : 5,
                         "position" : 0,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Fire Rate: +[$]%",
@@ -765,13 +765,13 @@
                                     "name" : "Accuracy: -[$]%",
                                     "base" : "2",
                                     "multiply" : 1
-                                }								
+                                }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/boomtrap/0.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/boomtrap/orange/0.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/boomtrap/green/0.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/boomtrap/0.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/boomtrap/orange/0.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/boomtrap/green/0.png"
                             ]
                     },
                     {
@@ -779,7 +779,7 @@
                         "description" : "Killing an enemy <span class=\"highlight\">Restores Health</span>, but <span class=\"highlight\">Costs Shields</span>.  If your shields are not currently up then... <font color=\"#feba36\">FREE HEALTH</font>! The lower your health, the greater the amount of health restored.",
                         "levels" : 5,
                         "position" : 2,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Health Restore: Up to [$]% of Max Health",
@@ -792,11 +792,11 @@
                                     "multiply" : 1
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/boomtrap/1.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/boomtrap/orange/1.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/boomtrap/green/1.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/boomtrap/1.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/boomtrap/orange/1.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/boomtrap/green/1.png"
                             ]
                     },
                     {
@@ -804,7 +804,7 @@
                         "description" : "Whenever you shoot an enemy with a non-explosive weapon, you have a chance to deal <span class=\"highlight\">Bonus Explosive Damage</span> based on your weapon's damage.",
                         "levels" : 5,
                         "position" : 3,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Explosion Chance: [$]%",
@@ -812,11 +812,11 @@
                                     "multiply" : 1
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/boomtrap/2.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/boomtrap/orange/2.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/boomtrap/green/2.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/boomtrap/2.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/boomtrap/orange/2.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/boomtrap/green/2.png"
                             ]
                     },
                     {
@@ -824,7 +824,7 @@
                         "description" : "When struck by a <span class=\"highlight\">melee attack</span>, you emit a powerful <span class=\"highlight\">Blastwave</span> that pushes that enemy away and deals <span class=\"highlight\">Explosive Damage</span>.",
                         "levels" : 5,
                         "position" : 5,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Shockwave Momentum: [$]",
@@ -838,11 +838,11 @@
                                     "multiply" : 1
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/boomtrap/3.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/boomtrap/orange/3.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/boomtrap/green/3.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/boomtrap/3.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/boomtrap/orange/3.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/boomtrap/green/3.png"
                             ]
                     },
                     {
@@ -850,17 +850,17 @@
                         "description" : "When you enter <span class=\"highlight\">Fight For Your Life</span>, throw a digistructed copy of yourself which explodes like a grenade, and you continually emit <span class=\"highlight\">Explosive Novas</span>.",
                         "levels" : 1,
                         "position" : 7,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "\"I will not die until you die with me!\""
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/boomtrap/4.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/boomtrap/orange/4.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/boomtrap/green/4.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/boomtrap/4.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/boomtrap/orange/4.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/boomtrap/green/4.png"
                             ]
                     },
                     {
@@ -868,19 +868,19 @@
                         "description" : "Whenever you reload your gun, gain <span class=\"highlight\">Increased Explosive Damage</span>. This bonus can stack up to five times and each stack only lasts a few seconds.",
                         "levels" : 5,
                         "position" : 9,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Explosive Damage: +[$]% per stack",
                                     "base" : 4,
                                     "multiply" : 1
-                                }								
+                                }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/boomtrap/5.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/boomtrap/orange/5.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/boomtrap/green/5.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/boomtrap/5.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/boomtrap/orange/5.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/boomtrap/green/5.png"
                             ]
                     },
                     {
@@ -888,7 +888,7 @@
                         "description" : "<span class=\"highlight\">Kill Skill</span>.  Whenever you kill an enemy, bullets have a chance to <span class=\"highlight\">reflect</span> off you and towards enemies for a short time.  Also, unlocks <font color=\"#ff6600\">ACTION PACKAGE</font> <span class=\"highlight\">Torgue Fiesta</span>.",
                         "levels" : 1,
                         "position" : 10,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Bullet Ricochet Change: +25%",
@@ -901,11 +901,11 @@
                                     "multiply" : 1
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/boomtrap/6.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/boomtrap/orange/6.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/boomtrap/green/6.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/boomtrap/6.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/boomtrap/orange/6.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/boomtrap/green/6.png"
                             ]
                     },
                     {
@@ -913,7 +913,7 @@
                         "description" : "When firing a fully loaded gun after reloading you generate an <span class=\"highlight\">Explosive Nova</span> centered on you, damaging all nearby enemies.  And <font color=\"#feba36\">hurts you</font>... but only a bit.",
                         "levels" : 5,
                         "position" : 11,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Explosive Nova: Rank [$] Damage",
@@ -926,11 +926,11 @@
                                     "multiply" : 1
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/boomtrap/7.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/boomtrap/orange/7.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/boomtrap/green/7.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/boomtrap/7.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/boomtrap/orange/7.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/boomtrap/green/7.png"
                             ]
                     },
                     {
@@ -938,7 +938,7 @@
                         "description" : "<span class=\"highlight\">Melee Override</span>.  Dealing <span class=\"highlight\">Explosive Damage</span> grants you stacks of <span class=\"highlight\">Hyperion Punch</span>.  When you have 5 stacks, press (RS/V) to throw a <span class=\"highlight\">super awesome punch</span> that deals bonus <span class=\"highlight\">Incendiary Damage</span>.  This consumes all stacks of <span class=\"highlight\">Hyperion Punch</span>.",
                         "levels" : 5,
                         "position" : 12,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Hyperion Punch Stack Cap: 5 ",
@@ -951,11 +951,11 @@
                                     "multiply" : 1
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/boomtrap/8.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/boomtrap/orange/8.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/boomtrap/green/8.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/boomtrap/8.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/boomtrap/orange/8.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/boomtrap/green/8.png"
                             ]
                     },
                     {
@@ -963,7 +963,7 @@
                         "description" : "The last round fired from any weapon's clip gains significant <span class=\"highlight\">Bonus Damage</span>. Smaller clips reduce the bonus.",
                         "levels" : 5,
                         "position" : 14,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Last Shot Bonus:  +[$]%",
@@ -976,11 +976,11 @@
                                     "multiply" : 1
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/boomtrap/9.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/boomtrap/orange/9.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/boomtrap/green/9.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/boomtrap/9.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/boomtrap/orange/9.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/boomtrap/green/9.png"
                             ]
                     },
                     {
@@ -988,7 +988,7 @@
                         "description" : "Increases <span class=\"highlight\">Fire Rate</span> and <span class=\"highlight\">Reload Speed</span>.  The lower your health and shields, the greater the bonus.  Also, unlocks <font color=\"#ff6600\">ACTION PACKAGE</font> <span class=\"highlight\">Pirate Ship Mode</span>.",
                         "levels" : 1,
                         "position" : 16,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Fire Rate: Up to 100%",
@@ -1006,17 +1006,17 @@
                                     "multiply" : 1
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/boomtrap/10.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/boomtrap/orange/10.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/claptrap/boomtrap/green/10.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/boomtrap/10.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/boomtrap/orange/10.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/claptrap/boomtrap/green/10.png"
                             ]
                     }
                 ]
             }
 
-        ]    
+        ]
     }
-       
+
 }

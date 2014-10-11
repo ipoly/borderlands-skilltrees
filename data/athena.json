@@ -1,16 +1,16 @@
 ﻿{
     "url" : "http://borderlandsthegame.com/skilltrees/athena.html",
-    "assets" : 
-    {          
-        "header" : "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/header.png",
-        "header-green" : "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/header_green.png",
-        "background" : "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/background.png",
-        "badge" :"https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/badge.png",
-        "class" : 
+    "assets" :
+    {
+        "header" : "borderlandsthegame/prsqlskilltree/images/chars/athena/header.png",
+        "header-green" : "borderlandsthegame/prsqlskilltree/images/chars/athena/header_green.png",
+        "background" : "borderlandsthegame/prsqlskilltree/images/chars/athena/background.png",
+        "badge" :"borderlandsthegame/prsqlskilltree/images/chars/athena/badge.png",
+        "class" :
             {
                 "name" : "Kinetic Aspis",
                 "description" : "<span class=\"highlight\">Action Skill</span>.  Press [LB/L1/F] to raise your <span class=\"highlight\">Aspis</span> and absorb all frontal damage. The <span class=\"highlight\">Aspis</span> can store a finite amount of absorbed damage as energy, based on your level. The <span class=\"highlight\">Aspis</span> is thrown at the end of the active duration, or if you press [LB/L1/F] again. The <span class=\"highlight\">Aspis</span> creates an explosion upon impact, dealing base damage plus <span class=\"highlight\">double the stored energy</span>, before returning to you.",
-                "stats" : 
+                "stats" :
                     [{
                                     "name" : "Defensive Arc: 90 degrees",
                                     "base" : "25",
@@ -26,13 +26,13 @@
                       }
 					  ],
                 "levels" : 1
-                
+
             },
-        "panel" : 
+        "panel" :
         [
             {
                 "color" : "red",
-                "title" : "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/ceraunicstorm/title.png",
+                "title" : "borderlandsthegame/prsqlskilltree/images/chars/athena/ceraunicstorm/title.png",
                 "skills" :
                 [
                     {
@@ -40,7 +40,7 @@
                         "description" : "When you <span class=\"highlight\">swap weapons</span>, you gain <span class=\"highlight\">Storm Weaving</span>, increasing your <span class=\"highlight\">Fire Rate</span>  and <span class=\"highlight\">Elemental Effect</span>  chance for a short duration.",
                         "levels" : 4,
                         "position" : 0,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Elemental Effect Chance: +[$]%",
@@ -56,11 +56,11 @@
                                     "name" : "Duration: 9 seconds"
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/ceraunicstorm/0.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/ceraunicstorm/orange/0.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/ceraunicstorm/green/0.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/ceraunicstorm/0.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/ceraunicstorm/orange/0.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/ceraunicstorm/green/0.png"
                             ]
                     },
                     {
@@ -68,17 +68,17 @@
                         "description" : "Dealing <span class=\"highlight\">Incendiary</span>  or <span class=\"highlight\">Shock</span>  damage causes you to gain stacks of <span class=\"highlight\">Maelstrom</span>. All <span class=\"highlight\">Elemental Damage</span>  dealt is increased for each stack of <span class=\"highlight\">Maelstrom</span>. Stacks will decay over time, and this rate of decay increases as you accumulate more stacks.",
                         "levels" : 1,
                         "position" : 2,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Elemental Damage: +0.4% per stack"
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/ceraunicstorm/1.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/ceraunicstorm/orange/1.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/ceraunicstorm/green/1.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/ceraunicstorm/1.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/ceraunicstorm/orange/1.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/ceraunicstorm/green/1.png"
                             ]
                     },
                     {
@@ -86,7 +86,7 @@
                         "description" : "Increases <span class=\"highlight\">Magazine Size</span>  and <span class=\"highlight\">Reload Speed</span>.",
                         "levels" : 5,
                         "position" : 3,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Magazine Size: +[$]%",
@@ -99,11 +99,11 @@
                                     "multiply" : 1
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/ceraunicstorm/2.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/ceraunicstorm/orange/2.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/ceraunicstorm/green/2.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/ceraunicstorm/2.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/ceraunicstorm/orange/2.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/ceraunicstorm/green/2.png"
                             ]
                     },
                     {
@@ -111,7 +111,7 @@
                         "description" : "While you have at least one <span class=\"highlight\">Electrocute Status Effect</span>  active, you regenerate a percentage of your <span class=\"highlight\">Shields</span>  every second for each stack of <span class=\"highlight\">Maelstrom</span>  you have.",
                         "levels" : 5,
                         "position" : 5,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Shield Regeneration per Second: +[$]% per stack",
@@ -119,11 +119,11 @@
                                     "multiply" : 1
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/ceraunicstorm/3.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/ceraunicstorm/orange/3.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/ceraunicstorm/green/3.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/ceraunicstorm/3.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/ceraunicstorm/orange/3.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/ceraunicstorm/green/3.png"
                             ]
                     },
                     {
@@ -131,7 +131,7 @@
                         "description" : "When you are <span class=\"highlight\">airborne</span>, shooting an enemy will <span class=\"highlight\">Smite</span> them, causing <span class=\"highlight\">Incendiary</span> and <span class=\"highlight\">Shock Damage</span> in a small area. Smite damage increases as you accumulate more stacks of <span class=\"highlight\">Maelstrom</span>. This ability has a cooldown.",
                         "levels" : 1,
                         "position" : 7,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Cooldown: 12 seconds "
@@ -140,11 +140,11 @@
                                     "name" : "Minimum Maelstrom Stacks: 10"
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/ceraunicstorm/4.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/ceraunicstorm/orange/4.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/ceraunicstorm/green/4.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/ceraunicstorm/4.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/ceraunicstorm/orange/4.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/ceraunicstorm/green/4.png"
                             ]
                     },
                     {
@@ -153,7 +153,7 @@
                         "levels" : 5,
                         "position" : 8,
 
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Weapon Swap Speed: +[$]% per stack",
@@ -164,13 +164,13 @@
                                     "name" : "Fire Rate: +[$]% per stack",
                                     "base" : "0.06",
                                     "multiply" : 1
-                                }								
+                                }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/ceraunicstorm/5.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/ceraunicstorm/orange/5.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/ceraunicstorm/green/5.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/ceraunicstorm/5.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/ceraunicstorm/orange/5.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/ceraunicstorm/green/5.png"
                             ]
                     },
                     {
@@ -178,7 +178,7 @@
                         "description" : "The <span class=\"highlight\">Aspis</span> has a chance to <span class=\"highlight\">shock</span> nearby enemies when struck. When this occurs, you gain bonus <span class=\"highlight\">Maelstrom</span> stacks.",
                         "levels" : 5,
                         "position" : 9,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Bonus Stacks: 5"
@@ -189,11 +189,11 @@
                                     "multiply" : 1
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/ceraunicstorm/6.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/ceraunicstorm/orange/6.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/ceraunicstorm/green/6.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/ceraunicstorm/6.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/ceraunicstorm/orange/6.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/ceraunicstorm/green/6.png"
                             ]
                     },
                     {
@@ -201,17 +201,17 @@
                         "description" : "When you throw the <span class=\"highlight\">Aspis</span>, a devastating <span class=\"highlight\">Fire and Lightning Storm</span>  will spawn at the target location, doing area damage for several seconds. The damage of the storm increases based on the amount of damage absorbed by the <span class=\"highlight\">Aspis</span>.",
                         "levels" : 1,
                         "position" : 10,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "\"At my signal, unleash hell!\""
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/ceraunicstorm/7.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/ceraunicstorm/orange/7.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/ceraunicstorm/green/7.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/ceraunicstorm/7.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/ceraunicstorm/orange/7.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/ceraunicstorm/green/7.png"
                             ]
                     },
                     {
@@ -219,7 +219,7 @@
                         "description" : "While <span class=\"highlight\">Storm Weaving</span>  is active, your weapons have a chance to <span class=\"highlight\">not consume ammo</span>. This chance is increased for every <span class=\"highlight\">Maelstrom</span>  stack you have.",
                         "levels" : 5,
                         "position" : 11,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Free Shot Chance:  +[$]%",
@@ -230,13 +230,13 @@
                                     "name" : "Additional Chance:  +[$]% per stack",
                                     "base" : "0.02",
                                     "multiply" : 1
-                                }								
+                                }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/ceraunicstorm/8.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/ceraunicstorm/orange/8.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/ceraunicstorm/green/9.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/ceraunicstorm/8.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/ceraunicstorm/orange/8.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/ceraunicstorm/green/9.png"
                             ]
                     },
 					{
@@ -244,7 +244,7 @@
                         "description" : "Whenever you kill an enemy who is <span class=\"highlight\">electrocuted</span>  or <span class=\"highlight\">burning</span>, there is a chance for the status effect to <span class=\"highlight\">chain to a nearby enemy</span>. When this occurs, you gain bonus <span class=\"highlight\">Maelstrom</span>  stacks. This bonus is gained twice if the target is both <span class=\"highlight\">burning</span>  and <span class=\"highlight\">electrocuted</span>.",
                         "levels" : 5,
                         "position" : 12,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Bonus Stacks: 20"
@@ -255,11 +255,11 @@
                                     "multiply" : 1
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/ceraunicstorm/9.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/ceraunicstorm/orange/9.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/ceraunicstorm/green/9.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/ceraunicstorm/9.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/ceraunicstorm/orange/9.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/ceraunicstorm/green/9.png"
                             ]
                     },
 					{
@@ -267,7 +267,7 @@
                         "description" : "Whenever you <span class=\"highlight\">Freeze</span>  an enemy, you gain <span class=\"highlight\">Flash Freeze</span>  for a short duration. During this time, you cannot gain or lose <span class=\"highlight\">Maelstrom</span>  stacks.",
                         "levels" : 5,
                         "position" : 14,
-                        "stats" : 
+                        "stats" :
                             [
 								{
                                     "name" : "Flash Freeze Duration: [$] seconds",
@@ -275,11 +275,11 @@
                                     "multiply" : 1
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/ceraunicstorm/10.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/ceraunicstorm/orange/10.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/ceraunicstorm/green/10.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/ceraunicstorm/10.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/ceraunicstorm/orange/10.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/ceraunicstorm/green/10.png"
                             ]
                     },
                     {
@@ -287,7 +287,7 @@
                         "description" : "<span class=\"highlight\">Slamming</span>  links you to nearby enemies with a <span class=\"highlight\">Shock Tether</span>  for a short duration, electrocuting them. The tether is broken if you lose <span class=\"highlight\">line of sight</span>  to the target. Any enemies still tethered at the end of the duration, or who die while tethered, release an <span class=\"highlight\">Incendiary Nova</span>, and you gain bonus <span class=\"highlight\">Maelstrom</span>  stacks for each enemy affected. This ability has a cooldown.",
                         "levels" : 1,
                         "position" : 16,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Maelstrom Stacks: +20 per target"
@@ -296,13 +296,13 @@
                                 },{
                                     "name" : "Cooldown:  15 seconds"
                                 }
-								
+
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/ceraunicstorm/11.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/ceraunicstorm/orange/11.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/ceraunicstorm/green/11.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/ceraunicstorm/11.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/ceraunicstorm/orange/11.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/ceraunicstorm/green/11.png"
                             ]
                     }
 
@@ -311,7 +311,7 @@
             },
             {
                 "color" : "blue",
-                "title" : "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/xiphos/title.png",
+                "title" : "borderlandsthegame/prsqlskilltree/images/chars/athena/xiphos/title.png",
                 "skills" :
                 [
                     {
@@ -319,7 +319,7 @@
                         "description" : "Increases <span class=\"highlight\">Gun Damage</span>. Additionally, your <span class=\"highlight\">Melee Damage</span>  is increased for a short duration after <span class=\"highlight\">shooting an enemy</span>.",
                         "levels" : 5,
                         "position" : 0,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Gun Damage: +[$]%",
@@ -330,13 +330,13 @@
                                     "name" : "Melee Damage: +[$]%",
                                     "base" : "10",
                                     "multiply" : 1
-                                }								
+                                }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/xiphos/0.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/xiphos/orange/0.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/xiphos/green/0.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/xiphos/0.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/xiphos/orange/0.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/xiphos/green/0.png"
                             ]
                     },
                     {
@@ -344,7 +344,7 @@
                         "description" : "Increased <span class=\"highlight\">Melee Damage</span> and <span class=\"highlight\">Maximum Health</span>.",
                         "levels" : 5,
                         "position" : 2,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Melee Damage: +[$]%",
@@ -357,11 +357,11 @@
                                     "multiply" : 1
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/xiphos/1.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/xiphos/orange/1.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/xiphos/green/1.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/xiphos/1.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/xiphos/orange/1.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/xiphos/green/1.png"
                             ]
                     },
                     {
@@ -369,7 +369,7 @@
                         "description" : "<span class=\"highlight\">Kill Skill</span>. Killing an enemy increases <span class=\"highlight\">Movement Speed</span> and <span class=\"highlight\">Damage Resistance</span> or a few seconds.",
                         "levels" : 5,
                         "position" : 3,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Movement Speed: +[$]%",
@@ -383,11 +383,11 @@
 									"sequence" : ["5","9","13","17","20"]
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/xiphos/2.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/xiphos/orange/2.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/xiphos/green/2.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/xiphos/2.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/xiphos/orange/2.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/xiphos/green/2.png"
                             ]
                     },
                     {
@@ -395,7 +395,7 @@
                         "description" : "You deal increased <span class=\"highlight\">Damage</span> to any enemy who has less than 50% of their <span class=\"highlight\">Maximum Health</span> remaining.",
                         "levels" : 5,
                         "position" : 5,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Damage: +[$]%",
@@ -403,11 +403,11 @@
                                     "multiply" : 1
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/xiphos/3.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/xiphos/orange/3.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/xiphos/green/3.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/xiphos/3.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/xiphos/orange/3.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/xiphos/green/3.png"
                             ]
                     },
                     {
@@ -415,7 +415,7 @@
                         "description" : "Your <span class=\"highlight\">melee attacks</span> cause enemies to <span class=\"highlight\">bleed</span>, inflicting damage over time. The damage is increased against <span class=\"highlight\">higher Health</span> targets, and the damage also benefits from your <span class=\"highlight\">Melee Damage</span> bonuses.",
                         "levels" : 1,
                         "position" : 7,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Bleed Duration: 12 seconds"
@@ -424,11 +424,11 @@
                                     "name" : "Deals up to 100% bonus damage against targets with high Health"
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/xiphos/4.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/xiphos/orange/4.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/xiphos/green/4.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/xiphos/4.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/xiphos/orange/4.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/xiphos/green/4.png"
                             ]
                     },
                     {
@@ -436,7 +436,7 @@
                         "description" : "Gain <span class=\"highlight\">Health Regeneration</span>  whenever you make an enemy <span class=\"highlight\">Bleed</span>, for the duration of the <span class=\"highlight\">Bleed</span> effect. This effect stacks if you have multiple <span class=\"highlight\">Bleeding</span> enemies.",
                         "levels" : 5,
                         "position" : 9,
-                        "stats" : 
+                        "stats" :
                             [
                                  {
                                     "name" : "Regenerate [$]% of Max Health / sec per Bleeding Enemy",
@@ -444,11 +444,11 @@
                                     "multiply" : 1
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/xiphos/5.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/xiphos/orange/5.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/xiphos/green/5.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/xiphos/5.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/xiphos/orange/5.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/xiphos/green/5.png"
                             ]
                     },
                     {
@@ -456,17 +456,17 @@
                         "description" : "<span class=\"highlight\">Slam Alteration Skill</span>. When you <span class=\"highlight\">Slam</span> you now create a singularity, <span class=\"highlight\">pulling nearby enemies closer</span>  and dealing <span class=\"highlight\">damage</span>  to them.",
                         "levels" : 1,
                         "position" : 10,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "\"This used to be a helluva town, officer.\""
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/xiphos/6.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/xiphos/orange/6.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/xiphos/green/6.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/xiphos/6.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/xiphos/orange/6.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/xiphos/green/6.png"
                             ]
                     },
                     {
@@ -474,7 +474,7 @@
                         "description" : "Increases <span class=\"highlight\">Gun Damage</span>  dealt to <span class=\"highlight\">Bleeding</span> targets.",
                         "levels" : 5,
                         "position" : 11,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Gun Damage:  +[$]%",
@@ -482,11 +482,11 @@
                                     "multiply" : 1
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/xiphos/7.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/xiphos/orange/7.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/xiphos/green/7.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/xiphos/7.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/xiphos/orange/7.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/xiphos/green/7.png"
                             ]
                     },
                     {
@@ -494,7 +494,7 @@
                         "description" : "When an enemy is killed by your <span class=\"highlight\">melee attacks</span>, or dies while <span class=\"highlight\">Bleeding</span>, they <span class=\"highlight\">explode</span>. Nearby enemies will take damage from the blast, and also be kind of grossed out.",
                         "levels" : 5,
                         "position" : 12,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Blast Radius: Rank [$]",
@@ -502,11 +502,11 @@
                                     "multiply" : 1
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/xiphos/8.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/xiphos/orange/8.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/xiphos/green/8.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/xiphos/8.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/xiphos/orange/8.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/xiphos/green/8.png"
                             ]
                     },
                     {
@@ -514,7 +514,7 @@
                         "description" : "Gain increased <span class=\"highlight\">Fire Rate</span> and <span class=\"highlight\">Reload Speed</span> for each <span class=\"highlight\">Bleeding</span> target.",
                         "levels" : 5,
                         "position" : 14,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Reload Speed: +[$]% per Bleeding Enemy",
@@ -525,13 +525,13 @@
                                     "name" : "Fire Rate: +[$]% per Bleeding Enemy",
                                     "base" : "2",
                                     "multiply" : 1
-                                }								
+                                }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/xiphos/9.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/xiphos/orange/9.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/xiphos/green/9.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/xiphos/9.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/xiphos/orange/9.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/xiphos/green/9.png"
                             ]
                     },
                     {
@@ -539,7 +539,7 @@
                         "description" : "<span class=\"highlight\">Melee Override Skill</span>. Press (RS/V) to <span class=\"highlight\">dash</span> toward an enemy and <span class=\"highlight\">strike them with Xiphos</span> with increased <span class=\"highlight\">Melee Damage</span>. This ability has a cooldown. If this attack applies a <span class=\"highlight\">Bleed</span>  to a target that isn't <span class=\"highlight\">Bleeding</span>, or kills a target, the cooldown is immediately reset. Perform a regular melee attack when <span class=\"highlight\">Blood Rush</span>  is on cooldown.<br> ",
                         "levels" : 1,
                         "position" : 16,
-                        "stats" : 
+                        "stats" :
                             [
                               {
                                     "name" : "Melee Damage: +40%"
@@ -548,18 +548,18 @@
                                     "name" : "Cooldown 10 seconds"
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/xiphos/10.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/xiphos/orange/10.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/xiphos/green/10.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/xiphos/10.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/xiphos/orange/10.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/xiphos/green/10.png"
                             ]
                     }
                 ]
             },
             {
                 "color" : "green",
-                "title" : "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/phalanx/title.png",
+                "title" : "borderlandsthegame/prsqlskilltree/images/chars/athena/phalanx/title.png",
                 "skills" :
                 [
                      {
@@ -567,7 +567,7 @@
                         "description" : "Increases the <span class=\"highlight\">Damage</span> dealt by the <span class=\"highlight\">Aspis</span> when thrown.",
                         "levels" : 5,
                         "position" : 0,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Aspis Damage: +[$]%",
@@ -575,11 +575,11 @@
                                     "multiply" : 1
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/phalanx/2.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/phalanx/orange/2.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/phalanx/green/2.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/phalanx/2.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/phalanx/orange/2.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/phalanx/green/2.png"
                             ]
                     },
                     {
@@ -587,7 +587,7 @@
                         "description" : "Increases <span class=\"highlight\">Movement Speed</span>  and <span class=\"highlight\">Gun Damage</span>  while holding the <span class=\"highlight\">Aspis</span>.",
                         "levels" : 5,
                         "position" : 2,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Movement Speed: +[$]%",
@@ -600,11 +600,11 @@
                                     "multiply" : 1
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/phalanx/1.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/phalanx/orange/1.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/phalanx/green/1.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/phalanx/1.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/phalanx/orange/1.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/phalanx/green/1.png"
                             ]
                     },
                        {
@@ -612,19 +612,19 @@
                         "description" : "While the <span class=\"highlight\">Aspis</span> is active, you and your nearby friends gain <span class=\"highlight\">Health Regeneration</span>.  The <span class=\"highlight\">Health Regeneration Rate</span> increases as the <span class=\"highlight\">Aspis</span> absorbs damage.",
                         "levels" : 5,
                         "position" : 3,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Health Regen Rate: Rank [$]",
                                     "base" : "1",
                                     "multiply" : 1
-                                }					
+                                }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/phalanx/0.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/phalanx/orange/0.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/phalanx/green/0.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/phalanx/0.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/phalanx/orange/0.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/phalanx/green/0.png"
                             ]
                     },
                     {
@@ -632,7 +632,7 @@
                         "description" : "Lengthens the <span class=\"highlight\">duration</span> the <span class=\"highlight\">Aspis</span> can be active before it is automatically thrown.",
                         "levels" : 5,
                         "position" : 5,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Aspis Duration: +[$] seconds",
@@ -640,11 +640,11 @@
                                     "multiply" : "1"
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/phalanx/3.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/phalanx/orange/3.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/phalanx/green/3.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/phalanx/3.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/phalanx/orange/3.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/phalanx/green/3.png"
                             ]
                     },
                     {
@@ -652,17 +652,17 @@
                         "description" : "The <span class=\"highlight\">Aspis</span> now stores the <span class=\"highlight\">elemental damage type</span> of absorbed damage. Multiple <span class=\"highlight\">elemental damage types</span>  can be stored and all stored damage types are dealt by the <span class=\"highlight\">Aspis</span> when thrown. ",
                         "levels" : 1,
                         "position" : 7,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "\"All are welcome. Go into the light.\""
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/phalanx/4.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/phalanx/orange/4.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/phalanx/green/4.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/phalanx/4.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/phalanx/orange/4.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/phalanx/green/4.png"
                             ]
                     },
                     {
@@ -670,7 +670,7 @@
                         "description" : "<span class=\"highlight\">Damage Absorbed</span>  by the <span class=\"highlight\">Aspis</span> now provides power to the <span class=\"highlight\">Shields</span>  of you and your nearby friends. Also increases your <span class=\"highlight\">Maximum Shield Capacity</span>.",
                         "levels" : 5,
                         "position" : 9,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Shield Capacity: +[$]%",
@@ -681,13 +681,13 @@
                                     "name" : "Converts [$]% of absorbed damage into shield power",
                                     "base" : 5,
                                     "multiply" : 1
-                                }								
+                                }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/phalanx/5.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/phalanx/orange/5.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/phalanx/green/5.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/phalanx/5.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/phalanx/orange/5.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/phalanx/green/5.png"
                             ]
                     },
                     {
@@ -695,7 +695,7 @@
                         "description" : "When thrown, the <span class=\"highlight\">Aspis’</span> explosion grants <span class=\"highlight\">Second Wind</span>  to friends within range.  In addition, you gain a <span class=\"highlight\">Damage Bonus</span>  while in <span class=\"highlight\">Fight For Your Life</span>.",
                         "levels" : 1,
                         "position" : 10,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Damage Bonus: +[$]%",
@@ -703,11 +703,11 @@
                                     "multiply" : 1
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/phalanx/6.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/phalanx/orange/6.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/phalanx/green/6.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/phalanx/6.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/phalanx/orange/6.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/phalanx/green/6.png"
                             ]
                     },
                     {
@@ -715,7 +715,7 @@
                         "description" : "Allows the <span class=\"highlight\">Aspis</span> to absorb a percentage of damage from your <span class=\"highlight\">friends' guns</span>. Also increases your <span class=\"highlight\">Maximum Health</span>.",
                         "levels" : 5,
                         "position" : 11,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Friendly Fire Absorption: [$]%",
@@ -728,11 +728,11 @@
                                     "multiply" : 1
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/phalanx/7.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/phalanx/orange/7.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/phalanx/green/7.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/phalanx/7.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/phalanx/orange/7.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/phalanx/green/7.png"
                             ]
                     },
                     {
@@ -740,7 +740,7 @@
                         "description" : "When active, the <span class=\"highlight\">Aspis</span> has a chance to <span class=\"highlight\">reflect</span>  incoming <span class=\"highlight\">Lasers and Bullets</span>  while still absorbing their energy.",
                         "levels" : 5,
                         "position" : 12,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Reflect Chance : +[$]%",
@@ -748,11 +748,11 @@
                                     "multiply" : 1
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/phalanx/8.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/phalanx/orange/8.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/phalanx/green/8.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/phalanx/8.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/phalanx/orange/8.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/phalanx/green/8.png"
                             ]
                     },
                     {
@@ -760,7 +760,7 @@
                         "description" : "Activating the <span class=\"highlight\">Aspis</span> taunts nearby enemies, making them more likely to attack you. Additionally, for every <span class=\"highlight\">individual enemy</span>  who inflicts damage on your <span class=\"highlight\">Aspis</span>, you gain a stack of <span class=\"highlight\">Prepare for Glory</span>, increasing your <span class=\"highlight\">Gun Damage</span>. Stacks persist for a short duration after the <span class=\"highlight\">Aspis</span> has been thrown.",
                         "levels" : 5,
                         "position" : 14,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Gun Damage:  +[$]% per stack",
@@ -768,11 +768,11 @@
                                     "multiply" : 1
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/phalanx/9.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/phalanx/orange/9.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/phalanx/green/9.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/phalanx/9.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/phalanx/orange/9.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/phalanx/green/9.png"
                             ]
                     },
                     {
@@ -780,23 +780,23 @@
                         "description" : "The <span class=\"highlight\">Aspis</span> will <span class=\"highlight\">ricochet</span>  to up to 4 additional enemies, each taking less damage than the last. The <span class=\"highlight\">Aspis</span> will return to you after it hits the final enemy.",
                         "levels" : 1,
                         "position" : 16,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Aspis Damage is reduced by 33% each time it ricochets "
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/phalanx/10.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/phalanx/orange/10.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/athena/phalanx/green/10.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/phalanx/10.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/phalanx/orange/10.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/athena/phalanx/green/10.png"
                             ]
                     }
                 ]
             }
 
-        ]    
+        ]
     }
-       
+
 }

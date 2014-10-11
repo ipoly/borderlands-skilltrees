@@ -1,16 +1,16 @@
 ﻿{
     "url" : "http://borderlandsthegame.com/skilltrees/nisha.html",
-    "assets" : 
-    {          
-        "header" : "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/header.png",
-        "header-green" : "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/header_green.png",
-        "background" : "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/background.png",
-        "badge" :"https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/badge.png",
-        "class" : 
+    "assets" :
+    {
+        "header" : "borderlandsthegame/prsqlskilltree/images/chars/nisha/header.png",
+        "header-green" : "borderlandsthegame/prsqlskilltree/images/chars/nisha/header_green.png",
+        "background" : "borderlandsthegame/prsqlskilltree/images/chars/nisha/background.png",
+        "badge" :"borderlandsthegame/prsqlskilltree/images/chars/nisha/badge.png",
+        "class" :
             {
                 "name" : "Showdown",
                 "description" : "<span class=\"highlight\">Action Skill</span>.  Press [LB/L1/F] to activate <span class=\"highlight\">Showdown</span>, causing you to <span class=\"highlight\">Automatically Aim</span> at enemies and gain increased <span class=\"highlight\">Gun Damage</span>, <span class=\"highlight\">Fire Rate</span>, <span class=\"highlight\">Reload Speed</span>, <span class=\"highlight\">Accuracy</span>, and <span class=\"highlight\">Bullet Speed</span> with all gun types.  Holding [LT/L2/Mouse-2] and flicking (RS/R3/Mouse) in a direction allows you to quickly cycle to another target.  <span class=\"highlight\">Snipers Rifles</span> and <span class=\"highlight\">Rocket Launchers</span> do not receive the damage bonus.",
-                "stats" : 
+                "stats" :
                     [
 						{
                                     "name" : "Duration: 6 seconds",
@@ -47,17 +47,17 @@
                                     "base" : "25",
                                     "multiply" : 1
 						}
-					
-					
+
+
 					],
                 "levels" : 1
-                
+
             },
-        "panel" : 
+        "panel" :
         [
             {
                 "color" : "red",
-                "title" : "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/riflewoman/title.png",
+                "title" : "borderlandsthegame/prsqlskilltree/images/chars/nisha/riflewoman/title.png",
                 "skills" :
                 [
                     {
@@ -65,7 +65,7 @@
                         "description" : "When firing from the hip, you gain dramatically increased <span class=\"highlight\">Accuracy</span> and <span class=\"highlight\">Recoil Reduction</span>.",
                         "levels" : 5,
                         "position" : 0,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Accuracy: +[$]%",
@@ -78,11 +78,11 @@
                                     "multiply" : 1
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/riflewoman/0.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/riflewoman/orange/0.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/riflewoman/green/0.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/riflewoman/0.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/riflewoman/orange/0.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/riflewoman/green/0.png"
                             ]
                     },
                     {
@@ -90,7 +90,7 @@
                         "description" : "<span class=\"highlight\">Kill Skill</span>. Killing an enemy grants you bonus <span class=\"highlight\">Critical Hit Damage</span> and <span class=\"highlight\">Health Regeneration</span> for a short duration.",
                         "levels" : 5,
                         "position" : 2,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Regenerates: +[$]% of your Max Health / sec.",
@@ -103,11 +103,11 @@
                                     "multiply" : 1
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/riflewoman/1.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/riflewoman/orange/1.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/riflewoman/green/1.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/riflewoman/1.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/riflewoman/orange/1.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/riflewoman/green/1.png"
                             ]
                     },
                     {
@@ -115,7 +115,7 @@
                         "description" : "After <span class=\"highlight\">Reloading</span>, for a short duration, you gain increased <span class=\"highlight\">Gun Damage</span> and <span class=\"highlight\">Fire Rate</span> when shooting from the hip.",
                         "levels" : 5,
                         "position" : 3,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Gun Damage: +[$]%",
@@ -128,11 +128,11 @@
                                     "multiply" : 1
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/riflewoman/2.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/riflewoman/orange/2.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/riflewoman/green/2.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/riflewoman/2.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/riflewoman/orange/2.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/riflewoman/green/2.png"
                             ]
                     },
                     {
@@ -140,7 +140,7 @@
                         "description" : "Shooting an enemy grants you increased <span class=\"highlight\">Fire Rate</span> with all gun types.  A stack of <span class=\"highlight\">Unchained</span> can only be gained once per second.  All stacks are lost if you don't shoot any enemies for 10 seconds.",
                         "levels" : 5,
                         "position" : 5,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Fire Rate: +[$]% per stack",
@@ -151,11 +151,11 @@
                                     "name" : "Max Stacks: 21"
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/riflewoman/3.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/riflewoman/orange/3.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/riflewoman/green/3.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/riflewoman/3.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/riflewoman/orange/3.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/riflewoman/green/3.png"
                             ]
                     },
                     {
@@ -163,17 +163,17 @@
                         "description" : "Increases your <span class=\"highlight\">Magazine Size</span> with all gun types by 3. ",
                         "levels" : 1,
                         "position" : 7,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "\"You can never have too much of a good thing...\""
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/riflewoman/4.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/riflewoman/orange/4.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/riflewoman/green/4.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/riflewoman/4.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/riflewoman/orange/4.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/riflewoman/green/4.png"
                             ]
                     },
                     {
@@ -181,19 +181,19 @@
                         "description" : "The <span class=\"highlight\">first shot</span> fired from a <span class=\"highlight\">fully loaded magazine</span> causes <span class=\"highlight\">Bonus Damage</span>. If you kill an enemy with this shot they explode, dealing damage to all nearby enemies.",
                         "levels" : 5,
                         "position" : 9,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Gun Damage: +[$]%",
                                     "base" : "10",
                                     "multiply" : 1
-                                }								
+                                }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/riflewoman/5.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/riflewoman/orange/5.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/riflewoman/green/5.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/riflewoman/5.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/riflewoman/orange/5.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/riflewoman/green/5.png"
                             ]
                     },
                     {
@@ -201,17 +201,17 @@
                         "description" : "Killing an enemy grants you a stack of <span class=\"highlight\">Impatience</span>, increasing your <span class=\"highlight\">Reload Speed</span> by 20% for each stack.  All stacks are lost after reloading. Stacks up to 21 times.",
                         "levels" : 1,
                         "position" : 10,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "\"Ain’t nobody got time for that!\""
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/riflewoman/6.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/riflewoman/orange/6.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/riflewoman/green/6.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/riflewoman/6.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/riflewoman/orange/6.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/riflewoman/green/6.png"
                             ]
                     },
                     {
@@ -219,7 +219,7 @@
                         "description" : "Your <span class=\"highlight\">Critical Hits</span> with <span class=\"highlight\">non-elemental</span> guns deal additional <span class=\"highlight\">incendiary damage</span> with a high chance of <span class=\"highlight\">igniting</span> enemies.  The <span class=\"highlight\">damage</span> of the <span class=\"highlight\">incendiary</span> and <span class=\"highlight\">ignite damage</span> is based on your gun's <span class=\"highlight\">damage</span>.",
                         "levels" : 5,
                         "position" : 11,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Adds [$]% of Gun Damage as Incendiary Damage",
@@ -232,11 +232,11 @@
                                     "multiply" : 1
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/riflewoman/7.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/riflewoman/orange/7.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/riflewoman/green/7.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/riflewoman/7.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/riflewoman/orange/7.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/riflewoman/green/7.png"
                             ]
                     },
                     {
@@ -244,7 +244,7 @@
                         "description" : "Your bullets that hit walls or other objects have a chance to <span class=\"highlight\">ricochet off toward a nearby enemy</span>.",
                         "levels" : 5,
                         "position" : 12,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Bullet Ricochet Chance:  +[$]%",
@@ -253,13 +253,13 @@
                                 },
                                 {
                                     "name" : "Ricocheted Bullet Damage: -20%"
-                                }								
+                                }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/riflewoman/8.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/riflewoman/orange/8.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/riflewoman/green/9.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/riflewoman/8.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/riflewoman/orange/8.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/riflewoman/green/9.png"
                             ]
                     },
 					{
@@ -267,7 +267,7 @@
                         "description" : "<span class=\"highlight\">Kill Skill</span>.  After killing an enemy, all hits have a chance to count as <span class=\"highlight\">Critical Hits</span> for a short time. ",
                         "levels" : 5,
                         "position" : 14,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Critical Hit Chance:   +[$]%",
@@ -275,11 +275,11 @@
                                     "multiply" : 1
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/riflewoman/9.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/riflewoman/orange/9.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/riflewoman/green/9.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/riflewoman/9.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/riflewoman/orange/9.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/riflewoman/green/9.png"
                             ]
                     },
 					{
@@ -287,17 +287,17 @@
                         "description" : "During <span class=\"highlight\">Showdown</span> all shots that hit enemies <span class=\"highlight\">ricochet towards other nearby enemies</span>, dealing 10% weapon damage per hit.  Also, <span class=\"highlight\">Showdown</span> ending triggers an <span class=\"highlight\">Explosion</span> on all enemies who have been shot by you.",
                         "levels" : 1,
                         "position" : 16,
-                        "stats" : 
+                        "stats" :
                             [
 								{
                                     "name" : "\"I put a bomb inside every bad guy…\""
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/riflewoman/10.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/riflewoman/orange/10.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/riflewoman/green/10.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/riflewoman/10.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/riflewoman/orange/10.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/riflewoman/green/10.png"
                             ]
                     }
 
@@ -306,7 +306,7 @@
             },
             {
                 "color" : "blue",
-                "title" : "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/fanthehammer/title.png",
+                "title" : "borderlandsthegame/prsqlskilltree/images/chars/nisha/fanthehammer/title.png",
                 "skills" :
                 [
                     {
@@ -314,7 +314,7 @@
                         "description" : "<span class=\"highlight\">Kill Skill</span>. Killing an enemy grants you increased <span class=\"highlight\">Movement Speed</span> and <span class=\"highlight\">Gun Damage</span> for a short time.",
                         "levels" : 5,
                         "position" : 0,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Movement Speed: +[$]%",
@@ -325,13 +325,13 @@
                                     "name" : "Gun Damage: +[$]%",
                                     "base" : "5",
                                     "multiply" : 1
-                                }								
+                                }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/fanthehammer/0.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/fanthehammer/orange/0.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/fanthehammer/green/0.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/fanthehammer/0.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/fanthehammer/orange/0.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/fanthehammer/green/0.png"
                             ]
                     },
                     {
@@ -339,7 +339,7 @@
                         "description" : "Kills made during <span class=\"highlight\">Showdown</span> extend its duration.",
                         "levels" : 5,
                         "position" : 2,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Showdown Duration: +[$] second per kill",
@@ -347,11 +347,11 @@
                                     "multiply" : 1
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/fanthehammer/1.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/fanthehammer/orange/1.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/fanthehammer/green/1.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/fanthehammer/1.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/fanthehammer/orange/1.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/fanthehammer/green/1.png"
                             ]
                     },
                     {
@@ -359,7 +359,7 @@
                         "description" : "The <span class=\"highlight\">last 6 bullets</span> in <span class=\"highlight\">Non-Elemental Weapon</span> clips deal extra <span class=\"highlight\">Damage</span>.",
                         "levels" : 5,
                         "position" : 3,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Gun Damage: +[$]%",
@@ -367,11 +367,11 @@
                                     "multiply" : 1
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/fanthehammer/2.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/fanthehammer/orange/2.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/fanthehammer/green/2.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/fanthehammer/2.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/fanthehammer/orange/2.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/fanthehammer/green/2.png"
                             ]
                     },
                     {
@@ -379,7 +379,7 @@
                         "description" : "When <span class=\"highlight\">Showdown</span> begins, a portion of your <span class=\"highlight\">Shield</span> is instantly restored.  Also, while <span class=\"highlight\">Showdown</span> is <span class=\"highlight\">Cooling Down</span>, you gain improved <span class=\"highlight\">Shield Recharge Rate</span> and <span class=\"highlight\">Shield Recharge Delay</span>. ",
                         "levels" : 5,
                         "position" : 5,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Showdown restores: [$]% of shields",
@@ -397,11 +397,11 @@
                                     "multiply" : 1
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/fanthehammer/3.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/fanthehammer/orange/3.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/fanthehammer/green/3.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/fanthehammer/3.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/fanthehammer/orange/3.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/fanthehammer/green/3.png"
                             ]
                     },
                     {
@@ -409,17 +409,17 @@
                         "description" : "<span class=\"highlight\">Kill Skill</span>.  After killing an enemy, all your shots deal bonus <span class=\"highlight\">Explosive Damage</span> for a short time.  The closer the enemy is to you, the higher the damage.",
                         "levels" : 1,
                         "position" : 7,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Up to +35% Weapon Damage as Explosive Damage"
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/fanthehammer/4.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/fanthehammer/orange/4.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/fanthehammer/green/4.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/fanthehammer/4.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/fanthehammer/orange/4.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/fanthehammer/green/4.png"
                             ]
                     },
                     {
@@ -427,7 +427,7 @@
                         "description" : "<span class=\"highlight\">Kill Skill</span>. Killing an enemy greatly improves your <span class=\"highlight\">Reload Speed</span>, <span class=\"highlight\">Weapon Swap</span> speed, and <span class=\"highlight\">Fire Rate</span> for a short duration.",
                         "levels" : 5,
                         "position" : 9,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Reload Speed: +[$]%",
@@ -444,11 +444,11 @@
                                     "multiply" : 1
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/fanthehammer/5.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/fanthehammer/orange/5.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/fanthehammer/green/5.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/fanthehammer/5.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/fanthehammer/orange/5.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/fanthehammer/green/5.png"
                             ]
                     },
                     {
@@ -456,17 +456,17 @@
                         "description" : "Your <span class=\"highlight\">Melee Attack</span> steals up to 6 bullets from your enemy and <span class=\"highlight\">instantly loads them into your current gun's magazine</span>. There is a cooldown for this skill. Does not work with <span class=\"highlight\">Rocket Launcher</span> ammo.",
                         "levels" : 1,
                         "position" : 10,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "\"You won’t be needing this…\""
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/fanthehammer/6.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/fanthehammer/orange/6.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/fanthehammer/green/6.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/fanthehammer/6.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/fanthehammer/orange/6.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/fanthehammer/green/6.png"
                             ]
                     },
                     {
@@ -474,7 +474,7 @@
                         "description" : "When <span class=\"highlight\">Showdown</span> begins and ends, a portion of your gun is <span class=\"highlight\">instantly reloaded</span>.",
                         "levels" : 5,
                         "position" : 11,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Up to [$] ammo added",
@@ -482,11 +482,11 @@
                                     "multiply" : 1
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/fanthehammer/7.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/fanthehammer/orange/7.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/fanthehammer/green/7.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/fanthehammer/7.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/fanthehammer/orange/7.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/fanthehammer/green/7.png"
                             ]
                     },
                     {
@@ -494,7 +494,7 @@
                         "description" : "After <span class=\"highlight\">reloading</span> or reaching your maximum clip via <span class=\"highlight\">Pickpocket</span>, for a short duration your gun has a chance to <span class=\"highlight\">fire twice</span>.",
                         "levels" : 5,
                         "position" : 12,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Extra Shot Chance: [$]%",
@@ -502,11 +502,11 @@
                                     "multiply" : 1
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/fanthehammer/8.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/fanthehammer/orange/8.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/fanthehammer/green/8.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/fanthehammer/8.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/fanthehammer/orange/8.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/fanthehammer/green/8.png"
                             ]
                     },
                     {
@@ -514,19 +514,19 @@
                         "description" : "You gain a bonus to <span class=\"highlight\">Gun Damage</span> the longer you are in <span class=\"highlight\">Showdown</span>.",
                         "levels" : 5,
                         "position" : 14,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Gun Damage:  +[$]% / sec",
                                     "base" : "3",
                                     "multiply" : 1
-                                }								
+                                }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/fanthehammer/9.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/fanthehammer/orange/9.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/fanthehammer/green/9.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/fanthehammer/9.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/fanthehammer/orange/9.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/fanthehammer/green/9.png"
                             ]
                     },
                     {
@@ -534,24 +534,24 @@
                         "description" : "When using a <span class=\"highlight\">Pistol</span>, you get an exact copy of that gun in your offhand.  While using <span class=\"highlight\">Ironsights</span>, you shoot with your main hand only.<br> ",
                         "levels" : 1,
                         "position" : 16,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "\"Fill yer hands, you son of a female skag!\""
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/fanthehammer/10.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/fanthehammer/orange/10.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/fanthehammer/green/10.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/fanthehammer/10.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/fanthehammer/orange/10.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/fanthehammer/green/10.png"
                             ]
                     }
                 ]
             },
             {
                 "color" : "green",
-                "title" : "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/lawandorder/title.png",
+                "title" : "borderlandsthegame/prsqlskilltree/images/chars/nisha/lawandorder/title.png",
                 "skills" :
                 [
                     {
@@ -559,7 +559,7 @@
                         "description" : "Increases your <span class=\"highlight\">Shield Capacity</span> and <span class=\"highlight\">Melee Damage</span>.",
                         "levels" : 4,
                         "position" : 0,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Shield Capacity: +[$]%",
@@ -572,11 +572,11 @@
                                     "multiply" : 1
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/lawandorder/0.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/lawandorder/orange/0.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/lawandorder/green/0.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/lawandorder/0.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/lawandorder/orange/0.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/lawandorder/green/0.png"
                             ]
                     },
                     {
@@ -584,7 +584,7 @@
                         "description" : "Every time you take 15% of your <span class=\"highlight\">maximum health</span> in damage you gain a stack of <span class=\"highlight\">Order</span>.  Based on your number of <span class=\"highlight\">Order</span> stacks, you have a <span class=\"highlight\">chance to instantly heal double the damage taken</span>. <span class=\"highlight\">Order</span> stacks are quickly lost when outside combat.",
                         "levels" : 1,
                         "position" : 2,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Heal Chance: +1.2% per Order stack"
@@ -593,11 +593,11 @@
                                     "name" : "Max Stacks: 10"
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/lawandorder/1.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/lawandorder/orange/1.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/lawandorder/green/1.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/lawandorder/1.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/lawandorder/orange/1.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/lawandorder/green/1.png"
                             ]
                     },
                     {
@@ -605,7 +605,7 @@
                         "description" : "When <span class=\"highlight\">Showdown</span> ends or upon killing an enemy, you gain increased <span class=\"highlight\">Damage</span> with your next <span class=\"highlight\">Melee Attack</span>.  This effect can stack up to 5 times.",
                         "levels" : 5,
                         "position" : 3,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Melee Damage: +[$]% per stack",
@@ -613,11 +613,11 @@
                                     "multiply" : 1
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/lawandorder/2.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/lawandorder/orange/2.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/lawandorder/green/2.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/lawandorder/2.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/lawandorder/orange/2.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/lawandorder/green/2.png"
                             ]
                     },
                     {
@@ -625,17 +625,17 @@
                         "description" : "<span class=\"highlight\">Slam Augment</span>. Your <span class=\"highlight\">Slam</span> attack's damage is increased by 25%.  Dealing damage with <span class=\"highlight\">Slam</span> grants you 5 <span class=\"highlight\">Order</span> stacks <span class=\"highlight\">per enemy damaged</span>. This skill also raises your <span class=\"highlight\">Order Stack Cap</span> by 5.",
                         "levels" : 1,
                         "position" : 4,
-                        "stats" : 
+                        "stats" :
                             [
 								{
                                     "name" : "\"Yeeeeeeeee-haw!\""
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/lawandorder/3.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/lawandorder/orange/3.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/lawandorder/green/3.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/lawandorder/3.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/lawandorder/orange/3.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/lawandorder/green/3.png"
                             ]
                     },
                     {
@@ -643,7 +643,7 @@
                         "description" : "When an enemy would cause you to gain an <span class=\"highlight\">Order</span> stack, he gains a <span class=\"highlight\">Wanted</span> stack.  Damaging that target consumes all <span class=\"highlight\">Wanted</span> stacks and deals <span class=\"highlight\">Bonus Damage</span> based on the number of stacks consumed and your level. The maximum number of <span class=\"highlight\">Wanted</span> stacks is 5, and enemies still gain <span class=\"highlight\">Wanted</span> stacks even if you are at your maximum <span class=\"highlight\">Order</span> stacks.",
                         "levels" : 5,
                         "position" : 5,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Damage Level: [$]",
@@ -651,11 +651,11 @@
                                     "multiply" : 1
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/lawandorder/4.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/lawandorder/orange/4.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/lawandorder/green/4.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/lawandorder/4.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/lawandorder/orange/4.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/lawandorder/green/4.png"
                             ]
                     },
                     {
@@ -663,7 +663,7 @@
                         "description" : "Upon reaching 10 <span class=\"highlight\">Order</span> stacks, your <span class=\"highlight\">Shields</span> are restored to full.  Also, while at 10 or more <span class=\"highlight\">Order</span> stacks you gain improved <span class=\"highlight\">Melee Damage, Gun Damage, and Shield Recharge Delay</span> for each <span class=\"highlight\">Order</span> stack.  This skill also raises your <span class=\"highlight\">Order Stack Cap</span> by 5.",
                         "levels" : 1,
                         "position" : 7,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Melee Damage: +1.5% per Order stack"
@@ -673,13 +673,13 @@
                                 },
 								{
                                     "name" : "Shield Recharge Delay: -1.5% per Order stack"
-                                }	
+                                }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/lawandorder/5.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/lawandorder/orange/5.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/lawandorder/green/5.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/lawandorder/5.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/lawandorder/orange/5.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/lawandorder/green/5.png"
                             ]
                     },
                     {
@@ -687,7 +687,7 @@
                         "description" : "After hitting an enemy with a <span class=\"highlight\">Melee Attack</span>, you deal increased <span class=\"highlight\">Gun Damage</span> with all gun types for a few seconds.",
                         "levels" : 5,
                         "position" : 9,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Gun Damage: +[$]%",
@@ -695,11 +695,11 @@
                                     "multiply" : 1
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/lawandorder/6.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/lawandorder/orange/6.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/lawandorder/green/6.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/lawandorder/6.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/lawandorder/orange/6.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/lawandorder/green/6.png"
                             ]
                     },
                     {
@@ -707,17 +707,17 @@
                         "description" : "When you or an ally <span class=\"highlight\">kills an enemy</span>, you gain a stack of <span class=\"highlight\">Order</span> and have <span class=\"highlight\">5% of your health restored</span>.  This skill also raises your <span class=\"highlight\">Order Stack Cap</span> by 5.",
                         "levels" : 1,
                         "position" : 10,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "\"I am the judge, jury, and executioner.\""
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/lawandorder/7.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/lawandorder/orange/7.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/lawandorder/green/7.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/lawandorder/7.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/lawandorder/orange/7.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/lawandorder/green/7.png"
                             ]
                     },
                     {
@@ -725,7 +725,7 @@
                         "description" : "During <span class=\"highlight\">Showdown</span> you <span class=\"highlight\">Regenerate Health</span> and gain bonus <span class=\"highlight\">Movement Speed</span>.",
                         "levels" : 5,
                         "position" : 11,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Regenerates +[$]% of your Max Health / sec.",
@@ -738,11 +738,11 @@
                                     "multiply" : 1
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/lawandorder/8.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/lawandorder/orange/8.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/lawandorder/green/8.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/lawandorder/8.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/lawandorder/orange/8.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/lawandorder/green/8.png"
                             ]
                     },
                     {
@@ -750,7 +750,7 @@
                         "description" : "Gain increased <span class=\"highlight\">Gun Damage</span> with all gun types based on how low your <span class=\"highlight\">Health</span> currently is.  The lower your Health the greater the <span class=\"highlight\">Gun Damage</span>.",
                         "levels" : 5,
                         "position" : 12,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Gun Damage:  Up to [$]%",
@@ -758,11 +758,11 @@
                                     "multiply" : 1
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/lawandorder/9.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/lawandorder/orange/9.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/lawandorder/green/9.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/lawandorder/9.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/lawandorder/orange/9.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/lawandorder/green/9.png"
                             ]
                     },
 					{
@@ -770,7 +770,7 @@
                         "description" : "<span class=\"highlight\">Kill Skill</span>.  Killing an enemy grants you bonus <span class=\"highlight\">Reload Speed</span> and <span class=\"highlight\">Gun Damage</span> based on the number of <span class=\"highlight\">Order</span> stacks you currently have.",
                         "levels" : 5,
                         "position" : 14,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Reload Speed:  +[$]% per Order stack",
@@ -783,11 +783,11 @@
                                     "multiply" : 1
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/lawandorder/10.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/lawandorder/orange/10.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/lawandorder/green/10.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/lawandorder/10.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/lawandorder/orange/10.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/lawandorder/green/10.png"
                             ]
                     },
 					{
@@ -795,7 +795,7 @@
                         "description" : "<span class=\"highlight\">Melee Override</span>. Your <span class=\"highlight\">Melee Attack</span> causes a large <span class=\"highlight\">cone-shaped Shock burst</span>, dealing increased damage for each <span class=\"highlight\">Order</span> stack.  This skill also raises your <span class=\"highlight\">Order Stack Cap</span> by 5.",
                         "levels" : 1,
                         "position" : 16,
-                        "stats" : 
+                        "stats" :
                             [
                                 {
                                     "name" : "Cooldown: 15 seconds",
@@ -808,17 +808,17 @@
                                     "multiply" : 1
                                 }
                             ],
-                        "assets" : 
+                        "assets" :
                             [
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/lawandorder/11.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/lawandorder/orange/11.png",
-                                "https://downloads.2kgames.com/borderlandsthegame/prsqlskilltree/images/chars/nisha/lawandorder/green/11.png"
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/lawandorder/11.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/lawandorder/orange/11.png",
+                                "borderlandsthegame/prsqlskilltree/images/chars/nisha/lawandorder/green/11.png"
                             ]
                     }
                 ]
             }
 
-        ]    
+        ]
     }
-       
+
 }
