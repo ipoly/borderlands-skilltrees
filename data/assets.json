@@ -1,21 +1,21 @@
 {
     "assets":
     {
-        "panel-green" : "http://downloads.2kgames.com/borderlands2/skilltree/images/skill_bg_green.png"
-        ,"panel-blue" : "http://downloads.2kgames.com/borderlands2/skilltree/images/skill_bg_blue.png"
-        ,"panel-red" : "http://downloads.2kgames.com/borderlands2/skilltree/images/skill_bg_red.png" 
-        ,"info-panel-top" : "http://downloads.2kgames.com/borderlands2/skilltree/images/info/info_panel_top.png"
-        ,"info-panel-body" : "http://downloads.2kgames.com/borderlands2/skilltree/images/info/info_panel_body.png"
-        ,"info-panel-head" : "http://downloads.2kgames.com/borderlands2/skilltree/images/info/info_panel_bottom.png"
-        ,"panel-green-gray" : "http://downloads.2kgames.com/borderlands2/skilltree/images/skill_bg_green_gray.png"
-        ,"panel-blue-gray" : "http://downloads.2kgames.com/borderlands2/skilltree/images/skill_bg_blue_gray.png"
-        ,"panel-red-gray" : "http://downloads.2kgames.com/borderlands2/skilltree/images/skill_bg_red_gray.png" 
-        ,"logo" : "http://downloads.2kgames.com/borderlands2/skilltree/images/logo.png" 
-        ,"points-overlay" : "http://downloads.2kgames.com/borderlands2/skilltree/images/points_overlay.png"
-        ,"points-overlay-orange" : "http://downloads.2kgames.com/borderlands2/skilltree/images/points_overlay_orange.png"
-        ,"points-overlay-green" : "http://downloads.2kgames.com/borderlands2/skilltree/images/points_overlay_green.png"
-        ,"facebook" : "http://downloads.2kgames.com/borderlands2/skilltree/images/facebook.png"
-        ,"twitter" : "http://downloads.2kgames.com/borderlands2/skilltree/images/twitter.png"
+        "panel-green" : "borderlands2/skilltree/images/skill_bg_green.png"
+        ,"panel-blue" : "borderlands2/skilltree/images/skill_bg_blue.png"
+        ,"panel-red" : "borderlands2/skilltree/images/skill_bg_red.png"
+        ,"info-panel-top" : "borderlands2/skilltree/images/info/info_panel_top.png"
+        ,"info-panel-body" : "borderlands2/skilltree/images/info/info_panel_body.png"
+        ,"info-panel-head" : "borderlands2/skilltree/images/info/info_panel_bottom.png"
+        ,"panel-green-gray" : "borderlands2/skilltree/images/skill_bg_green_gray.png"
+        ,"panel-blue-gray" : "borderlands2/skilltree/images/skill_bg_blue_gray.png"
+        ,"panel-red-gray" : "borderlands2/skilltree/images/skill_bg_red_gray.png"
+        ,"logo" : "borderlands2/skilltree/images/logo.png"
+        ,"points-overlay" : "borderlands2/skilltree/images/points_overlay.png"
+        ,"points-overlay-orange" : "borderlands2/skilltree/images/points_overlay_orange.png"
+        ,"points-overlay-green" : "borderlands2/skilltree/images/points_overlay_green.png"
+        ,"facebook" : "borderlands2/skilltree/images/facebook.png"
+        ,"twitter" : "borderlands2/skilltree/images/twitter.png"
     }
 
 }
