@@ -67,7 +67,7 @@
                     },
                     {
                         "name" : "Fortify",
-                        "description" : "增加<span class=\"highlight\">Max 生命值</span> for you和<span class=\"highlight\">Wolf</span>.  Additionally, while <span class=\"highlight\">Saint</span> is active you deal increased <span class=\"highlight\">伤害</span> with 所有枪械类型.",
+                        "description" : "增加<span class=\"highlight\">最大生命值</span> for you和<span class=\"highlight\">Wolf</span>.  Additionally, while <span class=\"highlight\">Saint</span> is active you deal increased <span class=\"highlight\">伤害</span> with 所有枪械类型.",
                         "levels" : 5,
                         "position" : 2,
                         "stats" :
@@ -103,7 +103,7 @@
                         "stats" :
                             [
                                 {
-                                    "name" : "Occasionally restores : +[$]% of 护盾 容量",
+                                    "name" : "Occasionally 恢复: +[$]% of 护盾 容量",
                                     "base" : "8",
                                     "multiply" : 1
                                 },
@@ -148,7 +148,7 @@
                     },
                     {
                         "name" : "Termination Protocols",
-                        "description" : "<span class=\"highlight\">跪地状态</span> is replaced by <span class=\"highlight\">Termination Protocols</span>. During <span class=\"highlight\">Termination Protocols</span> you can walk at a reduced 速度, fire your 武器s,和you constantly <span class=\"highlight\">闪电</span> nearby 敌人. If the timer runs out, your power core goes critical, releasing a <span class=\"highlight\">Nuclear Explosion</span>.",
+                        "description" : "<span class=\"highlight\">跪地状态</span> is replaced by <span class=\"highlight\">Termination Protocols</span>. During <span class=\"highlight\">Termination Protocols</span> you can walk at a reduced 速度, fire your 武器s,和you constantly <span class=\"highlight\">闪电</span> nearby 敌人. If the timer runs out, your power core goes critical, releasing a <span class=\"highlight\">Nuclear 爆炸</span>.",
                         "levels" : 1,
                         "position" : 7,
                         "stats" :
@@ -221,7 +221,7 @@
                     },
                     {
                         "name" : "Hazmat Containment System",
-                        "description" : "If you have a <span class=\"highlight\">燃烧, 闪电, or Corrosive Status Effect</span> on you, you和your friends gain increased <span class=\"highlight\">Resistance</span> to that element. Additionally, you will occasionally spread that <span class=\"highlight\">Status Effect</span> to nearby 敌人 while it's active.",
+                        "description" : "If you have a <span class=\"highlight\">燃烧, 闪电, or Corrosive 状态效果</span> on you, you和your friends gain increased <span class=\"highlight\">Resistance</span> to that element. Additionally, you will occasionally spread that <span class=\"highlight\">状态效果</span> to nearby 敌人 while it's active.",
                         "levels" : 5,
                         "position" : 11,
                         "stats" :
@@ -242,7 +242,7 @@
                     },
                     {
                         "name" : "Kinetic Armor",
-                        "description" : "增加your <span class=\"highlight\">最大生命值</span>. Additionally, <span class=\"highlight\">close range</span> attackers have a chance to be struck by <span class=\"highlight\">爆炸 Feedback</span>.  The closer the 敌人 is to you the more likely he is to be struck.",
+                        "description" : "增加your <span class=\"highlight\">最大生命值</span>. Additionally, <span class=\"highlight\">close range</span> attackers have a chance to be struck by <span class=\"highlight\">爆炸Feedback</span>.  The closer the 敌人 is to you the more likely he is to be struck.",
                         "levels" : 5,
                         "position" : 12,
                         "stats" :
@@ -253,7 +253,7 @@
                                     "multiply" : 1
                                 },
                                 {
-                                    "name" : "爆炸 Feedback: 最多 [$]% chance",
+                                    "name" : "爆炸Feedback: 最多 [$]% chance",
                                     "base" : "5",
                                     "multiply" : 1
                                 }
@@ -273,7 +273,7 @@
                         "stats" :
                             [
                                 {
-                                    "name" : "伤害 Reduction: [$]%每层",
+                                    "name" : "伤害抵抗: [$]%每层",
                                     "base" : "0.1",
                                     "multiply" : 1
                                 },
@@ -445,7 +445,7 @@
                     },
                     {
                         "name" : "Power Fist",
-                        "description" : "<font color=\"#feba36\">Cyborg组件ation: Arm. </font> <br><span class=\"highlight\">近战 升级</span>. 按 (RS/V) to 每form an <span class=\"highlight\">爆炸 punch</span> with <span class=\"highlight\">extended range</span>. 该技能有冷却时间.",
+                        "description" : "<font color=\"#feba36\">Cyborg组件ation: Arm. </font> <br><span class=\"highlight\">近战 升级</span>. 按 (RS/V) to 每form an <span class=\"highlight\">爆炸punch</span> with <span class=\"highlight\">extended range</span>. 该技能有冷却时间.",
                         "levels" : 1,
                         "position" : 7,
                         "stats" :
@@ -704,7 +704,7 @@
                     },
                     {
                         "name" : "Venom Bolts",
-                        "description" : "<span class=\"highlight\">Wolf Ability</span>. <span class=\"highlight\">Wolf's</span> shots have a chance to be <span class=\"highlight\">Venom Bolts</span>, which deal <span class=\"highlight\">Corrosive伤害</span>.  Additionally, you gain increased <span class=\"highlight\">Corrode Chance</span>和<span class=\"highlight\">Corrode伤害</span> with guns和grenades.",
+                        "description" : "<span class=\"highlight\">Wolf Ability</span>. <span class=\"highlight\">Wolf's</span> shots have a chance to be <span class=\"highlight\">Venom Bolts</span>, which deal <span class=\"highlight\">Corrosive伤害</span>.  Additionally, you gain increased <span class=\"highlight\">Corrode Chance</span>和<span class=\"highlight\">Corrode伤害</span> with guns和手雷s.",
                         "levels" : 5,
                         "position" : 3,
                         "stats" :
@@ -844,7 +844,7 @@
                     },
                     {
                         "name" : "Cold War",
-                        "description" : "When you apply a <span class=\"highlight\">闪电</span>, <span class=\"highlight\">燃烧</span>, or <span class=\"highlight\">Corrosive status effect</span> to an 敌人, there is a chance for the target to <span class=\"highlight\">冻结</span>. Additionally, you gain increased <span class=\"highlight\">status effect chance</span> when using <span class=\"highlight\">Cryo</span> 武器s.",
+                        "description" : "When you apply a <span class=\"highlight\">闪电</span>, <span class=\"highlight\">燃烧</span>, or <span class=\"highlight\">Corrosive 状态效果</span> to an 敌人, there is a chance for the target to <span class=\"highlight\">冻结</span>. Additionally, you gain increased <span class=\"highlight\">状态效果chance</span> when using <span class=\"highlight\">Cryo</span> 武器s.",
                         "levels" : 5,
                         "position" : 12,
                         "stats" :
@@ -880,7 +880,7 @@
                                     "multiply" : 1
                                 },
 								{
-                                    "name" : "冷却时间 Reduction:  [$] 秒",
+                                    "name" : "冷却时间抵抗:  [$] 秒",
                                     "base" : ".60",
                                     "multiply" : 1
                                 },

@@ -284,7 +284,7 @@
                     },
 					{
                         "name" : "The Unforgiven(不可原谅)",
-                        "description" : "<span class=\"highlight\">决斗</span>中所有击中敌人的子弹将<span class=\"highlight\">弹射向附近的敌人</span>, 每击造成 10% 武器伤害.  另外, <span class=\"highlight\">决斗</span>结束时每个被击中的敌人都将<span class=\"highlight\">Explosion</span>.",
+                        "description" : "<span class=\"highlight\">决斗</span>中所有击中敌人的子弹将<span class=\"highlight\">弹射向附近的敌人</span>, 每击造成 10% 武器伤害.  另外, <span class=\"highlight\">决斗</span>结束时每个被击中的敌人都将<span class=\"highlight\">爆炸</span>.",
                         "levels" : 1,
                         "position" : 16,
                         "stats" :

@@ -439,7 +439,7 @@
                         "stats" :
                             [
                                  {
-                                    "name" : "恢复 [$]% of Max 生命值 / 秒 每 流血的敌人",
+                                    "name" : "恢复 [$]% of 最大生命值 / 秒 每 流血的敌人",
                                     "base" : ".8",
                                     "multiply" : 1
                                 }
@@ -490,7 +490,7 @@
                             ]
                     },
                     {
-                        "name" : "You've Got Red on You(你见红了)",
+                        "name" : "You've Got Red on You(见红了)",
                         "description" : "死于<span class=\"highlight\">近战</span>或者<span class=\"highlight\">流血中</span>的敌人<span class=\"highlight\">爆炸</span>. 附近敌人受到伤害并稍微恶心到.",
                         "levels" : 5,
                         "position" : 12,
