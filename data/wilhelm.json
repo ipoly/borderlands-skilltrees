@@ -9,7 +9,7 @@
         "class" :
             {
                 "name" : "Wolf and Saint",
-                "description" : "<span class=\"highlight\">主动技</span>.  按 [LB/L1/F] to summon <span class=\"highlight\">Wolf</span> and <span class=\"highlight\">Saint</span>, your trusty combat drones.  <span class=\"highlight\">Wolf</span> will roam and attack 敌人, while <span class=\"highlight\">Saint</span> will stay close to you and replenish your <span class=\"highlight\">Health</span>. <span class=\"highlight\">Saint</span> has a protective 护盾, but <span class=\"highlight\">Wolf</span> can be damaged by 敌人. 按 and hold [LB/L1/F] to recall <span class=\"highlight\">Wolf</span> and <span class=\"highlight\">Saint</span> and have some of your <span class=\"highlight\">冷却时间</span> refunded.",
+                "description" : "<span class=\"highlight\">主动技</span>.  按 [LB/L1/F] to summon <span class=\"highlight\">Wolf</span> and <span class=\"highlight\">Saint</span>, your trusty combat drones.  <span class=\"highlight\">Wolf</span> will roam and attack 敌人, while <span class=\"highlight\">Saint</span> will stay close to you and replenish your <span class=\"highlight\">生命值</span>. <span class=\"highlight\">Saint</span> has a protective 护盾, but <span class=\"highlight\">Wolf</span> can be damaged by 敌人. 按 and hold [LB/L1/F] to recall <span class=\"highlight\">Wolf</span> and <span class=\"highlight\">Saint</span> and have some of your <span class=\"highlight\">冷却时间</span> refunded.",
                 "stats" :
                     [
 						{
@@ -67,18 +67,18 @@
                     },
                     {
                         "name" : "Fortify",
-                        "description" : "增加 <span class=\"highlight\">Max Health</span> for you and <span class=\"highlight\">Wolf</span>.  Additionally, while <span class=\"highlight\">Saint</span> is active you deal increased <span class=\"highlight\">伤害</span> with 所有枪械类型.",
+                        "description" : "增加 <span class=\"highlight\">Max 生命值</span> for you and <span class=\"highlight\">Wolf</span>.  Additionally, while <span class=\"highlight\">Saint</span> is active you deal increased <span class=\"highlight\">伤害</span> with 所有枪械类型.",
                         "levels" : 5,
                         "position" : 2,
                         "stats" :
                             [
                                 {
-                                    "name" : "Maximum Health: +[$]%",
+                                    "name" : "最大生命值: +[$]%",
                                     "base" : "3",
                                     "multiply" : 1
                                 },
 								{
-                                    "name" : "Wolf Maximum Health: +[$]%",
+                                    "name" : "Wolf 最大生命值: +[$]%",
                                     "base" : "3",
                                     "multiply" : 1
                                 },
@@ -97,13 +97,13 @@
                     },
                     {
                         "name" : "Energize",
-                        "description" : "<span class=\"highlight\">Saint Ability</span>. <span class=\"highlight\">Saint</span> will occasionally boost the <span class=\"highlight\">护盾s</span> of you and your friends. Additionally, <span class=\"highlight\">Saint</span> gains an increase to the rate which he <span class=\"highlight\">恢复 your health</span>.",
+                        "description" : "<span class=\"highlight\">Saint Ability</span>. <span class=\"highlight\">Saint</span> will occasionally boost the <span class=\"highlight\">护盾s</span> of you and your friends. Additionally, <span class=\"highlight\">Saint</span> gains an increase to the rate which he <span class=\"highlight\">恢复 your 生命值</span>.",
                         "levels" : 5,
                         "position" : 3,
                         "stats" :
                             [
                                 {
-                                    "name" : "Occasionally restores : +[$]% of 护盾 capacity",
+                                    "name" : "Occasionally restores : +[$]% of 护盾 容量",
                                     "base" : "8",
                                     "multiply" : 1
                                 },
@@ -148,7 +148,7 @@
                     },
                     {
                         "name" : "Termination Protocols",
-                        "description" : "<span class=\"highlight\">Fight For Your Life</span> is replaced by <span class=\"highlight\">Termination Protocols</span>. During <span class=\"highlight\">Termination Protocols</span> you can walk at a reduced speed, fire your 武器s, and you constantly <span class=\"highlight\">shock</span> nearby 敌人. If the timer runs out, your power core goes critical, releasing a <span class=\"highlight\">Nuclear Explosion</span>.",
+                        "description" : "<span class=\"highlight\">Fight For Your Life</span> is replaced by <span class=\"highlight\">Termination Protocols</span>. During <span class=\"highlight\">Termination Protocols</span> you can walk at a reduced speed, fire your 武器s, and you constantly <span class=\"highlight\">闪电</span> nearby 敌人. If the timer runs out, your power core goes critical, releasing a <span class=\"highlight\">Nuclear Explosion</span>.",
                         "levels" : 1,
                         "position" : 7,
                         "stats" :
@@ -196,7 +196,7 @@
                     },
                     {
                         "name" : "Zero Hour",
-                        "description" : "<span class=\"highlight\">Saint Ability</span>. When <span class=\"highlight\">Saint</span> is recalled or expires, he explodes, deploying a <span class=\"highlight\">Healing Zone</span> underneath you. You and your friends <span class=\"highlight\">Regenerate Health</span> while standing in the zone.",
+                        "description" : "<span class=\"highlight\">Saint Ability</span>. When <span class=\"highlight\">Saint</span> is recalled or expires, he explodes, deploying a <span class=\"highlight\">Healing Zone</span> underneath you. You and your friends <span class=\"highlight\">生命恢复</span> while standing in the zone.",
                         "levels" : 1,
                         "position" : 10,
                         "stats" :
@@ -221,7 +221,7 @@
                     },
                     {
                         "name" : "Hazmat Containment System",
-                        "description" : "If you have a <span class=\"highlight\">燃烧, Shock, or Corrosive Status Effect</span> on you, you and your friends gain increased <span class=\"highlight\">Resistance</span> to that element. Additionally, you will occasionally spread that <span class=\"highlight\">Status Effect</span> to nearby 敌人 while it's active.",
+                        "description" : "If you have a <span class=\"highlight\">燃烧, 闪电, or Corrosive Status Effect</span> on you, you and your friends gain increased <span class=\"highlight\">Resistance</span> to that element. Additionally, you will occasionally spread that <span class=\"highlight\">Status Effect</span> to nearby 敌人 while it's active.",
                         "levels" : 5,
                         "position" : 11,
                         "stats" :
@@ -242,13 +242,13 @@
                     },
                     {
                         "name" : "Kinetic Armor",
-                        "description" : "增加 your <span class=\"highlight\">Maximum Health</span>. Additionally, <span class=\"highlight\">close range</span> attackers have a chance to be struck by <span class=\"highlight\">爆炸 Feedback</span>.  The closer the 敌人 is to you the more likely he is to be struck.",
+                        "description" : "增加 your <span class=\"highlight\">最大生命值</span>. Additionally, <span class=\"highlight\">close range</span> attackers have a chance to be struck by <span class=\"highlight\">爆炸 Feedback</span>.  The closer the 敌人 is to you the more likely he is to be struck.",
                         "levels" : 5,
                         "position" : 12,
                         "stats" :
                             [
                                 {
-                                    "name" : "Maximum Health:  +[$]%",
+                                    "name" : "最大生命值:  +[$]%",
                                     "base" : "5",
                                     "multiply" : 1
                                 },
@@ -267,7 +267,7 @@
                     },
 					{
                         "name" : "Hard To Kill",
-                        "description" : "Whenever you are <span class=\"highlight\">shot</span> or <span class=\"highlight\">struck</span> by an 敌人, you gain a stack of <span class=\"highlight\">Hard To Kill</span>, reducing all <span class=\"highlight\">伤害</span> received. All stacks are removed after a few 秒 of taking no 伤害.",
+                        "description" : "Whenever you are <span class=\"highlight\">shot</span> or <span class=\"highlight\">struck</span> by an 敌人, you gain a层数 of <span class=\"highlight\">Hard To Kill</span>, reducing all <span class=\"highlight\">伤害</span> received. All层数s are removed after a few 秒 of taking no 伤害.",
                         "levels" : 5,
                         "position" : 14,
                         "stats" :
@@ -278,7 +278,7 @@
                                     "multiply" : 1
                                 },
 								{
-                                    "name" : "Max Stacks: 100"
+                                    "name" : "Max层数s: 100"
                                 }
                             ],
                         "assets" :
@@ -365,28 +365,28 @@
                     },
                     {
                         "name" : "Man and Machine",
-                        "description" : "增加 <span class=\"highlight\">护盾 Capacity</span> and <span class=\"highlight\">Maximum Health</span> for you and <span class=\"highlight\">Wolf</span>.",
+                        "description" : "增加 <span class=\"highlight\">护盾 容量</span> and <span class=\"highlight\">最大生命值</span> for you and <span class=\"highlight\">Wolf</span>.",
                         "levels" : 5,
                         "position" : 2,
                         "stats" :
                             [
                                 {
-                                    "name" : "护盾 Capacity: +[$]%",
+                                    "name" : "护盾 容量: +[$]%",
                                     "base" : "3",
                                     "multiply" : 1
                                 },
                                 {
-                                    "name" : "Maximum Health: +[$]%",
+                                    "name" : "最大生命值: +[$]%",
                                     "base" : "3",
                                     "multiply" : 1
                                 },
 								{
-                                    "name" : "Wolf 护盾 Capacity: +[$]%",
+                                    "name" : "Wolf 护盾 容量: +[$]%",
                                     "base" : "5",
                                     "multiply" : 1
                                 },
 								{
-                                    "name" : "Wolf Maximum Health: +[$]%",
+                                    "name" : "Wolf 最大生命值: +[$]%",
                                     "base" : "5",
                                     "multiply" : 1
                                 }
@@ -445,7 +445,7 @@
                     },
                     {
                         "name" : "Power Fist",
-                        "description" : "<font color=\"#feba36\">Cyborg Augmentation: Arm. </font> <br><span class=\"highlight\">Melee Override</span>. 按 (RS/V) to perform an <span class=\"highlight\">爆炸 punch</span> with <span class=\"highlight\">extended range</span>. This ability has a 冷却时间.",
+                        "description" : "<font color=\"#feba36\">Cyborg组件ation: Arm. </font> <br><span class=\"highlight\">近战 升级</span>. 按 (RS/V) to 每form an <span class=\"highlight\">爆炸 punch</span> with <span class=\"highlight\">extended range</span>. This ability has a 冷却时间.",
                         "levels" : 1,
                         "position" : 7,
                         "stats" :
@@ -500,8 +500,8 @@
                             ]
                     },
                     {
-                        "name" : "Shock Absorbers",
-                        "description" : "<font color=\"#feba36\">Cyborg Augmentation: Legs.</font><br>You can shoot while <span class=\"highlight\">Sprinting</span>. While doing so, you gain 加成 <span class=\"highlight\">枪械伤害</span>, and suffer <span class=\"highlight\">no 精准度 penalties</span>.",
+                        "name" : "闪电 Absorbers",
+                        "description" : "<font color=\"#feba36\">Cyborg组件ation: Legs.</font><br>You can shoot while <span class=\"highlight\">Sprinting</span>. While doing so, you gain 加成 <span class=\"highlight\">枪械伤害</span>, and suffer <span class=\"highlight\">no 精准度 penalties</span>.",
                         "levels" : 1,
                         "position" : 10,
                         "stats" :
@@ -519,13 +519,13 @@
                     },
                     {
                         "name" : "Divert Power",
-                        "description" : "When your <span class=\"highlight\">护盾s</span> are depleted and your <span class=\"highlight\">Health</span> is low, taking <span class=\"highlight\">伤害</span> causes you to gain massive <span class=\"highlight\">护盾 Regeneration</span> and <span class=\"highlight\">伤害 Resistance</span> for a few 秒. This ability has a 冷却时间.",
+                        "description" : "When your <span class=\"highlight\">护盾s</span> are depleted and your <span class=\"highlight\">生命值</span> is low, taking <span class=\"highlight\">伤害</span> causes you to gain massive <span class=\"highlight\">护盾 Regeneration</span> and <span class=\"highlight\">伤害 Resistance</span> for a few 秒. This ability has a 冷却时间.",
                         "levels" : 5,
                         "position" : 11,
                         "stats" :
                             [
                                 {
-                                    "name" : "Health Threshold: 30%",
+                                    "name" : "生命值 Threshold: 30%",
                                     "base" : "1",
                                     "multiply" : 1
                                 },
@@ -560,14 +560,14 @@
                             ]
                     },
                     {
-                        "name" : "Meteor Slam",
-                        "description" : "增加 the <span class=\"highlight\">伤害 Radius</span> of your <span class=\"highlight\">Slam</span> ability.",
+                        "name" : "Meteor 震击",
+                        "description" : "增加 the <span class=\"highlight\">伤害 Radius</span> of your <span class=\"highlight\">震击</span> ability.",
                         "levels" : 5,
                         "position" : 12,
                         "stats" :
                             [
                                 {
-                                    "name" : "Slam Radius: Rank [$]",
+                                    "name" : "震击 Radius: Rank [$]",
                                     "base" : "1",
                                     "multiply" : 1
                                 }
@@ -624,7 +624,7 @@
                     },
                     {
                         "name" : "Vengeance Cannon",
-                        "description" : "<font color=\"#feba36\">Cyborg Augmentation: 武器.</font><br>Whenever your <span class=\"highlight\">护盾</span> becomes depleted, you 启动 your shoulder-mounted <span class=\"highlight\">Vengeance Cannon</span>. The <span class=\"highlight\">Vengeance Cannon</span> fires <span class=\"highlight\">燃烧 Laser Blasts</span> in tandem with your equipped 武器 and lasts for a short period of time. Your <span class=\"highlight\">护盾</span> must fully recharge between activations.",
+                        "description" : "<font color=\"#feba36\">Cyborg组件ation: 武器.</font><br>Whenever your <span class=\"highlight\">护盾</span> becomes depleted, you 启动 your shoulder-mounted <span class=\"highlight\">Vengeance Cannon</span>. The <span class=\"highlight\">Vengeance Cannon</span> fires <span class=\"highlight\">燃烧 Laser Blasts</span> in tandem with your equipped 武器 and lasts for a short 每iod of time. Your <span class=\"highlight\">护盾</span> must fully recharge between activations.",
                         "levels" : 1,
                         "position" : 16,
                         "stats" :
@@ -780,7 +780,7 @@
                     },
                     {
                         "name" : "Rolling Thunder",
-                        "description" : "While <span class=\"highlight\">Wolf</span> is alive, you will periodically gain stacks of <span class=\"highlight\">Rolling Thunder</span>, increasing <span class=\"highlight\">Wolf's 伤害</span>.",
+                        "description" : "While <span class=\"highlight\">Wolf</span> is alive, you will 每iodically gain层数s of <span class=\"highlight\">Rolling Thunder</span>, increasing <span class=\"highlight\">Wolf's 伤害</span>.",
                         "levels" : 5,
                         "position" : 9,
                         "stats" :
@@ -805,7 +805,7 @@
                     },
                     {
                         "name" : "Kill Switch",
-                        "description" : "<span class=\"highlight\">Wolf Ability</span>. Whenever <span class=\"highlight\">Wolf</span> is <span class=\"highlight\">recalled</span>, runs out of <span class=\"highlight\">Health</span>, or <span class=\"highlight\">expires</span>, it will dive bomb 敌人 with <span class=\"highlight\">爆炸</span> effect!",
+                        "description" : "<span class=\"highlight\">Wolf Ability</span>. Whenever <span class=\"highlight\">Wolf</span> is <span class=\"highlight\">recalled</span>, runs out of <span class=\"highlight\">生命值</span>, or <span class=\"highlight\">expires</span>, it will dive bomb 敌人 with <span class=\"highlight\">爆炸</span> effect!",
                         "levels" : 1,
                         "position" : 10,
                         "stats" :
@@ -844,7 +844,7 @@
                     },
                     {
                         "name" : "Cold War",
-                        "description" : "When you apply a <span class=\"highlight\">Shock</span>, <span class=\"highlight\">燃烧</span>, or <span class=\"highlight\">Corrosive status effect</span> to an 敌人, there is a chance for the target to <span class=\"highlight\">freeze</span>. Additionally, you gain increased <span class=\"highlight\">status effect chance</span> when using <span class=\"highlight\">Cryo</span> 武器s.",
+                        "description" : "When you apply a <span class=\"highlight\">闪电</span>, <span class=\"highlight\">燃烧</span>, or <span class=\"highlight\">Corrosive status effect</span> to an 敌人, there is a chance for the target to <span class=\"highlight\">freeze</span>. Additionally, you gain increased <span class=\"highlight\">status effect chance</span> when using <span class=\"highlight\">Cryo</span> 武器s.",
                         "levels" : 5,
                         "position" : 12,
                         "stats" :
@@ -899,7 +899,7 @@
                     },
                     {
                         "name" : "Omega Strike",
-                        "description" : "<span class=\"highlight\">Wolf Ability</span>. <span class=\"highlight\">Wolf</span> periodically launches a deadly <span class=\"highlight\">missile strike</span> against its targets.",
+                        "description" : "<span class=\"highlight\">Wolf Ability</span>. <span class=\"highlight\">Wolf</span> 每iodically launches a deadly <span class=\"highlight\">missile strike</span> against its targets.",
                         "levels" : 1,
                         "position" : 16,
                         "stats" :

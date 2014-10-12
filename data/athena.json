@@ -65,7 +65,7 @@
                     },
                     {
                         "name" : "Maelstrom",
-                        "description" : "Dealing <span class=\"highlight\">燃烧</span>  or <span class=\"highlight\">Shock</span>  伤害 causes you to gain stacks of <span class=\"highlight\">Maelstrom</span>. All <span class=\"highlight\">Elemental 伤害</span>  dealt is increased for each stack of <span class=\"highlight\">Maelstrom</span>. Stacks will decay over time, and this rate of decay 增加 as you accumulate more stacks.",
+                        "description" : "Dealing <span class=\"highlight\">燃烧</span>  or <span class=\"highlight\">闪电</span>  伤害 causes you to gain层数s of <span class=\"highlight\">Maelstrom</span>. All <span class=\"highlight\">Elemental 伤害</span>  dealt is increased for each层数 of <span class=\"highlight\">Maelstrom</span>.层数s will decay over time, and this rate of decay 增加 as you accumulate more层数s.",
                         "levels" : 1,
                         "position" : 2,
                         "stats" :
@@ -108,13 +108,13 @@
                     },
                     {
                         "name" : "Conduit",
-                        "description" : "While you have at least one <span class=\"highlight\">Electrocute Status Effect</span>  active, you regenerate a percentage of your <span class=\"highlight\">护盾s</span>  every second for each stack of <span class=\"highlight\">Maelstrom</span>  you have.",
+                        "description" : "While you have at least one <span class=\"highlight\">Electrocute Status Effect</span>  active, you regenerate a 每centage of your <span class=\"highlight\">护盾s</span>  every second for each层数 of <span class=\"highlight\">Maelstrom</span>  you have.",
                         "levels" : 5,
                         "position" : 5,
                         "stats" :
                             [
                                 {
-                                    "name" : "护盾 Regeneration per Second: +[$]%每层",
+                                    "name" : "护盾 Regeneration 每 Second: +[$]%每层",
                                     "base" : "0.02",
                                     "multiply" : 1
                                 }
@@ -128,7 +128,7 @@
                     },
                     {
                         "name" : "Smite",
-                        "description" : "When you are <span class=\"highlight\">airborne</span>, shooting an 敌人 will <span class=\"highlight\">Smite</span> them, causing <span class=\"highlight\">燃烧</span> and <span class=\"highlight\">Shock 伤害</span> in a small area. Smite 伤害 增加 as you accumulate more stacks of <span class=\"highlight\">Maelstrom</span>. This ability has a 冷却时间.",
+                        "description" : "When you are <span class=\"highlight\">airborne</span>, shooting an 敌人 will <span class=\"highlight\">Smite</span> them, causing <span class=\"highlight\">燃烧</span> and <span class=\"highlight\">闪电 伤害</span> in a small area. Smite 伤害 增加 as you accumulate more层数s of <span class=\"highlight\">Maelstrom</span>. This ability has a 冷却时间.",
                         "levels" : 1,
                         "position" : 7,
                         "stats" :
@@ -137,7 +137,7 @@
                                     "name" : "冷却时间: 12 秒 "
                                 },
 								{
-                                    "name" : "Minimum Maelstrom Stacks: 10"
+                                    "name" : "Minimum Maelstrom层数s: 10"
                                 }
                             ],
                         "assets" :
@@ -149,7 +149,7 @@
                     },
                     {
                         "name" : "Unrelenting",
-                        "description" : "<span class=\"highlight\">击杀技</span>.  击杀敌人 增加 your <span class=\"highlight\">武器 切换 Speed</span>  and <span class=\"highlight\">射速</span> for each stack of <span class=\"highlight\">Maelstrom</span>.",
+                        "description" : "<span class=\"highlight\">击杀技</span>.  击杀敌人 增加 your <span class=\"highlight\">武器 切换 Speed</span>  and <span class=\"highlight\">射速</span> for each层数 of <span class=\"highlight\">Maelstrom</span>.",
                         "levels" : 5,
                         "position" : 8,
 
@@ -174,17 +174,17 @@
                             ]
                     },
                     {
-                        "name" : "Superconductor",
-                        "description" : "The <span class=\"highlight\">Aspis</span> has a chance to <span class=\"highlight\">shock</span> nearby 敌人 when struck. When this occurs, you gain 加成 <span class=\"highlight\">Maelstrom</span> stacks.",
+                        "name" : "Su每conductor",
+                        "description" : "The <span class=\"highlight\">Aspis</span> has a chance to <span class=\"highlight\">闪电</span> nearby 敌人 when struck. When this occurs, you gain 加成 <span class=\"highlight\">Maelstrom</span>层数s.",
                         "levels" : 5,
                         "position" : 9,
                         "stats" :
                             [
                                 {
-                                    "name" : "加成 Stacks: 5"
+                                    "name" : "加成层数s: 5"
                                 },
 								{
-                                    "name" : "Shock 几率:  [$]%",
+                                    "name" : "闪电 几率:  [$]%",
                                     "base" : "10",
                                     "multiply" : 1
                                 }
@@ -216,7 +216,7 @@
                     },
                     {
                         "name" : "Elemental Barrage",
-                        "description" : "While <span class=\"highlight\">Storm Weaving</span>  is active, your 武器s have a chance to <span class=\"highlight\">not consume ammo</span>. This chance is increased for every <span class=\"highlight\">Maelstrom</span>  stack you have.",
+                        "description" : "While <span class=\"highlight\">Storm Weaving</span>  is active, your 武器s have a chance to <span class=\"highlight\">not consume ammo</span>. This chance is increased for every <span class=\"highlight\">Maelstrom</span> 层数 you have.",
                         "levels" : 5,
                         "position" : 11,
                         "stats" :
@@ -241,13 +241,13 @@
                     },
 					{
                         "name" : "Overload",
-                        "description" : "Whenever you kill an 敌人 who is <span class=\"highlight\">electrocuted</span>  or <span class=\"highlight\">burning</span>, there is a chance for the status effect to <span class=\"highlight\">chain to a nearby 敌人</span>. When this occurs, you gain 加成 <span class=\"highlight\">Maelstrom</span>  stacks. This 加成 is gained twice if the target is both <span class=\"highlight\">burning</span>  and <span class=\"highlight\">electrocuted</span>.",
+                        "description" : "Whenever you kill an 敌人 who is <span class=\"highlight\">electrocuted</span>  or <span class=\"highlight\">burning</span>, there is a chance for the status effect to <span class=\"highlight\">chain to a nearby 敌人</span>. When this occurs, you gain 加成 <span class=\"highlight\">Maelstrom</span> 层数s. This 加成 is gained twice if the target is both <span class=\"highlight\">burning</span>  and <span class=\"highlight\">electrocuted</span>.",
                         "levels" : 5,
                         "position" : 12,
                         "stats" :
                             [
                                 {
-                                    "name" : "加成 Stacks: 20"
+                                    "name" : "加成层数s: 20"
                                 },
 								{
                                     "name" : "Status Effect Spread 几率:   [$]%",
@@ -264,7 +264,7 @@
                     },
 					{
                         "name" : "Flash Freeze",
-                        "description" : "Whenever you <span class=\"highlight\">Freeze</span>  an 敌人, you gain <span class=\"highlight\">Flash Freeze</span>  for a short 持续时间. During this time, you cannot gain or lose <span class=\"highlight\">Maelstrom</span>  stacks.",
+                        "description" : "Whenever you <span class=\"highlight\">Freeze</span>  an 敌人, you gain <span class=\"highlight\">Flash Freeze</span>  for a short 持续时间. During this time, you cannot gain or lose <span class=\"highlight\">Maelstrom</span> 层数s.",
                         "levels" : 5,
                         "position" : 14,
                         "stats" :
@@ -284,13 +284,13 @@
                     },
                     {
                         "name" : "Hades' Shackles",
-                        "description" : "<span class=\"highlight\">Slamming</span>  links you to nearby 敌人 with a <span class=\"highlight\">Shock Tether</span>  for a short 持续时间, electrocuting them. The tether is broken if you lose <span class=\"highlight\">line of sight</span>  to the target. Any 敌人 still tethered at the end of the 持续时间, or who die while tethered, release an <span class=\"highlight\">燃烧 Nova</span>, and you gain 加成 <span class=\"highlight\">Maelstrom</span>  stacks for each 敌人 affected. This ability has a 冷却时间.",
+                        "description" : "<span class=\"highlight\">震击ming</span>  links you to nearby 敌人 with a <span class=\"highlight\">闪电 Tether</span>  for a short 持续时间, electrocuting them. The tether is broken if you lose <span class=\"highlight\">line of sight</span>  to the target. Any 敌人 still tethered at the end of the 持续时间, or who die while tethered, release an <span class=\"highlight\">燃烧 Nova</span>, and you gain 加成 <span class=\"highlight\">Maelstrom</span> 层数s for each 敌人 affected. This ability has a 冷却时间.",
                         "levels" : 1,
                         "position" : 16,
                         "stats" :
                             [
                                 {
-                                    "name" : "Maelstrom Stacks: +20 per target"
+                                    "name" : "Maelstrom层数s: +20 每 target"
                                 },{
                                     "name" : "Tether 持续时间: 3 秒"
                                 },{
@@ -316,7 +316,7 @@
                 [
                     {
                         "name" : "Gun Kata",
-                        "description" : "增加 <span class=\"highlight\">枪械伤害</span>. Additionally, your <span class=\"highlight\">Melee 伤害</span>  is increased for a short 持续时间 after <span class=\"highlight\">shooting an 敌人</span>.",
+                        "description" : "增加 <span class=\"highlight\">枪械伤害</span>. Additionally, your <span class=\"highlight\">近战 伤害</span>  is increased for a short 持续时间 after <span class=\"highlight\">shooting an 敌人</span>.",
                         "levels" : 5,
                         "position" : 0,
                         "stats" :
@@ -327,7 +327,7 @@
                                     "multiply" : 1
                                 },
                                 {
-                                    "name" : "Melee 伤害: +[$]%",
+                                    "name" : "近战 伤害: +[$]%",
                                     "base" : "10",
                                     "multiply" : 1
                                 }
@@ -341,18 +341,18 @@
                     },
                     {
                         "name" : "Clarity of Purpose",
-                        "description" : "Increased <span class=\"highlight\">Melee 伤害</span> and <span class=\"highlight\">Maximum Health</span>.",
+                        "description" : "Increased <span class=\"highlight\">近战 伤害</span> and <span class=\"highlight\">最大生命值</span>.",
                         "levels" : 5,
                         "position" : 2,
                         "stats" :
                             [
                                 {
-                                    "name" : "Melee 伤害: +[$]%",
+                                    "name" : "近战 伤害: +[$]%",
                                     "base" : "5",
                                     "multiply" : 1
                                 },
                                 {
-                                    "name" : "Maximum Health: +[$]%",
+                                    "name" : "最大生命值: +[$]%",
                                     "base" : "3",
                                     "multiply" : 1
                                 }
@@ -392,7 +392,7 @@
                     },
                     {
                         "name" : "Omega-Senshu",
-                        "description" : "You deal increased <span class=\"highlight\">伤害</span> to any 敌人 who has less than 50% of their <span class=\"highlight\">Maximum Health</span> remaining.",
+                        "description" : "You deal increased <span class=\"highlight\">伤害</span> to any 敌人 who has less than 50% of their <span class=\"highlight\">最大生命值</span> remaining.",
                         "levels" : 5,
                         "position" : 5,
                         "stats" :
@@ -412,7 +412,7 @@
                     },
                     {
                         "name" : "Rend",
-                        "description" : "Your <span class=\"highlight\">melee attacks</span> cause 敌人 to <span class=\"highlight\">bleed</span>, inflicting 伤害 over time. The 伤害 is increased against <span class=\"highlight\">higher Health</span> targets, and the 伤害 also benefits from your <span class=\"highlight\">Melee 伤害</span> 加成es.",
+                        "description" : "Your <span class=\"highlight\">近战s</span> cause 敌人 to <span class=\"highlight\">bleed</span>, inflicting 伤害 over time. The 伤害 is increased against <span class=\"highlight\">higher 生命值</span> targets, and the 伤害 also benefits from your <span class=\"highlight\">近战 伤害</span> 加成es.",
                         "levels" : 1,
                         "position" : 7,
                         "stats" :
@@ -421,7 +421,7 @@
                                     "name" : "Bleed 持续时间: 12 秒"
                                 },
 								{
-                                    "name" : "Deals 最多 100% 加成 伤害 against targets with high Health"
+                                    "name" : "Deals 最多 100% 加成 伤害 against targets with high 生命值"
                                 }
                             ],
                         "assets" :
@@ -433,13 +433,13 @@
                     },
                     {
                         "name" : "Bloodlust",
-                        "description" : "Gain <span class=\"highlight\">生命恢复</span>  whenever you make an 敌人 <span class=\"highlight\">Bleed</span>, for the 持续时间 of the <span class=\"highlight\">Bleed</span> effect. This effect stacks if you have multiple <span class=\"highlight\">Bleeding</span> 敌人.",
+                        "description" : "Gain <span class=\"highlight\">生命恢复</span>  whenever you make an 敌人 <span class=\"highlight\">Bleed</span>, for the 持续时间 of the <span class=\"highlight\">Bleed</span> effect. This effect层数s if you have multiple <span class=\"highlight\">Bleeding</span> 敌人.",
                         "levels" : 5,
                         "position" : 9,
                         "stats" :
                             [
                                  {
-                                    "name" : "Regenerate [$]% of Max Health / sec per Bleeding 敌人",
+                                    "name" : "Regenerate [$]% of Max 生命值 / sec 每 Bleeding 敌人",
                                     "base" : ".8",
                                     "multiply" : 1
                                 }
@@ -453,7 +453,7 @@
                     },
                     {
                         "name" : "Epicenter",
-                        "description" : "<span class=\"highlight\">Slam Alteration Skill</span>. When you <span class=\"highlight\">Slam</span> you now create a singularity, <span class=\"highlight\">pulling nearby 敌人 closer</span>  and dealing <span class=\"highlight\">伤害</span>  to them.",
+                        "description" : "<span class=\"highlight\">震击 Alteration Skill</span>. When you <span class=\"highlight\">震击</span> you now create a singularity, <span class=\"highlight\">pulling nearby 敌人 closer</span>  and dealing <span class=\"highlight\">伤害</span>  to them.",
                         "levels" : 1,
                         "position" : 10,
                         "stats" :
@@ -491,7 +491,7 @@
                     },
                     {
                         "name" : "You've Got Red on You",
-                        "description" : "When an 敌人 is killed by your <span class=\"highlight\">melee attacks</span>, or dies while <span class=\"highlight\">Bleeding</span>, they <span class=\"highlight\">explode</span>. Nearby 敌人 will take 伤害 from the blast, and also be kind of grossed out.",
+                        "description" : "When an 敌人 is killed by your <span class=\"highlight\">近战s</span>, or dies while <span class=\"highlight\">Bleeding</span>, they <span class=\"highlight\">explode</span>. Nearby 敌人 will take 伤害 from the blast, and also be kind of grossed out.",
                         "levels" : 5,
                         "position" : 12,
                         "stats" :
@@ -517,12 +517,12 @@
                         "stats" :
                             [
                                 {
-                                    "name" : "装填速度: +[$]% per Bleeding 敌人",
+                                    "name" : "装填速度: +[$]% 每 Bleeding 敌人",
                                     "base" : "2",
                                     "multiply" : 1
                                 },
                                 {
-                                    "name" : "射速: +[$]% per Bleeding 敌人",
+                                    "name" : "射速: +[$]% 每 Bleeding 敌人",
                                     "base" : "2",
                                     "multiply" : 1
                                 }
@@ -536,13 +536,13 @@
                     },
                     {
                         "name" : "Blood Rush",
-                        "description" : "<span class=\"highlight\">Melee Override Skill</span>. 按 (RS/V) to <span class=\"highlight\">dash</span> toward an 敌人 and <span class=\"highlight\">strike them with Xiphos</span> with increased <span class=\"highlight\">Melee 伤害</span>. This ability has a 冷却时间. If this attack applies a <span class=\"highlight\">Bleed</span>  to a target that isn't <span class=\"highlight\">Bleeding</span>, or kills a target, the 冷却时间 is immediately reset. Perform a regular melee attack when <span class=\"highlight\">Blood Rush</span>  is on 冷却时间.<br> ",
+                        "description" : "<span class=\"highlight\">近战 升级 Skill</span>. 按 (RS/V) to <span class=\"highlight\">dash</span> toward an 敌人 and <span class=\"highlight\">strike them with Xiphos</span> with increased <span class=\"highlight\">近战 伤害</span>. This ability has a 冷却时间. If this attack applies a <span class=\"highlight\">Bleed</span>  to a target that isn't <span class=\"highlight\">Bleeding</span>, or kills a target, the 冷却时间 is immediately reset. 每form a regular 近战 when <span class=\"highlight\">Blood Rush</span>  is on 冷却时间.<br> ",
                         "levels" : 1,
                         "position" : 16,
                         "stats" :
                             [
                               {
-                                    "name" : "Melee 伤害: +40%"
+                                    "name" : "近战 伤害: +40%"
                                 },
 								   {
                                     "name" : "冷却时间 10 秒"
@@ -615,7 +615,7 @@
                         "stats" :
                             [
                                 {
-                                    "name" : "Health Regen Rate: Rank [$]",
+                                    "name" : "生命值 Regen Rate: Rank [$]",
                                     "base" : "1",
                                     "multiply" : 1
                                 }
@@ -667,13 +667,13 @@
                     },
                     {
                         "name" : "United Front",
-                        "description" : "<span class=\"highlight\">伤害 Absorbed</span>  by the <span class=\"highlight\">Aspis</span> now provides power to the <span class=\"highlight\">护盾s</span>  of you and your nearby friends. Also 增加 your <span class=\"highlight\">Maximum 护盾 Capacity</span>.",
+                        "description" : "<span class=\"highlight\">伤害 Absorbed</span>  by the <span class=\"highlight\">Aspis</span> now provides power to the <span class=\"highlight\">护盾s</span>  of you and your nearby friends. Also 增加 your <span class=\"highlight\">Maximum 护盾 容量</span>.",
                         "levels" : 5,
                         "position" : 9,
                         "stats" :
                             [
                                 {
-                                    "name" : "护盾 Capacity: +[$]%",
+                                    "name" : "护盾 容量: +[$]%",
                                     "base" : 4,
                                     "multiply" : 1
                                 },
@@ -712,7 +712,7 @@
                     },
                     {
                         "name" : "Stalwart",
-                        "description" : "Allows the <span class=\"highlight\">Aspis</span> to absorb a percentage of 伤害 from your <span class=\"highlight\">friends' guns</span>. Also 增加 your <span class=\"highlight\">Maximum Health</span>.",
+                        "description" : "Allows the <span class=\"highlight\">Aspis</span> to absorb a 每centage of 伤害 from your <span class=\"highlight\">friends' guns</span>. Also 增加 your <span class=\"highlight\">最大生命值</span>.",
                         "levels" : 5,
                         "position" : 11,
                         "stats" :
@@ -723,7 +723,7 @@
                                     "multiply" : 1
                                 },
                                 {
-                                    "name" : "Maximum Health: +[$]%",
+                                    "name" : "最大生命值: +[$]%",
                                     "base" : "5",
                                     "multiply" : 1
                                 }
@@ -757,7 +757,7 @@
                     },
                     {
                         "name" : "Prepare for Glory",
-                        "description" : "Activating the <span class=\"highlight\">Aspis</span> taunts nearby 敌人, making them more likely to attack you. Additionally, for every <span class=\"highlight\">individual 敌人</span>  who inflicts 伤害 on your <span class=\"highlight\">Aspis</span>, you gain a stack of <span class=\"highlight\">Prepare for Glory</span>, increasing your <span class=\"highlight\">枪械伤害</span>. Stacks persist for a short 持续时间 after the <span class=\"highlight\">Aspis</span> has been thrown.",
+                        "description" : "Activating the <span class=\"highlight\">Aspis</span> taunts nearby 敌人, making them more likely to attack you. Additionally, for every <span class=\"highlight\">individual 敌人</span>  who inflicts 伤害 on your <span class=\"highlight\">Aspis</span>, you gain a层数 of <span class=\"highlight\">Prepare for Glory</span>, increasing your <span class=\"highlight\">枪械伤害</span>.层数s 每sist for a short 持续时间 after the <span class=\"highlight\">Aspis</span> has been thrown.",
                         "levels" : 5,
                         "position" : 14,
                         "stats" :

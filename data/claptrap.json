@@ -9,7 +9,7 @@
         "class" :
             {
                 "name" : "VaultHunter.EXE",
-                "description" : "<span class=\"highlight\">主动技.</span> 按 [LB/L1/F] to run your <span class=\"highlight\">VaultHunter.EXE</span> program.  It will analyze the situation, determine which Vault Hunter would do the best job, and then load an <font color=\"#ff6600\">ACTION PACKAGE</font> allowing Claptrap to fight in that manner for a short period of time.  It also gives you <span class=\"highlight\">Full Health</span> and <span class=\"highlight\">生命恢复</span>.  <span class=\"highlight\">VaultHunter.EXE</span> is still in beta and its definition of ''Vault Hunter'' is questionable at best.  <font color=\"#feba36\">Warning:</font>  <span class=\"highlight\">VaultHunter.EXE</span> is currently classified as malware. Your allies may be affected.",
+                "description" : "<span class=\"highlight\">主动技.</span> 按 [LB/L1/F] to run your <span class=\"highlight\">VaultHunter.EXE</span> program.  It will analyze the situation, determine which Vault Hunter would do the best job, and then load an <font color=\"#ff6600\">ACTION PACKAGE</font> allowing Claptrap to fight in that manner for a short 每iod of time.  It also gives you <span class=\"highlight\">Full 生命值</span> and <span class=\"highlight\">生命恢复</span>.  <span class=\"highlight\">VaultHunter.EXE</span> is still in beta and its definition of ''Vault Hunter'' is questionable at best.  <font color=\"#feba36\">Warning:</font>  <span class=\"highlight\">VaultHunter.EXE</span> is currently classified as malware. Your allies may be affected.",
                 "stats" :
                     [
 						{
@@ -37,7 +37,7 @@
                 [
                     {
                         "name" : "All the Guns",
-                        "description" : "<span class=\"highlight\">Gun Subroutines.</span>  You randomly pick a <span class=\"highlight\">Subroutine</span> focused on a gun type, making you <span class=\"highlight\">more effective</span> with that gun type, but <font color=\"#feba36\">less effective</font> with all others.<br>Upon selecting a <span class=\"highlight\">Subroutine</span> you gain 100 <span class=\"highlight\">Frag Stacks</span>, which decrease over time.  When you run out of <span class=\"highlight\">Frag Stacks</span>, your <span class=\"highlight\">Subroutine</span> will be replaced with a new one.",
+                        "description" : "<span class=\"highlight\">Gun Subroutines.</span>  You randomly pick a <span class=\"highlight\">Subroutine</span> focused on a gun type, making you <span class=\"highlight\">more effective</span> with that gun type, but <font color=\"#feba36\">less effective</font> with all others.<br>Upon selecting a <span class=\"highlight\">Subroutine</span> you gain 100 <span class=\"highlight\">Frag层数s</span>, which decrease over time.  When you run out of <span class=\"highlight\">Frag层数s</span>, your <span class=\"highlight\">Subroutine</span> will be replaced with a new one.",
                         "levels" : 1,
                         "position" : 0,
                         "stats" :
@@ -92,13 +92,13 @@
                     },
                     {
                         "name" : "Safety First",
-                        "description" : "<span class=\"highlight\">Defensive Subroutines.</span>  You randomly pick a <span class=\"highlight\">Subroutine</span> focused on either <span class=\"highlight\">Health</span> or <span class=\"highlight\">护盾s</span>, which grants <span class=\"highlight\">increased Capacity</span> and <span class=\"highlight\">Regeneration</span> for the chosen attribute. The catch? You deal <font color=\"#feba36\">reduced 伤害</font> with 所有枪械类型.  Upon selecting a <span class=\"highlight\">Subroutine</span> you gain 100 <span class=\"highlight\">Frag Stacks</span>, which decrease over time.  When you run out of <span class=\"highlight\">Frag Stacks</span>, your <span class=\"highlight\">Subroutine</span> will be replaced with a new one.",
+                        "description" : "<span class=\"highlight\">Defensive Subroutines.</span>  You randomly pick a <span class=\"highlight\">Subroutine</span> focused on either <span class=\"highlight\">生命值</span> or <span class=\"highlight\">护盾s</span>, which grants <span class=\"highlight\">increased 容量</span> and <span class=\"highlight\">Regeneration</span> for the chosen attribute. The catch? You deal <font color=\"#feba36\">reduced 伤害</font> with 所有枪械类型.  Upon selecting a <span class=\"highlight\">Subroutine</span> you gain 100 <span class=\"highlight\">Frag层数s</span>, which decrease over time.  When you run out of <span class=\"highlight\">Frag层数s</span>, your <span class=\"highlight\">Subroutine</span> will be replaced with a new one.",
                         "levels" : 1,
                         "position" : 2,
                         "stats" :
                             [
                                 {
-                                    "name" : "Capacity: +35%",
+                                    "name" : "容量: +35%",
                                     "base" : "1",
                                     "multiply" : 1
                                 },
@@ -147,13 +147,13 @@
                     },
                     {
                         "name" : "Rope-a-Derp",
-                        "description" : "<span class=\"highlight\">Melee Subroutine.</span>  You randomly pick a melee-focused <span class=\"highlight\">Subroutine</span>, which grants you a <span class=\"highlight\">massive melee 伤害 加成</span> but <font color=\"#feba36\">reduces</font> your 伤害 with guns.",
+                        "description" : "<span class=\"highlight\">近战 Subroutine.</span>  You randomly pick a 近战-focused <span class=\"highlight\">Subroutine</span>, which grants you a <span class=\"highlight\">massive 近战 伤害 加成</span> but <font color=\"#feba36\">reduces</font> your 伤害 with guns.",
                         "levels" : 1,
                         "position" : 4,
                         "stats" :
                             [
                                 {
-                                    "name" : "Melee 伤害: +150%",
+                                    "name" : "近战 伤害: +150%",
                                     "base" : "1",
                                     "multiply" : 1
                                 },
@@ -207,7 +207,7 @@
                     },
                     {
                         "name" : "Tripleclocked",
-                        "description" : "Multiplies the <span class=\"highlight\">加成es</span> and <font color=\"#feba36\">Penalties</font> of the current <span class=\"highlight\">Subroutine</span> by 最多 <span class=\"highlight\">three</span>.  The fewer <span class=\"highlight\">Frag Stacks</span> you have, the greater the multiplier. <span class=\"highlight\">Defensive Subroutines</span> always receive <span class=\"highlight\">Triple Capacity</span> regardless of stacks.  Also, unlocks <font color=\"#ff6600\">ACTION PACKAGE</font> <span class=\"highlight\">One Shot Wonder</span>.",
+                        "description" : "Multiplies the <span class=\"highlight\">加成es</span> and <font color=\"#feba36\">Penalties</font> of the current <span class=\"highlight\">Subroutine</span> by 最多 <span class=\"highlight\">three</span>.  The fewer <span class=\"highlight\">Frag层数s</span> you have, the greater the multiplier. <span class=\"highlight\">Defensive Subroutines</span> always receive <span class=\"highlight\">Triple 容量</span> regardless of层数s.  Also, unlocks <font color=\"#ff6600\">ACTION PACKAGE</font> <span class=\"highlight\">One Shot Wonder</span>.",
                         "levels" : 1,
                         "position" : 7,
                         "stats" :
@@ -227,7 +227,7 @@
                     },
                     {
                         "name" : "Grenade Vent",
-                        "description" : "增加 <span class=\"highlight\">Grenade 伤害</span>.  Also, throwing a grenade adds <span class=\"highlight\">Frag Stacks</span>.",
+                        "description" : "增加 <span class=\"highlight\">Grenade 伤害</span>.  Also, throwing a grenade adds <span class=\"highlight\">Frag层数s</span>.",
                         "levels" : 5,
                         "position" : 9,
                         "stats" :
@@ -238,7 +238,7 @@
                                     "multiply" : 1
                                 },
 								{
-                                    "name" : "Frag Stacks per Grenade Thrown: +[$]",
+                                    "name" : "Frag层数s 每 Grenade Thrown: +[$]",
                                     "base" : "1",
                                     "multiply" : 1
                                 }
@@ -307,7 +307,7 @@
                     },
 					{
                         "name" : "Cryogenic Exhaust Manifold",
-                        "description" : "Whenever you <span class=\"highlight\">Slam</span>, you release a <span class=\"highlight\">Cryo Nova</span> and lose some <span class=\"highlight\">Frag Stacks</span>.",
+                        "description" : "Whenever you <span class=\"highlight\">震击</span>, you release a <span class=\"highlight\">Cryo Nova</span> and lose some <span class=\"highlight\">Frag层数s</span>.",
                         "levels" : 5,
                         "position" : 12,
                         "stats" :
@@ -318,7 +318,7 @@
                                     "multiply" : 1
                                 },
 								{
-                                    "name" : "Frag Stacks per Slam: -[$]",
+                                    "name" : "Frag层数s 每 震击: -[$]",
                                     "base" : "1",
                                     "multiply" : 1
                                 }
@@ -332,18 +332,18 @@
                     },
                     {
                         "name" : "Float like a Bee",
-                        "description" : "增加 <span class=\"highlight\">Melee 伤害</span>.  Also, 击杀敌人 with a melee attack grants <span class=\"highlight\">Frag Stacks</span>, a small amount of <span class=\"highlight\">Health</span>, and increased <span class=\"highlight\">移动速度</span> for a few 秒.",
+                        "description" : "增加 <span class=\"highlight\">近战 伤害</span>.  Also, 击杀敌人 with a 近战 grants <span class=\"highlight\">Frag层数s</span>, a small amount of <span class=\"highlight\">生命值</span>, and increased <span class=\"highlight\">移动速度</span> for a few 秒.",
                         "levels" : 5,
                         "position" : 14,
                         "stats" :
                             [
                                 {
-                                    "name" : "Melee 伤害: +[$]%",
+                                    "name" : "近战 伤害: +[$]%",
                                     "base" : "6",
                                     "multiply" : 1
                                 },
                                 {
-                                    "name" : "Health Restored: [$]%",
+                                    "name" : "生命值 Restored: [$]%",
                                     "base" : "5",
                                     "multiply" : 1
                                 },
@@ -353,7 +353,7 @@
                                     "multiply" : 1
                                 },
 								{
-                                    "name" : "Frag Stacks on Melee Kill: +[$]",
+                                    "name" : "Frag层数s on 近战 Kill: +[$]",
                                     "base" : "1",
                                     "multiply" : 1
                                 }
@@ -368,7 +368,7 @@
                     },
                     {
                         "name" : "Rainbow Coolant",
-                        "description" : "Whenever you initiate a new <span class=\"highlight\">Subroutine</span> you emit a <font color=\"#ff4040\">R</font><font color=\"#ff7f66\">a</font><font color=\"#ffee28\">i</font><font color=\"#00ffaa\">n</font><font color=\"#2185c5\">b</font><font color=\"#236688\">o</font><font color=\"#d5b8f2\">w</font> <span class=\"highlight\">Nova</span>.  The <span class=\"highlight\">Nova</span> consists of all elements, humongous in size, and makes your team super happy. Also, unlocks <font color=\"#ff6600\">ACTION PACKAGE</font> <span class=\"highlight\">Laser Inferno</span>.",
+                        "description" : "Whenever you initiate a new <span class=\"highlight\">Subroutine</span> you emit a <font color=\"#ff4040\">R</font><font color=\"#ff7f66\">a</font><font color=\"#ffee28\">i</font><font color=\"#00ffaa\">n</font><font color=\"#2185c5\">b</font><font color=\"#236688\">o</font><font color=\"#d5b8f2\">w</font> <span class=\"highlight\">Nova</span>.  The <span class=\"highlight\">Nova</span> consists of all elements, humongous in size, and makes your team su每 happy. Also, unlocks <font color=\"#ff6600\">ACTION PACKAGE</font> <span class=\"highlight\">Laser Inferno</span>.",
                         "levels" : 1,
                         "position" : 16,
                         "stats" :
@@ -418,7 +418,7 @@
                                     "multiply" : 1
                                 },
 								{
-                                    "name" : "Health Regen: +[$]% of Max Health / sec.",
+                                    "name" : "生命值 Regen: +[$]% of Max 生命值 / sec.",
                                     "base" : ".5",
                                     "multiply" : 1
                                 }
@@ -432,7 +432,7 @@
                     },
                     {
                         "name" : "Maniacal Laughter",
-                        "description" : "增加 <span class=\"highlight\">Status Effect 几率</span>.  Dealing <span class=\"highlight\">Status Effect 伤害</span> to 敌人 grants stacks of <span class=\"highlight\">Maniacal Laughter</span>.  You and your pals gain <span class=\"highlight\">生命恢复</span> for each stack of <span class=\"highlight\">Maniacal Laughter</span>.  The lower your health, the greater the <span class=\"highlight\">生命恢复</span>.  Each stack lasts a few 秒.",
+                        "description" : "增加 <span class=\"highlight\">Status Effect 几率</span>.  Dealing <span class=\"highlight\">Status Effect 伤害</span> to 敌人 grants层数s of <span class=\"highlight\">Maniacal Laughter</span>.  You and your pals gain <span class=\"highlight\">生命恢复</span> for each层数 of <span class=\"highlight\">Maniacal Laughter</span>.  The lower your 生命值, the greater the <span class=\"highlight\">生命恢复</span>.  Each层数 lasts a few 秒.",
                         "levels" : 5,
                         "position" : 2,
                         "stats" :
@@ -443,12 +443,12 @@
                                     "multiply" : 1
                                 },
                                 {
-                                    "name" : "恢复 最多 [$]% of your Max Health每层 per second.",
+                                    "name" : "恢复 最多 [$]% of your Max 生命值每层 每 second.",
                                     "base" : ".03",
                                     "multiply" : 1
                                 },
 								{
-                                    "name" : "Max Stacks 200",
+                                    "name" : "Max层数s 200",
                                     "base" : "1",
                                     "multiply" : 1
                                 }
@@ -503,7 +503,7 @@
                     },
                     {
                         "name" : "All The Things Are Awesome!",
-                        "description" : "增加 <span class=\"highlight\">射速</span>, <span class=\"highlight\">武器 切换 Speed</span>, and <span class=\"highlight\">Max Health</span>.  This 加成 增加 for <span class=\"highlight\">every teammate</span> in the game.  Being part of a team is great!",
+                        "description" : "增加 <span class=\"highlight\">射速</span>, <span class=\"highlight\">武器 切换 Speed</span>, and <span class=\"highlight\">Max 生命值</span>.  This 加成 增加 for <span class=\"highlight\">every teammate</span> in the game.  Being part of a team is great!",
                         "levels" : 5,
                         "position" : 5,
                         "stats" :
@@ -519,22 +519,22 @@
                                     "multiply" : 1
                                 },
 								{
-                                    "name" : "Max Health: +[$]%",
+                                    "name" : "Max 生命值: +[$]%",
                                     "base" : "5",
                                     "multiply" : 1
                                 },
 								{
-                                    "name" : "射速 per Teammate: +[$]%",
+                                    "name" : "射速 每 Teammate: +[$]%",
                                     "base" : "1",
                                     "multiply" : 1
                                 },
                                 {
-                                    "name" : "武器 切换 Speed per Teammate: +[$]%",
+                                    "name" : "武器 切换 Speed 每 Teammate: +[$]%",
                                     "base" : "1",
                                     "multiply" : 1
                                 },
 								{
-                                    "name" : "Max Health per Teammate: +[$]%",
+                                    "name" : "Max 生命值 每 Teammate: +[$]%",
                                     "base" : "2",
                                     "multiply" : 1
                                 }
@@ -548,13 +548,13 @@
                     },
                     {
                         "name" : "You're... GOING TO LOVE ME!!",
-                        "description" : "击杀敌人 creates a <span class=\"highlight\">Friendship Nova</span> centered on the 敌人, <span class=\"highlight\">Healing</span> you and your friends in the radius.  Allies who are low on health are healed for more.  Also, unlocks <font color=\"#ff6600\">ACTION PACKAGE</font> <span class=\"highlight\">Gun Wizard</span>.",
+                        "description" : "击杀敌人 creates a <span class=\"highlight\">Friendship Nova</span> centered on the 敌人, <span class=\"highlight\">Healing</span> you and your friends in the radius.  Allies who are low on 生命值 are healed for more.  Also, unlocks <font color=\"#ff6600\">ACTION PACKAGE</font> <span class=\"highlight\">Gun Wizard</span>.",
                         "levels" : 1,
                         "position" : 7,
                         "stats" :
                             [
 								{
-                                    "name" : "Friendship Nova: Heals 最多 15% of your Max Health.",
+                                    "name" : "Friendship Nova: Heals 最多 15% of your Max 生命值.",
                                     "base" : "1",
                                     "multiply" : 1
                                 },
@@ -573,13 +573,13 @@
                     },
                     {
                         "name" : "Wax Off, Wax On",
-                        "description" : "Improves your <span class=\"highlight\">护盾 Capacity</span>, <span class=\"highlight\">护盾充能速率</span>, and <span class=\"highlight\">护盾充能延迟</span>.",
+                        "description" : "Improves your <span class=\"highlight\">护盾 容量</span>, <span class=\"highlight\">护盾充能速率</span>, and <span class=\"highlight\">护盾充能延迟</span>.",
                         "levels" : 5,
                         "position" : 9,
                         "stats" :
                             [
                                 {
-                                    "name" : "护盾 Capacity: +[$]%",
+                                    "name" : "护盾 容量: +[$]%",
                                     "base" : "3",
                                     "multiply" : 1
                                 },
@@ -604,13 +604,13 @@
                     },
                     {
                         "name" : "It's a Trap... Card",
-                        "description" : "When your <span class=\"highlight\">护盾</span> becomes depleted, you release a <span class=\"highlight\">Mega-Nova</span> centered on yourself that heals you and your friends, but hurts 敌人. Targets low on health are healed for more.  Your <span class=\"highlight\">护盾</span> must fully recharge between <span class=\"highlight\">Mega-Novas</span>.",
+                        "description" : "When your <span class=\"highlight\">护盾</span> becomes depleted, you release a <span class=\"highlight\">Mega-Nova</span> centered on yourself that heals you and your friends, but hurts 敌人. Targets low on 生命值 are healed for more.  Your <span class=\"highlight\">护盾</span> must fully recharge between <span class=\"highlight\">Mega-Novas</span>.",
                         "levels" : 1,
                         "position" : 10,
                         "stats" :
                             [
                                {
-                                    "name" : "Mega-Nova: Heals 最多 15% of your Max Health.",
+                                    "name" : "Mega-Nova: Heals 最多 15% of your Max 生命值.",
                                     "base" : "1",
                                     "multiply" : 1
                                 }
@@ -624,13 +624,13 @@
                     },
                     {
                         "name" : "Pain Simulator is Painful",
-                        "description" : "增加 your <span class=\"highlight\">Max Health</span> and grants a small amount of <span class=\"highlight\">伤害 Reduction</span>.",
+                        "description" : "增加 your <span class=\"highlight\">Max 生命值</span> and grants a small amount of <span class=\"highlight\">伤害 Reduction</span>.",
                         "levels" : 5,
                         "position" : 11,
                         "stats" :
                             [
                                 {
-                                    "name" : "Max Health: +[$]",
+                                    "name" : "Max 生命值: +[$]",
                                     "base" : "6",
                                     "multiply" : 1
                                 },
@@ -650,7 +650,7 @@
                     },
                     {
                         "name" : "Kick Him While He's Up",
-                        "description" : "Whenever you gain <span class=\"highlight\">Second Wind</span>, your <span class=\"highlight\">枪械伤害</span>, <span class=\"highlight\">Melee 伤害</span>, and <span class=\"highlight\">暴击伤害</span> is increased for a few 秒!",
+                        "description" : "Whenever you gain <span class=\"highlight\">Second Wind</span>, your <span class=\"highlight\">枪械伤害</span>, <span class=\"highlight\">近战 伤害</span>, and <span class=\"highlight\">暴击伤害</span> is increased for a few 秒!",
                         "levels" : 5,
                         "position" : 12,
                         "stats" :
@@ -661,7 +661,7 @@
                                     "multiply" : 1
                                 },
                                 {
-                                    "name" : "Melee 伤害: +[$]%",
+                                    "name" : "近战 伤害: +[$]%",
                                     "base" : "5",
                                     "multiply" : 1
                                 },
@@ -720,7 +720,7 @@
                                     "multiply" : 1
                                 },
 								{
-                                    "name" : "Health Regen: +3% Max Health / sec.",
+                                    "name" : "生命值 Regen: +3% Max 生命值 / sec.",
                                     "base" : "1",
                                     "multiply" : 1
                                 },
@@ -776,13 +776,13 @@
                     },
                     {
                         "name" : "Killbot",
-                        "description" : "击杀敌人 <span class=\"highlight\">Restores Health</span>, but <span class=\"highlight\">Costs 护盾s</span>.  If your 护盾s are not currently up then... <font color=\"#feba36\">FREE HEALTH</font>! The lower your health, the greater the amount of health restored.",
+                        "description" : "击杀敌人 <span class=\"highlight\">Restores 生命值</span>, but <span class=\"highlight\">Costs 护盾s</span>.  If your 护盾s are not currently up then... <font color=\"#feba36\">FREE 生命值</font>! The lower your 生命值, the greater the amount of 生命值 restored.",
                         "levels" : 5,
                         "position" : 2,
                         "stats" :
                             [
                                 {
-                                    "name" : "Health Restore: 最多 [$]% of Max Health",
+                                    "name" : "生命值 Restore: 最多 [$]% of Max 生命值",
                                     "base" : "7",
                                     "multiply" : 1
                                 },
@@ -821,13 +821,13 @@
                     },
                     {
                         "name" : "Repulsive",
-                        "description" : "When struck by a <span class=\"highlight\">melee attack</span>, you emit a powerful <span class=\"highlight\">Blastwave</span> that pushes that 敌人 away and deals <span class=\"highlight\">爆炸 伤害</span>.",
+                        "description" : "When struck by a <span class=\"highlight\">近战</span>, you emit a powerful <span class=\"highlight\">Blastwave</span> that pushes that 敌人 away and deals <span class=\"highlight\">爆炸 伤害</span>.",
                         "levels" : 5,
                         "position" : 5,
                         "stats" :
                             [
                                 {
-                                    "name" : "Shockwave Momentum: [$]",
+                                    "name" : "闪电wave Momentum: [$]",
                                     "base" : "300",
                                     "multiply" : 1,
 									"sequence" : ["300","350","400","450","500"]
@@ -865,7 +865,7 @@
                     },
                     {
                         "name" : "Load 'n' Splode",
-                        "description" : "Whenever you reload your gun, gain <span class=\"highlight\">Increased 爆炸 伤害</span>. This 加成 can stack 最多 five times and each stack only lasts a few 秒.",
+                        "description" : "Whenever you reload your gun, gain <span class=\"highlight\">Increased 爆炸 伤害</span>. This 加成 can层数 最多 five times and each层数 only lasts a few 秒.",
                         "levels" : 5,
                         "position" : 9,
                         "stats" :
@@ -921,7 +921,7 @@
                                     "multiply" : 1
                                 },
                                 {
-                                    "name" : "伤害 to Self: [$]% of current health",
+                                    "name" : "伤害 to Self: [$]% of current 生命值",
                                     "base" : "1",
                                     "multiply" : 1
                                 }
@@ -934,14 +934,14 @@
                             ]
                     },
                     {
-                        "name" : "Hyperion Punch",
-                        "description" : "<span class=\"highlight\">Melee Override</span>.  Dealing <span class=\"highlight\">爆炸 伤害</span> grants you stacks of <span class=\"highlight\">Hyperion Punch</span>.  When you have 5 stacks, 按 (RS/V) to throw a <span class=\"highlight\">super awesome punch</span> that deals 加成 <span class=\"highlight\">燃烧 伤害</span>.  This consumes all stacks of <span class=\"highlight\">Hyperion Punch</span>.",
+                        "name" : "Hy每ion Punch",
+                        "description" : "<span class=\"highlight\">近战 升级</span>.  Dealing <span class=\"highlight\">爆炸 伤害</span> grants you层数s of <span class=\"highlight\">Hy每ion Punch</span>.  When you have 5层数s, 按 (RS/V) to throw a <span class=\"highlight\">su每 awesome punch</span> that deals 加成 <span class=\"highlight\">燃烧 伤害</span>.  This consumes all层数s of <span class=\"highlight\">Hy每ion Punch</span>.",
                         "levels" : 5,
                         "position" : 12,
                         "stats" :
                             [
                                 {
-                                    "name" : "Hyperion Punch Stack Cap: 5 ",
+                                    "name" : "Hy每ion Punch层数 Cap: 5 ",
                                     "base" : 1,
                                     "multiply" : 1
                                 },
@@ -985,7 +985,7 @@
                     },
                     {
                         "name" : "Livin' Near the Edge",
-                        "description" : "增加 <span class=\"highlight\">射速</span> and <span class=\"highlight\">装填速度</span>.  The lower your health and 护盾s, the greater the 加成.  Also, unlocks <font color=\"#ff6600\">ACTION PACKAGE</font> <span class=\"highlight\">Pirate Ship Mode</span>.",
+                        "description" : "增加 <span class=\"highlight\">射速</span> and <span class=\"highlight\">装填速度</span>.  The lower your 生命值 and 护盾s, the greater the 加成.  Also, unlocks <font color=\"#ff6600\">ACTION PACKAGE</font> <span class=\"highlight\">Pirate Ship Mode</span>.",
                         "levels" : 1,
                         "position" : 16,
                         "stats" :

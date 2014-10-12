@@ -148,7 +148,7 @@
                                     "multiply" : 1
                                 },
 								{
-                                    "name" : "Max Stacks: 21"
+                                    "name" : "Max层数s: 21"
                                 }
                             ],
                         "assets" :
@@ -555,19 +555,19 @@
                 "skills" :
                 [
                     {
-                        "name" : "Law",
-                        "description" : "增加 your <span class=\"highlight\">护盾 Capacity</span> and <span class=\"highlight\">Melee 伤害</span>.",
+                        "name" : "Law(法律)",
+                        "description" : "增加<span class=\"highlight\">护盾容量</span> and <span class=\"highlight\">近战伤害</span>.",
                         "levels" : 4,
                         "position" : 0,
                         "stats" :
                             [
                                 {
-                                    "name" : "护盾 Capacity: +[$]%",
+                                    "name" : "护盾容量: +[$]%",
                                     "base" : "5",
                                     "multiply" : 1
                                 },
                                 {
-                                    "name" : "Melee 伤害 [$]%",
+                                    "name" : "近战伤害 [$]%",
                                     "base" : "5",
                                     "multiply" : 1
                                 }
@@ -580,17 +580,17 @@
                             ]
                     },
                     {
-                        "name" : "Order",
-                        "description" : "Every time you take 15% of your <span class=\"highlight\">maximum health</span> in 伤害 you gain a stack of <span class=\"highlight\">Order</span>.  Based on your number of <span class=\"highlight\">Order</span> stacks, you have a <span class=\"highlight\">chance to instantly heal double the 伤害 taken</span>. <span class=\"highlight\">Order</span> stacks are quickly lost when outside combat.",
+                        "name" : "Order(秩序)",
+                        "description" : "每受到 15% <span class=\"highlight\">最大生命值</span>的伤害, 你获得一层<span class=\"highlight\">Order(秩序)</span>.  根据<span class=\"highlight\">Order(秩序)</span>的层数, <span class=\"highlight\">有几率立刻获得相当于两倍伤害的恢复</span>. <span class=\"highlight\">Order(秩序)</span>在脱离战斗后很快消失.",
                         "levels" : 1,
                         "position" : 2,
                         "stats" :
                             [
                                 {
-                                    "name" : "Heal 几率: +1.2% per Order stack"
+                                    "name" : "Heal 几率: +1.2% 每 Order层数"
                                 },
 								{
-                                    "name" : "Max Stacks: 10"
+                                    "name" : "Max层数s: 10"
                                 }
                             ],
                         "assets" :
@@ -601,14 +601,14 @@
                             ]
                     },
                     {
-                        "name" : "The Third Degree",
-                        "description" : "When <span class=\"highlight\">决斗</span> ends or upon 击杀敌人, you gain increased <span class=\"highlight\">伤害</span> with your next <span class=\"highlight\">近战</span>.  This effect can stack 最多 5 times.",
+                        "name" : "The Third Degree(第三维度)",
+                        "description" : "<span class=\"highlight\">决斗</span>结束或击杀敌人后, 增加下一次<span class=\"highlight\">近战伤害</span>.  该效果最多累计5层.",
                         "levels" : 5,
                         "position" : 3,
                         "stats" :
                             [
                                 {
-                                    "name" : "Melee 伤害: +[$]%每层",
+                                    "name" : "近战伤害: +[$]%每层",
                                     "base" : "20",
                                     "multiply" : 1
                                 }
@@ -621,8 +621,8 @@
                             ]
                     },
                     {
-                        "name" : "Rough Rider",
-                        "description" : "<span class=\"highlight\">Slam Augment</span>. Your <span class=\"highlight\">Slam</span> attack's 伤害 is increased by 25%.  Dealing 伤害 with <span class=\"highlight\">Slam</span> grants you 5 <span class=\"highlight\">Order</span> stacks <span class=\"highlight\">per 敌人 damaged</span>. This skill also raises your <span class=\"highlight\">Order Stack Cap</span> by 5.",
+                        "name" : "Rough Rider(糙骑手)",
+                        "description" : "<span class=\"highlight\">震击组件</span>. 你的<span class=\"highlight\">震击</span>伤害增加25%.  每个被<span class=\"highlight\">震击</span>伤害的敌人给你5层<span class=\"highlight\">Order(秩序)</span>. 该技能也增加5点<span class=\"highlight\">Order(秩序)</span>层数上限.",
                         "levels" : 1,
                         "position" : 4,
                         "stats" :
@@ -639,14 +639,14 @@
                             ]
                     },
                     {
-                        "name" : "Wanted",
-                        "description" : "When an 敌人 would cause you to gain an <span class=\"highlight\">Order</span> stack, he gains a <span class=\"highlight\">Wanted</span> stack.  Damaging that target consumes all <span class=\"highlight\">Wanted</span> stacks and deals <span class=\"highlight\">加成 伤害</span> based on the number of stacks consumed and your level. The maximum number of <span class=\"highlight\">Wanted</span> stacks is 5, and 敌人 still gain <span class=\"highlight\">Wanted</span> stacks even if you are at your maximum <span class=\"highlight\">Order</span> stacks.",
+                        "name" : "Wanted(悬赏)",
+                        "description" : "敌人让你获得<span class=\"highlight\">Order(秩序)</span>层数时 , 他获得<span class=\"highlight\">Wanted(悬赏)</span>层数.  伤害该目标将消耗所有的<span class=\"highlight\">Wanted(悬赏)</span>层数并造成基于层数和你等级的<span class=\"highlight\">加成伤害</span>. 最大<span class=\"highlight\">Wanted(悬赏)</span>层数为5, 即使你的<span class=\"highlight\">Order(秩序)</span>层数满了, 敌人仍然可以获得<span class=\"highlight\">Wanted(悬赏)</span>层数.",
                         "levels" : 5,
                         "position" : 5,
                         "stats" :
                             [
                                 {
-                                    "name" : "伤害 等级: [$]",
+                                    "name" : "伤害等级: [$]",
                                     "base" : "1",
                                     "multiply" : 1
                                 }
@@ -659,20 +659,20 @@
                             ]
                     },
                     {
-                        "name" : "Discipline",
-                        "description" : "Upon reaching 10 <span class=\"highlight\">Order</span> stacks, your <span class=\"highlight\">护盾s</span> are restored to full.  Also, while at 10 or more <span class=\"highlight\">Order</span> stacks you gain improved <span class=\"highlight\">Melee 伤害, 枪械伤害, and 护盾充能延迟</span> for each <span class=\"highlight\">Order</span> stack.  This skill also raises your <span class=\"highlight\">Order Stack Cap</span> by 5.",
+                        "name" : "Discipline(纪律)",
+                        "description" : "获得10层<span class=\"highlight\">Order(秩序)</span>时, 完全恢复<span class=\"highlight\">护盾</span>.  另外, 拥有10层以上<span class=\"highlight\">Order(秩序)</span>时你获得基于层数的<span class=\"highlight\">近战伤害, 枪械伤害, 和 护盾充能延迟</span>提升. 该技能也增加5点<span class=\"highlight\">Order(秩序)层数上限</span>.",
                         "levels" : 1,
                         "position" : 7,
                         "stats" :
                             [
                                 {
-                                    "name" : "Melee 伤害: +1.5% per Order stack"
+                                    "name" : "近战伤害: +1.5% 每 Order层数"
                                 },
                                 {
-                                    "name" : "枪械伤害: +1.0% per Order stack"
+                                    "name" : "枪械伤害: +1.0% 每 Order层数"
                                 },
 								{
-                                    "name" : "护盾充能延迟: -1.5% per Order stack"
+                                    "name" : "护盾充能延迟: -1.5% 每 Order层数"
                                 }
                             ],
                         "assets" :
@@ -683,8 +683,8 @@
                             ]
                     },
                     {
-                        "name" : "Due Process",
-                        "description" : "After hitting an 敌人 with a <span class=\"highlight\">近战</span>, you deal increased <span class=\"highlight\">枪械伤害</span> with 所有枪械类型 for a few 秒.",
+                        "name" : "Due Process(程序正义)",
+                        "description" : "<span class=\"highlight\">近战</span>攻击敌人后, 几秒内所有枪械类型的<span class=\"highlight\">枪械伤害</span>增加.",
                         "levels" : 5,
                         "position" : 9,
                         "stats" :
@@ -703,14 +703,14 @@
                             ]
                     },
                     {
-                        "name" : "Blood of the Guilty",
-                        "description" : "When you or an ally <span class=\"highlight\">kills an 敌人</span>, you gain a stack of <span class=\"highlight\">Order</span> and have <span class=\"highlight\">5% of your health restored</span>.  This skill also raises your <span class=\"highlight\">Order Stack Cap</span> by 5.",
+                        "name" : "Blood of the Guilty(罪恶之血)",
+                        "description" : "你和你的同伴<span class=\"highlight\">击杀敌人后</span>, 你获得一层<span class=\"highlight\">Order(秩序)</span>以及<span class=\"highlight\">5%生命恢复</span>.  该技能也增加5点<span class=\"highlight\">Order(秩序)层数上限</span>.",
                         "levels" : 1,
                         "position" : 10,
                         "stats" :
                             [
                                 {
-                                    "name" : "\"I am the judge, jury, and executioner.\""
+                                    "name" : "\"我是特警判官.\""
                                 }
                             ],
                         "assets" :
@@ -721,8 +721,8 @@
                             ]
                     },
                     {
-                        "name" : "Jurisdiction",
-                        "description" : "During <span class=\"highlight\">决斗</span> you <span class=\"highlight\">Regenerate Health</span> and gain 加成 <span class=\"highlight\">移动速度</span>.",
+                        "name" : "Jurisdiction(审判权)",
+                        "description" : "<span class=\"highlight\">决斗</span>中增加<span class=\"highlight\">生命恢复</span>和<span class=\"highlight\">移动速度</span>.",
                         "levels" : 5,
                         "position" : 11,
                         "stats" :
@@ -746,8 +746,8 @@
                             ]
                     },
                     {
-                        "name" : "No Pain, No Gain",
-                        "description" : "Gain increased <span class=\"highlight\">枪械伤害</span> with 所有枪械类型 based on how low your <span class=\"highlight\">Health</span> currently is.  The lower your Health the greater the <span class=\"highlight\">枪械伤害</span>.",
+                        "name" : "No Pain, No Gain(不劳不获)",
+                        "description" : "<span class=\"highlight\">生命值</span>越低<span class=\"highlight\">枪械伤害</span>越高.",
                         "levels" : 5,
                         "position" : 12,
                         "stats" :
@@ -766,19 +766,19 @@
                             ]
                     },
 					{
-                        "name" : "Rarin' To Go",
-                        "description" : "<span class=\"highlight\">击杀技</span>.  击杀敌人 grants you 加成 <span class=\"highlight\">装填速度</span> and <span class=\"highlight\">枪械伤害</span> based on the number of <span class=\"highlight\">Order</span> stacks you currently have.",
+                        "name" : "Rarin' To Go(渴望)",
+                        "description" : "<span class=\"highlight\">击杀技</span>.  击杀敌人后基于当前<span class=\"highlight\">Order(秩序)</span>层数增加<span class=\"highlight\">装填速度</span>和<span class=\"highlight\">枪械伤害</span>.",
                         "levels" : 5,
                         "position" : 14,
                         "stats" :
                             [
                                 {
-                                    "name" : "装填速度:  +[$]% per Order stack",
+                                    "name" : "装填速度:  +[$]% 每 Order层数",
                                     "base" : "0.4",
                                     "multiply" : 1
                                 },
 								{
-                                    "name" : "枪械伤害:  +[$]% per Order stack",
+                                    "name" : "枪械伤害:  +[$]% 每 Order层数",
                                     "base" : "0.4",
                                     "multiply" : 1
                                 }
@@ -791,8 +791,8 @@
                             ]
                     },
 					{
-                        "name" : "Thunder Crackdown",
-                        "description" : "<span class=\"highlight\">Melee Override</span>. Your <span class=\"highlight\">近战</span> causes a large <span class=\"highlight\">cone-shaped Shock burst</span>, dealing increased 伤害 for each <span class=\"highlight\">Order</span> stack.  This skill also raises your <span class=\"highlight\">Order Stack Cap</span> by 5.",
+                        "name" : "Thunder Crackdown(雷霆痛击)",
+                        "description" : "<span class=\"highlight\">近战升级</span>. <span class=\"highlight\">近战</span>造成巨大的<span class=\"highlight\">锥形闪电爆发</span>, 根据<span class=\"highlight\">Order(秩序)</span>层数造成伤害. 该技能也增加5点<span class=\"highlight\">Order(秩序)层数上限</span>.",
                         "levels" : 1,
                         "position" : 16,
                         "stats" :
@@ -803,7 +803,7 @@
                                     "multiply" : 1
                                 },
 								{
-                                    "name" : "Melee 伤害: +25% per Order stack as Shock 伤害",
+                                    "name" : "近战伤害: +25% 每 Order(秩序)层数 as 闪电伤害",
                                     "base" : "0.4",
                                     "multiply" : 1
                                 }
