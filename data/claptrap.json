@@ -1,4 +1,4 @@
-﻿{
+{
     "url" : "http://borderlandsthegame.com/skilltrees/claptrap.html",
     "assets" :
     {
@@ -9,7 +9,7 @@
         "class" :
             {
                 "name" : "VaultHunter.EXE",
-                "description" : "<span class=\"highlight\">主动技.</span> 按 [LB/L1/F] to run your <span class=\"highlight\">VaultHunter.EXE</span> program.  It will analyze the situation, determine which Vault Hunter would do the best job, and then load an <font color=\"#ff6600\">ACTION PACKAGE</font> allowing Claptrap to fight in that manner for a short 每iod of time.  It also gives you <span class=\"highlight\">Full 生命值</span> and <span class=\"highlight\">生命恢复</span>.  <span class=\"highlight\">VaultHunter.EXE</span> is still in beta and its definition of ''Vault Hunter'' is questionable at best.  <font color=\"#feba36\">Warning:</font>  <span class=\"highlight\">VaultHunter.EXE</span> is currently classified as malware. Your allies may be affected.",
+                "description" : "<span class=\"highlight\">主动技.</span> 按 [LB/L1/F] to run your <span class=\"highlight\">VaultHunter.EXE</span> program.  It will analyze the situation, determine which Vault Hunter would do the best job,和then load an <font color=\"#ff6600\">ACTION PACKAGE</font> allowing Claptrap to fight in that manner for a short 每iod of time.  It also gives you <span class=\"highlight\">Full 生命值</span>和<span class=\"highlight\">生命恢复</span>.  <span class=\"highlight\">VaultHunter.EXE</span> is still in beta和its definition of ''Vault Hunter'' is questionable at best.  <font color=\"#feba36\">Warning:</font>  <span class=\"highlight\">VaultHunter.EXE</span> is currently classified as malware. Your allies may be affected.",
                 "stats" :
                     [
 						{
@@ -37,13 +37,13 @@
                 [
                     {
                         "name" : "All the Guns",
-                        "description" : "<span class=\"highlight\">Gun Subroutines.</span>  You randomly pick a <span class=\"highlight\">Subroutine</span> focused on a gun type, making you <span class=\"highlight\">more effective</span> with that gun type, but <font color=\"#feba36\">less effective</font> with all others.<br>Upon selecting a <span class=\"highlight\">Subroutine</span> you gain 100 <span class=\"highlight\">Frag层数s</span>, which decrease over time.  When you run out of <span class=\"highlight\">Frag层数s</span>, your <span class=\"highlight\">Subroutine</span> will be replaced with a new one.",
+                        "description" : "<span class=\"highlight\">Gun Subroutines.</span>  You randomly pick a <span class=\"highlight\">Subroutine</span> focused on a gun type, making you <span class=\"highlight\">more effective</span> with that gun type, but <font color=\"#feba36\">less effective</font> with all others.<br>Upon selecting a <span class=\"highlight\">Subroutine</span> you gain 100 <span class=\"highlight\">Frag层数</span>, which decrease over time.  When you run out of <span class=\"highlight\">Frag层数</span>, your <span class=\"highlight\">Subroutine</span> will be replaced with a new one.",
                         "levels" : 1,
                         "position" : 0,
                         "stats" :
                             [
                                 {
-                                    "name" : "Gun-Type 伤害 +25%",
+                                    "name" : "Gun-Type伤害 +25%",
                                     "base" : "1",
                                     "multiply" : 1
                                 },
@@ -58,7 +58,7 @@
                                     "multiply" : 1
                                 },
 								{
-                                    "name" : "Wrong Gun-Type 伤害: -15%",
+                                    "name" : "Wrong Gun-Type伤害: -15%",
                                     "base" : "1",
                                     "multiply" : 1
                                 }
@@ -72,7 +72,7 @@
                     },
                     {
                         "name" : "Fuzzy Logic",
-                        "description" : "Taking 伤害 from an 敌人增加<span class=\"highlight\">暴击伤害</span> for a few 秒.",
+                        "description" : "Taking伤害 from an 敌人增加<span class=\"highlight\">暴击伤害</span> for a few 秒.",
                         "levels" : 3,
                         "position" : 1,
                         "stats" :
@@ -92,7 +92,7 @@
                     },
                     {
                         "name" : "Safety First",
-                        "description" : "<span class=\"highlight\">Defensive Subroutines.</span>  You randomly pick a <span class=\"highlight\">Subroutine</span> focused on either <span class=\"highlight\">生命值</span> or <span class=\"highlight\">护盾s</span>, which grants <span class=\"highlight\">increased 容量</span> and <span class=\"highlight\">Regeneration</span> for the chosen attribute. The catch? You deal <font color=\"#feba36\">reduced 伤害</font> with 所有枪械类型.  Upon selecting a <span class=\"highlight\">Subroutine</span> you gain 100 <span class=\"highlight\">Frag层数s</span>, which decrease over time.  When you run out of <span class=\"highlight\">Frag层数s</span>, your <span class=\"highlight\">Subroutine</span> will be replaced with a new one.",
+                        "description" : "<span class=\"highlight\">Defensive Subroutines.</span>  You randomly pick a <span class=\"highlight\">Subroutine</span> focused on either <span class=\"highlight\">生命值</span> or <span class=\"highlight\">护盾s</span>, which grants <span class=\"highlight\">increased 容量</span>和<span class=\"highlight\">恢复</span> for the chosen attribute. The catch? You deal <font color=\"#feba36\">reduced伤害</font> with 所有枪械类型.  Upon selecting a <span class=\"highlight\">Subroutine</span> you gain 100 <span class=\"highlight\">Frag层数</span>, which decrease over time.  When you run out of <span class=\"highlight\">Frag层数</span>, your <span class=\"highlight\">Subroutine</span> will be replaced with a new one.",
                         "levels" : 1,
                         "position" : 2,
                         "stats" :
@@ -122,7 +122,7 @@
                     },
                     {
                         "name" : "Surprised? Stabilize!",
-                        "description" : "Taking 伤害 from an 敌人 增加 your <span class=\"highlight\">精准度</span> and <span class=\"highlight\">减少后坐力</span> with all guns for a few 秒.",
+                        "description" : "Taking伤害 from an 敌人 增加your <span class=\"highlight\">精准度</span>和<span class=\"highlight\">减少后坐力</span> with all guns for a few 秒.",
                         "levels" : 5,
                         "position" : 3,
                         "stats" :
@@ -147,13 +147,13 @@
                     },
                     {
                         "name" : "Rope-a-Derp",
-                        "description" : "<span class=\"highlight\">近战 Subroutine.</span>  You randomly pick a 近战-focused <span class=\"highlight\">Subroutine</span>, which grants you a <span class=\"highlight\">massive 近战 伤害 加成</span> but <font color=\"#feba36\">reduces</font> your 伤害 with guns.",
+                        "description" : "<span class=\"highlight\">近战 Subroutine.</span>  You randomly pick a 近战-focused <span class=\"highlight\">Subroutine</span>, which grants you a <span class=\"highlight\">massive 近战伤害 加成</span> but <font color=\"#feba36\">reduces</font> your伤害 with guns.",
                         "levels" : 1,
                         "position" : 4,
                         "stats" :
                             [
                                 {
-                                    "name" : "近战 伤害: +150%",
+                                    "name" : "近战伤害: +150%",
                                     "base" : "1",
                                     "multiply" : 1
                                 },
@@ -172,7 +172,7 @@
                     },
                     {
                         "name" : "Blue Shell",
-                        "description" : "增加 <span class=\"highlight\">枪械伤害</span>, <span class=\"highlight\">射速</span>, and <span class=\"highlight\">装填速度</span> while in <span class=\"highlight\">Fight For Your Life</span>.  Also, 增加 the 持续时间 of <span class=\"highlight\">Fight For Your Life</span>.",
+                        "description" : "增加<span class=\"highlight\">枪械伤害</span>, <span class=\"highlight\">射速</span>,和<span class=\"highlight\">装填速度</span> while in <span class=\"highlight\">跪地状态</span>.  Also, 增加the 持续时间 of <span class=\"highlight\">跪地状态</span>.",
                         "levels" : 5,
                         "position" : 5,
                         "stats" :
@@ -193,7 +193,7 @@
                                     "multiply" : 1
                                 },
 								{
-                                    "name" : "Fight For Your Life Time: +[$]%",
+                                    "name" : "跪地状态 Time: +[$]%",
                                     "base" : "7",
                                     "multiply" : 1
                                 }
@@ -207,7 +207,7 @@
                     },
                     {
                         "name" : "Tripleclocked",
-                        "description" : "Multiplies the <span class=\"highlight\">加成es</span> and <font color=\"#feba36\">Penalties</font> of the current <span class=\"highlight\">Subroutine</span> by 最多 <span class=\"highlight\">three</span>.  The fewer <span class=\"highlight\">Frag层数s</span> you have, the greater the multiplier. <span class=\"highlight\">Defensive Subroutines</span> always receive <span class=\"highlight\">Triple 容量</span> regardless of层数s.  Also, unlocks <font color=\"#ff6600\">ACTION PACKAGE</font> <span class=\"highlight\">One Shot Wonder</span>.",
+                        "description" : "Multiplies the <span class=\"highlight\">加成es</span>和<font color=\"#feba36\">Penalties</font> of the current <span class=\"highlight\">Subroutine</span> by 最多 <span class=\"highlight\">three</span>.  The fewer <span class=\"highlight\">Frag层数</span> you have, the greater the multiplier. <span class=\"highlight\">Defensive Subroutines</span> always receive <span class=\"highlight\">Triple 容量</span> regardless of层数.  Also, unlocks <font color=\"#ff6600\">ACTION PACKAGE</font> <span class=\"highlight\">One Shot Wonder</span>.",
                         "levels" : 1,
                         "position" : 7,
                         "stats" :
@@ -227,18 +227,18 @@
                     },
                     {
                         "name" : "Grenade Vent",
-                        "description" : "增加 <span class=\"highlight\">Grenade 伤害</span>.  Also, throwing a grenade adds <span class=\"highlight\">Frag层数s</span>.",
+                        "description" : "增加<span class=\"highlight\">Grenade伤害</span>.  Also, throwing a grenade adds <span class=\"highlight\">Frag层数</span>.",
                         "levels" : 5,
                         "position" : 9,
                         "stats" :
                             [
                                 {
-                                    "name" : "Grenade 伤害: +[$]%",
+                                    "name" : "Grenade伤害: +[$]%",
                                     "base" : "9",
                                     "multiply" : 1
                                 },
 								{
-                                    "name" : "Frag层数s 每 Grenade Thrown: +[$]",
+                                    "name" : "Frag层数 每 Grenade Thrown: +[$]",
                                     "base" : "1",
                                     "multiply" : 1
                                 }
@@ -252,18 +252,18 @@
                     },
                     {
                         "name" : "Element of Surprise",
-                        "description" : "<span class=\"highlight\">Elemental Subroutines.</span>  You randomly pick a <span class=\"highlight\">Subroutine</span> that <span class=\"highlight\">增加 伤害</span> with a chosen <span class=\"highlight\">element</span>, but <font color=\"#feba36\">Decreases 伤害</font> with all other elements.  Upon <span class=\"highlight\">depleting your 护盾</span>, <span class=\"highlight\">filling your 护盾</span>, or entering <span class=\"highlight\">Fight For Your Life</span>, you release a <span class=\"highlight\">Nova</span> of the chosen element.",
+                        "description" : "<span class=\"highlight\">元素Subroutines.</span>  You randomly pick a <span class=\"highlight\">Subroutine</span> that <span class=\"highlight\">增加伤害</span> with a chosen <span class=\"highlight\">element</span>, but <font color=\"#feba36\">Decreases伤害</font> with all other elements.  Upon <span class=\"highlight\">depleting your 护盾</span>, <span class=\"highlight\">filling your 护盾</span>, or entering <span class=\"highlight\">跪地状态</span>, you release a <span class=\"highlight\">Nova</span> of the chosen element.",
                         "levels" : 1,
                         "position" : 10,
                         "stats" :
                             [
                                 {
-                                    "name" : "Chosen Element 伤害: +32%",
+                                    "name" : "Chosen Element伤害: +32%",
                                     "base" : "1",
                                     "multiply" : 1
                                 },
                                 {
-                                    "name" : "Other Element 伤害: -16%",
+                                    "name" : "Other Element伤害: -16%",
                                     "base" : "1",
                                     "multiply" : 1
                                 }
@@ -277,7 +277,7 @@
                     },
 					{
                         "name" : "Death Machine",
-                        "description" : "<span class=\"highlight\">击杀技.</span>  击杀敌人 增加 your <span class=\"highlight\">枪械伤害</span>, <span class=\"highlight\">装填速度</span>, and <span class=\"highlight\">移动速度</span> for a few 秒.",
+                        "description" : "<span class=\"highlight\">击杀技.</span>  击杀敌人增加your <span class=\"highlight\">枪械伤害</span>, <span class=\"highlight\">装填速度</span>,和<span class=\"highlight\">移动速度</span> for a few 秒.",
                         "levels" : 5,
                         "position" : 11,
                         "stats" :
@@ -307,18 +307,18 @@
                     },
 					{
                         "name" : "Cryogenic Exhaust Manifold",
-                        "description" : "Whenever you <span class=\"highlight\">震击</span>, you release a <span class=\"highlight\">Cryo Nova</span> and lose some <span class=\"highlight\">Frag层数s</span>.",
+                        "description" : "Whenever you <span class=\"highlight\">震击</span>, you release a <span class=\"highlight\">Cryo Nova</span>和lose some <span class=\"highlight\">Frag层数</span>.",
                         "levels" : 5,
                         "position" : 12,
                         "stats" :
                             [
 								{
-                                    "name" : "Rank [$] 伤害",
+                                    "name" : "等级 [$]伤害",
                                     "base" : "1",
                                     "multiply" : 1
                                 },
 								{
-                                    "name" : "Frag层数s 每 震击: -[$]",
+                                    "name" : "Frag层数 每 震击: -[$]",
                                     "base" : "1",
                                     "multiply" : 1
                                 }
@@ -332,13 +332,13 @@
                     },
                     {
                         "name" : "Float like a Bee",
-                        "description" : "增加 <span class=\"highlight\">近战 伤害</span>.  Also, 击杀敌人 with a 近战 grants <span class=\"highlight\">Frag层数s</span>, a small amount of <span class=\"highlight\">生命值</span>, and increased <span class=\"highlight\">移动速度</span> for a few 秒.",
+                        "description" : "增加<span class=\"highlight\">近战伤害</span>.  Also, 击杀敌人with a 近战 grants <span class=\"highlight\">Frag层数</span>, a small amount of <span class=\"highlight\">生命值</span>,和increased <span class=\"highlight\">移动速度</span> for a few 秒.",
                         "levels" : 5,
                         "position" : 14,
                         "stats" :
                             [
                                 {
-                                    "name" : "近战 伤害: +[$]%",
+                                    "name" : "近战伤害: +[$]%",
                                     "base" : "6",
                                     "multiply" : 1
                                 },
@@ -353,7 +353,7 @@
                                     "multiply" : 1
                                 },
 								{
-                                    "name" : "Frag层数s on 近战 Kill: +[$]",
+                                    "name" : "Frag层数 on 近战 Kill: +[$]",
                                     "base" : "1",
                                     "multiply" : 1
                                 }
@@ -368,13 +368,13 @@
                     },
                     {
                         "name" : "Rainbow Coolant",
-                        "description" : "Whenever you initiate a new <span class=\"highlight\">Subroutine</span> you emit a <font color=\"#ff4040\">R</font><font color=\"#ff7f66\">a</font><font color=\"#ffee28\">i</font><font color=\"#00ffaa\">n</font><font color=\"#2185c5\">b</font><font color=\"#236688\">o</font><font color=\"#d5b8f2\">w</font> <span class=\"highlight\">Nova</span>.  The <span class=\"highlight\">Nova</span> consists of all elements, humongous in size, and makes your team su每 happy. Also, unlocks <font color=\"#ff6600\">ACTION PACKAGE</font> <span class=\"highlight\">Laser Inferno</span>.",
+                        "description" : "Whenever you initiate a new <span class=\"highlight\">Subroutine</span> you emit a <font color=\"#ff4040\">R</font><font color=\"#ff7f66\">a</font><font color=\"#ffee28\">i</font><font color=\"#00ffaa\">n</font><font color=\"#2185c5\">b</font><font color=\"#236688\">o</font><font color=\"#d5b8f2\">w</font> <span class=\"highlight\">Nova</span>.  The <span class=\"highlight\">Nova</span> consists of all elements, humongous in size,和makes your team su每 happy. Also, unlocks <font color=\"#ff6600\">ACTION PACKAGE</font> <span class=\"highlight\">Laser Inferno</span>.",
                         "levels" : 1,
                         "position" : 16,
                         "stats" :
                             [
                                 {
-                                    "name" : "Laser Inferno: Shoot lasers in all directions at nearby 敌人.",
+                                    "name" : "Laser Inferno: Shoot 激光 in all directions at nearby 敌人.",
                                     "base" : "1",
                                     "multiply" : 1
                                 }
@@ -397,7 +397,7 @@
                 [
                     {
                         "name" : "Best Buds 4 Life",
-                        "description" : "Whenever you're revived or you revive someone, you and your buddy gain <span class=\"highlight\">生命恢复</span> and <span class=\"highlight\">伤害 Reduction</span> for a short time.  Also, extends <span class=\"highlight\">Fight For Your Life</span> and 增加 <span class=\"highlight\">武器 伤害</span> while downed.",
+                        "description" : "Whenever you're revived or you revive someone, you和your buddy gain <span class=\"highlight\">生命恢复</span>和<span class=\"highlight\">伤害 Reduction</span> for a short time.  Also, extends <span class=\"highlight\">跪地状态</span>和增加<span class=\"highlight\">武器伤害</span> while downed.",
                         "levels" : 5,
                         "position" : 0,
                         "stats" :
@@ -413,7 +413,7 @@
                                     "multiply" : 1
                                 },
 								{
-                                    "name" : "伤害 Resistance: +[$]%",
+                                    "name" : "伤害抗性: +[$]%",
                                     "base" : "7",
                                     "multiply" : 1
                                 },
@@ -432,7 +432,7 @@
                     },
                     {
                         "name" : "Maniacal Laughter",
-                        "description" : "增加 <span class=\"highlight\">Status Effect 几率</span>.  Dealing <span class=\"highlight\">Status Effect 伤害</span> to 敌人 grants层数s of <span class=\"highlight\">Maniacal Laughter</span>.  You and your pals gain <span class=\"highlight\">生命恢复</span> for each层数 of <span class=\"highlight\">Maniacal Laughter</span>.  The lower your 生命值, the greater the <span class=\"highlight\">生命恢复</span>.  Each层数 lasts a few 秒.",
+                        "description" : "增加<span class=\"highlight\">Status Effect 几率</span>.  Dealing <span class=\"highlight\">Status Effect伤害</span> to 敌人 grants层数 of <span class=\"highlight\">Maniacal Laughter</span>.  You和your pals gain <span class=\"highlight\">生命恢复</span> for each层数 of <span class=\"highlight\">Maniacal Laughter</span>.  The lower your 生命值, the greater the <span class=\"highlight\">生命恢复</span>.  Each层数 lasts a few 秒.",
                         "levels" : 5,
                         "position" : 2,
                         "stats" :
@@ -443,12 +443,12 @@
                                     "multiply" : 1
                                 },
                                 {
-                                    "name" : "恢复 最多 [$]% of your Max 生命值每层 每 second.",
+                                    "name" : "恢复 最多 [$]% of your Max 生命值每层 每 秒.",
                                     "base" : ".03",
                                     "multiply" : 1
                                 },
 								{
-                                    "name" : "Max层数s 200",
+                                    "name" : "Max层数 200",
                                     "base" : "1",
                                     "multiply" : 1
                                 }
@@ -461,8 +461,8 @@
                             ]
                     },
                     {
-                        "name" : "Through Thick And Thin",
-                        "description" : "增加 <span class=\"highlight\">主动技 冷却时间 Rate</span>. While <span class=\"highlight\">VaultHunter.EXE</span> is running, this 加成 is <span class=\"highlight\">transferred to your allies</span>.",
+                        "name" : "Through Thick和Thin",
+                        "description" : "增加<span class=\"highlight\">主动技 冷却时间 Rate</span>. While <span class=\"highlight\">VaultHunter.EXE</span> is running, this 加成 is <span class=\"highlight\">transferred to your allies</span>.",
                         "levels" : 5,
                         "position" : 3,
                         "stats" :
@@ -482,7 +482,7 @@
                     },
                     {
                         "name" : "Kick Him While He's Down",
-                        "description" : "While in <span class=\"highlight\">Fight For Your Life</span>, you draw aggro from nearby 敌人.  Also, unlocks <font color=\"#ff6600\">ACTION PACKAGE</font> <span class=\"highlight\">Clap-in-the-Box</span>.",
+                        "description" : "While in <span class=\"highlight\">跪地状态</span>, you draw aggro from nearby 敌人.  Also, unlocks <font color=\"#ff6600\">ACTION PACKAGE</font> <span class=\"highlight\">Clap-in-the-Box</span>.",
                         "levels" : 1,
                         "position" : 4,
                         "stats" :
@@ -503,7 +503,7 @@
                     },
                     {
                         "name" : "All The Things Are Awesome!",
-                        "description" : "增加 <span class=\"highlight\">射速</span>, <span class=\"highlight\">武器 切换 Speed</span>, and <span class=\"highlight\">Max 生命值</span>.  This 加成 增加 for <span class=\"highlight\">every teammate</span> in the game.  Being part of a team is great!",
+                        "description" : "增加<span class=\"highlight\">射速</span>, <span class=\"highlight\">武器切换速度</span>,和<span class=\"highlight\">Max 生命值</span>.  This 加成 增加for <span class=\"highlight\">every teammate</span> in the game.  Being part of a team is great!",
                         "levels" : 5,
                         "position" : 5,
                         "stats" :
@@ -514,7 +514,7 @@
                                     "multiply" : 1
                                 },
                                 {
-                                    "name" : "武器 切换 Speed: +[$]%",
+                                    "name" : "武器切换速度: +[$]%",
                                     "base" : "3",
                                     "multiply" : 1
                                 },
@@ -529,7 +529,7 @@
                                     "multiply" : 1
                                 },
                                 {
-                                    "name" : "武器 切换 Speed 每 Teammate: +[$]%",
+                                    "name" : "武器切换速度 每 Teammate: +[$]%",
                                     "base" : "1",
                                     "multiply" : 1
                                 },
@@ -548,7 +548,7 @@
                     },
                     {
                         "name" : "You're... GOING TO LOVE ME!!",
-                        "description" : "击杀敌人 creates a <span class=\"highlight\">Friendship Nova</span> centered on the 敌人, <span class=\"highlight\">Healing</span> you and your friends in the radius.  Allies who are low on 生命值 are healed for more.  Also, unlocks <font color=\"#ff6600\">ACTION PACKAGE</font> <span class=\"highlight\">Gun Wizard</span>.",
+                        "description" : "击杀敌人creates a <span class=\"highlight\">Friendship Nova</span> centered on the 敌人, <span class=\"highlight\">Healing</span> you和your friends in the radius.  Allies who are low on 生命值 are healed for more.  Also, unlocks <font color=\"#ff6600\">ACTION PACKAGE</font> <span class=\"highlight\">Gun Wizard</span>.",
                         "levels" : 1,
                         "position" : 7,
                         "stats" :
@@ -559,7 +559,7 @@
                                     "multiply" : 1
                                 },
 								{
-                                    "name" : "Gun Wizard: You and all allies gain drastically increased 射速 and 装填速度.",
+                                    "name" : "Gun Wizard: You和all allies gain drastically increased 射速和装填速度.",
                                     "base" : "1",
                                     "multiply" : 1
                                 }
@@ -573,7 +573,7 @@
                     },
                     {
                         "name" : "Wax Off, Wax On",
-                        "description" : "Improves your <span class=\"highlight\">护盾 容量</span>, <span class=\"highlight\">护盾充能速率</span>, and <span class=\"highlight\">护盾充能延迟</span>.",
+                        "description" : "Improves your <span class=\"highlight\">护盾 容量</span>, <span class=\"highlight\">护盾充能速率</span>,和<span class=\"highlight\">护盾充能延迟</span>.",
                         "levels" : 5,
                         "position" : 9,
                         "stats" :
@@ -604,7 +604,7 @@
                     },
                     {
                         "name" : "It's a Trap... Card",
-                        "description" : "When your <span class=\"highlight\">护盾</span> becomes depleted, you release a <span class=\"highlight\">Mega-Nova</span> centered on yourself that heals you and your friends, but hurts 敌人. Targets low on 生命值 are healed for more.  Your <span class=\"highlight\">护盾</span> must fully recharge between <span class=\"highlight\">Mega-Novas</span>.",
+                        "description" : "When your <span class=\"highlight\">护盾</span> becomes depleted, you release a <span class=\"highlight\">Mega-Nova</span> centered on yourself that heals you和your friends, but hurts 敌人. Targets low on 生命值 are healed for more.  Your <span class=\"highlight\">护盾</span> must fully recharge between <span class=\"highlight\">Mega-Novas</span>.",
                         "levels" : 1,
                         "position" : 10,
                         "stats" :
@@ -624,7 +624,7 @@
                     },
                     {
                         "name" : "Pain Simulator is Painful",
-                        "description" : "增加 your <span class=\"highlight\">Max 生命值</span> and grants a small amount of <span class=\"highlight\">伤害 Reduction</span>.",
+                        "description" : "增加your <span class=\"highlight\">Max 生命值</span>和grants a small amount of <span class=\"highlight\">伤害 Reduction</span>.",
                         "levels" : 5,
                         "position" : 11,
                         "stats" :
@@ -650,7 +650,7 @@
                     },
                     {
                         "name" : "Kick Him While He's Up",
-                        "description" : "Whenever you gain <span class=\"highlight\">Second Wind</span>, your <span class=\"highlight\">枪械伤害</span>, <span class=\"highlight\">近战 伤害</span>, and <span class=\"highlight\">暴击伤害</span> is increased for a few 秒!",
+                        "description" : "Whenever you gain <span class=\"highlight\">秒 Wind</span>, your <span class=\"highlight\">枪械伤害</span>, <span class=\"highlight\">近战伤害</span>,和<span class=\"highlight\">暴击伤害</span> is increased for a few 秒!",
                         "levels" : 5,
                         "position" : 12,
                         "stats" :
@@ -661,7 +661,7 @@
                                     "multiply" : 1
                                 },
                                 {
-                                    "name" : "近战 伤害: +[$]%",
+                                    "name" : "近战伤害: +[$]%",
                                     "base" : "5",
                                     "multiply" : 1
                                 },
@@ -680,7 +680,7 @@
                     },
                     {
                         "name" : "Organized Guns are Happy Guns",
-                        "description" : "<br>增加 <span class=\"highlight\">弹夹容量</span> with all <span class=\"highlight\">武器 Types</span> for you and your buddies.",
+                        "description" : "<br>增加<span class=\"highlight\">弹夹容量</span> with all <span class=\"highlight\">武器 Types</span> for you和your buddies.",
                         "levels" : 5,
                         "position" : 14,
                         "stats" :
@@ -704,7 +704,7 @@
                             ]
                     },{
                         "name" : "HIGH FIVES GUYS",
-                        "description" : "Hold (RS/V) to request a <span class=\"highlight\">High Five</span> from your friends! A successful <span class=\"highlight\">High Five</span> 增加 your and your <font color=\"#feba36\">awesome</font> friend's <span class=\"highlight\">枪械伤害</span>, <span class=\"highlight\">射速</span>, and grants <span class=\"highlight\">生命恢复</span>. Woo! If you don't have any friends, or they leave you hangin', gain increased <span class=\"highlight\">枪械伤害</span> and <span class=\"highlight\">生命恢复</span> for a few 秒, because <font color=\"#feba36\">screw you guys!</font>",
+                        "description" : "Hold (RS/V) to request a <span class=\"highlight\">High Five</span> from your friends! A successful <span class=\"highlight\">High Five</span> 增加your和your <font color=\"#feba36\">awesome</font> friend's <span class=\"highlight\">枪械伤害</span>, <span class=\"highlight\">射速</span>,和grants <span class=\"highlight\">生命恢复</span>. Woo! If you don't have any friends, or they leave you hangin', gain increased <span class=\"highlight\">枪械伤害</span>和<span class=\"highlight\">生命恢复</span> for a few 秒, because <font color=\"#feba36\">screw you guys!</font>",
                         "levels" : 1,
                         "position" : 16,
                         "stats" :
@@ -746,7 +746,7 @@
                 [
                     {
                         "name" : "Drop the Hammer",
-                        "description" : "换弹夹 your 武器 增加 your <span class=\"highlight\">射速</span> and <span class=\"highlight\">装填速度</span> but makes your <span class=\"highlight\">精准度</span> worse for a few 秒.",
+                        "description" : "换弹夹 your 武器 增加your <span class=\"highlight\">射速</span>和<span class=\"highlight\">装填速度</span> but makes your <span class=\"highlight\">精准度</span> worse for a few 秒.",
                         "levels" : 5,
                         "position" : 0,
                         "stats" :
@@ -776,7 +776,7 @@
                     },
                     {
                         "name" : "Killbot",
-                        "description" : "击杀敌人 <span class=\"highlight\">Restores 生命值</span>, but <span class=\"highlight\">Costs 护盾s</span>.  If your 护盾s are not currently up then... <font color=\"#feba36\">FREE 生命值</font>! The lower your 生命值, the greater the amount of 生命值 restored.",
+                        "description" : "击杀敌人<span class=\"highlight\">Restores 生命值</span>, but <span class=\"highlight\">Costs 护盾s</span>.  If your 护盾s are not currently up then... <font color=\"#feba36\">FREE 生命值</font>! The lower your 生命值, the greater the amount of 生命值 restored.",
                         "levels" : 5,
                         "position" : 2,
                         "stats" :
@@ -801,7 +801,7 @@
                     },
                     {
                         "name" : "Coincidental Combustion",
-                        "description" : "Whenever you shoot an 敌人 with a non-爆炸 武器, you have a chance to deal <span class=\"highlight\">加成 爆炸 伤害</span> based on your 武器's 伤害.",
+                        "description" : "Whenever you shoot an 敌人 with a non-爆炸 武器, you have a chance to deal <span class=\"highlight\">加成 爆炸伤害</span> based on your 武器's伤害.",
                         "levels" : 5,
                         "position" : 3,
                         "stats" :
@@ -821,7 +821,7 @@
                     },
                     {
                         "name" : "Repulsive",
-                        "description" : "When struck by a <span class=\"highlight\">近战</span>, you emit a powerful <span class=\"highlight\">Blastwave</span> that pushes that 敌人 away and deals <span class=\"highlight\">爆炸 伤害</span>.",
+                        "description" : "When struck by a <span class=\"highlight\">近战</span>, you emit a powerful <span class=\"highlight\">Blastwave</span> that pushes that 敌人 away和deals <span class=\"highlight\">爆炸伤害</span>.",
                         "levels" : 5,
                         "position" : 5,
                         "stats" :
@@ -846,8 +846,8 @@
                             ]
                     },
                     {
-                        "name" : "Second Wind (by Tediore)",
-                        "description" : "When you enter <span class=\"highlight\">Fight For Your Life</span>, throw a digistructed copy of yourself which explodes like a grenade, and you continually emit <span class=\"highlight\">爆炸 Novas</span>.",
+                        "name" : "秒 Wind (by Tediore)",
+                        "description" : "When you enter <span class=\"highlight\">跪地状态</span>, throw a digistructed copy of yourself which explodes like a grenade,和you continually emit <span class=\"highlight\">爆炸 Novas</span>.",
                         "levels" : 1,
                         "position" : 7,
                         "stats" :
@@ -865,13 +865,13 @@
                     },
                     {
                         "name" : "Load 'n' Splode",
-                        "description" : "Whenever you reload your gun, gain <span class=\"highlight\">Increased 爆炸 伤害</span>. This 加成 can层数 最多 five times and each层数 only lasts a few 秒.",
+                        "description" : "Whenever you reload your gun, gain <span class=\"highlight\">Increased 爆炸伤害</span>. This 加成 can层数 最多 five times和each层数 only lasts a few 秒.",
                         "levels" : 5,
                         "position" : 9,
                         "stats" :
                             [
                                 {
-                                    "name" : "爆炸 伤害: +[$]%每层",
+                                    "name" : "爆炸伤害: +[$]%每层",
                                     "base" : 4,
                                     "multiply" : 1
                                 }
@@ -885,7 +885,7 @@
                     },
                     {
                         "name" : "I Am Rubber, You Are Glue",
-                        "description" : "<span class=\"highlight\">击杀技</span>.  Whenever you kill an 敌人, bullets have a chance to <span class=\"highlight\">reflect</span> off you and towards 敌人 for a short time.  Also, unlocks <font color=\"#ff6600\">ACTION PACKAGE</font> <span class=\"highlight\">Torgue Fiesta</span>.",
+                        "description" : "<span class=\"highlight\">击杀技</span>.  Whenever you kill an 敌人, bullets have a chance to <span class=\"highlight\">reflect</span> off you和towards 敌人 for a short time.  Also, unlocks <font color=\"#ff6600\">ACTION PACKAGE</font> <span class=\"highlight\">Torgue Fiesta</span>.",
                         "levels" : 1,
                         "position" : 10,
                         "stats" :
@@ -896,7 +896,7 @@
                                     "multiply" : 1
                                 },
 								{
-                                    "name" : "Torgue Fiesta: Whoops! Drop a large amount of grenades that 伤害 敌人 and friendlies.",
+                                    "name" : "Torgue Fiesta: Whoops! Drop a large amount of grenades that伤害 敌人和friendlies.",
                                     "base" : "1",
                                     "multiply" : 1
                                 }
@@ -910,13 +910,13 @@
                     },
                     {
                         "name" : "Start With a Bang",
-                        "description" : "When firing a fully loaded gun after 换弹夹 you generate an <span class=\"highlight\">爆炸 Nova</span> centered on you, damaging all nearby 敌人.  And <font color=\"#feba36\">hurts you</font>... but only a bit.",
+                        "description" : "When firing a fully loaded gun after 换弹夹 you generate an <span class=\"highlight\">爆炸 Nova</span> centered on you, damaging all nearby 敌人.和<font color=\"#feba36\">hurts you</font>... but only a bit.",
                         "levels" : 5,
                         "position" : 11,
                         "stats" :
                             [
                                 {
-                                    "name" : "爆炸 Nova: Rank [$] 伤害",
+                                    "name" : "爆炸 Nova: 等级 [$]伤害",
                                     "base" : "1",
                                     "multiply" : 1
                                 },
@@ -935,7 +935,7 @@
                     },
                     {
                         "name" : "Hy每ion Punch",
-                        "description" : "<span class=\"highlight\">近战 升级</span>.  Dealing <span class=\"highlight\">爆炸 伤害</span> grants you层数s of <span class=\"highlight\">Hy每ion Punch</span>.  When you have 5层数s, 按 (RS/V) to throw a <span class=\"highlight\">su每 awesome punch</span> that deals 加成 <span class=\"highlight\">燃烧 伤害</span>.  This consumes all层数s of <span class=\"highlight\">Hy每ion Punch</span>.",
+                        "description" : "<span class=\"highlight\">近战 升级</span>.  Dealing <span class=\"highlight\">爆炸伤害</span> grants you层数 of <span class=\"highlight\">Hy每ion Punch</span>.  When you have 5层数, 按 (RS/V) to throw a <span class=\"highlight\">su每 awesome punch</span> that deals 加成 <span class=\"highlight\">燃烧伤害</span>.  This consumes all层数 of <span class=\"highlight\">Hy每ion Punch</span>.",
                         "levels" : 5,
                         "position" : 12,
                         "stats" :
@@ -946,7 +946,7 @@
                                     "multiply" : 1
                                 },
 								{
-                                    "name" : "Rank [$] 伤害",
+                                    "name" : "等级 [$]伤害",
                                     "base" : 1,
                                     "multiply" : 1
                                 }
@@ -960,7 +960,7 @@
                     },
                     {
                         "name" : "One Last Thing",
-                        "description" : "The last round fired from any 武器's clip gains significant <span class=\"highlight\">加成 伤害</span>. Smaller clips reduce the 加成.",
+                        "description" : "The last round fired from any 武器's clip gains significant <span class=\"highlight\">加成伤害</span>. Smaller clips reduce the 加成.",
                         "levels" : 5,
                         "position" : 14,
                         "stats" :
@@ -985,7 +985,7 @@
                     },
                     {
                         "name" : "Livin' Near the Edge",
-                        "description" : "增加 <span class=\"highlight\">射速</span> and <span class=\"highlight\">装填速度</span>.  The lower your 生命值 and 护盾s, the greater the 加成.  Also, unlocks <font color=\"#ff6600\">ACTION PACKAGE</font> <span class=\"highlight\">Pirate Ship Mode</span>.",
+                        "description" : "增加<span class=\"highlight\">射速</span>和<span class=\"highlight\">装填速度</span>.  The lower your 生命值和护盾s, the greater the 加成.  Also, unlocks <font color=\"#ff6600\">ACTION PACKAGE</font> <span class=\"highlight\">Pirate Ship Mode</span>.",
                         "levels" : 1,
                         "position" : 16,
                         "stats" :

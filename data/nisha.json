@@ -148,7 +148,7 @@
                                     "multiply" : 1
                                 },
 								{
-                                    "name" : "Max层数s: 21"
+                                    "name" : "Max层数: 21"
                                 }
                             ],
                         "assets" :
@@ -556,7 +556,7 @@
                 [
                     {
                         "name" : "Law(法律)",
-                        "description" : "增加<span class=\"highlight\">护盾容量</span> and <span class=\"highlight\">近战伤害</span>.",
+                        "description" : "增加<span class=\"highlight\">护盾容量</span>和<span class=\"highlight\">近战伤害</span>.",
                         "levels" : 4,
                         "position" : 0,
                         "stats" :
@@ -590,7 +590,7 @@
                                     "name" : "Heal 几率: +1.2% 每 Order层数"
                                 },
 								{
-                                    "name" : "Max层数s: 10"
+                                    "name" : "Max层数: 10"
                                 }
                             ],
                         "assets" :
@@ -640,7 +640,7 @@
                     },
                     {
                         "name" : "Wanted(悬赏)",
-                        "description" : "敌人让你获得<span class=\"highlight\">Order(秩序)</span>层数时 , 他获得<span class=\"highlight\">Wanted(悬赏)</span>层数.  伤害该目标将消耗所有的<span class=\"highlight\">Wanted(悬赏)</span>层数并造成基于层数和你等级的<span class=\"highlight\">加成伤害</span>. 最大<span class=\"highlight\">Wanted(悬赏)</span>层数为5, 即使你的<span class=\"highlight\">Order(秩序)</span>层数满了, 敌人仍然可以获得<span class=\"highlight\">Wanted(悬赏)</span>层数.",
+                        "description" : "敌人让你获得<span class=\"highlight\">Order(秩序)</span>层数时 , 他获得<span class=\"highlight\">Wanted(悬赏)</span>层数. 伤害该目标将消耗所有的<span class=\"highlight\">Wanted(悬赏)</span>层数并造成基于层数和你等级的<span class=\"highlight\">加成伤害</span>. 最大<span class=\"highlight\">Wanted(悬赏)</span>层数为5, 即使你的<span class=\"highlight\">Order(秩序)</span>层数满了, 敌人仍然可以获得<span class=\"highlight\">Wanted(悬赏)</span>层数.",
                         "levels" : 5,
                         "position" : 5,
                         "stats" :
