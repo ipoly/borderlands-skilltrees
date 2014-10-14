@@ -10583,7 +10583,7 @@
 				f.prototype.shareFacebook = function (e) {
 					var t,
 					n;
-					
+
 					return n = this.model.character.get("url"),
 					t = e.currentTarget.href,
 					t += "" + n,
@@ -11168,7 +11168,7 @@
 					if (t <= 10)
 						return e.css({
 							height : 78 + 11.8 * t + "px"
-						});					
+						});
 					if (10 < t && t <= 20)
 						return e.css({
 							height : 125 + 11.8 * t + "px"
@@ -11433,7 +11433,7 @@
 				},
 				f.prototype.pointsOverlayControl = function (e, t) {
 					var n;
-					
+
 					return n = this.$el.find(".points-overlay"),
 					n.html("" + e + "/" + this.model.levels)
 				},
@@ -11653,7 +11653,7 @@
 					e.append(r),
 					o = $("<div class='stats' />"),
 					n = $("<div class='current' />").append($("<ul />")),
-					s = $("<div class='next' />").html("<span>Next Level:</span>").append($("<ul />")),
+					s = $("<div class='next' />").html("<span>下一等级:</span>").append($("<ul />")),
 					o.append(n),
 					o.append(s),
 					e.append(o),
@@ -11725,8 +11725,8 @@
 						e = s.find("li:nth-child(" + (u + 1) + ")"), t = h.find("li:nth-child(" + (u + 1) + ")"), c = m.name, r = typeof m.base == "string" ? parseFloat(m.base) : m.base, n = typeof m.add == "string" ? parseFloat(m.add) : m.add, f = typeof m.multiply == "string" ? parseFloat(m.multiply) : m.multiply;
 						//Added By Alex Beuscher - Allows for an array of numbers to be passed to the function labeled "sequence" to handle progression that does not follow a pattern.
 						if (m.sequence) {
-							o = m.sequence[v-1]==parseInt(m.sequence[v-1]) ? parseInt(m.sequence[v-1]) : parseFloat(m.sequence[v-1]);	
-							p = m.sequence[v]==parseInt(m.sequence[v]) ? parseInt(m.sequence[v]) : parseFloat(m.sequence[v]);	
+							o = m.sequence[v-1]==parseInt(m.sequence[v-1]) ? parseInt(m.sequence[v-1]) : parseFloat(m.sequence[v-1]);
+							p = m.sequence[v]==parseInt(m.sequence[v]) ? parseInt(m.sequence[v]) : parseFloat(m.sequence[v]);
 							o = Math.round(o * 1e3) / 1e3;
 							p = Math.round(p * 1e3) / 1e3;
 						}
@@ -11734,8 +11734,8 @@
 							o = n !== void 0 && n !== null ? r * f + n * v : r * f * v;
 							o = Math.round(o * 1e3) / 1e3;
 							p = n !== void 0 && n !== null ? r * f + (n * v + n) : r * f * (v + 1);
-							p = Math.round(p * 1e3) / 1e3;		
-						}						
+							p = Math.round(p * 1e3) / 1e3;
+						}
 						i = c.split("[$]").join(o), l = c.split("[$]").join(p), e.html(i), w.push(t.html(l));
 						}
 					//console.log(w);
