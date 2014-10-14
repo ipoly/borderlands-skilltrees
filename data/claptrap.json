@@ -206,7 +206,7 @@
                             ]
                     },
                     {
-                        "name" : "Tripleclocked(超频)",
+                        "name" : "Tripleclocked(情怀指数)",
                         "description" : "当前<span class=\"highlight\">子程序</span>的<span class=\"highlight\">加成</span>和<font color=\"#feba36\">惩罚</font>加成多至<span class=\"highlight\">三倍</span>.  <span class=\"highlight\">Frag Stacks</span>越少, 倍数越大. <span class=\"highlight\">防御子程序</span>永远是三倍效果.  同时, 解锁<font color=\"#ff6600\">技能包</font> <span class=\"highlight\">One Shot Wonder</span>.",
                         "levels" : 1,
                         "position" : 7,
@@ -226,7 +226,7 @@
                             ]
                     },
                     {
-                        "name" : "手雷 Vent(榴弹炮)",
+                        "name" : "Grenade Vent",
                         "description" : "增加<span class=\"highlight\">手雷伤害</span>.  另外, 投掷手雷增加<span class=\"highlight\">Frag Stacks</span>.",
                         "levels" : 5,
                         "position" : 9,
