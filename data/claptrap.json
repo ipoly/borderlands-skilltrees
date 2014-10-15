@@ -43,22 +43,22 @@
                         "stats" :
                             [
                                 {
-                                    "name" : "Gun-Type伤害 +25%",
+                                    "name" : "枪支类型伤害 +25%",
                                     "base" : "1",
                                     "multiply" : 1
                                 },
                                 {
-                                    "name" : "Gun-Type射速: +20%",
+                                    "name" : "枪支类型射速: +20%",
                                     "base" : "1",
                                     "multiply" : 1
                                 },
 								{
-                                    "name" : "Gun-Type装填速度: +20%",
+                                    "name" : "枪支类型装填速度: +20%",
                                     "base" : "1",
                                     "multiply" : 1
                                 },
 								{
-                                    "name" : "错误Gun-Type伤害: -15%",
+                                    "name" : "错误枪支类型伤害: -15%",
                                     "base" : "1",
                                     "multiply" : 1
                                 }
@@ -103,7 +103,7 @@
                                     "multiply" : 1
                                 },
                                 {
-                                    "name" : "恢复 2.5% of 最大Attribute / sec",
+                                    "name" : "恢复 2.5% of 最大属性 / 秒",
                                     "base" : "1",
                                     "multiply" : 1
                                 },
@@ -207,13 +207,13 @@
                     },
                     {
                         "name" : "情怀指数",
-                        "description" : "所有子程序的收益或者惩罚全部增至最高三倍。碎片叠层的层数越少，倍数越大。",
+                        "description" : "所有子程序的收益或者惩罚全部增至最高三倍。碎片叠层的层数越少，倍数越大。解锁'一撸而尽'",
                         "levels" : 1,
                         "position" : 7,
                         "stats" :
                             [
                                 {
-                                    "name" : "One Shot Wonder: 一击打光整个弹夹.",
+                                    "name" : "一撸而尽: 一击打光整个弹夹.",
 									"base" : "1",
                                     "multiply" : 1
                                 }
@@ -238,7 +238,7 @@
                                     "multiply" : 1
                                 },
 								{
-                                    "name" : "Frag Stacks 每 手雷: +[$]",
+                                    "name" : "碎片叠层 每 手雷: +[$]",
                                     "base" : "1",
                                     "multiply" : 1
                                 }
@@ -258,12 +258,12 @@
                         "stats" :
                             [
                                 {
-                                    "name" : "Chosen Element伤害: +32%",
+                                    "name" : "对应元素伤害: +32%",
                                     "base" : "1",
                                     "multiply" : 1
                                 },
                                 {
-                                    "name" : "Other Element伤害: -16%",
+                                    "name" : "其他伤害: -16%",
                                     "base" : "1",
                                     "multiply" : 1
                                 }
@@ -318,7 +318,7 @@
                                     "multiply" : 1
                                 },
 								{
-                                    "name" : "Frag Stacks 每 震击: -[$]",
+                                    "name" : "碎片叠层 每 震击: -[$]",
                                     "base" : "1",
                                     "multiply" : 1
                                 }
@@ -353,7 +353,7 @@
                                     "multiply" : 1
                                 },
 								{
-                                    "name" : "Frag Stacks 每 近战击杀: +[$]",
+                                    "name" : "碎片叠层 每 近战击杀: +[$]",
                                     "base" : "1",
                                     "multiply" : 1
                                 }
@@ -610,7 +610,7 @@
                         "stats" :
                             [
                                {
-                                    "name" : "Mega-新星: 治疗最多 15% 的最大生命值.",
+                                    "name" : "欧米伽新星: 治疗最多 15% 的最大生命值.",
                                     "base" : "1",
                                     "multiply" : 1
                                 }
@@ -720,7 +720,7 @@
                                     "multiply" : 1
                                 },
 								{
-                                    "name" : "生命值恢复: +3% 最大生命值 / sec.",
+                                    "name" : "生命值恢复: +3% 最大生命值 / 秒.",
                                     "base" : "1",
                                     "multiply" : 1
                                 },
@@ -941,7 +941,7 @@
                         "stats" :
                             [
                                 {
-                                    "name" : "Hyperion Punch 层数上限: 5 ",
+                                    "name" : "亥伯龙猛击层数上限: 5 ",
                                     "base" : 1,
                                     "multiply" : 1
                                 },
