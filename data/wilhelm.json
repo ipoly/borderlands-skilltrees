@@ -8,8 +8,8 @@
         "badge" :"borderlandsthegame/prsqlskilltree/images/chars/wilhelm/badge.png",
         "class" :
             {
-                "name" : "Wolf和Saint",
-                "description" : "<span class=\"highlight\">主动技</span>.  按 [LB/L1/F] to summon <span class=\"highlight\">Wolf</span>和<span class=\"highlight\">Saint</span>, your trusty combat drones.  <span class=\"highlight\">Wolf</span> will roam和attack 敌人, while <span class=\"highlight\">Saint</span> will stay close to you和replenish your <span class=\"highlight\">生命值</span>. <span class=\"highlight\">Saint</span> has a protective 护盾, but <span class=\"highlight\">Wolf</span> can be damaged by 敌人. 按和hold [LB/L1/F] to recall <span class=\"highlight\">Wolf</span>和<span class=\"highlight\">Saint</span>和have some of your <span class=\"highlight\">冷却时间</span> refunded.",
+                "name" : "狼与圣人",
+                "description" : "放出两个小飞机，分别叫做狼和圣人，能够攻击敌人和给你以及队友加血。",
                 "stats" :
                     [
 						{
@@ -23,7 +23,7 @@
                                     "multiply" : 1
 						},
 						{
-                                    "name" : "Saint 恢复 2.5% 最大生命值/秒. ",
+                                    "name" : "圣人恢复 2.5% 最大生命值/秒. ",
                                     "base" : "25",
                                     "multiply" : 1
 						}
@@ -41,19 +41,19 @@
                 "skills" :
                 [
                     {
-                        "name" : "Auxiliary Tanks",
-                        "description" : "增加<span class=\"highlight\">Wolf和Saint's 持续时间</span>和<span class=\"highlight\">冷却时间 Rate</span>.",
+                        "name" : "副油箱",
+                        "description" : "增加狼和圣人的出场时间，同时冷却加快。",
                         "levels" : 5,
                         "position" : 0,
                         "stats" :
                             [
                                 {
-                                    "name" : "Wolf和Saint 持续时间: +[$] 秒",
+                                    "name" : "狼和圣人持续时间: +[$] 秒",
                                     "base" : "2",
                                     "multiply" : 1
                                 },
                                 {
-                                    "name" : "Wolf和Saint 冷却时间 Rate: +[$]%",
+                                    "name" : "狼和圣人冷却时间 Rate: +[$]%",
                                     "base" : "3",
                                     "multiply" : 1
                                 }
@@ -66,8 +66,8 @@
                             ]
                     },
                     {
-                        "name" : "Fortify",
-                        "description" : "增加<span class=\"highlight\">最大生命值</span> for you和<span class=\"highlight\">Wolf</span>.  Additionally, while <span class=\"highlight\">Saint</span> is active you deal increased <span class=\"highlight\">伤害</span> with 所有枪械类型.",
+                        "name" : "巩固",
+                        "description" : "增加你和狼的最大生命值，同时当圣人在场的时候，你增加所有枪械的伤害。",
                         "levels" : 5,
                         "position" : 2,
                         "stats" :
@@ -78,7 +78,7 @@
                                     "multiply" : 1
                                 },
 								{
-                                    "name" : "Wolf 最大生命值: +[$]%",
+                                    "name" : "狼最大生命值: +[$]%",
                                     "base" : "3",
                                     "multiply" : 1
                                 },
@@ -96,19 +96,19 @@
                             ]
                     },
                     {
-                        "name" : "Energize",
-                        "description" : "<span class=\"highlight\">Saint Ability</span>. <span class=\"highlight\">Saint</span> will occasionally boost the <span class=\"highlight\">护盾s</span> of you和your friends. Additionally, <span class=\"highlight\">Saint</span> gains an increase to the rate which he <span class=\"highlight\">恢复 your 生命值</span>.",
+                        "name" : "焕发活力",
+                        "description" : "圣人偶尔恢复你和队友的盾值和生命。",
                         "levels" : 5,
                         "position" : 3,
                         "stats" :
                             [
                                 {
-                                    "name" : "Occasionally 恢复: +[$]% of 护盾 容量",
+                                    "name" : "偶尔恢复: +[$]% 护盾 容量",
                                     "base" : "8",
                                     "multiply" : 1
                                 },
 								{
-                                    "name" : "Saint 恢复: +[$]% 最大生命值/秒.",
+                                    "name" : "圣人恢复: +[$]% 最大生命值/秒.",
                                     "base" : "0.6",
                                     "multiply" : 1
                                 }
@@ -121,8 +121,8 @@
                             ]
                     },
                     {
-                        "name" : "Heatsinks",
-                        "description" : "Improves <span class=\"highlight\">护盾充能速率</span>和<span class=\"highlight\">护盾充能延迟</span>. This 加成 is doubled while <span class=\"highlight\">Wolf和Saint</span> are on 冷却时间.",
+                        "name" : "热沉",
+                        "description" : "增加盾充能速度，减少充能冷却时间。该效果在狼和圣人都不在场的时候是双倍的。",
                         "levels" : 5,
                         "position" : 5,
                         "stats" :
@@ -147,14 +147,14 @@
                             ]
                     },
                     {
-                        "name" : "Termination Protocols",
-                        "description" : "<span class=\"highlight\">跪地状态</span> is replaced by <span class=\"highlight\">Termination Protocols</span>. During <span class=\"highlight\">Termination Protocols</span> you can walk at a reduced 速度, fire your 武器s,和you constantly <span class=\"highlight\">闪电</span> nearby 敌人. If the timer runs out, your power core goes critical, releasing a <span class=\"highlight\">Nuclear 爆炸</span>.",
+                        "name" : "终结的规则",
+                        "description" : "为生命而战换成了'终结的规则'。当你处在终结的规则的时候，你能缓慢地行走和射击，同时能够电到周围的人。当这一状态结束的时候，会产生核爆炸。",
                         "levels" : 1,
                         "position" : 7,
                         "stats" :
                             [
                                 {
-                                    "name" : "\"I absolutely will not stop, ever, until you are dead.\""
+                                    "name" : "\"至死方休\""
                                 }
                             ],
                         "assets" :
@@ -165,8 +165,8 @@
                             ]
                     },
                     {
-                        "name" : "Rapid Reinforcement",
-                        "description" : "<span class=\"highlight\">击杀技</span>. 击杀敌人增加your <span class=\"highlight\">冷却时间 Rate</span> for <span class=\"highlight\">Wolf和Saint</span>和增加your <span class=\"highlight\">移动速度</span>和<span class=\"highlight\">装填速度</span> for a short time.",
+                        "name" : "快速增援",
+                        "description" : "杀死一个敌人后，一段时间内主技能加速冷却，同时增加你的移动速度和射速。",
                         "levels" : 5,
                         "position" : 9,
                         "stats" :
@@ -195,14 +195,14 @@
                             ]
                     },
                     {
-                        "name" : "Zero Hour",
-                        "description" : "<span class=\"highlight\">Saint Ability</span>. When <span class=\"highlight\">Saint</span> is recalled or expires, he explodes, deploying a <span class=\"highlight\">Healing Zone</span> underneath you. You和your friends <span class=\"highlight\">生命恢复</span> while standing in the zone.",
+                        "name" : "零点",
+                        "description" : "当圣人被召回，或者需要冷却的时候，它会产生一个疗伤区域。你和你的队友都可以疗伤。",
                         "levels" : 1,
                         "position" : 10,
                         "stats" :
                             [
                                 {
-                                    "name" : "Healing Zone 持续时间: 12.0 秒",
+                                    "name" : "治疗区域持续时间: 12.0 秒",
 									"base" : "1",
                                     "multiply" : 1
                                 },
@@ -220,8 +220,8 @@
                             ]
                     },
                     {
-                        "name" : "Hazmat Containment System",
-                        "description" : "If you have a <span class=\"highlight\">燃烧, 闪电, or Corrosive 状态效果</span> on you, you和your friends gain increased <span class=\"highlight\">Resistance</span> to that element. Additionally, you will occasionally spread that <span class=\"highlight\">状态效果</span> to nearby 敌人 while it's active.",
+                        "name" : "危险品控制系统",
+                        "description" : "当你被电，被烧，或者被腐蚀的时候，你和你的队友都会增加对这一元素抗性。",
                         "levels" : 5,
                         "position" : 11,
                         "stats" :
@@ -241,8 +241,8 @@
                             ]
                     },
                     {
-                        "name" : "Kinetic Armor",
-                        "description" : "增加your <span class=\"highlight\">最大生命值</span>. Additionally, <span class=\"highlight\">close range</span> attackers have a chance to be struck by <span class=\"highlight\">爆炸Feedback</span>.  The closer the 敌人 is to you the more likely he is to be struck.",
+                        "name" : "动能装甲",
+                        "description" : "永久增加你最大生命值，近战可能会产生爆炸。敌人越近，越有机会产生爆炸。",
                         "levels" : 5,
                         "position" : 12,
                         "stats" :
@@ -266,8 +266,8 @@
                             ]
                     },
 					{
-                        "name" : "Hard To Kill",
-                        "description" : "Whenever you are <span class=\"highlight\">shot</span> or <span class=\"highlight\">struck</span> by an 敌人, you gain a层数 of <span class=\"highlight\">Hard To Kill</span>, reducing all <span class=\"highlight\">伤害</span> received. All层数 are removed after a few 秒 of taking no伤害.",
+                        "name" : "小强",
+                        "description" : "当你被揍，你会叠加小强，小强会降低伤害。如果你几秒钟之内没有被揍，小强叠加就会变少。",
                         "levels" : 5,
                         "position" : 14,
                         "stats" :
@@ -289,8 +289,8 @@
                             ]
                     },
 					{
-                        "name" : "Overcharge",
-                        "description" : "<span class=\"highlight\">Saint Ability</span>. Immediately after being summoned, <span class=\"highlight\">Saint</span> will release an <span class=\"highlight\">Energy Wave</span> that will <span class=\"highlight\">Overcharge</span> you和any nearby friends for a short 持续时间. <span class=\"highlight\">Overcharged</span> players gain increased <span class=\"highlight\">移动速度</span>, <span class=\"highlight\">射速</span>, <span class=\"highlight\">装填速度</span>,和<span class=\"highlight\">Ammo 恢复</span>.",
+                        "name" : "过度充能",
+                        "description" : "圣人出场的刹那会将你和队友过度充能，过度充能可让你的移动速度，射速，以及装填速度变快，同时还能恢复弹药。",
                         "levels" : 1,
                         "position" : 16,
                         "stats" :
@@ -338,19 +338,19 @@
                 "skills" :
                 [
                     {
-                        "name" : "Laser Focus",
-                        "description" : "增加<span class=\"highlight\">枪械伤害</span>和<span class=\"highlight\">弹夹容量</span> with all <span class=\"highlight\">Laser 武器s</span>.",
+                        "name" : "专心致志",
+                        "description" : "所有激光枪的伤害提升，弹夹加大。",
                         "levels" : 5,
                         "position" : 0,
                         "stats" :
                             [
                                 {
-                                    "name" : "Laser伤害: +[$]%",
+                                    "name" : "激光伤害: +[$]%",
                                     "base" : "4",
                                     "multiply" : 1
                                 },
                                 {
-                                    "name" : "Laser 弹夹容量: +[$]",
+                                    "name" : "激光弹夹容量: +[$]",
                                     "base" : "4",
                                     "multiply" : 1,
 									"sequence" : ["4","6","8","10","12"]
@@ -364,8 +364,8 @@
                             ]
                     },
                     {
-                        "name" : "Man和Machine",
-                        "description" : "增加<span class=\"highlight\">护盾 容量</span>和<span class=\"highlight\">最大生命值</span> for you和<span class=\"highlight\">Wolf</span>.",
+                        "name" : "人与机器",
+                        "description" : "你和狼的盾值提升，最大生命提升。",
                         "levels" : 5,
                         "position" : 2,
                         "stats" :
@@ -381,12 +381,12 @@
                                     "multiply" : 1
                                 },
 								{
-                                    "name" : "Wolf 护盾 容量: +[$]%",
+                                    "name" : "狼护盾 容量: +[$]%",
                                     "base" : "5",
                                     "multiply" : 1
                                 },
 								{
-                                    "name" : "Wolf 最大生命值: +[$]%",
+                                    "name" : "狼最大生命值: +[$]%",
                                     "base" : "5",
                                     "multiply" : 1
                                 }
@@ -399,8 +399,8 @@
                             ]
                     },
                     {
-                        "name" : "First to Fight",
-                        "description" : "增加your <span class=\"highlight\">枪械伤害</span>. This 加成 is lost 5 秒 after you deal伤害,和is regained after 5 秒 of you not dealing or taking伤害.",
+                        "name" : "一马当先",
+                        "description" : "增加枪械伤害。该技能在你伤害敌人5秒之后冷却。然后你5秒不打敌人或者挨揍5秒钟，该技能冷却完毕。",
                         "levels" : 5,
                         "position" : 3,
                         "stats" :
@@ -419,14 +419,14 @@
                             ]
                     },
                     {
-                        "name" : "Targeting Scope",
-                        "description" : "<span class=\"highlight\">击杀技</span>. 击杀敌人gives you increased <span class=\"highlight\">精准度</span>和<span class=\"highlight\">Critical伤害</span> for a few 秒.",
+                        "name" : "瞄准镜",
+                        "description" : "杀死敌人后，在几秒钟之内增加精准度和致命一击伤害。",
                         "levels" : 5,
                         "position" : 5,
                         "stats" :
                             [
                                 {
-                                    "name" : "Critical伤害: +[$]%",
+                                    "name" : "致命一击伤害: +[$]%",
                                     "base" : "10",
                                     "multiply" : 1
                                 },
@@ -444,8 +444,8 @@
                             ]
                     },
                     {
-                        "name" : "Power Fist",
-                        "description" : "<font color=\"#feba36\">Cyborg组件ation: Arm. </font> <br><span class=\"highlight\">近战 升级</span>. 按 (RS/V) to 每form an <span class=\"highlight\">爆炸punch</span> with <span class=\"highlight\">extended range</span>. 该技能有冷却时间.",
+                        "name" : "力量之拳",
+                        "description" : "机器形态强化武器。近战的爆炸之拳，同时这个拳的打击范围比较广。",
                         "levels" : 1,
                         "position" : 7,
                         "stats" :
@@ -454,7 +454,7 @@
                                     "name" : "冷却时间: 12 秒"
                                 },
 								{
-                                    "name" : "\"I am now authorized to use physical force.\""
+                                    "name" : "\"批准使用肉体武力。\""
                                 }
                             ],
                         "assets" :
@@ -465,8 +465,8 @@
                             ]
                     },
                     {
-                        "name" : "Emergency Response",
-                        "description" : "<span class=\"highlight\">Emergency Response</span> is 启动d whenever your <span class=\"highlight\">护盾</span> becomes depleted, increasing your <span class=\"highlight\">射速</span>和<span class=\"highlight\">装填速度</span>,和<span class=\"highlight\">Wolf's 射速</span>, for a short 持续时间. Your <span class=\"highlight\">护盾</span> must fully recharge between activations.",
+                        "name" : "紧急响应",
+                        "description" : "当盾值为0的时候就会增加你的射速，装填速度以及狼的伤害。有冷却时间。",
                         "levels" : 5,
                         "position" : 9,
                         "stats" :
@@ -482,7 +482,7 @@
                                     "multiply" : 1, "add":5
                                 },
 								{
-                                    "name" : "Wolf 射速: +[$]%",
+                                    "name" : "狼射速: +[$]%",
                                     "base" : "10",
                                     "multiply" : 1
                                 },
@@ -500,8 +500,8 @@
                             ]
                     },
                     {
-                        "name" : "闪电 Absorbers",
-                        "description" : "<font color=\"#feba36\">Cyborg组件ation: Legs.</font><br>You can shoot while <span class=\"highlight\">Sprinting</span>. While doing so, you gain 加成 <span class=\"highlight\">枪械伤害</span>,和suffer <span class=\"highlight\">no 精准度 penalties</span>.",
+                        "name" : "冲击吸收机",
+                        "description" : "机器形态强化大腿。你能一边狂奔，一边射击，不仅不会降低精准度而且会增加枪械伤害。",
                         "levels" : 1,
                         "position" : 10,
                         "stats" :
@@ -518,8 +518,8 @@
                             ]
                     },
                     {
-                        "name" : "Divert Power",
-                        "description" : "When your <span class=\"highlight\">护盾s</span> are depleted和your <span class=\"highlight\">生命值</span> is low, taking <span class=\"highlight\">伤害</span> causes you to gain massive <span class=\"highlight\">护盾 恢复</span>和<span class=\"highlight\">伤害抗性</span> for a few 秒. 该技能有冷却时间.",
+                        "name" : "转移力量",
+                        "description" : "当你盾值为0，生命低的时候，如果还有敌人在揍你，你就会大幅恢复充盾同时增加伤害抵抗。该技能有冷却时间。",
                         "levels" : 5,
                         "position" : 11,
                         "stats" :
@@ -547,7 +547,7 @@
 									"sequence":["50.0", "66.7", "75.0", "80.0", "83.3"]
                                 },
 								{
-                                    "name" : "Recharges [$]% of your 护盾",
+                                    "name" : "护盾充能 [$]%",
                                     "base" : "20",
                                     "multiply" : 1
                                 }
@@ -560,14 +560,14 @@
                             ]
                     },
                     {
-                        "name" : "Meteor 震击",
-                        "description" : "增加the <span class=\"highlight\">伤害 Radius</span> of your <span class=\"highlight\">震击</span> ability.",
+                        "name" : "流星拳",
+                        "description" : "增加震击攻击范围。",
                         "levels" : 5,
                         "position" : 12,
                         "stats" :
                             [
                                 {
-                                    "name" : "震击 Radius: 等级 [$]",
+                                    "name" : "震击半径: 等级 [$]",
                                     "base" : "1",
                                     "multiply" : 1
                                 }
@@ -580,8 +580,8 @@
                             ]
                     },
                     {
-                        "name" : "Welcome to the Gun Show",
-                        "description" : "You are better with guns in nearly every regard. 增加<span class=\"highlight\">枪械伤害, 装填速度, 弹夹容量, 精准度</span>,和reduces <span class=\"highlight\">Recoil</span>.",
+                        "name" : "欢迎参加枪展",
+                        "description" : "全面增加枪械能力，比如增加伤害，降低后坐力等等。",
                         "levels" : 5,
                         "position" : 14,
                         "stats" :
@@ -623,14 +623,14 @@
                             ]
                     },
                     {
-                        "name" : "Vengeance Cannon",
-                        "description" : "<font color=\"#feba36\">Cyborg组件ation: 武器.</font><br>Whenever your <span class=\"highlight\">护盾</span> becomes depleted, you 启动 your shoulder-mounted <span class=\"highlight\">Vengeance Cannon</span>. The <span class=\"highlight\">Vengeance Cannon</span> fires <span class=\"highlight\">燃烧 Laser Blasts</span> in tandem with your equipped 武器和lasts for a short 每iod of time. Your <span class=\"highlight\">护盾</span> must fully recharge between activations.",
+                        "name" : "复仇大炮",
+                        "description" : "机器形态强化武器。盾值为0的时候，你就会肩扛复仇大炮，该大炮发射燃烧激光射线。必须经过盾再度充满，再度为0的时候才会再一次使用复仇大炮。",
                         "levels" : 1,
                         "position" : 16,
                         "stats" :
                             [
                                 {
-                                    "name" : "Active 持续时间: 12 秒."
+                                    "name" : "持续时间: 12 秒."
                                 }
                             ],
                         "assets" :
@@ -648,14 +648,14 @@
                 "skills" :
                 [
                     {
-                        "name" : "Afterburner",
-                        "description" : "<span class=\"highlight\">Wolf's</span> <span class=\"highlight\">Air 速度</span> is increased. Additionally, your <span class=\"highlight\">装填速度</span>和<span class=\"highlight\">Projectile 速度</span> is increased.",
+                        "name" : "加力燃烧室",
+                        "description" : "狼的飞行速度提升，同时提升你的装弹速度和子弹飞行速度。",
                         "levels" : 5,
                         "position" : 0,
                         "stats" :
                             [
                                 {
-                                    "name" : "Wolf Air 速度: +[$]%",
+                                    "name" : "狼速度: +[$]%",
                                     "base" : "6",
                                     "multiply" : 1
                                 },
@@ -665,7 +665,7 @@
                                     "multiply" : 1
                                 },
 								{
-                                    "name" : "Projectile 速度: +[$]%",
+                                    "name" : "导弹速度: +[$]%",
                                     "base" : "5",
                                     "multiply" : 1
                                 }
@@ -678,8 +678,8 @@
                             ]
                     },
                     {
-                        "name" : "Fire Support",
-                        "description" : "增加your <span class=\"highlight\">伤害</span> with 所有枪械类型和增加the <span class=\"highlight\">伤害</span> dealt by <span class=\"highlight\">Wolf</span>.",
+                        "name" : "火力支援",
+                        "description" : "增加所有枪械伤害;增加狼的伤害。",
                         "levels" : 5,
                         "position" : 2,
                         "stats" :
@@ -690,7 +690,7 @@
                                     "multiply" : 1
                                 },
                                 {
-                                    "name" : "Wolf伤害: +[$]%",
+                                    "name" : "狼伤害: +[$]%",
                                     "base" : "5",
                                     "multiply" : 1
                                 }
@@ -703,24 +703,24 @@
                             ]
                     },
                     {
-                        "name" : "Venom Bolts",
-                        "description" : "<span class=\"highlight\">Wolf Ability</span>. <span class=\"highlight\">Wolf's</span> shots have a chance to be <span class=\"highlight\">Venom Bolts</span>, which deal <span class=\"highlight\">Corrosive伤害</span>.  Additionally, you gain increased <span class=\"highlight\">Corrode Chance</span>和<span class=\"highlight\">Corrode伤害</span> with guns和手雷s.",
+                        "name" : "毒之闪电",
+                        "description" : "狼的射击有一定几率会变成毒之闪电，对对手造成腐蚀伤害，同时枪械和手榴弹的腐蚀伤害几率以及腐蚀伤害数值都有所提升。",
                         "levels" : 5,
                         "position" : 3,
                         "stats" :
                             [
                                 {
-                                    "name" : "Venom Bolt Change: +[$]%",
+                                    "name" : "毒之闪电几率: +[$]%",
                                     "base" : "5",
                                     "multiply" : 1, "add":5
                                 },
                                 {
-                                    "name" : "Corrode Change: +[$]%",
+                                    "name" : "腐蚀几率: +[$]%",
                                     "base" : "2",
                                     "multiply" : 1
                                 },
 								{
-                                    "name" : "Corrode伤害: +[$]%",
+                                    "name" : "腐蚀伤害: +[$]%",
                                     "base" : "4",
                                     "multiply" : 1
                                 }
@@ -733,8 +733,8 @@
                             ]
                     },
                     {
-                        "name" : "Sup按ion",
-                        "description" : "<span class=\"highlight\">击杀技</span>. 击杀敌人gives you和<span class=\"highlight\">Wolf</span> increased <span class=\"highlight\">射速</span> for a short time.",
+                        "name" : "压制",
+                        "description" : "杀死一个敌人后，一段时间内，狼和你的射速都有所提升。",
                         "levels" : 5,
                         "position" : 5,
                         "stats" :
@@ -745,7 +745,7 @@
                                     "multiply" : 1
                                 },
 								{
-                                    "name" : "Wolf 射速: +[$]%",
+                                    "name" : "狼射速: +[$]%",
                                     "base" : "15",
                                     "multiply" : 1
                                 }
@@ -758,17 +758,17 @@
                             ]
                     },
                     {
-                        "name" : "Laser Guided",
-                        "description" : "When you 启动 <span class=\"highlight\">Wolf和Saint</span>, or 按 [LB/L1/F] while they are active, <span class=\"highlight\">Saint</span> will <span class=\"highlight\">Paint</span> the target under your reticle. <span class=\"highlight\">Wolf</span> will focus attacks on the currently <span class=\"highlight\">Painted</span> target,和the target will receive increased <span class=\"highlight\">伤害</span> from all sources. If a target is killed while <span class=\"highlight\">Painted</span>, time will be added to <span class=\"highlight\">Wolf和Saint's 持续时间</span>.",
+                        "name" : "制导激光",
+                        "description" : "当狼和圣人都放出来时，会标注敌人。所有对被标注敌人的伤害都会提升。如果敌人被消灭，狼和圣人则能多活动一会儿。",
                         "levels" : 1,
                         "position" : 7,
                         "stats" :
                             [
                                 {
-                                    "name" : "Target伤害 Received: +25%"
+                                    "name" : "目标受到伤害: +25%"
                                 },
 								{
-                                    "name" : "Wolf和Saint 持续时间 on Kill: +5 秒"
+                                    "name" : "狼和圣人持续时间每击杀: +5 秒"
                                 }
                             ],
                         "assets" :
@@ -779,19 +779,19 @@
                             ]
                     },
                     {
-                        "name" : "Rolling Thunder",
-                        "description" : "While <span class=\"highlight\">Wolf</span> is alive, you will 每iodically gain层数 of <span class=\"highlight\">Rolling Thunder</span>, increasing <span class=\"highlight\">Wolf's伤害</span>.",
+                        "name" : "天雷滚滚",
+                        "description" : "当狼出来的时候，你会叠加天雷滚滚，天雷滚滚越多，狼的伤害越大。",
                         "levels" : 5,
                         "position" : 9,
                         "stats" :
                             [
                                 {
-                                    "name" : "Wolf伤害: [$]%每层",
+                                    "name" : "狼伤害: [$]%每层",
                                     "base" : 2,
                                     "multiply" : 1
                                 },
                                 {
-                                    "name" : "Stack Interval: 5.0 秒",
+                                    "name" : "层数叠加间隔: 5.0 秒",
                                     "base" : 2,
                                     "multiply" : 1
                                 }
@@ -804,14 +804,14 @@
                             ]
                     },
                     {
-                        "name" : "Kill Switch",
-                        "description" : "<span class=\"highlight\">Wolf Ability</span>. Whenever <span class=\"highlight\">Wolf</span> is <span class=\"highlight\">recalled</span>, runs out of <span class=\"highlight\">生命值</span>, or <span class=\"highlight\">expires</span>, it will dive bomb 敌人 with <span class=\"highlight\">爆炸</span> effect!",
+                        "name" : "杀戮开关",
+                        "description" : "当狼被召回，或者它挂球了，或者技能改冷却了。这时候狼就会俯冲轰炸敌人。",
                         "levels" : 1,
                         "position" : 10,
                         "stats" :
                             [
                                 {
-                                    "name" : "\"The Divine Wind blows up.\""
+                                    "name" : "\"神风敢死队\""
                                 }
                             ],
                         "assets" :
@@ -822,14 +822,14 @@
                             ]
                     },
                     {
-                        "name" : "Scramble",
-                        "description" : "When <span class=\"highlight\">Wolf</span> is destroyed, it is replaced once for free,和time will be added to <span class=\"highlight\">Wolf和Saint's 持续时间</span>.",
+                        "name" : "瞎搅和",
+                        "description" : "狼挂了，又有一只狼出来顶替它。而且核心技能持续时间增长。",
                         "levels" : 5,
                         "position" : 11,
                         "stats" :
                             [
                                 {
-                                    "name" : "Deployment Time Added: [$]%",
+                                    "name" : "部署时间增加: [$]%",
                                     "base" : "25",
                                     "multiply" : 1,
 									"add" : "5"
@@ -843,19 +843,19 @@
                             ]
                     },
                     {
-                        "name" : "Cold War",
-                        "description" : "When you apply a <span class=\"highlight\">闪电</span>, <span class=\"highlight\">燃烧</span>, or <span class=\"highlight\">Corrosive 状态效果</span> to an 敌人, there is a chance for the target to <span class=\"highlight\">冻结</span>. Additionally, you gain increased <span class=\"highlight\">状态效果chance</span> when using <span class=\"highlight\">Cryo</span> 武器s.",
+                        "name" : "冷战",
+                        "description" : "当你造成电击，火焰或者腐蚀伤害的时候，对手有一定几率会冻住。",
                         "levels" : 5,
                         "position" : 12,
                         "stats" :
                             [
                                 {
-                                    "name" : "Freeze Chance : +[$]%",
+                                    "name" : "冻结几率: +[$]%",
                                     "base" : 5,
                                     "multiply" : 1
                                 },
 								{
-                                    "name" : "Cryo 武器 Freeze Chance: +[$]%",
+                                    "name" : "冰冻武器冻结几率: +[$]%",
                                     "base" : 2,
                                     "multiply" : 1
                                 }
@@ -868,8 +868,8 @@
                             ]
                     },
                     {
-                        "name" : "Escalation",
-                        "description" : "增加your <span class=\"highlight\">暴击伤害</span>. Additionally, <span class=\"highlight\">暴击</span> on 敌人 reduce the remaining <span class=\"highlight\">冷却时间</span> of <span class=\"highlight\">Wolf和Saint</span> by a small amount. This effect has a 冷却时间.",
+                        "name" : "升级",
+                        "description" : "增加致命一击的伤害。如果你对敌人造成致命一击，狼和圣人活动时间变长。此技能有冷却时间。",
                         "levels" : 5,
                         "position" : 14,
                         "stats" :
@@ -898,14 +898,14 @@
                             ]
                     },
                     {
-                        "name" : "Omega Strike",
-                        "description" : "<span class=\"highlight\">Wolf Ability</span>. <span class=\"highlight\">Wolf</span> 每iodically launches a deadly <span class=\"highlight\">missile strike</span> against its targets.",
+                        "name" : "欧米茄攻击",
+                        "description" : "狼隔一段时间就会对对手发射致命导弹。",
                         "levels" : 1,
                         "position" : 16,
                         "stats" :
                             [
                                 {
-                                    "name" : "\"Too close for guns, I’m switching to missiles.\""
+                                    "name" : "\"枪不好使，改用导弹。\""
                                 }
                             ],
                         "assets" :
