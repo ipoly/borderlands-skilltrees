@@ -8,8 +8,8 @@
         "badge" :"borderlandsthegame/prsqlskilltree/images/chars/athena/badge.png",
         "class" :
             {
-                "name" : "Kinetic Aspis(动力盾牌)",
-                "description" : "<span class=\"highlight\">主动技</span>.  按 [LB/L1/F] 举起<span class=\"highlight\">Aspis(动力盾)</span>吸收前方伤害. <span class=\"highlight\">Aspis(动力盾)</span>根据你的等级存储部分伤害作为能量 . 时间结束<span class=\"highlight\">Aspis(动力盾)</span>将被投掷出去, 或者按 [LB/L1/F] 主动投掷. 飞回手中以前<span class=\"highlight\">Aspis(动力盾)</span>形成爆炸, 造成<span class=\"highlight\">两倍存储能量</span>的伤害.",
+                "name" : "动能盾牌",
+                "description" : "左手持盾，盾吸收子弹转换为能量存储，当你再次按一下这个技能键的时候，你就会像美国小队长一样把盾扔出去，对敌人造成杀伤。",
                 "stats" :
                     [{
                                     "name" : "防御角度: 90°",
@@ -36,8 +36,8 @@
                 "skills" :
                 [
                     {
-                        "name" : "Storm Weaving(风暴涌动)",
-                        "description" : "<span class=\"highlight\">切换武器</span>时, 获得<span class=\"highlight\">Storm Weaving(风暴涌动)</span>效果, 短时间增加<span class=\"highlight\">射速</span>和<span class=\"highlight\">元素效果</span>几率.",
+                        "name" : "风暴交织",
+                        "description" : "当你切换武器的时候，你会启动风暴交织。风暴交织会让你在短时间内增加射速和元素伤害几率。",
                         "levels" : 4,
                         "position" : 0,
                         "stats" :
@@ -64,8 +64,8 @@
                             ]
                     },
                     {
-                        "name" : "Maelstrom(混乱)",
-                        "description" : "造成<span class=\"highlight\">燃烧</span>或<span class=\"highlight\">闪电</span>伤害获得<span class=\"highlight\">Maelstrom(混乱)</span>层数. 所有<span class=\"highlight\">元素伤害</span>根据<span class=\"highlight\">Maelstrom(混乱)</span>层数增加.层数随时间衰减, 层数越高衰减越快.",
+                        "name" : "大漩涡",
+                        "description" : "如果你对敌人造成火或者电属性伤害，你会叠加大漩涡。伴随着每一层大漩涡，你的元素伤害都会提升。",
                         "levels" : 1,
                         "position" : 2,
                         "stats" :
@@ -82,8 +82,8 @@
                             ]
                     },
                     {
-                        "name" : "Gathering Tempest(风暴聚集)",
-                        "description" : "增加<span class=\"highlight\">弹夹容量</span>和<span class=\"highlight\">装填速度</span>.",
+                        "name" : "收集风暴",
+                        "description" : "增大弹夹，加快装填速度。",
                         "levels" : 5,
                         "position" : 3,
                         "stats" :
@@ -107,8 +107,8 @@
                             ]
                     },
                     {
-                        "name" : "Conduit(管道",
-                        "description" : "当造成至少一个<span class=\"highlight\">电击麻痹状态</span>时, 每层<span class=\"highlight\">Maelstrom(混乱)</span>每秒恢复一定比例的<span class=\"highlight\">护盾</span>.",
+                        "name" : "导体",
+                        "description" : "只要你对对手还有一丝电属性伤害，你的盾就会按照大漩涡的层数充能。",
                         "levels" : 5,
                         "position" : 5,
                         "stats" :
@@ -127,8 +127,8 @@
                             ]
                     },
                     {
-                        "name" : "Smite(重击)",
-                        "description" : "当你<span class=\"highlight\">浮空</span>时, 射击造成<span class=\"highlight\">Smite(重击)</span>, 造成小范围<span class=\"highlight\">燃烧</span>和<span class=\"highlight\">闪电伤害</span>. Smite(重击)伤害基于<span class=\"highlight\">Maelstrom(混乱)</span>层数增加. 该能力有冷却时间.",
+                        "name" : "重击",
+                        "description" : "当你在空中射击敌人的时候，你就会对敌人重击。所谓重击就是在小范围内照成火，电伤害。",
                         "levels" : 1,
                         "position" : 7,
                         "stats" :
@@ -148,8 +148,8 @@
                             ]
                     },
                     {
-                        "name" : "Unrelenting(冷酷)",
-                        "description" : "<span class=\"highlight\">击杀技</span>.  击杀敌人后，根据<span class=\"highlight\">Maelstrom(混乱)</span>层数增加<span class=\"highlight\">武器切换速度</span>和<span class=\"highlight\">射速</span>.",
+                        "name" : "毫不留情",
+                        "description" : "每干掉一个敌人，都会按照大漩涡叠层给你增加武器切换速度和射速。",
                         "levels" : 5,
                         "position" : 8,
 
@@ -174,8 +174,8 @@
                             ]
                     },
                     {
-                        "name" : "Superconductor(超导体)",
-                        "description" : "被攻击时<span class=\"highlight\">Aspis(动力盾)</span>有几率<span class=\"highlight\">电击</span>附近敌人. 同时获得<span class=\"highlight\">Maelstrom(混乱)</span>层数.",
+                        "name" : "超导体",
+                        "description" : "如果被揍，你就会电到揍你的人，同时叠加大漩涡。",
                         "levels" : 5,
                         "position" : 9,
                         "stats" :
@@ -197,8 +197,8 @@
                             ]
                     },
                     {
-                        "name" : "Zeus' Rage(Zenu之怒)",
-                        "description" : "投掷<span class=\"highlight\">Aspis(动力盾)</span>时, 目标地点产生毁灭性的<span class=\"highlight\">火焰和闪电风暴</span>, 造成若干秒的区域伤害. 伤害基于<span class=\"highlight\">Aspis(动力盾)</span>吸收的能量.",
+                        "name" : "宙斯之怒",
+                        "description" : "当你扔出动能盾，所到之处，火电交加，这种情况持续几秒钟。",
                         "levels" : 1,
                         "position" : 10,
                         "stats" :
@@ -215,8 +215,8 @@
                             ]
                     },
                     {
-                        "name" : "Elemental Barrage(元素弹幕)",
-                        "description" : "在<span class=\"highlight\">Storm Weaving(风暴涌动)</span>时, 有几率<span class=\"highlight\">不消耗弹药</span>. 几率随<span class=\"highlight\">Maelstrom(混乱)</span>层数增加.",
+                        "name" : "元素齐发",
+                        "description" : "当风暴交织启动的时候，你有一定几率不会消耗弹药。几率大小要看大漩涡叠层。",
                         "levels" : 5,
                         "position" : 11,
                         "stats" :
@@ -240,8 +240,8 @@
                             ]
                     },
 					{
-                        "name" : "Overload(超载)",
-                        "description" : "杀死<span class=\"highlight\">触电</span>或<span class=\"highlight\">燃烧</span>中的敌人, 有机会将效果<span class=\"highlight\">链接到附近的敌人</span>. 技能作用时获得<span class=\"highlight\">Maelstrom(混乱)</span>层数. 同时存在<span class=\"highlight\">燃烧</span>和<span class=\"highlight\">触电</span>时获得双倍加成.",
+                        "name" : "过载",
+                        "description" : "当你烧到，或者电到一个敌人的时候，有一定几率产生连锁反应。",
                         "levels" : 5,
                         "position" : 12,
                         "stats" :
@@ -263,8 +263,8 @@
                             ]
                     },
 					{
-                        "name" : "Flash Freeze(速冻)",
-                        "description" : "当你<span class=\"highlight\">冻结</span>敌人时, 短时间获得<span class=\"highlight\">Flash Freeze(速冻)</span>效果. 在此期间不会丢失<span class=\"highlight\">Maelstrom(混乱)</span>层数.",
+                        "name" : "闪电冻结",
+                        "description" : "当你冻住一个敌人的时候，你在几秒钟之内可以拥有闪电冻结。",
                         "levels" : 5,
                         "position" : 14,
                         "stats" :
@@ -283,8 +283,8 @@
                             ]
                     },
                     {
-                        "name" : "Hades' Shackles(地狱镣铐)",
-                        "description" : "<span class=\"highlight\">震击</span>导致你短时间以<span class=\"highlight\">闪电链</span>链接并电击敌人. 失去<span class=\"highlight\">视野</span>时链接断开. 持续时间结束时, 仍然链接或死于链接状态的敌人, 释放<span class=\"highlight\">火焰新星</span>, 并且你根据受影响的敌人获得<span class=\"highlight\">Maelstrom(混乱)</span>层数. 该技能有冷却时间.",
+                        "name" : "冥王枷锁",
+                        "description" : "震击可以产生一个链子，链接你和周围的敌人，让他们遭受电击。敌人如果从实现消失，链接就不存在了。如果敌人被电死，或者链接需要冷却，就会放出一个火焰新星。火焰新星如果杀掉敌人，会积累大漩涡的叠层。此技能有冷却时间。",
                         "levels" : 1,
                         "position" : 16,
                         "stats" :
@@ -316,7 +316,7 @@
                 [
                     {
                         "name" : "Gun Kata(铳拳道)",
-                        "description" : "增加<span class=\"highlight\">枪械伤害</span>. 并且, <span class=\"highlight\">射击敌人</span>后，短时间内增加<span class=\"highlight\">近战伤害</span>.",
+                        "description" : "增加枪械伤害。同时你射击敌人之后，你会在几秒钟之内增加近战伤害。",
                         "levels" : 5,
                         "position" : 0,
                         "stats" :
@@ -340,8 +340,8 @@
                             ]
                     },
                     {
-                        "name" : "Clarity of Purpose(目标明确)",
-                        "description" : "增加<span class=\"highlight\">近战伤害</span>和<span class=\"highlight\">最大生命值</span>.",
+                        "name" : "目标明确",
+                        "description" : "增加近战伤害和最大生命值。",
                         "levels" : 5,
                         "position" : 2,
                         "stats" :
@@ -365,8 +365,8 @@
                             ]
                     },
                     {
-                        "name" : "Mercurial(灵活)",
-                        "description" : "<span class=\"highlight\">击杀技</span>. 击杀敌人暂时增加<span class=\"highlight\">移动速度</span>和<span class=\"highlight\">伤害抗性</span>.",
+                        "name" : "水银泻地",
+                        "description" : "杀掉一个敌人之后，会在几秒钟之内增加移动速度和抗揍能力。",
                         "levels" : 5,
                         "position" : 3,
                         "stats" :
@@ -391,8 +391,8 @@
                             ]
                     },
                     {
-                        "name" : "Omega-Senshu(欧米伽专修)",
-                        "description" : "对低于50%<span class=\"highlight\">最大生命值</span>的敌人造成额外<span class=\"highlight\">伤害</span>.",
+                        "name" : "欧米茄千秋",
+                        "description" : "对生命值一半以下的敌人造成更多的伤害。",
                         "levels" : 5,
                         "position" : 5,
                         "stats" :
@@ -411,8 +411,8 @@
                             ]
                     },
                     {
-                        "name" : "Rend(割裂)",
-                        "description" : "<span class=\"highlight\">近战</span>导致敌人<span class=\"highlight\">流血</span>, 导致持续伤害. <span class=\"highlight\">高生命值</span>受到更多伤害, 伤害可以获得<span class=\"highlight\">近战伤害</span>加成.",
+                        "name" : "撕裂",
+                        "description" : "近战对敌人造成出血伤害。敌人生命值越高，出血伤害越明显。",
                         "levels" : 1,
                         "position" : 7,
                         "stats" :
@@ -432,8 +432,8 @@
                             ]
                     },
                     {
-                        "name" : "Bloodlust(杀戮欲望)",
-                        "description" : "<span class=\"highlight\">流血的</span>敌人在效果期间让你<span class=\"highlight\">恢复生命</span>. 这个效果可以叠加.",
+                        "name" : "嗜血",
+                        "description" : "敌人出血，你就回血。",
                         "levels" : 5,
                         "position" : 9,
                         "stats" :
@@ -452,8 +452,8 @@
                             ]
                     },
                     {
-                        "name" : "Epicenter(震中)",
-                        "description" : "<span class=\"highlight\">震击升级技</span>. 你的<span class=\"highlight\">震击</span>生成奇点, <span class=\"highlight\">拉拢周围敌人</span>并造成伤害<span class=\"highlight\">伤害</span>.",
+                        "name" : "震中",
+                        "description" : "当你震击的时候，你会产生一个奇点，把敌人都吸过来。",
                         "levels" : 1,
                         "position" : 10,
                         "stats" :
@@ -470,8 +470,8 @@
                             ]
                     },
                     {
-                        "name" : "Tear(伤口撒盐)",
-                        "description" : "对<span class=\"highlight\">流血的</span>敌人增加<span class=\"highlight\">枪械伤害</span>.",
+                        "name" : "撕毁",
+                        "description" : "对出血敌人造成额外枪械伤害。",
                         "levels" : 5,
                         "position" : 11,
                         "stats" :
@@ -490,8 +490,8 @@
                             ]
                     },
                     {
-                        "name" : "You've Got Red on You(见红了)",
-                        "description" : "死于<span class=\"highlight\">近战</span>或者<span class=\"highlight\">流血中</span>的敌人<span class=\"highlight\">爆炸</span>. 附近敌人受到伤害并稍微恶心到.",
+                        "name" : "你手上沾有鲜血",
+                        "description" : "当敌人被近战打死或者流血而死，会产生爆炸，爆炸会伤害到周围敌人。",
                         "levels" : 5,
                         "position" : 12,
                         "stats" :
@@ -510,8 +510,8 @@
                             ]
                     },
                     {
-                        "name" : "Fury of the Arena(竞技场狂怒)",
-                        "description" : "每个<span class=\"highlight\">流血的</span>目标增加<span class=\"highlight\">射速</span>和<span class=\"highlight\">装填速度</span>.",
+                        "name" : "竞技场之怒",
+                        "description" : "如果你的目标出血，你会增加射速和装填速度。",
                         "levels" : 5,
                         "position" : 14,
                         "stats" :
@@ -535,8 +535,8 @@
                             ]
                     },
                     {
-                        "name" : "Blood Rush(血性冲锋)",
-                        "description" : "<span class=\"highlight\">近战升级技能</span>. 按 (RS/V) 向敌人<span class=\"highlight\">冲锋</span>并且<span class=\"highlight\">用青铜剑攻击</span>, 造成额外<span class=\"highlight\">近战伤害</span>. 该技能有冷却时间. 如果这次攻击对<span class=\"highlight\">没有流血的</span>目标造成<span class=\"highlight\">流血</span>效果, 或者杀死了目标, 则立即冷却. 在冷却期间表现为普通近战攻击.<br> ",
+                        "name" : "血性冲锋",
+                        "description" : "持动能盾牌冲锋。增加近战伤害。有冷却时间。如果动能盾冲锋导致敌人出血或者杀死敌人，该技能又可以重新使用。",
                         "levels" : 1,
                         "position" : 16,
                         "stats" :
@@ -563,8 +563,8 @@
                 "skills" :
                 [
                      {
-                        "name" : "Invictus(不可战胜)",
-                        "description" : "增加投掷<span class=\"highlight\">Aspis(动力盾)</span>的<span class=\"highlight\">伤害</span>.",
+                        "name" : "屹立不倒",
+                        "description" : "增加扔动能盾牌造成的伤害。",
                         "levels" : 5,
                         "position" : 0,
                         "stats" :
@@ -583,8 +583,8 @@
                             ]
                     },
                     {
-                        "name" : "Ephodos(进军)",
-                        "description" : "举起<span class=\"highlight\">Aspis(动力盾)</span>时增加<span class=\"highlight\">移动速度</span>和<span class=\"highlight\">枪械伤害</span>.",
+                        "name" : "进军",
+                        "description" : "持动能盾时增加移动速度和枪械伤害。",
                         "levels" : 5,
                         "position" : 2,
                         "stats" :
@@ -608,8 +608,8 @@
                             ]
                     },
                        {
-                        "name" : "Vanguard(先锋)",
-                        "description" : "举起<span class=\"highlight\">Aspis(动力盾)</span>时, 团队获得<span class=\"highlight\">生命恢复</span>加成. <span class=\"highlight\">生命恢复率</span>随<span class=\"highlight\">Aspis(动力盾)</span>吸收的伤害增加.",
+                        "name" : "先锋",
+                        "description" : "动能盾牌在手的时候，你和你的队友恢复血量。如果盾牌吸收敌人攻击的话，恢复的会更多。",
                         "levels" : 5,
                         "position" : 3,
                         "stats" :
@@ -628,8 +628,8 @@
                             ]
                     },
                     {
-                        "name" : "Hold the Line(压阵)",
-                        "description" : "增加<span class=\"highlight\">Aspis(动力盾)</span>自动投掷前的<span class=\"highlight\">持续时间</span>.",
+                        "name" : "压阵",
+                        "description" : "延长核心技能使用时间。",
                         "levels" : 5,
                         "position" : 5,
                         "stats" :
@@ -648,8 +648,8 @@
                             ]
                     },
                     {
-                        "name" : "Prismatic Aegis(以牙还牙)",
-                        "description" : "<span class=\"highlight\">Aspis(动力盾)</span>可以存储<span class=\"highlight\">元素伤害</span>. 并在投掷时造成相应的伤害.",
+                        "name" : "棱镜护盾",
+                        "description" : "你的动能盾现在可以吸收属性伤害。而且吸收的属性伤害会增加你的盾的威力。",
                         "levels" : 1,
                         "position" : 7,
                         "stats" :
@@ -666,8 +666,8 @@
                             ]
                     },
                     {
-                        "name" : "United Front(统一阵线)",
-                        "description" : "<span class=\"highlight\">Aspis(动力盾)</span>现在可以吸收<span class=\"highlight\">伤害</span>为你和附近队友的盾牌充能. 同时增加<span class=\"highlight\">最大护盾容量</span>.",
+                        "name" : "统一阵线",
+                        "description" : "你的动能盾现在可以给你的常规盾充能，并且增加你的最大盾容。",
                         "levels" : 5,
                         "position" : 9,
                         "stats" :
@@ -691,8 +691,8 @@
                             ]
                     },
                     {
-                        "name" : "Clear!(清场)",
-                        "description" : "<span class=\"highlight\">Aspis(动力盾)</span>的爆炸波可以使队友<span class=\"highlight\">起身</span>. 并且, 你在<span class=\"highlight\">跪地状态</span>时获得<span class=\"highlight\">伤害加成</span>.",
+                        "name" : "都让开",
+                        "description" : "你的动能盾爆炸之后会复活范围内的队友。同时，你为生命而战的时候，你对敌人造成的伤害会增加。",
                         "levels" : 1,
                         "position" : 10,
                         "stats" :
@@ -711,8 +711,8 @@
                             ]
                     },
                     {
-                        "name" : "Stalwart(健壮)",
-                        "description" : "<span class=\"highlight\">Aspis(动力盾)</span>可以吸收来自<span class=\"highlight\">队友的</span>伤害. 并且增加你的<span class=\"highlight\">最大生命值</span>.",
+                        "name" : "高大健",
+                        "description" : "动能盾现在可以吸收队友对你造成的伤害，同时增加最大生命值。",
                         "levels" : 5,
                         "position" : 11,
                         "stats" :
@@ -736,8 +736,8 @@
                             ]
                     },
                     {
-                        "name" : "Return Fire(还击)",
-                        "description" : "<span class=\"highlight\">Aspis(动力盾)</span>有机会<span class=\"highlight\">反射</span>来袭的<span class=\"highlight\">激光和子弹</span>, 不影响能量吸收.",
+                        "name" : "还击",
+                        "description" : "动能盾可以反射一部分的激光射线和子弹，同时也吸收他们造成的伤害。",
                         "levels" : 5,
                         "position" : 12,
                         "stats" :
@@ -756,8 +756,8 @@
                             ]
                     },
                     {
-                        "name" : "Prepare for Glory(视死如归)",
-                        "description" : "<span class=\"highlight\">Aspis(动力盾)</span>嘲讽周围敌人. 此外, 对<span class=\"highlight\">每个</span>为<span class=\"highlight\">Aspis(动力盾)</span>带来伤害的敌人, 你获得一层<span class=\"highlight\">Prepare for Glory(视死如归)</span>, 增加<span class=\"highlight\">枪械伤害</span>.<span class=\"highlight\">Aspis(动力盾)</span>投掷以后该效果也会持续一小会儿.",
+                        "name" : "为荣耀准备",
+                        "description" : "启动动能盾会挑衅对手，使得对手更容易攻击你。另外，对手攻击你，会让你积累为荣耀准备。积累的层数在盾牌扔出去后几秒内就会没有。",
                         "levels" : 5,
                         "position" : 14,
                         "stats" :
@@ -776,8 +776,8 @@
                             ]
                     },
                     {
-                        "name" : "Wrath of the Goddess(女神之怒)",
-                        "description" : "<span class=\"highlight\">Aspis(动力盾)</span>将额外<span class=\"highlight\">弹射</span>最多4个敌人, 伤害递减. <span class=\"highlight\">Aspis(动力盾)</span>在攻击完最后一个敌人后飞回.",
+                        "name" : "女神之怒",
+                        "description" : "动能盾现在可以击中最多四个敌人，每个敌人所受伤害会以此减少。",
                         "levels" : 1,
                         "position" : 16,
                         "stats" :
