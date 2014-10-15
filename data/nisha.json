@@ -8,8 +8,8 @@
         "badge" :"borderlandsthegame/prsqlskilltree/images/chars/nisha/badge.png",
         "class" :
             {
-                "name" : "Showdown(决斗)",
-                "description" : "<span class=\"highlight\">主动技</span>.  按 [LB/L1/F] 启动<span class=\"highlight\">决斗</span>, 让你<span class=\"highlight\">自动瞄准</span>敌人并且增加所有枪械类型的<span class=\"highlight\">枪械伤害</span>,<span class=\"highlight\">射速</span>, <span class=\"highlight\">装填速度</span>, <span class=\"highlight\">精准度</span>, 和<span class=\"highlight\">子弹飞行速度</span>.  按住 [LT/L2/Mouse-2] 并且轻轻移动 (RS/R3/Mouse) 来快速切换到下一个目标.  <span class=\"highlight\">狙击枪</span>和<span class=\"highlight\">火箭炮</span>没有伤害加成.",
+                "name" : "一决雌雄",
+                "description" : "启动之后自动秒钟，无论你是狂奔还是乱打，都自动锁定敌人要害，并获得诸多枪械加成。",
                 "stats" :
                     [
 						{
@@ -61,8 +61,8 @@
                 "skills" :
                 [
                     {
-                        "name" : "Snap Shot(点射)",
-                        "description" : "极大地增加盲射的<span class=\"highlight\">精准度</span>并且<span class=\"highlight\">减少后坐力</span>.",
+                        "name" : "浮光掠影",
+                        "description" : "蹲下来射，增加精准度，降低后坐力。",
                         "levels" : 5,
                         "position" : 0,
                         "stats" :
@@ -86,8 +86,8 @@
                             ]
                     },
                     {
-                        "name" : "Bona Fide Grit[真的勇气]",
-                        "description" : "<span class=\"highlight\">击杀技</span>. 击杀敌人给你<span class=\"highlight\">暴击伤害</span>和<span class=\"highlight\">生命恢复</span>加成,持续一小段时间.",
+                        "name" : "猛的狠",
+                        "description" : "干掉一个敌人后，一段时间内增加致命一击伤害并恢复血量。",
                         "levels" : 5,
                         "position" : 2,
                         "stats" :
@@ -111,8 +111,8 @@
                             ]
                     },
                     {
-                        "name" : "Quick Shot(速射)",
-                        "description" : "<span class=\"highlight\">换弹夹</span>后, 在一小段时间内, 盲射获得<span class=\"highlight\">枪械伤害</span>和<span class=\"highlight\">射速</span>加成.",
+                        "name" : "快速射击",
+                        "description" : "装填之后，一段时间内你蹲射的射速和伤害都提升。",
                         "levels" : 5,
                         "position" : 3,
                         "stats" :
@@ -136,8 +136,8 @@
                             ]
                     },
                     {
-                        "name" : "Unchained(奔放)",
-                        "description" : "击中敌人将增加你所有枪械类型的<span class=\"highlight\">射速</span>.  每秒只能获得一层<span class=\"highlight\">Unchained(奔放)</span>. 10 秒内未击中敌人则全部清空.",
+                        "name" : "了无牵挂",
+                        "description" : "射击敌人会增加所有枪械射速。了无牵挂叠层每秒只能叠一次。",
                         "levels" : 5,
                         "position" : 5,
                         "stats" :
@@ -159,8 +159,8 @@
                             ]
                     },
                     {
-                        "name" : "Fistful of Bullets(一把子弹)",
-                        "description" : "所有枪械类型<span class=\"highlight\">弹夹容量</span>增加3. ",
+                        "name" : "都是子弹",
+                        "description" : "所有枪械弹夹容量+3。",
                         "levels" : 1,
                         "position" : 7,
                         "stats" :
@@ -177,8 +177,8 @@
                             ]
                     },
                     {
-                        "name" : "Crack Shot(破碎射击)",
-                        "description" : "<span class=\"highlight\">满弹夹</span>的<span class=\"highlight\">第一发</span>造成<span class=\"highlight\">额外伤害</span>. 被这一击杀死的敌人会爆炸, 对周围的敌人造成伤害.",
+                        "name" : "神枪手",
+                        "description" : "满弹夹第一发子弹会增加额外伤害，如果该子弹杀死了敌人，敌人会爆炸，对周围敌人造成伤害。",
                         "levels" : 5,
                         "position" : 9,
                         "stats" :
@@ -197,8 +197,8 @@
                             ]
                     },
                     {
-                        "name" : "Impatience(急躁)",
-                        "description" : "击杀敌人将获得一层<span class=\"highlight\">Impatience(急躁)</span>, 每一层会增加20%的<span class=\"highlight\">装填速度</span>. 换弹夹则清空所有堆叠. 最多堆叠21次.",
+                        "name" : "没耐心",
+                        "description" : "杀死敌人会叠加没耐心。每一层没耐心都会让你的装填速度增加20%。",
                         "levels" : 1,
                         "position" : 10,
                         "stats" :
@@ -215,8 +215,8 @@
                             ]
                     },
                     {
-                        "name" : "Hot Lead(热线)",
-                        "description" : "<span class=\"highlight\">非元素</span>枪的<span class=\"highlight\">暴击</span>导致额外的<span class=\"highlight\">燃烧伤害</span>并且有很高几率<span class=\"highlight\">点燃</span>敌人. <span class=\"highlight\">燃烧伤害</span>和<span class=\"highlight\">点燃伤害</span>基于枪械<span class=\"highlight\">伤害</span>.",
+                        "name" : "火热铅弹",
+                        "description" : "所有非元素伤害武器增加火属性伤害并有高几率点燃敌人。",
                         "levels" : 5,
                         "position" : 11,
                         "stats" :
@@ -240,8 +240,8 @@
                             ]
                     },
                     {
-                        "name" : "Trick Shot(花式射击)",
-                        "description" : "射向墙壁或障碍物的子弹<span class=\"highlight\">弹射向附近的敌人</span>.",
+                        "name" : "刁钻一击",
+                        "description" : "子弹打到墙上和其它界面有几率反弹子弹，打到附近敌人。",
                         "levels" : 5,
                         "position" : 12,
                         "stats" :
@@ -263,8 +263,8 @@
                             ]
                     },
 					{
-                        "name" : "Tombstone(墓碑)",
-                        "description" : "<span class=\"highlight\">击杀技</span>.  击杀敌人后, 短时间内所有的射击都有几率算作<span class=\"highlight\">暴击</span>. ",
+                        "name" : "墓碑",
+                        "description" : "干掉敌人之后，短时间内所有伤害都有可能变成致命一击。",
                         "levels" : 5,
                         "position" : 14,
                         "stats" :
@@ -283,8 +283,8 @@
                             ]
                     },
 					{
-                        "name" : "The Unforgiven(不可原谅)",
-                        "description" : "<span class=\"highlight\">决斗</span>中所有击中敌人的子弹将<span class=\"highlight\">弹射向附近的敌人</span>, 每击造成 10% 武器伤害.  另外, <span class=\"highlight\">决斗</span>结束时每个被击中的敌人都将<span class=\"highlight\">爆炸</span>.",
+                        "name" : "从不宽恕",
+                        "description" : "一决雌雄的时候，打到敌人的所有子弹都反弹，打到周围的敌人，伤害是10%。一决雌雄结束的时候，所有被你打到的敌人周围都产生爆炸新星。即使你为生命而战，这些新星依然会出现。",
                         "levels" : 1,
                         "position" : 16,
                         "stats" :
@@ -310,8 +310,8 @@
                 "skills" :
                 [
                     {
-                        "name" : "Saddle Up(上鞍)",
-                        "description" : "<span class=\"highlight\">击杀技</span>. 击杀敌人短时间增加<span class=\"highlight\">移动速度</span>和<span class=\"highlight\">枪械伤害</span>.",
+                        "name" : "备鞍整装",
+                        "description" : "干掉敌人后，几秒钟之内增加移动速度和枪械伤害。",
                         "levels" : 5,
                         "position" : 0,
                         "stats" :
@@ -335,8 +335,8 @@
                             ]
                     },
                     {
-                        "name" : "Ruthless(无情)",
-                        "description" : "<span class=\"highlight\">决斗</span>中的击杀延长其持续时间.",
+                        "name" : "无情",
+                        "description" : "在一决雌雄中杀掉敌人会增加技能时间。",
                         "levels" : 5,
                         "position" : 2,
                         "stats" :
@@ -355,8 +355,8 @@
                             ]
                     },
                     {
-                        "name" : "Magnificent Six(六宏伟)",
-                        "description" : "<span class=\"highlight\">非元素武器</span>的<span class=\"highlight\">最后6发</span>获得额外<span class=\"highlight\">伤害</span>.",
+                        "name" : "碉堡六发",
+                        "description" : "非元素武器的最后六法子弹造成额外伤害。",
                         "levels" : 5,
                         "position" : 3,
                         "stats" :
@@ -375,8 +375,8 @@
                             ]
                     },
                     {
-                        "name" : "Bottled Courage(瓶装勇气)",
-                        "description" : "<span class=\"highlight\">决斗</span>开始时, 立即恢复一部分<span class=\"highlight\">护盾</span>.  并且, 在<span class=\"highlight\">决斗冷却期间</span>, 提升<span class=\"highlight\">护盾充能速率</span>和<span class=\"highlight\">护盾充能延迟</span>. ",
+                        "name" : "瓶封之勇",
+                        "description" : "一决雌雄开始，恢复一部分盾。一决雌雄冷却，增加盾充值速度，降低充能延迟。",
                         "levels" : 5,
                         "position" : 5,
                         "stats" :
@@ -405,8 +405,8 @@
                             ]
                     },
                     {
-                        "name" : "Short Fused(短保险)",
-                        "description" : "<span class=\"highlight\">击杀技</span>.  击杀敌人后, 短时间内所有攻击造成额外<span class=\"highlight\">爆炸伤害</span>.  敌人越近伤害越大.",
+                        "name" : "火爆脾气",
+                        "description" : "干掉一个敌人后，短时间内所有的子弹都会增加额外爆炸伤害，敌人离的越近，伤害越大。",
                         "levels" : 1,
                         "position" : 7,
                         "stats" :
@@ -423,8 +423,8 @@
                             ]
                     },
                     {
-                        "name" : "Faster 'n You(比你快)",
-                        "description" : "<span class=\"highlight\">击杀技</span>. 击杀敌人短时间内极大提高<span class=\"highlight\">装填速度</span>, <span class=\"highlight\">武器切换</span>速度, 和<span class=\"highlight\">射速</span>.",
+                        "name" : "比你快",
+                        "description" : "干掉敌人后，短时间内答复增加装填速度，切换武器速度和射速。",
                         "levels" : 5,
                         "position" : 9,
                         "stats" :
@@ -452,8 +452,8 @@
                             ]
                     },
                     {
-                        "name" : "Pickpocket(扒窃)",
-                        "description" : "<span class=\"highlight\">近战</span>可从敌人身上窃取多达6发子弹, 并且<span class=\"highlight\">马上装填入当前武器弹夹</span>. 有冷却时间. 对<span class=\"highlight\">火箭炮</span>无效.",
+                        "name" : "掏你口袋",
+                        "description" : "你近战伤害可以最多窃取敌人6发子弹，这些子弹立刻到你的弹夹之中。不能窃取火箭弹。",
                         "levels" : 1,
                         "position" : 10,
                         "stats" :
@@ -470,7 +470,7 @@
                             ]
                     },
                     {
-                        "name" : "Gunslinger(快枪手)",
+                        "name" : "快枪手",
                         "description" : "<span class=\"highlight\">决斗</span>开始和结束时, 部分枪支<span class=\"highlight\">立即填装</span>.",
                         "levels" : 5,
                         "position" : 11,
@@ -490,8 +490,8 @@
                             ]
                     },
                     {
-                        "name" : "Hell's Comin' With Me!(额外一击)",
-                        "description" : "<span class=\"highlight\">换弹夹</span>后, 或者通过<span class=\"highlight\">Pickpocket(扒窃)</span>填装满子弹, 短时间内枪械有几率<span class=\"highlight\">二连发</span>.",
+                        "name" : "地狱伴我而来",
+                        "description" : "弹夹是满的时候，短时间内你能一次射击变成两次。",
                         "levels" : 5,
                         "position" : 12,
                         "stats" :
@@ -510,8 +510,8 @@
                             ]
                     },
                     {
-                        "name" : "High Noon(正午)",
-                        "description" : "<span class=\"highlight\">决斗</span>越长, 获得越多的<span class=\"highlight\">枪械伤害</span>.",
+                        "name" : "午时三刻",
+                        "description" : "决一雌雄时间越久，枪械伤害越高。",
                         "levels" : 5,
                         "position" : 14,
                         "stats" :
@@ -530,8 +530,8 @@
                             ]
                     },
                     {
-                        "name" : "One for Each of Ya(人手一个)",
-                        "description" : "使用<span class=\"highlight\">手枪</span>时, 副手会获得一把复制品.  使用<span class=\"highlight\">机械瞄具</span>的话, 只能主手射击.<br> ",
+                        "name" : "一手一支",
+                        "description" : "当你一只手里有手枪的时候，会复制一支一模一样的到另外一只手。瞄准的时候只能用一把手枪瞄。",
                         "levels" : 1,
                         "position" : 16,
                         "stats" :
@@ -555,8 +555,8 @@
                 "skills" :
                 [
                     {
-                        "name" : "Law(法律)",
-                        "description" : "增加<span class=\"highlight\">护盾容量</span>和<span class=\"highlight\">近战伤害</span>.",
+                        "name" : "法律",
+                        "description" : "增加盾容和近战伤害。",
                         "levels" : 4,
                         "position" : 0,
                         "stats" :
@@ -580,8 +580,8 @@
                             ]
                     },
                     {
-                        "name" : "Order(秩序)",
-                        "description" : "每受到 15% <span class=\"highlight\">最大生命值</span>的伤害, 你获得一层<span class=\"highlight\">Order(秩序)</span>.  根据<span class=\"highlight\">Order(秩序)</span>的层数, <span class=\"highlight\">有几率立刻获得相当于两倍伤害的恢复</span>. <span class=\"highlight\">Order(秩序)</span>在脱离战斗后很快消失.",
+                        "name" : "秩序",
+                        "description" : "当你被打掉15%血量的时候，你就会获得一个秩序叠层。叠层多的话有大几率恢复血量。敌人伤你800，你就恢复1600。",
                         "levels" : 1,
                         "position" : 2,
                         "stats" :
@@ -601,8 +601,8 @@
                             ]
                     },
                     {
-                        "name" : "The Third Degree(第三维度)",
-                        "description" : "<span class=\"highlight\">决斗</span>结束或击杀敌人后, 增加下一次<span class=\"highlight\">近战伤害</span>.  该效果最多累计5层.",
+                        "name" : "第三等级",
+                        "description" : "当你一决雌雄快要结束，或者你快干掉一个敌人，你会增加下次的近战伤害。可叠加5次。",
                         "levels" : 5,
                         "position" : 3,
                         "stats" :
@@ -621,8 +621,8 @@
                             ]
                     },
                     {
-                        "name" : "Rough Rider(糙骑手)",
-                        "description" : "<span class=\"highlight\">震击组件</span>. 你的<span class=\"highlight\">震击</span>伤害增加25%.  每个被<span class=\"highlight\">震击</span>伤害的敌人给你5层<span class=\"highlight\">Order(秩序)</span>. 该技能也增加5点<span class=\"highlight\">Order(秩序)</span>层数上限.",
+                        "name" : "牛掰骑士",
+                        "description" : "震击伤害增加25%。震击增加5个秩序叠层。",
                         "levels" : 1,
                         "position" : 4,
                         "stats" :
@@ -639,8 +639,8 @@
                             ]
                     },
                     {
-                        "name" : "Wanted(悬赏)",
-                        "description" : "敌人让你获得<span class=\"highlight\">Order(秩序)</span>层数时 , 他获得<span class=\"highlight\">Wanted(悬赏)</span>层数. 伤害该目标将消耗所有的<span class=\"highlight\">Wanted(悬赏)</span>层数并造成基于层数和你等级的<span class=\"highlight\">加成伤害</span>. 最大<span class=\"highlight\">Wanted(悬赏)</span>层数为5, 即使你的<span class=\"highlight\">Order(秩序)</span>层数满了, 敌人仍然可以获得<span class=\"highlight\">Wanted(悬赏)</span>层数.",
+                        "name" : "被通缉",
+                        "description" : "敌人让你叠加一个秩序叠层，敌人就会获得一个被通缉叠层。揍这个敌人的时候消耗所有被通缉叠层。",
                         "levels" : 5,
                         "position" : 5,
                         "stats" :
@@ -659,8 +659,8 @@
                             ]
                     },
                     {
-                        "name" : "Discipline(纪律)",
-                        "description" : "获得10层<span class=\"highlight\">Order(秩序)</span>时, 完全恢复<span class=\"highlight\">护盾</span>.  另外, 拥有10层以上<span class=\"highlight\">Order(秩序)</span>时你获得基于层数的<span class=\"highlight\">近战伤害, 枪械伤害, 和 护盾充能延迟</span>提升. 该技能也增加5点<span class=\"highlight\">Order(秩序)层数上限</span>.",
+                        "name" : "纪律",
+                        "description" : "一旦获得10个秩序叠层，你的盾立刻就满。同时10个或者以上的叠层会增加近战，枪械伤害，降低盾充能延迟。",
                         "levels" : 1,
                         "position" : 7,
                         "stats" :
@@ -683,8 +683,8 @@
                             ]
                     },
                     {
-                        "name" : "Due Process(程序正义)",
-                        "description" : "<span class=\"highlight\">近战</span>攻击敌人后, 几秒内所有枪械类型的<span class=\"highlight\">枪械伤害</span>增加.",
+                        "name" : "应有流程",
+                        "description" : "近战打到敌人之后，你几秒钟之内增加枪械伤害。",
                         "levels" : 5,
                         "position" : 9,
                         "stats" :
@@ -703,8 +703,8 @@
                             ]
                     },
                     {
-                        "name" : "Blood of the Guilty(罪恶之血)",
-                        "description" : "你和你的同伴<span class=\"highlight\">击杀敌人后</span>, 你获得一层<span class=\"highlight\">Order(秩序)</span>以及<span class=\"highlight\">5%生命恢复</span>.  该技能也增加5点<span class=\"highlight\">Order(秩序)层数上限</span>.",
+                        "name" : "罪恶之血",
+                        "description" : "当你和你的队友干掉一个敌人后，你会获得一个秩序叠层，同时恢复你5%血量。",
                         "levels" : 1,
                         "position" : 10,
                         "stats" :
@@ -721,8 +721,8 @@
                             ]
                     },
                     {
-                        "name" : "Jurisdiction(审判权)",
-                        "description" : "<span class=\"highlight\">决斗</span>中增加<span class=\"highlight\">生命恢复</span>和<span class=\"highlight\">移动速度</span>.",
+                        "name" : "司法权",
+                        "description" : "在一决雌雄的时候，你恢复血量，增加移动速度。",
                         "levels" : 5,
                         "position" : 11,
                         "stats" :
@@ -746,8 +746,8 @@
                             ]
                     },
                     {
-                        "name" : "No Pain, No Gain(不劳不获)",
-                        "description" : "<span class=\"highlight\">生命值</span>越低<span class=\"highlight\">枪械伤害</span>越高.",
+                        "name" : "不经痛苦，哪来收获",
+                        "description" : "血量越低，枪械伤害越高。",
                         "levels" : 5,
                         "position" : 12,
                         "stats" :
@@ -766,8 +766,8 @@
                             ]
                     },
 					{
-                        "name" : "Rarin' To Go(渴望)",
-                        "description" : "<span class=\"highlight\">击杀技</span>.  击杀敌人后基于当前<span class=\"highlight\">Order(秩序)</span>层数增加<span class=\"highlight\">装填速度</span>和<span class=\"highlight\">枪械伤害</span>.",
+                        "name" : "一心想飞",
+                        "description" : "干掉敌人，增加装弹速度和枪械伤害。这些收益都是基于秩序叠层的。",
                         "levels" : 5,
                         "position" : 14,
                         "stats" :
@@ -791,8 +791,8 @@
                             ]
                     },
 					{
-                        "name" : "Thunder Crackdown(雷霆痛击)",
-                        "description" : "<span class=\"highlight\">近战升级</span>. <span class=\"highlight\">近战</span>造成巨大的<span class=\"highlight\">锥形闪电爆发</span>, 根据<span class=\"highlight\">Order(秩序)</span>层数造成伤害. 该技能也增加5点<span class=\"highlight\">Order(秩序)层数上限</span>.",
+                        "name" : "雷霆镇压",
+                        "description" : "你的近战伤害会产生一个圆锥行闪电。闪电伤害基于秩序叠层。",
                         "levels" : 1,
                         "position" : 16,
                         "stats" :
