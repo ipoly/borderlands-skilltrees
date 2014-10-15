@@ -6,10 +6,10 @@ borderlands-skilltrees
 汉化官方技能树模拟器。
 
 
-## [在线观看地址][http://zeng.li/borderlands-skilltrees]
+## [在线观看地址](http://zeng.li/borderlands-skilltrees)
 
 
-使用[3DM][http://www.3dmgame.com/games/borderlandstps/gl/]的技能翻译文本。
+使用[3DM](http://www.3dmgame.com/games/borderlandstps/gl/)的技能翻译文本。
 
 
 数据文件在data目录下。
