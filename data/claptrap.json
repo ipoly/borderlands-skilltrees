@@ -8,8 +8,8 @@
         "badge" :"borderlandsthegame/prsqlskilltree/images/chars/claptrap/badge.png",
         "class" :
             {
-                "name" : "宝藏猎人.EXE",
-                "description" : "<span class=\"highlight\">主动技.</span> 按 [LB/L1/F] 运行<span class=\"highlight\">宝藏猎人.EXE</span>程序.  它会分析当前状况, 决定哪个宝藏猎人最适合, 然后加载相应的<font color=\"#ff6600\">技能包</font>战斗一段时间.  同时給予<span class=\"highlight\">满血</span>和<span class=\"highlight\">生命恢复</span>加成.  <span class=\"highlight\">宝藏猎人.EXE</span>还在测试中, 对''宝藏猎人''的定义也备受质疑.  <font color=\"#feba36\">警告:</font>  <span class=\"highlight\">宝藏猎人.EXE</span>目前被标记为恶意软件. 你的同伴可能会受影响.",
+                "name" : "寻宝者.exe",
+                "description" : "根据当前情况，比如盾防多少，血量多少，敌人多少等出发不同技能。这些技能又是别的寻宝者比如狂枪或者疯子的技能。",
                 "stats" :
                     [
 						{
@@ -36,8 +36,8 @@
                 "skills" :
                 [
                     {
-                        "name" : "All the Guns(所有枪)",
-                        "description" : "<span class=\"highlight\">枪械子程序.</span> 随机选择一种枪械<span class=\"highlight\">子程序</span>, 使你<span class=\"highlight\">专精</span>于这种类型, 但<font color=\"#feba36\">生疏</font>于其他的.<br>基于所选的<span class=\"highlight\">子程序</span>获得100<span class=\"highlight\">Frag Stacks</span>, 随时间递减.  当<span class=\"highlight\">Frag Stacks</span>消耗完时, <span class=\"highlight\">子程序</span>会换成另外一个.",
+                        "name" : "所有的枪",
+                        "description" : "枪械子程序。子程序随机选择一种枪械类型。你使用该类型会更有效，但是其它类型就没有那么有效。一旦选择子程序，就会获得100碎片叠层。叠层会随着时间减少。",
                         "levels" : 1,
                         "position" : 0,
                         "stats" :
@@ -71,8 +71,8 @@
                             ]
                     },
                     {
-                        "name" : "Fuzzy Logic(模糊逻辑)",
-                        "description" : "受到敌人伤害时, 短时间增加<span class=\"highlight\">暴击伤害</span>.",
+                        "name" : "混乱逻辑",
+                        "description" : "敌人揍你，你几秒钟之内会增加致命一击的伤害。",
                         "levels" : 3,
                         "position" : 1,
                         "stats" :
@@ -91,8 +91,8 @@
                             ]
                     },
                     {
-                        "name" : "Safety First(安全第一)",
-                        "description" : "<span class=\"highlight\">防御子程序.</span>  在<span class=\"highlight\">生命值</span>和<span class=\"highlight\">护盾</span>中随机选择一个<span class=\"highlight\">子程序</span>, 增加相应属性的<span class=\"highlight\">上限</span>和<span class=\"highlight\">恢复速度</span>. 副作用是降低所有类型枪械的<font color=\"#feba36\">伤害</font>.  基于所选的<span class=\"highlight\">子程序</span>获得100<span class=\"highlight\">Frag Stacks</span>, 随时间递减.  当<span class=\"highlight\">Frag Stacks</span>消耗完时, <span class=\"highlight\">子程序</span>会换成另外一个.",
+                        "name" : "安全第一",
+                        "description" : "防御子程序，该子程序侧重血量和盾值。增加盾值，恢复生命。使用该程序所有枪械伤害减少。",
                         "levels" : 1,
                         "position" : 2,
                         "stats" :
@@ -121,8 +121,8 @@
                             ]
                     },
                     {
-                        "name" : "Surprised? Stabilize!(惊喜？镇定！)",
-                        "description" : "受到伤害后短时间内增加<span class=\"highlight\">精准度</span>和<span class=\"highlight\">减少后坐力</span>.",
+                        "name" : "惊到你了?稳住！",
+                        "description" : "敌人揍你，在几秒钟之内你的射击精准度上升，后坐力减小。",
                         "levels" : 5,
                         "position" : 3,
                         "stats" :
@@ -146,8 +146,8 @@
                             ]
                     },
                     {
-                        "name" : "Rope-a-Derp",
-                        "description" : "<span class=\"highlight\">近战子程序.</span>  随机选择一种近战<span class=\"highlight\">子程序</span>, 給予<span class=\"highlight\">大量近战伤害加成</span>但是<font color=\"#feba36\">减少</font>枪械伤害.",
+                        "name" : "欲擒故纵",
+                        "description" : "近战子程序。你随机选择一个子程序，子程序大幅提升近战伤害，但是会降低生命和枪械伤害。",
                         "levels" : 1,
                         "position" : 4,
                         "stats" :
@@ -171,8 +171,8 @@
                             ]
                     },
                     {
-                        "name" : "Blue Shell",
-                        "description" : "增加<span class=\"highlight\">跪地状态</span>下的<span class=\"highlight\">枪械伤害</span>, <span class=\"highlight\">射速</span>,和<span class=\"highlight\">装填速度</span> . 也增加<span class=\"highlight\">跪地状态</span>的持续时间.",
+                        "name" : "蓝壳",
+                        "description" : "在为生命而战的时候，增加枪械伤害，射速，装填速度。",
                         "levels" : 5,
                         "position" : 5,
                         "stats" :
@@ -206,8 +206,8 @@
                             ]
                     },
                     {
-                        "name" : "Tripleclocked(情怀指数)",
-                        "description" : "当前<span class=\"highlight\">子程序</span>的<span class=\"highlight\">加成</span>和<font color=\"#feba36\">惩罚</font>加成多至<span class=\"highlight\">三倍</span>.  <span class=\"highlight\">Frag Stacks</span>越少, 倍数越大. <span class=\"highlight\">防御子程序</span>永远是三倍效果.  同时, 解锁<font color=\"#ff6600\">技能包</font> <span class=\"highlight\">One Shot Wonder</span>.",
+                        "name" : "情怀指数",
+                        "description" : "所有子程序的收益或者惩罚全部增至最高三倍。碎片叠层的层数越少，倍数越大。",
                         "levels" : 1,
                         "position" : 7,
                         "stats" :
@@ -226,8 +226,8 @@
                             ]
                     },
                     {
-                        "name" : "Grenade Vent",
-                        "description" : "增加<span class=\"highlight\">手雷伤害</span>.  另外, 投掷手雷增加<span class=\"highlight\">Frag Stacks</span>.",
+                        "name" : "手榴弹通道",
+                        "description" : "增加手榴弹伤害，同时叠加碎片叠层。",
                         "levels" : 5,
                         "position" : 9,
                         "stats" :
@@ -251,8 +251,8 @@
                             ]
                     },
                     {
-                        "name" : "Element of Surprise(元素惊喜)",
-                        "description" : "<span class=\"highlight\">元素子程序.</span>  随机选择一种<span class=\"highlight\">子程序</span>强化相应的<span class=\"highlight\">元素伤害</span>, 但是其他元素<font color=\"#feba36\">降低伤害</font>.  <span class=\"highlight\">护盾耗尽</span>, <span class=\"highlight\">护盾充电</span>, 或者<span class=\"highlight\">跪地</span>时, 释放相应的<span class=\"highlight\">新星</span>.",
+                        "name" : "出其不意",
+                        "description" : "元素属性子程序。增加所选择的元素伤害，降低其他元素伤害。",
                         "levels" : 1,
                         "position" : 10,
                         "stats" :
@@ -276,8 +276,8 @@
                             ]
                     },
 					{
-                        "name" : "Death Machine(死亡机器)",
-                        "description" : "<span class=\"highlight\">击杀技.</span>  击杀敌人短暂增加<span class=\"highlight\">枪械伤害</span>, <span class=\"highlight\">装填速度</span>,和<span class=\"highlight\">移动速度</span>.",
+                        "name" : "死亡机器",
+                        "description" : "杀死一个敌人之后，在几秒钟之内增加枪械伤害，装填速度，移动速度。",
                         "levels" : 5,
                         "position" : 11,
                         "stats" :
@@ -306,8 +306,8 @@
                             ]
                     },
 					{
-                        "name" : "Cryogenic Exhaust Manifold(低温排气)",
-                        "description" : "<span class=\"highlight\">震击</span>消耗<span class=\"highlight\">Frag Stacks</span>来释放<span class=\"highlight\">霜冻新星</span>.",
+                        "name" : "低温排气管",
+                        "description" : "当你震击，你释放一个冷冻新星，并丢失一些碎片叠层。",
                         "levels" : 5,
                         "position" : 12,
                         "stats" :
@@ -331,8 +331,8 @@
                             ]
                     },
                     {
-                        "name" : "Float like a Bee(蜂舞)",
-                        "description" : "增加<span class=\"highlight\">近战伤害</span>.  此外, 近战击杀敌人可获得<span class=\"highlight\">Frag Stacks</span>, 少量<span class=\"highlight\">生命值</span>, 并暂时增加<span class=\"highlight\">移动速度</span>.",
+                        "name" : "蜜蜂一样舞蹈",
+                        "description" : "增加近战伤害，近战杀敌之后几秒钟之内增加碎片叠层，恢复生命，增加移动速度。",
                         "levels" : 5,
                         "position" : 14,
                         "stats" :
@@ -367,14 +367,14 @@
                             ]
                     },
                     {
-                        "name" : "Rainbow Coolantc(彩虹冷却剂)",
-                        "description" : "开始一个<span class=\"highlight\">子程序</span>时放射出<font color=\"#ff4040\">彩</font><font color=\"#ff7f66\">矮</font><font color=\"#ffee28\">矮</font><font color=\"#00ffaa\">矮</font><font color=\"#2185c5\">矮</font><font color=\"#236688\">矮</font><font color=\"#d5b8f2\">虹</font><span class=\"highlight\">新星</span>. 这个<span class=\"highlight\">新星</span>包含所有元素, 尺寸巨大, 并且让你的小队很开心. 另外, 解锁<font color=\"#ff6600\">技能包</font> <span class=\"highlight\">激光乱射</span>.",
+                        "name" : "彩虹冷冻剂",
+                        "description" : "当你重新选择一个子程序的时候，会释放一个彩虹新星，巨大，而且全属性，并且你的队友无比欢实。同时解锁'激光地狱火'",
                         "levels" : 1,
                         "position" : 16,
                         "stats" :
                             [
                                 {
-                                    "name" : "激光乱射: 激光射向附近所有方位的敌人.",
+                                    "name" : "激光地狱火: 激光射向附近所有方位的敌人.",
                                     "base" : "1",
                                     "multiply" : 1
                                 }
@@ -396,8 +396,8 @@
                 "skills" :
                 [
                     {
-                        "name" : "Best Buds 4 Life",
-                        "description" : "你救人或被救时, 小队暂时获得<span class=\"highlight\">生命恢复</span>和<span class=\"highlight\">伤害减免</span>.  此外, 延长<span class=\"highlight\">跪地时间</span>, 增加<span class=\"highlight\">跪地状态</span>下<span class=\"highlight\">武器伤害</span>.",
+                        "name" : "挚友",
+                        "description" : "当你为生命而战成功，或者是你成功地复活了队友。你和队友在短时间内恢复hp，增加伤害抵抗，同时这个技能也提升你为生命而战的时间。",
                         "levels" : 5,
                         "position" : 0,
                         "stats" :
@@ -431,8 +431,8 @@
                             ]
                     },
                     {
-                        "name" : "Maniacal Laughter(狂笑)",
-                        "description" : "增加<span class=\"highlight\">状态效果几率</span>. 对敌人造成<span class=\"highlight\">状态效果伤害</span>将增加<span class=\"highlight\">狂笑</span>层数.  每层<span class=\"highlight\">狂笑</span>让小队获得<span class=\"highlight\">生命恢复</span>.  生命值越低, <span class=\"highlight\">生命恢复</span>越多.  每层持续几秒.",
+                        "name" : "狂笑",
+                        "description" : "增加属性伤害几率。同时这也是一个可以叠层的技能。每一层，你和你的队友都会增加hp恢复，你的hp越低，恢复速度越快。",
                         "levels" : 5,
                         "position" : 2,
                         "stats" :
@@ -461,7 +461,7 @@
                             ]
                     },
                     {
-                        "name" : "Through Thick and Thin(风雨同舟)",
+                        "name" : "风雨同舟",
                         "description" : "加快<span class=\"highlight\">主动技冷却</span>. <span class=\"highlight\">宝藏猎人.EXE</span>运行时, 该加成<span class=\"highlight\">传递给队友</span>.",
                         "levels" : 5,
                         "position" : 3,
@@ -481,8 +481,8 @@
                             ]
                     },
                     {
-                        "name" : "Kick Him While He's Down(打落水狗)",
-                        "description" : "<span class=\"highlight\">跪地</span>时, 嘲讽敌人攻击自己. 此外, 解锁<font color=\"#ff6600\">技能包</font> <span class=\"highlight\">Clap-in-the-Box</span>.",
+                        "name" : "痛打落水狗",
+                        "description" : "当你倒下时，你拉仇恨。（怎么小吵闹你抖M抖的厉害呀。）同时也解锁'盒子里的掌声'技能。",
                         "levels" : 1,
                         "position" : 4,
                         "stats" :
@@ -491,7 +491,7 @@
                                     "name" : "\"想听我新写的回响贝斯么？\""
                                 },
 								{
-                                    "name" : "Clap-in-the-box: 召唤一个巨型炸弹消灭附近的一切."
+                                    "name" : "盒子里的掌声: 召唤一个巨型炸弹消灭附近的一切."
                                 }
                             ],
                         "assets" :
@@ -502,8 +502,8 @@
                             ]
                     },
                     {
-                        "name" : "All The Things Are Awesome!(一切都很酷)",
-                        "description" : "增加<span class=\"highlight\">射速</span>, <span class=\"highlight\">武器切换速度</span>,和<span class=\"highlight\">最大生命值</span>.  这个加成<span class=\"highlight\">按人头算</span>.  一起撸最棒了!",
+                        "name" : "一切都很牛逼",
+                        "description" : "增加射速，切换武器速度还有最大生命值。有一个队友就会叠加该技能，所以当你队友很多的时候，是很幸福的。",
                         "levels" : 5,
                         "position" : 5,
                         "stats" :
@@ -547,8 +547,8 @@
                             ]
                     },
                     {
-                        "name" : "You're... GOING TO LOVE ME!!(你会爱上我)",
-                        "description" : "击杀时生成一个以敌人为中心的<span class=\"highlight\">友谊新星</span>, <span class=\"highlight\">治疗</span>半径内的队员. 生命值越低治疗量越大.  此外, 解锁<font color=\"#ff6600\">技能包</font> <span class=\"highlight\">枪神</span>.",
+                        "name" : "你将会...爱上我",
+                        "description" : "杀死一个敌人，会在敌人周围造成新星，该新星是可以给你疗伤的。同时解锁枪之巫师的技能，该技能极大地提升射速和装填速度。",
                         "levels" : 1,
                         "position" : 7,
                         "stats" :
@@ -572,8 +572,8 @@
                             ]
                     },
                     {
-                        "name" : "Wax Off, Wax On",
-                        "description" : "提升<span class=\"highlight\">护盾容量</span>, <span class=\"highlight\">护盾充能速率</span>,和<span class=\"highlight\">护盾充能延迟</span>.",
+                        "name" : "三思而后行，努力加油",
+                        "description" : "提升盾值，增加盾充能速度，降低盾充能延迟。",
                         "levels" : 5,
                         "position" : 9,
                         "stats" :
@@ -603,8 +603,8 @@
                             ]
                     },
                     {
-                        "name" : "It's a Trap... Card",
-                        "description" : "<span class=\"highlight\">护盾</span>耗尽时, 释放一个<span class=\"highlight\">Mega-新星</span>治疗自己和队友, 并伤害敌人. 生命值越低治疗量越大.  再次施放前<span class=\"highlight\">护盾</span>必须再次充满.",
+                        "name" : "这是个陷阱",
+                        "description" : "当盾值为0，你会释放超级新星，会给你和队友疗伤，同时会杀伤敌人，必须要完整充能才能释放。",
                         "levels" : 1,
                         "position" : 10,
                         "stats" :
@@ -623,8 +623,8 @@
                             ]
                     },
                     {
-                        "name" : "Pain Simulator is Painful",
-                        "description" : "增加<span class=\"highlight\">最大生命值</span>并获得小幅度<span class=\"highlight\">伤害抵抗</span>.",
+                        "name" : "痛苦模拟器的确很痛苦",
+                        "description" : "增加生命最大值，降低伤害。",
                         "levels" : 5,
                         "position" : 11,
                         "stats" :
@@ -649,8 +649,8 @@
                             ]
                     },
                     {
-                        "name" : "Kick Him While He's Up",
-                        "description" : "<span class=\"highlight\">跪地起身时</span>, <span class=\"highlight\">枪械伤害</span>, <span class=\"highlight\">近战伤害</span>,和<span class=\"highlight\">暴击伤害</span>都短暂提高!",
+                        "name" : "狗没有落水的时候也揍他",
+                        "description" : "当你复活成功，几秒钟之内，你的枪械伤害，近战伤害还有致命一击伤害都会提升。",
                         "levels" : 5,
                         "position" : 12,
                         "stats" :
@@ -679,8 +679,8 @@
                             ]
                     },
                     {
-                        "name" : "Organized Guns are Happy Guns",
-                        "description" : "<br>提升你和队友的<span class=\"highlight\">弹夹容量</span>.",
+                        "name" : "码放整齐的枪很欢实",
+                        "description" : "你和你朋友的弹夹都增大。",
                         "levels" : 5,
                         "position" : 14,
                         "stats" :
@@ -703,8 +703,8 @@
                                 "borderlandsthegame/prsqlskilltree/images/chars/claptrap/iloveyouguys/green/10.png"
                             ]
                     },{
-                        "name" : "HIGH FIVES GUYS(来击掌吧)",
-                        "description" : "按 (RS/V) 和队友<span class=\"highlight\">击掌</span>! <span class=\"highlight\">击掌</span>成功增加你和你<font color=\"#feba36\">酷酷的</font>朋友的<span class=\"highlight\">枪械伤害</span>, <span class=\"highlight\">射速</span>,和<span class=\"highlight\">生命恢复</span>. Woo! 如果你没有朋友, 或者他们不理你, 则只暂时增加<span class=\"highlight\">枪械伤害</span>和<span class=\"highlight\">生命恢复</span>, 因为<font color=\"#feba36\">去你们的!</font>",
+                        "name" : "击掌吧，伙计们",
+                        "description" : "和朋友击掌之后增加枪械伤害，射速，同时恢复生命。如果你没有朋友，或者朋友不理你，去你丫的，老子同样会增加枪械伤害，恢复生命。",
                         "levels" : 1,
                         "position" : 16,
                         "stats" :
@@ -745,8 +745,8 @@
                 "skills" :
                 [
                     {
-                        "name" : "Drop the Hammer",
-                        "description" : "换弹夹暂时增加<span class=\"highlight\">射速</span>和<span class=\"highlight\">装填速度</span>但是降低<span class=\"highlight\">精准度</span>.",
+                        "name" : "放下锤子",
+                        "description" : "装填弹药会提升射速和装填速度，但是会减低精准度，所有这些效果都只会持续几秒钟。",
                         "levels" : 5,
                         "position" : 0,
                         "stats" :
@@ -775,8 +775,8 @@
                             ]
                     },
                     {
-                        "name" : "Killbot",
-                        "description" : "击杀敌人<span class=\"highlight\">恢复生命值</span>, 但是<span class=\"highlight\">消耗护盾</span>.  如果你的护盾正好空了... <font color=\"#feba36\">免费获得生命值</font>! 生命值越低回复量越大.",
+                        "name" : "杀戮机器",
+                        "description" : "杀死一个敌人会恢复hp,但是会消耗盾值。如果盾值为0呢，还会增加hp。",
                         "levels" : 5,
                         "position" : 2,
                         "stats" :
@@ -800,8 +800,8 @@
                             ]
                     },
                     {
-                        "name" : "Coincidental Combustion",
-                        "description" : "非爆炸武器有机会获得<span class=\"highlight\">爆炸伤害加成</span>, 基于武器伤害.",
+                        "name" : "偶然爆炸",
+                        "description" : "任何时候你用一个非爆炸武器去射击敌人，都有一定几率造成爆炸伤害。",
                         "levels" : 5,
                         "position" : 3,
                         "stats" :
@@ -820,8 +820,8 @@
                             ]
                     },
                     {
-                        "name" : "Repulsive(击退)",
-                        "description" : "被<span class=\"highlight\">近战</span>攻击时, 释放一个威力巨大的<span class=\"highlight\">冲击波</span>, 击退敌人并造成<span class=\"highlight\">爆炸伤害</span>.",
+                        "name" : "击退",
+                        "description" : "任何时候遭遇近战敌人攻击，都会释放冲击波，把敌人推开，并且对敌人造成爆炸伤害。",
                         "levels" : 5,
                         "position" : 5,
                         "stats" :
@@ -846,8 +846,8 @@
                             ]
                     },
                     {
-                        "name" : "Second Wind (by Tediore)",
-                        "description" : "<span class=\"highlight\">跪地时</span>, 你能够扔出一个自己的复制体,  可以像手雷一样爆炸, 同时你也会持续释放<span class=\"highlight\">爆炸新星</span>.",
+                        "name" : "再撸一发",
+                        "description" : "当你为生命而战的时候，你会放出一个复制的自己，造成爆炸伤害，同时持续释放爆炸新星。",
                         "levels" : 1,
                         "position" : 7,
                         "stats" :
@@ -864,8 +864,8 @@
                             ]
                     },
                     {
-                        "name" : "Load 'n' Splode",
-                        "description" : "无论何时你在换弹夹时候都会获得<span class=\"highlight\">爆炸伤害加成</span>。这个奖励可以叠加5次, 每次叠加可以持续几秒. ",
+                        "name" : "装填和爆炸",
+                        "description" : "装弹之后，增加爆炸伤害，最高可叠加5层。",
                         "levels" : 5,
                         "position" : 9,
                         "stats" :
@@ -884,8 +884,8 @@
                             ]
                     },
                     {
-                        "name" : "I Am Rubber, You Are Glue",
-                        "description" : "<span class=\"highlight\">击杀技</span>. 杀敌之后短时间内<span class=\"highlight\">反弹</span>子弹.  此外, 解锁<font color=\"#ff6600\">技能包</font> <span class=\"highlight\">Torgue Fiesta</span>.",
+                        "name" : "我是橡胶你是漆",
+                        "description" : "杀掉一个敌人后会反弹子弹。同时这一技能也会解锁'托格子狂欢'。",
                         "levels" : 1,
                         "position" : 10,
                         "stats" :
@@ -896,7 +896,7 @@
                                     "multiply" : 1
                                 },
 								{
-                                    "name" : "Torgue Fiesta: Whoops! 掉落大量手雷伤害不分敌我.",
+                                    "name" : "托格子狂欢: 哇~! 掉落大量手雷伤害不分敌我.",
                                     "base" : "1",
                                     "multiply" : 1
                                 }
@@ -909,8 +909,8 @@
                             ]
                     },
                     {
-                        "name" : "Start With a Bang",
-                        "description" : "换完弹夹之后, 开火一只满弹夹的枪, 这时你会产生一个<span class=\"highlight\">爆炸新星</span>, 伤害周围附近的敌人, 并且也会<font color=\"#feba36\">伤害到你</font>... 不过只是很少一点点. ",
+                        "name" : "梆梆一响，然后开撸",
+                        "description" : "如果你的弹夹最开始是满的，只要你重新装填就会释放爆炸新星，会伤害敌人，也会伤害自己，只会轻微伤害自己，所以不用担心。",
                         "levels" : 5,
                         "position" : 11,
                         "stats" :
@@ -934,8 +934,8 @@
                             ]
                     },
                     {
-                        "name" : "Hyperion Punch",
-                        "description" : "<span class=\"highlight\">近战升级</span>.  打出<span class=\"highlight\">爆炸伤害</span>, 自己得到<span class=\"highlight\">Hyperion Punch</span>叠加.  当你有5层的时候, 按 (RS/V), 就能打出<span class=\"highlight\">超酷一拳</span>, 附带<span class=\"highlight\">燃烧伤害</span>, 但是这将消耗所有已经叠加的<span class=\"highlight\">Hyperion Punch</span>层数.",
+                        "name" : "亥伯龙猛击",
+                        "description" : "造成爆炸伤害会积累亥伯龙猛击叠层。当积层为5，会使出毁天灭地一击，这一击同时也会造成火属性伤害。",
                         "levels" : 5,
                         "position" : 12,
                         "stats" :
@@ -959,8 +959,8 @@
                             ]
                     },
                     {
-                        "name" : "One Last Thing(还有一件事)",
-                        "description" : "任意一把武器的最后一发子弹会造成巨额<span class=\"highlight\">加成伤害</span>. 弹夹越小的武器对于这种加成减少.",
+                        "name" : "还有一件事",
+                        "description" : "最后一发子弹获得巨大伤害加成。弹夹小的加成小。",
                         "levels" : 5,
                         "position" : 14,
                         "stats" :
@@ -984,8 +984,8 @@
                             ]
                     },
                     {
-                        "name" : "Livin' Near the Edge",
-                        "description" : "增加<span class=\"highlight\">射速</span>和<span class=\"highlight\">装填速度</span>.  生命和护盾越低, 加成越大.  另外, 解锁<font color=\"#ff6600\">技能包</font> <span class=\"highlight\">海盗船模式</span>.",
+                        "name" : "活在悬崖边上",
+                        "description" : "增加射速和装填速度。生命和盾值越低，效果越明显，同时解锁'海盗船模式'",
                         "levels" : 1,
                         "position" : 16,
                         "stats" :
