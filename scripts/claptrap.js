@@ -12191,7 +12191,7 @@
 				id : "soundApp",
 				name : "soundApp"
 			},
-			BrowserDetect.OS !== "iPhone/iPod" && swfobject.embedSWF("swf/sound.swf", "sound", "1", "1", "9.0.0", "swf/expressInstall.swf", {}, {}, n, i),
+			//BrowserDetect.OS !== "iPhone/iPod" && swfobject.embedSWF("swf/sound.swf", "sound", "1", "1", "9.0.0", "swf/expressInstall.swf", {}, {}, n, i),
 			window.shareHash = s("share"),
 			$(document).ready(function () {
 				return this.techtree = new t(window),
